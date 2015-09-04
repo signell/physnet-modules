@@ -1,0 +1,384 @@
+\revhist{7/19/85, pss; 12/8/89, pss; 7/31/91, pss; 3/12/93, pss; 6/8/94, pss;
+         5/1/96, pss; 8/21/94, abs; 3/2/2000, pss}
+%
+\Sect{1}{Introduction}{\SectType{TextMultiPara}}{
+
+\pcap[\Index{motion, in two dimensions}]{1}{a}{Why We Study Motion in Two Dimensions}
+The real world is three-dimensional, so why do we bother with
+two-dimensional motion?
+First, two-dimensional motion is easier to describe, easier to deal with
+mathematically, and easier to sketch on a piece of flat paper.
+This makes two-dimensional motion a good place for introducing concepts that
+are peculiar to motion in more than one dimension.
+Second, many objects actually do exhibit motion in a plane, motion that
+needs only two dimensions for its complete description.
+Any motion under constant acceleration can always be described in terms of
+just two dimensions.
+Even if the acceleration is not constant, many objects still move in a plane
+(e.g., a tractor on a level field, a rider on a ferris wheel).
+
+\pcap{1}{b}{The Job at Hand}
+Our basic kinematical problem is to give quantitative information about the
+time-dependent positions, velocities, and accelerations of objects.
+This information is to be specified either formally (\Quote{analytically}),
+in words, or graphically.
+
+\pcap{1}{c}{The Fundamental Relationship}
+Here are the equations that summarize the fundamental relationships
+used in this module:
+%
+\Footnote{See also \Quote{\Index{kinematics}Kinematics in Three Dimensions} (MISN-0-37).}
+%
+\eqn{1}{\mathrm{position} = \vec{r}}
+%
+\eqn{2}{\mathrm{displacement} = \Delta \vec{r} = \vec{r}_2 - \vec{r}_1}
+%
+\eqn{3}{\Index{velocity, average}\mathrm{average\;velocity} =  \vec{v}_{av} = \Delta \vec{r}/\Delta t}
+%
+\eqn{4}{\Index{velocity, instantaneous}\mathrm{inst.\;vel.} = \vec{v} = d\vec{r}/dt}
+%
+\eqn{5}{\Index{acceleration, average}\mathrm{av.\;accel.} = \vec{a}_{av} = \Delta \vec{v}/\Delta t}
+%
+\eqn{6}{\Index{acceleration, instantaneous}\mathrm{inst.\;accel.} =  \vec{a}   = d\vec{v}/dt = d^2\vec{r}/dt^2}
+%
+Equation (\eqnno{4}) can be inverted, giving:
+%
+\eqn{7}{\vec{r}(t) = \int_0^t \vec{v}(t')\,dt' + \vec{r}(0).}
+%
+Equation (\eqnno{6}) can be inverted, giving:
+%
+\eqn{8}{\vec{v}(t) = \int_0^t \vec{a}(t')\,dt' + \vec{v}(0).}
+
+}% /Sect
+%
+\Sect[\Index{acceleration, in terms of components}]{2}{Analysis by Components}{\SectType{TextMultiPara}}{
+
+\pcap[\Index{position vector}\Index{component vectors}]{2}{a}{Vector Equations Reduce to Component Equations}
+Equations (\eqnno{1})-(\eqnno{8}) are vector equations.
+Each equation could be rewritten as two \m{x} and \m{y} component equations,
+so that the two dimensional motion of the object could also be
+treated as two simultaneous one-dimensional problems.
+For instance, Eq.\,(\eqnno{3}) is equivalent to the two one-dimensional
+equations \m{v_{x,av} = \Delta x/\Delta t} and \m{v_{y,av} = \Delta y/\Delta t}.
+Equation (4) is equivalent to the two one-dimensional equations
+\m{v_x = dx/dt} and \m{v_y = dy/dt}.
+
+\pcap[\Index{velocity, in terms of components}]{2}{b}{Component Descriptors Relate to Actual Motion}
+The \m{x} and \m{y} \Index{components of the position}position, in terms of components, \Index{displacement}displacement, velocity
+and acceleration vectors can be related more graphically to the
+actual motion of the object.
+The component description is more than a mere exercise in
+mathematical symbolism.
+
+\pcap{2}{c}{Motion of the \m{x}- and \m{y}-Component Vectors}
+As a particle moves along a complicated path, as in Fig.\,1,
+its position vector \m{\vec{r}} and the component vectors \m{\vec{x}} and
+\m{\vec{y}} also move.
+Envision in your mind how each component vector tip moves as the
+particle moves from \m{A} to \m{B}.
+
+\pcap{2}{d}{Describing the Component Motion}
+The one-dimensional motion of the tip of the \m{\vec{x}} vector can be
+described
+%
+\Footnote{See \Quote{Kinematics in One Dimension} (MISN-0-7).}
+%
+by its position \m{x}, velocity \m{v_x}, and acceleration \m{a_x}.
+Similarly, the motion of the \m{\vec{y}} vector can be described by \m{y}, \m{v_y}
+and \m{a_y}.
+You can thus use two one-dimensional motions to completely
+describe one two-dimensional motion.
+
+\CaptionAfterFullFramedFigure{Fig.\,1.  A particle moving on a two dimensional path
+has \m{x} and \m{y} component vectors that each move in one dimension.}{m8gr01}
+
+\pcap{2}{e}{Dual Roles of Component Descriptors}
+The quantities \m{x}, \m{y}, \m{v_x}, \m{v_y}, \m{a_x}, and \m{a_y} can be used in two
+different ways.
+They can either describe the motion of the tips of the \m{\vec{x}} and
+\m{\vec{y}} vectors, or they can describe the components of the actual
+displacement, velocity and acceleration vectors of the moving object.
+Problem-solving techniques can take advantage of this dual meaning.
+
+}% /Sect
+%
+\Sect{3}{Problem-Solving Techniques}{\SectType{TextMultiPara}}{
+
+\pcap{3}{a}{Methods of Specifying Information}
+Typically, information about the motion of an object is specified
+in either analytical or graphical form.
+The position, velocity or acceleration, or some combination of
+their components, might be given.
+We can detail some differences between the handling of analytical
+vs. graphical data.
+
+\pcap{3}{b}{Analytical Method: General Approach}
+Equations (\eqnno{1})-(\eqnno{8}) analytically relate the variables \m{\vec{a}}, \m{\vec{v}}, and
+\m{\vec{r}}.
+If an analytical form for \m{\vec{a}(t)}, \m{\vec{v}(t)} or \m{\vec{r}(t)} can be
+found, the derivatives or integrals can be performed so that \m{\vec{a}},
+\m{\vec{v}} and \m{\vec{r}} will all be known.
+The \Index{path}path or \Quote{trajectory} of the object can be found in the form
+of an equation for \m{y(x)} by eliminating \m{t} between the equations for \m{x(t)}
+and \m{y(t)}.
+The trajectory could also be found by plotting \m{(x,y)} points for appropriate
+time values and then drawing a smooth curve through those points.
+
+\pcap{3}{c}{Two Special Cases}
+Often, an object moves in such a way that the \m{x}- and/or \m{y}-component vector
+tip moves with either constant velocity or constant acceleration.
+In these cases \m{x}, \m{v_x}, \m{a_x} (and/or \m{y}, \m{v_y}, \m{a_y}) are related by the
+previously derived equations for an object with one dimensional constant
+acceleration.
+The need for differentiation and integration is bypassed.
+
+\pcap{3}{d}{Graphical Method}
+Sometimes the time dependence for the components of one of the quantities
+\m{\vec{a}(t)}, \m{\vec{v}(t)} or \m{\vec{r}(t)} is given in graphical form.
+The interpretation of the derivative as the (physical) slope
+of a curve and integral as the (physical) area under a
+curve could then be used to find \m{\vec{a}}, \m{\vec{v}} and \m{\vec{r}}.
+
+}% /Sect
+%
+\Sect{4}{Examples and Cautions}{\SectType{TextMultiPara}}{
+
+\pcap{4}{a}{Sample Problem: Analytical Method}
+A sample problem will illustrate the techniques of the
+analytical method.
+Suppose that you are given that the velocity of an object
+is a constant 2\,m/s in the x-direction, and that it increases
+linearly with \m{t} in the y-direction: \m{v_y = (3}\,m/s\m{^2)\,t}.
+Then:
+%
+\eqn{}{\vec{v}(t) = (2\unit{m/s}) \uvex{x} + (3\unit{m/s}^2)\,t \uvex{y}.}
+%
+The acceleration is:
+%
+\eqn{}{\vec{a} = \fract{d\vec{v}}{dt} = 0 \uvex{x} + 3\unit{m/s}^2\,\uvex{y}.}
+%
+That is, the object has a constant acceleration in the
+\m{y}-direction.
+The position of the particle is:
+%
+\ThreeEqns{}%
+{\vec{r}(t) & = & \int_0^t \vec{v}(t')\,dt' + \vec{r}(0)}
+{           & = & \int_0^t (2\unit{m/s}\,\uvex{x} +
+                 3\unit{m/s}^2\,t'\,\uvex{y})\,dt' + \vec{r}(0)}
+{           & = & (2\unit{m/s})\,t\,\uvex{x} +
+                 \fract{1}{2}(3\unit{m/s}^2)t^2 \uvex{y} + \vec{r}(0).}
+%
+If the problem further stated \m{\vec{r}(0)}; for example, as \Quote{initially the
+object is at \m{x = 4}\,m, \m{y = 5}\,m,} we could write:
+%
+\eqn{}{\vec{r}(t) = (2\unit{m/s}\,t + 4\unit{m})\uvex{x} +
+\left(\fract{3}{2}\unit{m/s}^2\,t^2 + 5\unit{m}\right)\,\uvex{y}.}
+%
+\CaptionAfterFullFramedFigure{Fig.\,2. The relations \m{v_x(t)} and \m{v_y(t)} specified
+graphically.}{m8gr02}
+%
+The path can now be found.
+The above vector equation gives the component equations:
+\m{x(t) = (2\unit{m/s})\,t + 4\unit{m}}; \m{y(t) = [(3/2)\unit{m/s}^2]\,t^2 +
+5\unit{m}}.
+Solving \m{x(t)} for \m{t} and substituting that into \m{y(t)} gives \m{y(x)}:
+%
+\eqn{}{y(x) = \fract{3}{2}\unit{m/s}^2\,
+\left(\fract{x - 4\unit{m}}{2\unit{m/s}}\right)^2 + 5\unit{m},}
+%
+which is the equation of a parabola: the object moves in a \Index{path, parabolic}\Index{parabolic path}parabolic path.
+
+\xpcap{}{}{Note for those interested}
+The integration could have been bypassed by noting that the \m{x}-component
+motion is at constant velocity and the \m{y}-component motion is at constant
+acceleration.
+Thus \m{x(t)} and \m{y(t)} fit the general form of the one-dimensional constant
+acceleration equation: \m{x = x_0 + v_0t + a t^2/2}.
+For example, for the \m{y}-direction:
+\m{a = 3\unit{m/s}^2}, \m{v_0 = 0}, \m{x_0 \equiv y_0 = 5\unit{m}},
+so: \m{y = 5\unit{m} + 0 + (3\unit{m/s}^2)\,t^2/2}.
+
+\pcap{4}{b}{Sample Problem: Graphical Method}
+The previous problem could have specified the velocity components
+graphically, as in Fig.\,2.
+Now \m{a_x} is the slope of the tangent line to the \m{v_x}(t) curve:
+in this case, Fig.\,2, the slope is always zero.
+Similarly, \m{a_y} is the slope of the \m{v_y}(t) curve, which in this case is
+always 3\,m/s\m{^2}.
+
+The \m{x} and \m{y} coordinates can be found using the area under the curve.
+For example, to calculate \m{y}(1\,sec), Eq.\,(\eqnno{7}) gives:
+%
+\eqn{}{y(1\unit{s}) = \int_0^{1{\rm s}} v_y(t')\,dt' + y(0).}
+%
+The integral is given by the shaded area
+%
+\Footnote{This area must be calculated as the \Quote{physical} area, not the
+geometric area.
+See \Quote{The Counting Squares Technique for Numerical Integration}
+(MISN-0-250, Appendix A).}
+%
+in Fig.\,2, so that:
+%
+\eqn{}{y(1\unit{s}) = \fract{3}{2}\unit{m} + 5\unit{m} = \fract{13}{2}\unit{m},}
+%
+which can be verified from the previous analytical solution for \m{y(t)}.
+
+\pcap{4}{c}{The Artificial Nature of the Examples}
+The real world does not usually present motion problems so neatly
+specified as the previous examples.
+These examples have presented information as given that in
+actuality must have been derived from other information.
+For example, knowledge of applied forces gives information about
+the acceleration.
+%
+\Footnote{See \Quote{Particle Dynamics} (MISN-0-14).}
+%
+Also, coordinate systems and initial times have been implicitly chosen.
+
+\pcap{4}{d}{Choice of Coordinates}
+If the coordinate system is unspecified in a problem, you may
+choose to use any system you desire.
+The motion of the object will not depend on the coordinate system
+that you use to describe the motion.
+Be prepared to try different coordinate systems; the \Quote{best}
+choice will ease the mathematical manipulation in the problem.
+
+}% /Sect
+%
+\Sect{5}{Ballisitic Motion}{\SectType{TextMultiPara}}{
+
+\pcap[\Index{free-fall}]{5}{a}{Falling and Free Falling}
+The acceleration of an object falling above the Earth
+depends upon its distance from the Earth's surface and upon
+air resistance.
+You are familiar with this motion, for example, when you
+observe a baseball in flight.
+If the \Index{speed}speed of the object is sufficiently low, the effects of the air
+resistance are negligible.
+%
+\Footnote{How low is \Quote{sufficiently low\Quote{?
+The answer depends upon how precisely you wish to describe the motion,
+and the relative magnitudes of the force of gravity and the force of the
+air.}
+%
+If the object's path does not vary significantly in altitude,
+the effects of gravity are constant.
+Under these special conditions, called \Index{motion, ballistic}\Index{ballistic motion}ballistic motion, the
+object is \Quote{free falling} and will have a constant acceleration of
+\m{g = 9.8}\,m/s\m{^2} vertically downward, and will therefore move
+in a plane.
+
+\pcap{5}{b}{Ballistic Motion Example}
+A \Index{projectile}projectile is fired with initial velocity \m{\vec{v}_0}
+making an angle \m{\theta} with the horizontal (see Fig.\,3).
+Ignore the height of the end of the barrel.
+
+\CaptionAfterFullFramedFigure{Fig.\,3.  A cannon fires a projectile at an angle
+\m{\theta} above the horizontal.}{m8gr00}
+
+We choose a coordinate system such that the horizontal coordinate
+is \m{x}, the origin is at the cannon (so \m{\vec{r}_0 \equiv \vec{r}_0 = 0}), and
+the vertical coordinate \m{y} is positive upward (with result
+\m{\vec{a} = - g \uvex{y}}).  We choose time zero to be when the cannon was fired.
+Then at time zero we have:
+%
+\eqn{14}{\vec{a}(0) = - g \uvex{y}; \hs
+       \vec{v}(0) = \vec{v}_0; \hs
+       \vec{r}(0) = 0 \,.}
+%
+We can get thewe quantities as a function of time by integrating the acceleration to
+get the velovity and the velovity to get the position (see Eq.\,(\eqnno{8}).
+The result is:
+%
+\eqn{15}{\vec{v} = \vec{v}_0 + \int_0^t \vec{a(t'})\,dt' =
+                 \vec{v}_0 - \int_0^t g\,dt'\,\uvex{y} =
+                 \vec{v}_0 - g t \uvex{y}\,.}
+%
+In the following three exercises, illustrate by using or changing Fig.\,4.
+
+\tryit Suppose gravity is turned off.  Show that the object would follow a
+straight-line trajectory at constant speed and that its distance from the origin
+would increase linearly with time.
+
+\tryit suppose that gravity is increased until it is so large that its terms in
+Eqns.\,(\eqnno{15}) overwhelm the \m{\vec{v}_0} terms.  Show that under those circumstances
+the object would appear to simply fall to the ground.
+
+\tryit Describe a real projectile's path as being between the trajectories
+that would result from zero gravity and from very large gravity.
+
+\pcap{5}{c}{The Example in Cartesian Coordinates}
+The equations \eqnno{14} and \eqnno{15} for ballistic motion can be written in terms
+of  the projectile's non-accelerated \m{x}-components and constantly accelerated
+\m{y}-components:
+%
+\ThreeEqns{}%
+{\vec{a}(t) & = & - g \uvex{y}\,,}
+{\vec{v}(t) & = & (v_0\,\cos\theta_0)\, \uvex{x} + (- g t + v_0 \sin\theta_0)\,\uvex{y}\,,}
+{\vec{r}(t) & = & v_0 t \cos\theta_0 \uvex{x} + (- g t^2/2 + v_0 t \sin\theta_0)\,\uvex{y}.}
+%
+Notice that each component can be separately integrated because the Cartesian unit vectors
+are independent of time (they stay fixed as time progresses).
+
+\pcap{5}{d}{Equation of the Path: the Trajectory}
+The Cartesian trajectory equation, \m{y(x)}, can be found by eliminating \m{t} in the two equations
+\m{x(t)} and \m{y(t)}.
+From the above we get:
+%
+\eqn{}{x(t) = v_0 t \cos\theta_0\,,}
+%
+and
+%
+\eqn{}{y(t) = - g t^2/2 + v_0 t \sin\theta_0\,.}
+%
+Solving the first for \m{t} and substituting that into the second, gives
+%
+\eqn{}{y = \left[- g / (2 v_0^2 \cos^2\theta_0)\right] x^2 + [\tan\theta_0]\,x\,.}
+%
+This is the equation of a parabola, which is indeed the path of a
+\Index{projectile path}\Index{path, of projectile}projectile undergoing idealized ballistic motion
+(see Fig.\,4).
+
+\CaptionAfterFullFramedFigure{Fig.\,4.  An object in ballistic motion follows
+a \Index{parabolic motion}\Index{motion, parabolic}parabolic trajectory.
+The acceleration and velocity are indicated at three different places.
+Noticer how the object \Quote{falls} as it moves from left to right.}{m8gr04}
+
+\pcap[\Index{range, of projectile}\Index{projectile, range of}]{5}{e}{The Range}
+The trajectory equation, \m{y(x)}, is useful in answering questions that relate
+to position coordinates only.
+Will the object clear a wall?
+How far will it go?
+How high will it go?
+For example, the range \m{R} of a ballistic missile is the distance travelled
+in \m{x} before the projectile strikes the ground.
+In Fig.\,4, \m{x} is \m{R} when \m{y(x) = 0}.
+Thus you can set \m{y(R) = 0} in the quadratic expression,
+%
+\eqn{}{y(x) = \left[ - g / (2 v_0^2 \cos^2\theta)\right]\,x^2 + [\tan\theta]\,x\,,}
+%
+and, using the identity \m{\sin 2\theta = 2 \sin\theta \cos\theta}, find:
+%
+\eqn{}{R = \fract{2 v_0^2 \sin\theta \cos\theta}{g} = \fract{v_0^2 \sin 2\theta}{g}.}
+%
+\BlackTriangle This equation gives \m{R(v_0,\theta)}.
+Show that for {\it any} fixed \m{v_0} the maximum range occurs for
+\m{\theta = 45\degrees}.
+
+\pcap[\Index{projectile, maximum height of}\Index{maximum height, of projectile}]{5}{f}{Maximum Height of a Projectile}
+The equation of the path can also be used to develop an
+equation relating the maximum height to the initial velocity
+of the projectile.
+At the point of maximum height, \m{dy/dx = 0}.
+Differentiating the equation for the trajectory \m{y(x)}
+gives \m{dy/dx = 0} at \m{x = (v_0^2/g)(\sin\theta \cos\theta)}.
+
+\noindent
+\BlackTriangle Show that substituting this into the equation for \m{y} gives
+the maximum height as \m{y_{\rm max} = (v_0^2 \sin^2\theta)/(2g)}.
+
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}{\NsfAcknowledgment}% /Sect
+

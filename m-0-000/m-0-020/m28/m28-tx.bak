@@ -1,0 +1,394 @@
+\revhist{12/29/87, pss; 7/10/88, pss; 9/8/88, pss; 12/8/89, pss; 10/11/94, pss; 8/23/96, pss;
+         11/7/97, lae; 3/22/01, pss; 3/29/01, kag}
+%
+\Sect{1}{Introduction}{\SectType{TextMultiPara}}{
+%
+\pcap{1}{a}{Approximating Real-Force Oscillations}
+The purpose of this lesson is to help you develop skill in using Simple
+Harmonic Motion\Index{simple harmonic motion} (SHM)\Index{SHM (Simple Harmonic Motion)} as an approximation to general oscillatory motions.
+Strictly speaking, SHM applies only to oscillations produced by a linear
+restoring force\Index{linear restoring force}: \m{F = -k(x-x_0)}.
+Other forces are non-linear functions of position \m{x} but we often
+approximate them with the SHM force because: (1) the SHM solutions can be
+easily obtained in terms of well-known mathematical functions; (2) most
+oscillations are well-approximated by SHM when their amplitudes, driving
+forces and damping are small; (3) the SHM approximation often gives us
+useful insights; and (4) we often need some approximation with which to check
+the computer program used to obtain the actual motion.
+%
+\Footnote[1]{For descriptions of the terms \Quote{driving forces} and \Quote{damping}
+see {\em Damped Driven Oscillations and Mechanical Resonances} (MISN-0-31).}
+%
+
+\pcap{1}{b}{Most Forces Look Like SHM Over Small Displacements}
+The reason SHM  is a good approximation for \Quote{small} oscillations\Index{oscillations, small}\Index{small oscillations}
+is because almost any force function looks rather like the linear SHM force
+if you examine it in a small enough region around the center point of its
+oscillations\Index{center point, of small oscillations} (see \Figref{1}).
+Thus if the amplitude of the oscillation is small enough, for the particular
+force you have at hand, then SHM will be a good enough approximation to the
+actual motion and no further work need be done.
+You must decide whether the SHM solution is good enough for your particular
+application.
+
+\pcap{1}{c}{Checking Computer Codes}
+If computer solutions are needed, the computer code should be
+checked by comparing small-amplitude numerical solutions, produced by the
+code, to the corresponding SHM solutions.
+One does this by running the program with the input constants
+temporarily set at a succession of \Quote{small oscillation} amplitudes.
+One plots the resulting frequencies versus the log of the amplitude
+and extrapolates the curve to zero amplitude.
+This \Quote{zero amplitude} frequency should agree exactly with the SHM
+frequency.\Index{frequency| for SHM}
+If they do agree, one then puts the amplitude back at its physical value
+and runs the computer program again to get the physical answer.
+
+\pcap{1}{d}{Real Force In, Approximate Motion Out}
+In this module we show you how to start with: (1) some particular restoring
+force: and (2) the mass of the oscillator driven by that force, and from that
+input produce the particular SHM solution which the real oscillation
+approaches as the amplitude approaches zero.
+The \Quote{solution} consists of the SHM approximation to: (1) the oscillator's
+frequency (hence also its period); and (2) the center point of its oscillations.\Index{center point, of small oscillations}
+Using these, you can immediately write down the oscillator's position as a
+function of time.
+
+\CaptionedFullFramedFigure{1}{A non-linear function usually looks rather
+straight over a small enough region.}{m28gr00}
+
+\enlargethispage{0.4cm}
+}% /Sect
+%
+\Sect{2}{Example: a Pendulum}{\SectType{TextMultiPara}}{
+%
+\pcap{2}{a}{The Physical Oscillator}
+Our illustrative example is the simple pendulum.
+This consists of a rod which is pivoted at its upper end and which has a
+weight, called a \Quote{bob,} attached at the rod's lower end (see \Figref{2}).
+The rod is assumed to be weightless and of length \m{\ell}.
+The bob is assumed to be the size of a mathematical point and is assumed to
+have mass \m{m}.
+Our pendulum is assumed to be swinging back and forth, under the influence of
+gravity, without friction.
+We can think of it as a slightly idealized version of the pendulum in a
+Grandmother's or Grandfather's clock.
+
+\TwoCaptionedFramedFigures{2}{A simple pendulum.}{m28gr02}%
+                          {3}{Position vs. time for the pendulum of \Figref{2}.}{m28gr03}
+
+\pcap{2}{b}{The Position Oscillates}
+The position of the bob oscillates as the bob travels back and forth
+along its circular-arc trajectory.
+This position is denoted \m{s} in \Figref{2}, and it is taken as zero at the
+lowest point on the trajectory.
+The position \m{s(t)} oscillates: as time increases it goes smoothly from
+positive values to negative ones to positive ones to negative ones, etc.
+(see \Figref{3}).
+
+\pcap{2}{c}{Finding the Appropriate SHM}
+We produce the approximating SHM solution, the one which the real force's
+oscillations approach as amplitude becomes small, by carrying out these three
+steps:
+\begin{itemize}
+\item[1.] Obtain the net force acting on the oscillator.
+For our pendulum, we start by noting that two different objects
+exert forces on the bob, which is the mass that oscillates: the earth through
+gravity, and the rod through its point of contact with the bob.
+Show that the resultant force is tangential to the trajectory and its
+component in the direction of increasing \m{s} is: \m{F(s) = -mg\,sin(s/\ell)}
+(this is the only component there is). \help{2}\,
+%
+\Footnote[2]{For help, see sequence S-2 in this module's Special Assistance
+ Supplement.}
+%
+\item[2.] Construct a linear force whose value and slope agree with those of
+the true force at the point where the true force descends through zero (the
+point of zero displacement for the oscillations).
+This means that we must first find the place where the true force descends
+through zero, then find the slope of the true force there.
+For our pendulum, the point where the true force (the force on the bob)
+descends through zero is seen by inspection to be \m{s = 0}.
+The slope of the force there is: \m{dF/ds(0) = -mg/\ell}.
+The linear force which has that value and slope at that point is (check this
+in your head): \m{F(s) = -mgs/\ell}.
+For sufficiently small displacements around the origin, the linear force and 
+the true force appear indistinguishable to the eye (see Figure 1).
+\item[3.] Calculate the SHM frequency for the linear approximating force.
+For our pendulum, the force constant\Index{force constant} of the approximating SHM is:
+\m{k = mg/\ell}.
+This gives the SHM frequency:
+\m{\nu_0 = (1/2\pi) \omega} where \m{\omega = \sqrt{g/\ell}}.
+If the pendulum amplitude is small, its frequency is close to this SHM
+frequency.
+\end{itemize}
+
+\CaptionedLeftFramedFigure{4}{Exact and SHM frequencies, model as in
+Figure 2.}{m28gr04}
+
+\pcap{2}{d}{Comparing the Exact and SHM Values}
+In Figure 4 we compare the SHM frequency to the true frequency as a function
+of the amplitude of the oscillations.
+The SHM frequency is independent of the SHM oscillator's amplitude so it is
+plotted as a constant.
+However, the pendulum's frequency varies with the pendulum's amplitude.
+The figure shows that if the pendulum swings to {60\degrees}, the SHM prediction
+for the frequency is off by about 6\%, but if the swing is to {30\degrees}
+then SHM is off by only about 1.5\%!
+%
+\Footnote[3]{See \Quote{Small Oscillations Revisited,} MISN-0-32.}
+
+In Figure 5 we compare the positions as functions of time for various
+amplitudes.
+Note that the angle of swing must get up to {125\degrees} (picture that
+swing!) before the curve no longer looks like an SHM sine
+curve.
+Note also that the frequency decreases (so the period increases in Figure 5)
+as the amplitude increases.
+\CaptionedFullFramedFigure{5}{Position vs. time for various amplitudes,
+model as in \Figref{2}.}{m28gr05}
+}% /Sect
+%
+\Sect{3}{Variations}{\SectType{TextMultiPara}}{
+%
+\pcap{3}{a}{Summary}
+We must often deal with these variations: (1) the center point of the
+oscillations is not at the coordinate origin; (2) the potential energy is
+specified instead of the force; and (3) rather than a fixed force acting on a
+single mass, we have two masses exerting mutual forces on each other as they
+each oscillate.
+
+\pcap{3}{b}{Oscillation Not About the Origin}
+It is often inconvenient to put the origin of the coordinate system at the
+place where the force descends through zero.
+The coordinate position where the force descends through zero is called the
+\Quote{Point of Stable Equilibrium}\Index{point of stable equilibrium} and it is denoted by adding a subscript
+\Quote{zero} to the coordinate symbol.
+We will usually refer to the Point of Stable Equilibrium as the \Quote{PSE.}\Index{PSE (Point of Stable Equilibrium)}
+%
+\Footnote[4]{For a discussion of classes of equilibrium points, see \Quote{Static
+Equilibrium} (MISN-0-6).
+The abbreviation \Quote{PSE,} used here, is not in common use: there is no commonly
+used abbreviation.}
+%
+For example, if the position of the oscillator is labeled \m{x} then
+its PSE is labeled \m{x_0}.
+If the position of the oscillator is labeled \m{s} then its PSE is labeled \m{s_0}.
+
+\pcap{3}{c}{The Potential Energy is Specified}
+Often a potential energy function is specified rather than a force function.
+%
+\Footnote[5]{For a discussion of how to find the force function corresponding to a
+given potential energy function see \Quote{Potential Energy Curves, Force, and
+Motion} (MISN-0-22).}
+%
+Since \m{F(x) = -dE_p(x)/dx}, \m{x_0} is the point where the slope of \m{E_p},
+\m{E_p'}, is ascending through zero.
+The force constant is then the second derivative: \m{k = E_p''(x_0)}.
+When the potential energy function \m{E_p(x)} is plotted as a function of \m{x},
+it shows a minimum at the PSE (see Figure 6).
+
+\CaptionedLeftFramedFigure{6}{Potential energy vs. displacement, model as
+in Figure 2.}{m28gr06}
+
+\pcap{3}{d}{Two Mutually-Interacting Bodies}
+\Index{small oscillations| of two-body system}If two masses are oscillating due to equal but opposite forces each exerts
+on each other, the parameters we have been using must be reinterpreted.
+Now \m{x} is the (variable) distance between the two objects, \m{F(x)} is
+the force each body exerts on the other, and \m{x_0} is the equilibrium
+separation of the two objects, the separation at which each exerts zero
+force on the other.
+When \m{x} is larger than \m{x_0}, the two masses are attracted toward each other;
+when \m{x} is smaller than \m{x_0}, they are repelled from each other.
+The force constant for the system is defined as before: \m{k=-dF/dx(x_0)}.
+The two objects' oscillations will be identical but {180\degrees} out of
+phase (they both head away from each other, then they both
+turn around and head toward each other, then they turn around and head
+away from each other, etc., each oscillating about its own end of \m{x_0}).
+%
+\Footnote[6]{Note that the total momentum of the two-body system is always zero.}
+%
+The SHM frequency is then: \m{\nu = (1/2\pi)\sqrt{k/\mu}}, where
+the system's \Quote{reduced mass}\Index{mass| reduced}\Index{reduced mass} \m{\mu} is given by:
+\m{\mu \equiv m_1 m_2/(m_1 + m_2)}.
+%
+\Footnote[7]{This is derived in: \Quote{Two-Body Kinematics and Dynamics}
+(MISN-0-45).}
+}% /Sect
+%
+\Sect{4}{Solution Steps}{\SectType{TextOnePara}}{
+%
+\begin{itemize}
+\item[1.] If \m{E_p} is given, find \m{F}.
+\item[2.] Find the PSE.
+\item[3.] Find \m{k}.
+\item[4.] Determine the appropriate mass: take \m{m} or calculate \m{\mu}.
+\item[5.] Find \m{\nu}.
+\end{itemize}
+}% /Sect
+%
+\Sect{5}{The Point of Stable Equilibrium}{\SectType{TextMultiPara}}{
+%
+\pcap{5}{a}{Formal Solution}
+One way for finding the zeros of a function is formally, which means
+setting the function equal to zero and then solving that equation formally.
+The solutions are the function's zeros.
+Then you must find which of those zeros are PSE's by examining the sign of
+\m{F'} at each of them.
+If there is more than one PSE, your particular application must specify
+which PSE to focus on.
+
+For a linear force, find the PSE without writing anything down.
+For example, in the function \m{F(x) = -a(x - b)}, the point \m{x = b} is
+obviously a PSE.
+Here is another linear form for you to try: \m{F(x) = -a^2 x + b^2}. \help{4}
+
+For a quadratic force, use the quadratic root equation.
+For example, for \m{F = 3 - 16x + 5x^2}, use the quadratic root
+formula to show that: (1) there is a PSE at \m{x_0 = 0.2} \help{10};
+and (2) there is another root at \m{x = 3} but this one is not a PSE because
+the force is ascending, not descending, through zero there.
+This latter point is called a \Quote{point of unstable equilibrium.}
+The word \Quote{equilibrium} is used because an object placed at rest at this
+point will not move, and the word \Quote{unstable} is used because any small
+displacement of the object from the point will cause the object to be
+accelerated away from that point.
+
+There are now good computer programs, employing artificial
+intelligence techniques, that can produce most of the known formal
+solutions for roots.
+The most used programs at this time are MACSYMA, REDUCE, and MATHEMATICA.
+
+\pcap{5}{b}{Numerical Techniques}
+\Index{derivative| numerical method for}\Index{numerical derivative method}When a formal solution cannot be found, or sometimes when it cannot be
+found easily, we use numerical techniques.
+
+Sometimes we use computer programs or calculators (like the HP - 41) that
+incorporate a whole bag of numerical zero-finding tricks.
+If you have access to a zero-finding calculator or computer, try it on the
+quadratic force given above.
+
+Sometimes we use numerical interpolation, mainly on a hand calculator:
+this always works, albeit slowly.
+Try numerical interpolation on your own calculator, on the force
+\m{F(x) = -\cos\,x}.
+Calculate values of \m{F(x)} for various values of \m{x}, finding a region where
+\m{F} changes from positive to negative.
+Single out the adjacent pair of points between which \m{F} changes sign.
+Use linear interpolation on this pair of points to predict the point where
+\m{F} is zero.
+Calculate the actual value of \m{F} at that point and repeat the interpolation
+process as many times as you wish. \help{15}
+
+\pcap{5}{c}{Graphical Method}
+For the graphical method, use your hand calculator and graph 
+paper, or a computer, to plot the force function.
+Note the point where the force descends through zero.
+Increase your accuracy by \Quote{blowing up} the region around that zero on
+a new plot.
+Repeat this enlarging process until you have located the PSE to the desired
+accuracy.
+You can try this on the quadratic function given above.
+}% /Sect
+%
+\Sect{6}{The Force Constant}{\SectType{TextMultiPara}}{
+%
+\pcap{6}{a}{Formal Method}
+Once the PSE has been found, by whatever means, the force constant\Index{force constant, calculating the} \m{k} can
+usually be found formally; that is, by taking the first derivative of the
+force and then evaluating it at the PSE.
+For example,
+%
+\Eqn{}{F = (3 - 16\,x\unit{m\up{-1}} + 5\,x^2\unit{m\up{-2}})\unit{N}\,,}
+%
+can be differentiated at its PSE, \m{x_0 = 0.2\unit{m}}, to obtain:
+\m{F' = -14}\,N/m.
+Then the force constant can be seen by inspection: \m{k = 14}\,N/m.
+If you don't know a particular function's derivatives, look them up in a
+table of derivatives
+%
+\Footnote[8]{See the Appendix or, for example, {\em A Short Table of
+Integrals}, B.\,D.\,Peirce, Ginn and Co., Boston (1929).}
+%
+or use an appropriate formal-math computer program.
+
+\pcap{6}{b}{Finite Difference and Graphical Methods}
+\Index{Finite Difference Method}If the derivative cannot easily be taken formally, it can be measured as
+the slope of the force on a graph, or it can be evaluated using finite
+difference equations.
+The graphical method is usually not practical for taking second derivatives,
+so finite difference equations are better when the potential energy function
+is given instead of the force function.
+
+The relevant finite difference equations are:
+%
+\Footnote[9]{See \Quote{Taylor's Series for the Expansion of a Function About a Point}
+(MISN-0-4).}
+%
+\Eqn{}{f'(x)\simeq\dfrac{f(x+\Delta)-f(x-\Delta)}{2\Delta}\,;}
+%
+\Eqn{}{f''(x)\simeq\dfrac{f(x+\Delta)-2f(x)+f(x-\Delta)}{\Delta^2}\,.}
+%
+In the above formulas \m{x} is the PSE and \m{\Delta} is a small distance.
+The distance \m{\Delta} should be made sufficiently small so that making it
+smaller results in no significant improvement in the value of \m{k} (for our
+present purposes, 2-3 significant digits).
+Do not make \m{\Delta} so small that \m{k}'s first 2-3 digits are affected by
+calculator error.
+You can practice on: \m{F = -\,5\,x^{-4} + 20\,x^{-6}}.  \help{3}
+
+Note that use of the graphical or finite difference methods as a check
+provides a virtually fail-safe method for locating all errors inadvertently
+made while taking formal derivatives.
+
+Here is a function on which you can easily practice all three
+methods (formal, graphical, and numerical): \m{F = -\,\cos\,x}. \help{1}
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}{
+For their generous assistance with this module, I would like to thank: Jack
+Hetherington, George Bertsch, Tom Kaplan, Gerry Pollack, Jon Pumplin, Jules
+Kovacs, Robert Spence, and Jerry Cowen.
+\NsfAcknowledgment
+}% /Sect
+%
+\Sect{}{Glossary}{\SectType{Glossary}}{
+\GlossaryItem{Point of Stable Equilibrium (PSE)}\Index{PSE (Point of Stable Equilibrium)} for a particular force, a space-point
+where any small displacement produces a return force (Sections 3b and 5).
+
+\GlossaryItem{Small Oscillation}\Index{small oscillations}\Index{oscillations, small} an oscillation whose motion is simple harmonic within
+tolerable limits.
+
+\GlossaryItem{Linear Approximation\Index{linear approximation} (to a particular mathematical function in
+the neighborhood of a specific point)}
+the straight line which has the same value and slope as the designated
+function at the designated point.
+}% /Sect
+%
+\Sect{}{Table of Derivatives}{\SectType{AppendixMultiPara}}{
+%
+\xpcap{}{}{Combinations of functions}
+\begin{itemize}
+\item[1.] \m{\dfrac{d}{dx}\,\left(f(u)\right) = \dfrac{df(u)}{du}\,\,\,\cdot\,\dfrac{du}{dx}}
+\item[2.] \m{\dfrac{d}{dx}\,\left(f\,\pm\,g\right) = \dfrac{df}{dx}\,\pm\,\dfrac{dg}{dx}}
+\item[3.] \m{\dfrac{d}{dx}\,\left(fg\right) = f\,\dfrac{dg}{dx} + g\,\dfrac{df}{dx}}
+\item[4.] \m{\dfrac{d}{dx}\,\left(f/g\right) = \left(g\,\dfrac{df}{dx} - f\,\dfrac{dg}{dx}\right)\,/\,g^2}
+\end{itemize}
+
+\xpcap{}{}{Specific Functions}
+\begin{itemize}
+\item[5.] \m{\dfrac{d}{dx}\,\left(x^n\right) = n\,x^{n-1}}
+\item[6.] \m{\dfrac{d}{dx}\,\left(e^x\right) = \eexp{x}}
+\item[7.] \m{\dfrac{d}{dx}\,\left(\ln\,x\right) = 1\,/\,x}
+\item[8.] \m{\dfrac{d}{dx}\,\left(\sin\,x\right) = \cos\,x}
+\item[9.] \m{\dfrac{d}{dx}\,\left(\cos\,x\right) = -\,\sin\,x}
+\end{itemize}
+
+\xpcap{}{}{When the argument contains a constant}
+For example, in
+%
+\Eqn{}{\dfrac{d}{dx}\,\left(\sin\,(ax)\right),}
+%
+first use formula \#1 (\m{u = ax} in this example), then use the formula
+appropriate to the function (\#8 in this example).
+}% /Sect

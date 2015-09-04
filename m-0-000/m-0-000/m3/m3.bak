@@ -1,0 +1,24 @@
+
+\input nphmods.sty
+
+\ModuleNo{1}
+
+\begin{document}
+
+\Module{1}{Stnd}{
+	\ModData{
+		\Section{m1-dat}
+	}
+	\ModText{
+		\Section{m1-tx}
+	}
+	\ModSupp{
+		\Section{m1-ps}
+		\Section{m1-as}
+		\Section{m1-me}
+	}
+}
+
+\end{document}
+
+\revhist{3/23/94, pss; 3/16/95, pss; 8/21/97, abs; 4/9/01, pss}

@@ -1,0 +1,45 @@
+% 7/12/85; mpm; 7/3/91, pss; 9/29/94, pss; 8/16/1995, pss
+\MeStart
+
+\begin{two-digit-list}
+\item [1.] See Output Skills K1-K6 in this module's {\it ID Sheet}.
+One or more of these skills, or none, may be on the actual exam.
+
+\item [2.] A vector $\vec{R}$ has its tail at the origin and its head at the
+point (2,\,5,\,-3).
+Another vector $\vec{S}$ has its tail also at the origin, while its head is at
+the point (2,\,-5,\,0).
+\begin{one-digit-list}
+\item [a.] What is the length of the vector $\vec{R}$ + $\vec{S}$?
+\item [b.] What is the length of the vector $\vec{S}$ - $\vec{R}$?
+\item [c.] What is the length of the vector $\vec{R}$?
+\end{one-digit-list}
+
+\item [3.] Vector $\vec{T}$ is 4 units long and directed along the $x$-axis.
+Vector $\vec{V}$ is 6 units long and is directed along the $z$-axis.
+\begin{one-digit-list}
+\item [a.] What is the direction of the vector $\vec{T} \times \vec{V}$?
+\item [b.] What is the magnitude of the vector $\vec{T} \times \vec{V}$?
+\item [c.] Express $\vec{T} \times \vec{V}$ in terms of the unit vectors along
+the coordinate axes.
+\end{one-digit-list}
+
+\item [4.] Evaluate:
+\begin{one-digit-list}
+\item [a.] $\hat{x} \times \hat{z}$
+\item [b.] $\hat{y} \cdot  \hat{z}$
+\item [c.] $\hat{z} \times \hat{z}$
+\item [d.] $\uvex{y} \times \uvex{z}$
+\item [e.] $\uvex{x} \cdot  \uvex{x}$
+\item [f.] $\uvex{x} \times \uvex{y}$
+\end{one-digit-list}
+\end{two-digit-list}
+
+\BriefAns
+
+\begin{itemize}
+\item [1.] See this module's {\it text}.
+\item [2-4.] See problems 13, 21, and 22 in this module's {\it Problem Supplement}.
+\end{itemize}
+
+\MeEnd

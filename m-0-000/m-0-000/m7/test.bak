@@ -1,0 +1,7 @@
+\documentclass{article}
+\begin{document}
+$\mathbf{\alpha(t) \rightarrow v(t) \rightarrow x(t)}$
+
+\mathversion{bold}
+${\alpha(t) \rightarrow v(t) \rightarrow x(t)}$
+\end{document}

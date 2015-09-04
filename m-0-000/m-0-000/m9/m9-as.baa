@@ -1,0 +1,95 @@
+.*3/9/82
+.RD MOD.LIB
+.RD MOD/AS.LIB
+.DM PT
+.TL 'MISN-0-9''%'
+..
+.HD
+.CE
+SPECIAL ASSISTANCE SUPPLEMENT
+.SP 3
+.BA
+|S-1|__________ 
+.NF
+.SP
+a)  If r^^r^ = |r^||r^| cos r
+            = |r^|2 = 1,
+    so r^ is a unit vector.
+.SP
+b)  r^ and rT are in the same direction so r = 0
+    so  r^^rT = r.
+.EA
+.BA
+|S-2|__________ 
+.SP
+.NF
+a)  See if r^^r^ = 1
+.SP
+b)  r^^r^ = 0 so either |r^| = 0, |r^| = 0,
+    or they are perpendicular.
+.EA
+.BA
+|S-3|__________ 
+.SP
+.NF
+a)  |ds/dt| and ds/dt could differ in sign.
+What is the sign of the magnitude of a vector?
+b)  The derivative is the slope of the graph.
+.EA
+.BA
+|S-4|__________ 
+.SP
+.NF
+Use the chain rule:
+.SP 3
+.EQ '' dr^__dt = dr^__ds ds__dt ,   dr^__dt = dr^__ds ds__dt .''
+.SP
+.EA
+.PG
+.BA
+|S-5|__________ 
+.SP
+.NF
+You are given vT and are asked about the vT + WvT
+.SP
+a short time Wt later.  WvT is aTtWt.  Draw
+.SP
+vector addition diagrams to decide if vT + WvT
+.SP
+is longer than, shorter than, or the same length
+.SP
+as vT.
+.EA
+.BA
+|S-6|__________ 
+.SP
+.NF
+Use ar = v2/r and v = 2!r/T.
+.EA
+.BA
+|S-7|__________ 
+.SP
+.NF
+a)  Use v = lr and  n = v/2!r.
+.SP
+b)  Use a = v2/r and v = lr.
+.EA
+.BA
+|S-8|__________ 
+.SP
+.NF
+The direction of lT v r^, by definition of the
+vector product, must be perpendicular to lT.
+Therefore this vector product lies in the plane
+of motion.  It must also be perpendicular to r^,
+therefore it lies along the tangent.  Using the
+right hand rule, the product points in the direc-
+tion of the tangential velocity.  Since lT and r^
+are perpendicular, the magnitude of lT v r^ is just
+lr.  This, in turn, is just the magnitude of the 
+tangential velocity, v.
+.EA
+.BA
+|S-9|__________    r/360o=s/(2!r)
+.EA
+

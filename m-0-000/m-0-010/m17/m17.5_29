@@ -1,0 +1,391 @@
+\revhist{7/18/85, mpm; 12/29/87, pss; 2/18/91, pss; 9/8/94, pss; 11/16/94, pss; 11/6/96, pss;
+         3/13/97, pss; 11/7/97, pss; 3/22/01, pss; 3/29/01, kag}
+\TxStart
+
+\mTitle{ACCELERATION AND FORCE IN CIRCULAR MOTION}
+
+\mAuthor{Peter Signell}
+
+\spcap{1}{Introduction}
+
+Here are some questions of the types we can answer from a study of
+acceleration and force in uniform circular motion:
+Why are highway curves banked, and what characteristics of vehicles and
+terrain determine the design angle?
+What happens if a car or truck does not match the vehicle characteristics that
+were assumed by the highway department in designing a particular curve?
+Why do drivers of mopeds, bicycles, and motorcycles lean while going around a
+corner?
+How much should they lean?
+What happens if they don't?
+
+In the film, {\em 2001: A Space Odyssey}, the space station rotates so as to
+simulate the force of gravity\Index{gravitational force, perception of} as we know it at the earth's surface (see
+Fig.\,4).
+The space station is in the shape of two large wheels connected by an axle.
+How does it simulate the gravitational force and at what rate must it turn?
+Is it necessary to vary the rate according to the weight of each space-person?
+
+Suppose you tie a rock on the end of a long string and then whirl it around
+your head.
+What governs the angle of the string?
+
+Airplane pilots talk about \Quote{\m{g}} forces.
+What are they, and why are they important to pilots?
+How are they measured and what are their (obviously important) physiological
+effects?
+
+\scap{2}{Acceleration and Force}
+
+\pcap{2}{a}{The Circle of Motion}
+When an object is traveling along a circular arc, we talk about its \Quote{circle
+of motion,} whether the object is traveling completely around a circle or
+only around part of a circle.
+If the motion is circular only on an arc, we mentally extend the arc to make
+a complete circle, and that is the \Quote{circle of motion.}
+
+\CaptionAfterFullFramedFigure{Fig.\,1.  A car traverses a
+quarter-circle turn, traveling at constant speed so its acceleration
+\m{\vec{a}} is purely radial.
+The car's speed is such that the road exerts only a normal force on the car.
+The turn is banked at angle \m{\theta}, which is also the angle by which the
+road force is off the vertical.
+The resultant (net, total) force on the car is labeled \m{\vec{F}_r}.}%
+{m17gr01}
+
+\pcap{2}{b}{Uniform Circular Motion}
+\Index{uniform circular motion}\Index{circular motion| uniform circular motion}For any object in uniform circular motion, its acceleration is radially
+inward, pointing precisely toward the center of the circle of motion, as in
+the example in Fig.\,1.
+The magnitude of the object's acceleration\Index{acceleration| centripetal}\Index{centripetal acceleration} is \m{a=v^2/r}, where \m{v} is the
+object's speed and \m{r} is its distance from the center of the circle of
+motion.
+%
+\Footnote{See Kinematics: Circular Motion'' (MISN-0-9).}
+%
+If you are given that an object has many forces on it, and that it is in
+uniform circular motion, then you know that the object's acceleration\Index{acceleration| in circular motion} is
+toward the center of the circle.
+By Newton's second law, this means the {\it resultant} force on the object
+must also be toward the center of the circle of motion.
+This is illustrated in Fig.\,1.
+
+\pcap{2}{c}{Example 1: A Car on a Turn}
+Our first example of uniform circular motion\Index{uniform circular motion} is a car that is traveling at
+constant speed around a highway curve (see Fig.\,1).
+Geometrically, the curve is a circular arc which we can mentally extend to
+make a complete imaginary circle.
+While the car is on the curve, it is maintaining a constant radius from
+the center of that imaginary circle.
+If we were to draw the car's path on an aerial photo, using a drafting
+compass, one leg of the compass would be at the center of that circle and
+the other on the car's path (see Fig.\,1).
+Because the car is traveling at constant speed, the acceleration \m{\vec{a}} is
+exactly toward the center of the circle of motion (see Fig.\,1).
+Since \m{\vec{F}_r = m \vec{a}}, the resultant force on the car must also be
+toward the center of the circle of motion (see Fig.\,1).
+We have drawn the force of the road on the car as being normal to the road:
+this will be the case if the car is traveling at just the right speed
+(more on this later).
+
+\CaptionAfterFullFramedFigure{Fig.\,2.  A string-restrained rock is
+whirled about the person's body axis at a constant speed.
+The force of the string on the rock is off the vertical by the angle
+\m{\theta}.}{m17gr02}
+
+\tryit A 2000\,lb car is traveling at 50~mph around the curve
+illustrated in Fig.\,1, with \m{r=390}\,ft.
+Show that the acceleration of the car, traveling at a constant 50~mph,
+is \m{a=0.43\,g}.
+That is, the acceleration is 43\% of the usual acceleration of gravity for
+objects in free fall. \help{7}
+
+\pcap{2}{d}{Example 2: Rock on a String}
+
+Our second example is the case of a rock being whirled around the body at
+the end of a string as in Fig.\,2.
+The string will only produce a force along its physical direction, as shown
+in the figure.
+We assume the rock is being made to travel at constant speed so its
+acceleration is \m{a=v^2/r} and is exactly toward the center of the circle of
+motion.
+By \m{\vec{F}_r = m \vec{a}}, the resultant force on the rock must also be
+toward the center of the circle of motion (see Fig.\,2).
+
+\pcap{2}{e}{Example 3: A Bicyclist Rounding a Corner}
+Our third example is the case of a bicyclist tilting sideways while rounding
+a corner, as in Fig.\,3.
+We could equally well have used a person rounding a corner while doing any
+of such diverse things as running, riding a moped or a motorcycle, or
+skiing.
+The point is that the person does not want whatever is supporting the body
+to exert a sideways force, one which would tend to throw the person off the
+support sideways.
+Thus in Fig.\,3 we have assumed the person tilts to an angle such that
+the support force on the body has no sideways component.
+We also assume the forward speed is constant so the acceleration is exactly
+toward the center of the circle of motion.
+Then, by \m{\vec{F}_r = m \vec{a}}, the resultant force on the person must also
+be exactly toward the center of the circle of motion (see Fig.\,3).
+
+\CaptionAfterFullFramedFigure{Fig.\,3.  A bicyclist tilts sideways rounding a
+corner.
+The force of the bicycle on the bicyclist is off the vertical by
+the angle \m{\theta}.}{m17gr03}
+
+\enlargethispage{1pc}
+
+\scap{3}{The Proper Highway Banking Angle}
+
+\pcap{3}{a}{A Sideways Force is Undesirable}
+\Index{banking of curves}If the roadway on a highway is properly banked, as in Fig.\,1, the
+{\it roadway} will exert no sideways force on the car as long as the car
+maintains the proper speed.
+This is highly desirable since a sideways force can cause the car to start
+to accelerate (slide) sideways.
+This will happen if the sideways force exceeds the maximum sustainable force
+of non-sliding friction.
+Of course the maximum sustainable non-sliding frictional force depends
+drastically on the condition of the tires and the surface of the road.
+The maximum sustainable frictional force can be close to zero in a snowstorm
+or ice storm, or even in a sudden deluge from a summer rainstorm.
+
+\pcap{3}{b}{Deducing the Angle}
+\Index{banking angle, ideal}Our condition for the proper banking angle of a highway turn is that the
+road should only exert a normal force on the car, as in Fig. 1.
+Our problem is to deduce that proper banking angle, indicated by the symbol
+\m{\theta} in Fig.\,1.
+Data available for the calculation include the radius of the turn and the mass
+and speed of the vehicle.
+
+\noindent Here are the five steps:\vspace*{-8pt}
+\begin{itemize}
+\item [1.] Combine the radius and speed to get the magnitude of the
+car's acceleration.
+The direction of the acceleration is known so now we know \m{\vec{a}}.
+\item [2.] Use \m{\vec{F}_r = m \vec{a}} to get \m{\vec{F}_r}.
+\item [3.] Require that \m{\vec{F}_r} be the result of adding the known
+gravity force to a {\it normal} road force, as shown in the one-body
+diagram in Fig.\,1.
+The magnitude of the road force is made a symbol since, at this point,
+it is unknown.
+\item [4.] Write the force equation in terms of horizontal and vertical
+components.
+This gives two equations in two unknowns (the magnitude of the road
+force and the value of \m{\theta} used to break the road force into
+components).
+\item [5.] Solve for one or both of the unknowns, as desired.
+\end{itemize}
+
+\pcap{3}{c}{The Deduced Angle}
+\Index{ideal banking angle}The result of carrying out the steps outlined above gives for the proper
+banking angle:
+%
+\eqn{1}{\theta = \tan^{-1}\left(\fract{v^2}{r g}\right)\,,}
+%
+where \m{v} is the speed of the vehicle, \m{r} is the radius of the turn, and
+\m{g} is the acceleration of gravity\Index{acceleration| due to gravity} in free fall (9.8\,m/s\m{^2}).
+Incidentally, the normal force \m{N} of the road on the car is:
+%
+\eqn{2}{N = \fract{mg}{\cos\theta} = \fract{\rm weight}{\cos\theta}\,.}
+%
+
+\tryit Carry out the five steps listed above and deduce Eqs.\,(\eqnno{1})
+and (\eqnno{2}).
+\help{8}
+
+\tryit For the example at the end of Sect.\,2c, show that the proper banking
+angle is 23~degrees. \help{12}
+
+\pcap{3}{d}{Analysis of the Results}
+First, note that the ideal banking angle,\Index{ideal banking angle} \m{\theta}, is independent of the
+vehicle's mass!
+Therefore the same banking angle can serve all vehicles provided they move
+with the design speed:
+%
+\eqn{}{v = \sqrt{r g \tan\theta} \hs \help{9}}
+%
+For somewhat larger or smaller speeds, the frictional force between tires
+and road will keep the vehicle on the curve if tire tread and road surface
+permit.
+
+\tryit Suppose the road has become icy during a blinding snowstorm and you
+head into a short-radius curve, steeply banked for 55\,mph, at 25\,mph (as I
+once did).
+What do you think will happen?
+Draw the one-body diagram!
+
+\scap{4}{Other Examples}
+
+\pcap{4}{a}{Whirling Rock on a String}
+For the whirling rock example of Sect.\,2, we follow the procedure used in
+Sec.\,3 and deduce the angle of the string.
+The result is:
+%
+\eqn{3}{\theta = \tan^{-1}\left(\fract{v^2}{r g}\right)\,,}
+%
+where \m{v} is the speed of the rock, \m{r} is the radius of the circle, and
+\m{g} is the acceleration of gravity.\Index{acceleration| due to gravity}
+    
+\tryit Follow the referenced steps and deduce Eq.\,(\eqnno{3}). \help{10}
+
+\pcap{4}{b}{Bicyclist on a Turn}
+To deduce the angle of lean, in the turning bicyclist of Sect.\,2,
+we follow the procedure used above and in Sec.\,3 to find:
+%
+\eqn{4}{\theta = \tan^{-1}\left(\fract{v^2}{r g}\right)\,,}
+%
+where \m{v} is the speed of the bike (and rider), \m{r} is the radius of the
+turn-circle, and \m{g} is as usual.
+
+\tryit Follow the referenced steps and deduce Eq.\,(\eqnno{4}). \help{11}
+
+\pcap{4}{c}{\Quote{Weight} on a Banked Turn}
+When a vehicle travels a banked turn, the driver's weight seems to
+increase.
+That is, the driver has the same feeling that would be experienced if the
+force of gravity were suddenly increased.
+Similarly, the vehicle's tires flatten more against the pavement, as though
+the car was also experiencing increased gravity.\Index{gravitational force, perception of}
+The driver's physical sensations are an increase of the force of the car
+seat on the driver's posterior and similar sensations in the driver's
+internal organs.
+This apparent increase in weight, due to the increased normal force, is
+given by Eq.\,(\eqnno{2}).
+
+\tryit In the example at the end of Sect.\,2c, show that the effect is as
+though the force of gravity had increased by about 9\% while traversing the
+turn.
+
+\pcap{4}{d}{Circular Motion and Weightlessness}
+A pilot in a plane can produce a temporary feeling of \Quote{weightlessness} by
+aiming the plane slightly upward and then making a tight turn downward.
+The plane thus moves in a circular arc in a vertical plane.
+At the peak of the plane's path, where it is instantaneously parallel to the
+earth's surface, the resultant force is in the same direction as the force of
+gravity.
+If, at that point, the speed and radius are such that \m{a = v^2/(r) = g},
+then the resultant force exactly equals the force of gravity.
+Of course the resultant force on the pilot is the sum of the (downward)
+force of gravity and the (upward) force of the plane's seat on the pilot's
+posterior.
+In our present case the resultant force equals the force of gravity alone,
+so the force of the seat on the pilot must be zero and this is what accounts
+for the feeling of \Quote{weightlessness.}
+
+\pcap{4}{e}{Acceleration in \m{g}'s}
+People who routinely engage in tight turns, such as fighter pilots, measure
+the accelerations they experience in \m{g}'s, sometimes spelled \Quote{gees,}
+which simply means they divide the acceleration in ordinary units by the
+quantity \m{g}, expressed in the same units.
+For example, consider the \Quote{weightless} turn described above.
+If the pilot continued in the same circle at the same speed, the point at
+the bottom of the circle would be a \Quote{one gee} turn. \help{13}
+At this instant the pilot's weight would seem to have doubled.
+Similarly, a two gee turn causes an apparent tripling of body weight.
+At four to five gees, insufficient blood reaches the brain and the sitting
+pilot \Quote{blacks out.}
+%
+\Footnote{Pilots can sustain up to 10 gees by staying there no more than
+seconds before returning to 2-3 gees for a short recovery period, and up to
+15 gees in a reclining (rather than sitting) position.}
+
+\scap{5}{Force-Words for Circular Motion}
+
+\pcap{5}{a}{Centripetal Force}
+The radial acceleration acting in uniform circular motion, \m{a = v^2/r}, is
+frequently referred to as the \Quote{centripetal} acceleration.
+The {\it resultant} force that produces this acceleration is called the
+\Quote{centripetal} force,\Index{centripetal force}\Index{force| centripetal} but note that this (resultant) force is almost always
+the sum of forces produced by various agents.\Index{centripetal force, perception of}
+
+\pcap{5}{b}{Centrifugal Force}
+Newton's third law says that for every force there is an \Quote{equal but
+opposite} force, and the force \Quote{equal but opposite} to the centripetal
+force is called the \Quote{centrifugal} force.\Index{centrifugal force}\Index{force| centrifugal}
+In the example of the airplane pilot at the bottom of a vertical circular
+turn, the (upward) centripetal force is the force of the seat on the pilot.
+The centrifugal force is the force of the pilot on the seat.
+Similarly, for a person in a horizontal centrifuge-type ride in an amusement
+park, the centripetal force is the radially inward force of the seat on the
+person, producing the observed acceleration, while the centrifugal force
+is the equal but opposite force of the person on the outside edge of the
+seat (if the seat is not strong enough to withstand the centrifugal force,
+there will be an accident).
+
+In the case of a bicyclist making a sharp turn, the resultant force is
+exerted on the bicycle and rider by the road surface as a force of
+non-sliding friction.
+The centrifugal force is exerted by the bicycle on the ground surface.
+If the bicycle hits a loose pebble or a slippery spot, the coefficient of
+friction may suddenly drop to zero with disastrous results.
+
+In a common classroom demonstration a student sits on a rotating lab
+stool, holding a weight in an outstretched arm.
+The student's hand exerts the centripetal force on the weight, producing
+its acceleration.
+The weight exerts the reactive centrifugal force on the student's hand,
+and of course this is what the student feels.
+
+\pcap{5}{c}{The Rotating Space Station}
+Gravity can be simulated in a space station by causing it to rotate at the
+right speed.
+Consider the rotating space station shown in Fig.\,4.
+The two persons shown in the sketch are upside-down with respect
+to each other, yet each exerts a centrifugal force on the floor underfoot.
+If the speed of rotation \m{v} is related to \m{g} and the radius \m{r} by
+\m{a = v^2 /r = g}, and if each person stands on a scale, the centrifugal
+force each exerts on the local scale will be exactly equal to the person's
+own weight.
+%
+\CaptionAfterFullFramedFigure{Fig.\,4. Cross-sectional sketch of a possible space
+station.
+Rotation causes simulation of gravity for each person along the outer rim.}{m17gr04}
+
+\pcap{5}{d}{Coriolis Force}
+\Index{Coriolis force}\Index{force| Coriolis}Curving motion produces yet another force that can sometimes be important.
+Called the \Quote{Coriolis} force, it arises when one observes trajectories
+from a rotating frame of reference (usually the surface of the earth).
+%
+\Footnote{See \Quote{Classical Mechanics in Rotating Frames of Reference: Effects
+on the Surface of the Earth} (MISN-0-18).}
+%
+This is the force that causes the plane of the Foucault pendulum\Index{Foucault pendulum}\Index{pendulum, Foucault}
+%
+\Footnote{This is the pendulum commonly seen in science museums, usually
+several stories tall, consisting of a long wire and a steel ball.}
+%
+to appear to rotate, both demonstrating the rotation of the earth and
+indicating the latitude of the pendulum.
+The Coriolis force also causes the regularity in the direction of rotation
+of the common extratropical cyclones seen on weather satellite photographs,
+and it is involved in the prevailing directions of the major winds and ocean
+currents.
+It can be demonstrated on a rotating lab stool.
+
+\Acknowledgments\NsfAcknowledgment
+
+\begin{GlossaryList}
+\GlossaryItem{banking angle} the angle at which the roadbed of a highway
+curve is tipped from the horizontal.\Index{banking angle}
+
+\GlossaryItem{centrifugal force} the reactive force to the centripetal force, to which it is
+equal but opposite.\Index{centrifugal force}
+
+\GlossaryItem{centripetal acceleration} the radially-inwardly component
+of acceleration for an object in circular motion.\Index{acceleration| centripetal}
+
+\GlossaryItem{centripetal force} the radially-inward component of the
+resultant force on an object in circular motion.\Index{centripetal force}
+
+\GlossaryItem{ideal banking angle} the banking angle such that, for an
+object at a particular speed undergoing circular motion, there is no
+\Quote{sideways} force on the object.\Index{ideal banking angle}
+For a highway turn, this means that the road surface exerts only a normal
+(perpendicular) force on vehicles traveling at the design speed.
+The resultant of the (normal) road force and the force of gravity is the
+centripetal force that causes the vehicle's velocity vector to constantly
+change direction as the vehicle travels through the turn.
+\end{GlossaryList}
+
+\TxEnd

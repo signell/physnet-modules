@@ -1,0 +1,478 @@
+\revhist{9/7/89, pss; 12/8/89, pss; 8/1/91, pss; 4/24/92, pss; 5/9/94, pss; 10/21/94, pss; 9/11/95, pss; 11/7/97, lae; 5/6/98, pss; 9/23/98, pss; 11/23/98, pss; 12/3/98, pss; 6/21/99, pss; 7/15/99, abs; 12/11/00, pss; 3/29/01, kag}
+\TxStart
+
+\mTitle[\Index{One-body diagrams}]{ONE-BODY DIAGRAMS\\AND CONTACT FORCES}
+
+\mAuthor{Harry Dulaney and Peter Signell}
+
+\scap{1}{Introduction}
+
+\pcap{1}{a}{Overview}
+In this module we help you develop understandings and techniques that
+are useful in almost any problem in science and engineering where
+forces are involved, as well as being useful for understanding every-day
+phenomena.
+To keep the new understandings and techniques in focus, we will illustrate
+them with a single type of problem:
+%
+\begin{itemize}
+\item Given the mass and acceleration of an object, and all but one
+of the forces acting on it, determine that unknown force.
+\end{itemize}
+For this purpose, one must use Newton's second law.%
+%
+\Footnote{See \Quote{Particle Dynamics; The Laws of Motion} (MISN-0-14).}
+%
+
+\pcap{1}{b}{Mass, Acceleration, Resultant Force}
+Given an object's mass \m{m} and acceleration \m{\vec{a}}, Newton's second law gives
+the \textit{resultant force} on the object:
+%
+\eqn{}{m \; \vec{a} = \vec{F}_R\,,}
+%
+where the resultant force on an object, \m{\vec{F}_R}, is defined as the sum
+of all forces \Index{force| resultant}which are acting on that object.
+Mathematically,
+%
+\eqn{}{\vec{F}_R = \sum \vec{F}_i\,,}
+%
+where the sum is over all of the forces \m{\vec{F}_i}, \m{i = 1, 2, 3, ...} acting on the object.
+
+\pcap{1}{c}{Solving Unknown Force Problems}
+To solve the problem of determining an unknown force that is acting on an
+object we concentrate our attention on that object, call it \Quote{object \m{A}.}
+Our first task is to determine all of the other objects that are
+exerting forces on object \m{A} and record the characteristics of each of
+those forces.
+We do this by making a stylized sketch of object \m{A} and adding a labeled
+vector to the sketch for each force, as we identify it, showing its
+approximate direction and magnitude.
+In this manner we draw the vectors for all of the forces acting on object
+\m{A} except for the vector representing the unknown force.
+Then we merely see what force vector we need to draw so that all of the
+forces acting on \m{A}, including the unknown one, add to the right
+resultant.
+The resultant is the force required by Newton's second law (remember
+that the object's mass and acceleration are \textit{given} in the type of
+problem we are considering).
+We then add the necessary force vector to the diagram and it is the
+approximate answer.
+To find the precise direction and magnitude of the unknown force,
+we use the sketch as a guide and solve the component versions of Newton's
+second law.
+Finally, we check the precise answer against the approximate answer that we
+drew on the diagram.
+
+\pcap{1}{d}{Straight-line Trajectories, No Explicit Friction}
+In this module we restrict ourselves to treating objects that are
+following straight-line trajectories and that are not rotating.
+In addition, we do not consider frictional forces explicitly but simply
+consider them as hidden parts of the forces exerted on the objects
+through surfaces with which the objects are in contact.
+Frictional forces are separated out from surface forces elsewhere.
+%
+\Footnote{See \Quote{Friction in Applications of Newton's Second Law} (MISN-0-16).}
+%
+Despite the restrictions imposed in this module, the understandings and
+techniques we develop here have much wider applicability.
+
+\scap{2}{Identifying, Representing Forces}
+
+\pcap{2}{a}{Identifying Forces}
+The forces acting on an object (which we will call object \m{A}) should be
+systematically determined by separately identifying two kinds of forces
+that act on the object: (1) \Index{force| non-contact}non-contact (\Quote{action at a distance}) forces;
+and (2) \Index{force| contact}contact forces.
+
+The only non-contact force \Index{non-contact force}that we deal with in this module is
+the gravitational force of the earth on our object.
+The strength of this force is what is commonly called the \Quote{weight} of
+the object and is commonly denoted by the symbol \m{W}.
+This force on the object is always directed \Quote{downward,} toward the
+center of the earth.
+%
+\Footnote{Electric and magnetic forces are examples of other non-contact
+forces but these are dealt with elsewhere.  See \Quote{Introduction to
+Electricity and Magnetism,} MISN-0-121.}
+%
+
+Anything that touches the object, such as ropes, surfaces, and springs,
+can exert a \Quote{contact force} \Index{contact force}on the object.
+To find these contact forces you must determine which external objects
+\Index{external force}touch the object.
+
+\pcap{2}{b}{Avoid Common Errors} Here are some rules.\newline
+\icap{Rule 1}: While identifying the forces acting on a object, include
+only forces for which you can identify the other objects that exert those
+forces\Index{external force}.
+For each force that you include, you must be able to answer the question,
+\Quote{What other object exerts that force on the object we are examining?}
+
+%
+\ThreeFullFigures{Fig.\,1.}{m10gr01}{Fig.\,2.}{m10gr02}{Fig.\,3.}{m10gr03}
+%
+\ecap{Example}:
+A satellite moves in a circular orbit about the earth (Fig.\,1).
+How many forces act on the satellite (assuming the atmosphere is so
+thin at this altitude that it can be neglected)?
+There is certainly one non-contact \Quote{action at a distance} force: the
+gravitational force of the earth on the satellite.
+Since nothing is in contact with the satellite, there are no contact forces.
+The final answer: only one force acting on the satellite; the non-contact
+gravitational force.
+
+\ecap{Example}:
+A skier skis down a steep incline (Fig.\,2).
+How many forces act on the skier, neglecting air resistance?
+First, there is the non-contact gravitational force of the earth on the
+skier (the skier's \Quote{weight}) and the contact force of the incline on the
+skier.
+The incline is the only thing touching the skier so it exerts the only
+contact force present.
+The final answer: two forces, the incline contact force and the
+gravitational non-contact force.
+
+\icap{Rule 2}: Include only external forces \Index{force| external}acting on the object.
+Omit internal forces\Index{force| internal}, those that are acting only between different parts of
+the object itself.
+
+\ecap{Example}:
+An automobile accelerates along a level road (Fig.\,3).
+Neglecting air resistance, how many forces act on the entire auto?
+Two: the non-contact gravitational force of the earth on the car (its
+\Quote{weight}) and the contact force of the road on the car (this force is
+divided among the four wheels).
+Do not include the force of the engine on the rest of the car.
+This is an internal force so it is not to be included in Newton's second law
+for the car.
+Only external forces exerted on the car by other objects in its environment
+can be included when solving for the motion of the entire car (how the
+engine's force results in acceleration of cars will be apparent only
+after introducing road friction into the problem).
+
+\icap{Rule 3}: Include only forces exerted on the object.
+Omit forces exerted by it on other objects.
+
+\ThreeFullFigures{Fig.\,4.}{m10gr04}{Fig.\,5.}{m10gr05}{Fig.\,6.}{m10gr06}
+
+\ecap{Example}:
+A block is suspended by a rope from the ceiling of an elevator that
+is accelerating vertically upward (Fig.\,4).
+How many forces act on the block?
+Two: the non-contact gravitational force of the earth on the block and the
+contact force of the rope on the block.
+Do not include the force of the block on the rope or the force of the
+elevator on the rope.
+These forces do not act directly on the block.
+In order to apply Newton's second law to a object, you must mentally isolate
+the object and consider only those forces acting directly on the object.
+
+\icap{Rule 4}: Use common sense in reaching conclusions about the nature of
+particular forces.
+For instance, your knowledge of a rope tells you that the force exerted on
+an object by a rope will always act along the direction of the rope and be
+directed away from the point of contact with the object.
+
+\icap{Rule 5}: Be wary of fixing the magnitude or direction of unknown
+forces according to intuition.
+
+\ecap{Example}:
+A person stands on a large box which is on the floor
+of an elevator that is accelerating vertically downward (Fig.\,5).
+Three forces act on the box: the non-contact gravitational force of the
+earth on the box, the contact force of the elevator floor on the box, and
+the contact force of the person on the box.
+
+Intuition might tell you that the force of the person on the box has a
+magnitude just equal to the weight of the person.
+If so, your intuition has led you astray.
+If that were true, then from Newton's third law the force of the box on the
+person would also be just equal to the weight of the person.
+Hence, the person would have zero resultant force on her or him and zero
+acceleration.
+This cannot be true, since the person has the same downward acceleration as
+the elevator.
+In this problem the one-body technique should be applied to each object
+separately, with unknowns simply left as symbols.
+
+Avoid the temptation to use intuition to guess answers.
+Instead, work through the entire problem systematically, letting numerical
+values for unknowns come from the simultaneous solution of sets of equations.
+Then seek intuitive support for the answer.
+
+\pcap{2}{c}{Example: A Pulled Sled}
+A sled is pulled at constant speed along a horizontal surface by means of
+a rope, as shown in Fig.\,6.
+Determine the forces that act on the sled and draw a one-body diagram
+showing those forces.
+
+As usual, the \textit{non-contact} gravitational force of the earth acts
+on the sled and is directed downward (toward the center of the earth).
+In addition, two objects (the rope and the snow surface) touch the sled
+and hence exert \textit{contact} forces on the sled.
+Thus there are three forces on the sled; one non-contact force and two
+contact forces.
+Our knowledge of ropes tells us that the force of the rope on the sled is
+along the direction of the rope.
+The acceleration of the sled is zero (\Quote{constant speed}) so the resultant
+force is zero.
+Then the force of the snow surface on the sled must be such that all
+three forces add to zero.
+
+\scap{3}{Drawing a One-Body Force Diagram}
+
+\pcap{3}{a}{Overview}
+When we start working on a problem involving forces acting on an
+object, we almost always draw a \Quote{one-body force diagram,}
+%
+\Footnote{In current physics this is universally called a \Quote{free-body
+force diagram\Index{free body diagram}.}
+We do not use that term because in current physics the term \Quote{free
+body} universally means a body on which no forces are acting.}
+%
+so called because the diagram shows all of the forces acting on one body.
+If more than one object is involved, we draw a separate force diagram
+for each object.
+The diagrams we draw are somewhat stylized, in that we almost always
+draw the object as a rectangle.
+In addition, we draw the forces as though they were all exerted at
+the same point on the object, usually taken as the \Quote{center of mass}
+of the object
+%
+\Footnote{For a rigorous discussion of the \Quote{center of mass} concept,
+see \Quote{Tools for Static Equilibrium}, MISN-0-5.}
+%
+(see Fig.\,7, a stylized representation of the sled in Fig.\,6 and of
+the forces acting on the sled).
+
+\pcap{3}{b}{The Component Diagram}
+Once the one-body force diagram has been drawn, the forces on it must be
+broken down into component forces.
+This is because Newton's second law is a vector equation, so it can be
+expressed as a separate equation for each of the components.  That is
+generally the form one needs for solution of the problem.
+The orientation of the coordinate axes, usually called the \m{x}- and
+\m{y}-axes, is free to be chosen by the problem solver and it is usually
+chosen on the basis of what would make solution easier.
+We urge you to draw the force components on a second one-body force
+diagram as in Fig.\,8.
+
+\pcap{3}{c}{Orienting the Coordinate System}
+You should orient your coordinate system so as to simplify the component
+form of Newton's second law.
+In many problems, due to the constraints present, such as ropes or
+surfaces, it is known that the acceleration component in a particular
+direction is zero.
+In this case, coordinates parallel and perpendicular to this direction
+should be chosen.
+For example, the skier in Fig.\,2 is known to have zero component of
+acceleration perpendicular to the surface of the snow because that
+component of the skier's \textit{velocity} is constant (it has the
+constant value \Quote{zero}).
+To make the problem easier to solve, choose one axis of the coordinate
+system in the direction of zero acceleration.
+That puts other axes in the plane of the snowy surface.
+
+\pcap{3}{d}{The Diagram Action Point}
+On a one-body force diagram we draw the forces as all acting at the \Quote{center
+of mass} of the object, even though this may be far from where the forces
+actually act.
+This shifting of the forces' points of action is immaterial as long
+as the object does not start to rotate and as
+long as we are not interested in how close the object is to rotational
+instability.
+%
+\TwoFullFigures{Fig.\,7. Forces acting in Fig.\,6.}{m10gr07}%
+{Fig.\,8. Components of the forces in Fig.\,7.}{m10gr08}
+
+\scap{4}{Complete Example Solutions}
+
+\pcap{4}{a}{A Pulled Sled}
+Suppose the sled described in Sect.\,2c weighs 16\,lb
+and has a 5.0\,lb force exerted on it by the attached rope which is
+at an angle of \m{37\degrees} to the horizontal (see Fig.\,6).
+Given this data, determine the force of the snow surface \Index{force| normal}on the sled.
+
+First, we sketch the one-body force diagram, putting in the forces we
+identified in Sect.\,2c.
+We draw the gravity and rope forces roughly to scale and draw the
+surface force such that the sum of all three forces roughly equals
+\m{m\,\vec{a}} (zero in this case).
+
+Next, we orient the coordinate system so as to make solution as easy
+as possible.  In this case the force of gravity is a vertical force
+so we pick \Quote{up} as the positive \m{y}-direction, partly because of
+tradition and partly so the gravitational force will have only
+one component that is non-zero.
+We pick the \m{x}-direction as being \Quote{to the right,} parallel to the
+snow surface, out of tradition.
+
+Next, we resolve the known forces acting on the sled into components
+along the coordinate axes we have just picked.
+We use \m{\vec{F}_{rope}}, \m{\vec{F}_{surface}}, and \m{\vec{F}_{gravity}} to
+indicate the three forces and symbols without the vector signs to
+indicate the magnitudes of the forces (except for the magnitude of the
+gravitational force which is traditionally indicated by the symbol
+\m{W} for \Quote{Weight.}).
+We use \m{\theta} and \m{\phi} to indicate the angles that the surface force
+and the rope force make, respectively, with the positive \m{x}-axis:
+\help{1}
+%
+\begin{eqnarray*}
+%
+F_{rope,x} & = & F_{rope} \cos{\theta} = 5.0\unit{lb} \cos{37\degrees} = 4.0\unit{lb}\,,\\
+%
+F_{rope,y} & = & F_{rope} \sin{\theta} = 5.0\unit{lb} \sin{37\degrees} = 3.0\unit{lb}\,,\\
+%
+F_{gravity,x} & = & 0 \,,\\
+%
+F_{gravity,y} & = & -W = -16\unit{lb}\,.
+%
+\end{eqnarray*}
+%
+By Newton's second law\Index{Newton's second law, application of} both the \m{x}- and \m{y}-components of the
+resultant force must be zero (for this zero-acceleration case) so we
+add in the right amount of surface force \Index{normal force}to make those resultant components
+zero:
+%
+\begin{eqnarray*}
+%
+F_{surface,x} & = & -4.0\unit{lb}\,,\\
+%
+F_{surface,y} & = & 13\unit{lb}\,.
+%
+\end{eqnarray*}
+%
+The angle and magnitude of the surface force can now be found from
+these two components.
+First, the ratio \m{F_y/F_x} gives the tangent of the angle, \m{\tan{\phi}},
+so:
+%
+\newsavebox{\hlp}
+\sbox{\hlp}{\,\help{10}}
+\eqn{}{\phi =
+  \tan^{-1}\left(\fract{13\unit{lb}}{-4.0\unit{lb}}\right) = 107\degrees\,\usebox{\hlp}.}
+%
+Next, the magnitude of the surface force is given by the square root
+of the sum of the squares of its components:
+%
+\eqn{}{F_{surface} = \sqrt{(-4.0\unit{lb})^2 + (13\unit{lb})^2} =
+                               13.6\unit{lb} \approx 14\unit{lb}\,.}
+%
+This angle and magnitude checks against the approximate value drawn
+earlier in the one-body force diagram (Fig.\,7).
+%A formal solution is given in the Appendix.
+%
+\TwoFullFigures{Fig.\,9. As in Fig.\,7, but with acceleration.}{m10gr09}
+{Fig.\,10. Force components for Fig.\,9.}{m10gr10}
+
+\pcap{4}{b}{The Sled with Acceleration}
+Suppose we are asked to solve the sled problem of Sect.\,4a when the
+sled is accelerating at, say, \m{a = 8.0\unit{ft/s}^2\,\uvex{x}} where
+the coordinate axes are as in Fig.\,8.
+The mass of the sled is: \m{m = W/g = 16\unit{lb}/(32\unit{ft/s}^2) =
+0.50\unit{lb}\unit{s}^2/\unit{ft}}.  Then the resultant force must be:
+\m{\vec{F_R} = m \vec{a} = 4.0\unit{lb}\,\uvex{x}}.
+Looking at Fig.\,7 where the resultant force was zero, we must add
+the new \m{\vec{F_R}} to the surface force \Index{normal force}so that the result of adding
+all the forces, the new resultant, will be the new non-zero \m{\vec{F_R}}.
+The result is shown in Fig.\,9 where one can easily see that the sum
+of the forces points approximately in the \m{\uvex{x}} direction.
+Breaking the forces into components gives Fig.\,10: the surface
+force is now at an angle of \m{90\degrees} with a magnitude of
+\m{13\unit{lb}}.
+Mentally add the components and prove to yourself that the resultant is
+indeed equal to \m{m \vec{a}}.
+
+\pcap{4}{c}{Block on Incline}
+A block weighing \m{98\unit{N}} is at rest on a \m{37\degrees} incline.
+Our job is to determine the surface force on the block.
+
+The forces acting on the block are two: the non-contact force of gravity
+and the contact force exerted on the block by the surface of the incline.
+The gravity force is \m{F_{gravity} = - 98\unit{N}\,\uvex{y}} and the
+resultant is zero (the block is \Quote{at rest}) so the force exerted on the
+block by the incline surface must be \m{F_{surface} = + 98\unit{N}\,\uvex{y}}.
+This is shown in Fig.\,11.
+%
+\TwoFullFigures{Fig.\,11. A block on an inclined plane.}{m10gr11}
+{Fig.\,12. Two blocks connected by a string over a pulley.}{m10gr16}
+%
+
+\scap{5}{Connected Bodies}
+
+\pcap{5}{a}{Introduction}
+A type of problem frequently encountered which deserves special
+consideration involves two or more bodies that are coupled together by
+contact or by a rope or by a pole\Index{connected bodies}.
+Such bodies are constrained to move together and will have equal magnitudes
+of acceleration.
+If the connection is a rope, we can often neglect the weight of the
+rope since that force is small compared to the forces exerted at the ends
+of the rope.
+Now the the forces acting on the ends of the rope are in opposite
+directions so their (vector) sum is just the difference of their
+magnitudes.
+By Newton's second law \Index{Newton's second law, application of}that difference is just the rope's mass times
+its acceleration.
+If we consider the rope's mass to be too small to be important, then
+the rope will always have equal magnitudes of force on its two ends.
+That is what we almost always assume in determining approximate solutions.
+
+\pcap{5}{b}{Connected Blocks; One on Incline, One Hanging}
+Consider the system shown in Fig.\,12.
+A block weighing 16\,lb is on a 37\m{\degrees} incline and is attached to an
+inextensible massless rope which passes over a frictionless pulley to a
+second block that weighs 20\,lb.
+The hanging block is accelerating downward at \m{8\unit{ft/s}^2}.
+Our problem is to determine the surface force acting on the block that
+is on the incline.
+
+Since the rope is massless, it will have equal forces on its two ends
+\help{2}.
+This means we can solve for the rope force on the hanging block and that
+will be the rope force on the incline block.
+We draw one-body force diagrams for each block separately and these are
+shown in Fig.\,13, where the force exerted by each end of the rope is
+labeled \Quote{\texttt{rope}}.
+%
+\CaptionAfterFullFramedFigure{Fig.\,13. The forces for Fig.\,12:
+(a) Block 1; (b) Block 2.}{m10gr17}
+%
+\CaptionAfterFullFramedFigure{Fig.\,14. The force components for Fig.\,13.}
+{m10gr18}
+%
+From the one-body force diagram for the hanging block we get that the
+resultant force (\m{\vec{F}_R = m\vec{a}}) is 5\,lb downward and the
+gravity force is 20\,lb (given) downward.
+Then the rope force must 15\,lb upward.
+Check that the sum of the two quoted forces on the block is indeed equal
+to the required resultant force on the block.
+
+Since the incline block is accelerating up the incline, we take our
+coordinate axes along the incline, as shown in Fig.\,14.
+We break the gravity force up into components along the axes shown
+and we get for the forces on the incline block:
+%
+\begin{eqnarray*}
+F_{gravity,x} & = & W \sin{37\degrees} = -9.6\unit{lb}\\
+F_{gravity,y} & = & W \cos{37\degrees} = -12.8\unit{lb}\\
+F_{rope,x} & = & 15\unit{lb} \\
+F_{rope,y} & = & 0 \\
+F_{R,x} & = & m a_x = 4.0\unit{lb}\\
+F_{R,y} & = & m a_y = 0
+\end{eqnarray*}
+%
+Now gravity plus rope plus surface must equal resultant so:
+%
+\begin{eqnarray*}
+F_{surface,x} & = & -1.4\unit{lb}\\
+F_{surface,y} & = & 12.8\unit{lb}
+\end{eqnarray*}
+
+Then the surface force on the incline block is 13\,lb at an angle of
+\m{96\degrees} from the positive \m{x}-axis. \help{3}
+
+\Acknowledgments\NsfAcknowledgment
+
+\TxEnd

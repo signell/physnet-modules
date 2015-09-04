@@ -1,0 +1,137 @@
+% 7/2/85 mpm; 12/20/88 ejdk; 8/30/91, pss; 4/20/94, pss
+\PsStart
+
+\noindent All four problems also occur in this module's {\it Model Exam}.
+
+\begin{one-digit-list}
+\item [1.] Consider the potential energy function $E_p(x) = 7 x^2 - x^3$.
+Assume the particle interacting with this potential has mass $M = 60$.
+For this problem let us neglect units.
+Draw a rough sketch of $E_p(x)$. [R]
+At a certain instant, the particle is at $x = +1$ with total energy $E = 36$
+and is moving to the right.
+\begin{one-digit-list}
+\item [a.] What is the kinetic energy of the particle at this point? [K]
+\item [b.] What is its velocity? [N]
+\item [c.] What is the instantaneous force this particle feels at this point?
+[E]
+\item [d.] What is the acceleration (magnitude, direction) this particle
+undergoes? [I]
+\item [e.] Therefore, is this particle's speed increasing or decreasing at this
+point? [P]
+Explain. [S]
+\item [f.] With this particle moving to the right, and from the shape of the
+$E_p$ curve in the vicinity of this point ($x = 1$) determine whether the
+kinetic energy of the particle will increase or decrease. [C]
+Is this consistent with your answer of (e)? [L]
+\item [g.] For what value of $x$ will the speed of this particle (moving to the
+right) be zero?
+(You may not actually be able to find the numerical value of $x$ for which this
+occurs; however, if you do it right you'll have the equation satisfied by $x$
+at this point on the graph you've drawn.) [A]
+\item [h.] At this point where $v = 0$ what is the direction of the
+acceleration of this particle?
+(Get this from determining the sign of the force on the particle as
+determined from the slope of the curve.) [J]
+With this direction for the acceleration what is the direction of $v$ an
+instant after the instant when $v = 0$, hence what is the direction of the
+subsequent motion of the particle? [O]
+\item [i.] On your $E_p(x)$ plot, show the region of those values of $x$
+forbidden to the particle when it has total energy $E = 36$. [G]
+\item [j.] What are the turning points of the motion of the particle when its
+total energy is 36? [Y]
+\end{one-digit-list}
+
+\item [2.] Consider the same situation as in Problem 1 except that at point
+$x = - 3.0$ the particle of mass $M = 60$ starts out with speed $v = 0$.
+\begin{one-digit-list}
+\item [a.] What is its kinetic energy? [D]
+\item [b.] What is its potential energy? [T]
+\item [c.] What is its total energy? [X]
+\item [d.] What is the force (magnitude and direction) on the particle? [M]
+\item [e.] What is the magnitude of its acceleration? [V]
+\item [f.] What is the direction of its acceleration? [B]
+\item [g.] When it gets to $x = 0$, what is its speed? [H]
+\item [h.] When it gets to $x = 14/3$, what is its speed? [U]
+\item [i.] What is its acceleration (magnitude and direction) at $x = 14/3$? [Q]
+\item [j.] How far will it go before it turns around? [W]
+\item [k.] Explain your answer to (j). [F]
+\end{one-digit-list}
+
+\item [3.] A potential energy function is given by $E_p(r) = - 1/2\,k r^2$
+where $r$ is the distance from the origin of the coordinate system to a point
+in space ($k$ is a constant).
+\begin{one-digit-list}
+\item [a.] Find the magnitude of the force on a particle placed at a point
+which is at a distance $r$ from the origin.
+\item [b.] Find the direction of this force.
+\end{one-digit-list}
+
+\item [4.] \NullItem
+\begin{one-digit-list}
+\item [a.] If the potential energy of a particle is $E_p = k/r$, $k$ being
+a constant equal to 10\,N\,m$^2$, find the force on the particle when it is
+at the point $x = 0$\,m, $y = 1$\,m, $z = 2$\,m.
+\item [b.] What is the direction of the force?
+\end{one-digit-list}
+\end{one-digit-list}
+
+\newpage
+
+\BriefAns
+
+\begin{one-digit-list}
+\item [A.] One of the solutions of $x^3 - 7 x^2 + 36 = 0$.
+There are 3 solutions, call them $x_1$, $x_2$, $x_3$ with
+$x_1 < x_2 < x_3$ (refer to graph, notice $x_1$ is negative).
+$x_2$ is the answer to this question.
+The actual values are $x_1 = -2$, $x_2 = 3$, $x_3 = 6$.
+\item [B.] To right.
+\item [C.] Decreases.
+\item [D.] Zero.
+\item [E.] $F_x = -11$ (to left).
+\item [F.] After point $x = 14/3$, the potential energy continues to decrease
+to infinity, total energy remains constant, kinetic energy increases, never
+ goes to zero, so $v$ never changes direction.
+\item [G.] Forbidden regions: $x < x_1$, $x_2 < x < x_3$.
+All other regions are allowed.
+The quoted regions are forbidden because the particle would have a negative
+kinetic energy, hence an imaginary speed in these regions.
+Verify this from the energy diagram you've sketched.
+\item [H.] $\sqrt{3}$.
+\item [I.] $a_x = - 11/60$ (to left).
+\item [J.] To left.
+\item [K.] $E_k = 30$.
+\item [L.] Yes, kinetic energy and speed both are decreasing.
+\item [M.] 69 to right.
+\item [N.] $v_x = +1$.
+\item [O.] Because $a_x$ is to left, an instant after $v_x = 0$, $v_x$ is to
+left.
+\item [P.] Decreasing.
+\item [Q.] Zero.
+\item [R.] A rough sketch of $E_p(x)$ can be drawn by considering the
+following.
+For very large positive or negative values of $x$ the $x^2$ term may be
+neglected compared to the $x^3$ term.
+Hence, for very large negative values the graph tends to plus infinity while
+for very large positive values the graph goes to negative infinity.
+The graph crosses the $x$-axis whenever $E_p(x)$ is zero.
+There are three roots to a cubic equation.
+In this case the roots are $x = 0$ (twice) and $x = 7$.
+You can also determine that the graph has a minimum at $x = 0$ and a maximum at
+$x = 14/3$.
+With this information a rough graph can be sketched.
+\item [S.] $v_x$ is positive and $a_x$ is negative so $v_x$ decreases.
+\item [T.] 90.
+\item [U.] $1.14 = (529/405)^{1/2}$.
+\item [V.] 1.15.
+\item [W.] To infinity.
+\item [X.] 90.
+\item [Y.] $x_1$ and $x_2$: using results of Answer A the particle moves
+between points $x = -2$ and $x = +3$.
+\item [3.] (a) $+ k r$; (b) Outward radially.
+\item [4.] (a) 2 newtons; (b) Outward, along the radial line going through
+(0,1,2).
+\end{one-digit-list}
+
+\PsEnd

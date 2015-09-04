@@ -1,0 +1,18 @@
+% 4/27/94, pss
+\input newmods.sty
+
+%\includeonly{m16-id}
+
+\begin{document}
+
+\input newmods2.sty
+
+\mNumber{16}
+
+%\include{m16-ct}
+%\include{m16-id}
+%\include{m16-tx}
+\include{m16-ps}
+%\include{m16-me}
+
+\end{document}

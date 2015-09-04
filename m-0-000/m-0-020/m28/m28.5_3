@@ -1,0 +1,21 @@
+% 10/11/94, pss; 8/30/95, pss
+\input nphmods.sty
+
+%\includeonly{m28-ps}
+
+%\psdraft  %(activate only for hp mode; percent-out for ps mode)
+
+\begin{document}
+
+\mNumber{28}
+
+\ChapterStart
+\include{m28-ct}
+\include{m28-id}
+\include{m28-tx}
+\include{m28-ps}
+\include{m28-as}
+\include{m28-me}
+\ChapterEnd
+
+\end{document}

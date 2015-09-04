@@ -1,0 +1,131 @@
+\revhist{9/13/89, pss; 7/30/92, pss; 3/23/94, pss; 10/14/94, pss; 9/6/96, pss; 9/27/02, pss}
+
+\Sect{}{}{\SectType{SpecialAssistance}}{
+
+\AsItem{1}{TX-3d}
+{Find the locations of the maximum and minima of the function:
+ %
+ \Eqn{}{y(x) = 5 x^3 - 2 x^2 - 3 x + 2.}
+ %
+ First, find \m{dy/dx} and set it equal to zero:
+ %
+ \Eqn{}{\dfrac{dy}{dx}=15x^2-4x-3=0}
+ %
+ or
+ %
+ \Eqn{}{(5x - 3)(3x + 1) = 0.}
+ %
+ Solving for the zeros, maxima or minima of the original function occur at:
+ \m{x = 3/5; x = -1/3}.
+ The corresponding values of \m{y} are found by inserting those \m{x} values into
+ the original equation, e.g. at \m{x = 3/5}:
+ %
+ \Eqn{}{y=5\left(\dfrac{3}{5}\right)^3 - 2\left(\dfrac{3}{5}\right)^2 -
+ 3\left(\dfrac{3}{5}\right) + 2 = \dfrac{14}{25},}
+ %
+ while at \m{x = -1/3, y = 70/27}.
+ To find whether these points are maxima or minima, calculate the second
+ derivative:
+ %
+ \Eqn{}{\dfrac{d^2y}{dx^2}=30x-4,}
+ %
+ so at \m{x = 3/5},
+ %
+ \Eqn{}{30\left(\dfrac{3}{5}\right)-4=14>0.}
+ %
+ Thus a minimum occurs at \m{(3/5,14/25)}.
+ At \m{x = -1/3}:
+ %
+ \Eqn{}{30\left(-\dfrac{1}{3}\right)-4=-14<0}
+ %
+ so a maximum occurs at \m{(-1/3,70/27)}.
+}
+
+\AsItem{2}{TX-2b}
+{The binomial theorem states that
+ %
+ \Eqn{}{(c+d)^p=c^p+pc^{p-1}d+\dfrac{p(p-1)}{(1)(2)}c^{p-2}d^2
+                +\dfrac{p(p-1)(p-2)}{(1)(2)(3)} c^{p-3}d^3+\ldots}
+ %
+ so the expression \m{a(x + \Delta x)^p} becomes
+ \m{ax^p+apx^{p-1}\Delta x\,+  \ldots +a\Delta x^p}.
+ After subtracting \m{ax^p} and dividing by \m{\Delta x}, the only term that
+ doesn't contain a factor of \m{\Delta x} is \m{apx^{p-1}}, so when the limit as
+ \m{\Delta x\rightarrow 0} is taken, this is the  only non-zero term.
+}
+
+\AsItem{3}{TX-2f}
+{Applying the trigonometric identity for \m{\sin A - \sin B}, where
+ \m{A = kx + k \Delta x + \delta} and \m{B = kx + \delta}, we obtain:
+ %
+ \Eqn{}{\sin(kx+k\Delta x + \delta) - \sin(kx+\delta)=
+             2\sin\left(\dfrac{k\Delta x}{2}\right)
+             \cos\left(kx+\delta + \dfrac{k\Delta x}{2}\right).}
+ %
+ After dividing this express by \m{\Delta x} and taking the limit as
+ \m{\Delta x \rightarrow 0}, we get:
+ %
+ \Eqn{}{\dfrac{dy(x)}{dx}=\lim_{\Delta x \rightarrow 0}
+        k\left(\dfrac{\sin\left(\dfrac{k\Delta x}{2}\right)}
+       {k\dfrac{\Delta x}{2}}\right)\cos(kx+\delta+\dfrac{k\Delta x}{2}).}
+ %
+}
+
+\AsItem{4}{TX-2e}
+{The symbols used to express the chain rule in Sect.\,2e are already used in other ways in this problem,
+ so we make the substitutions \m{f \rightarrow F}, \m{x \rightarrow g}, and then \m{t \rightarrow x}
+ to get an equivalent chain rule:
+ %
+ \Eqn{}{\dfrac{dF(g(x))}{dx}= \left(\dfrac{dF}{dg}\right)\left(\dfrac{dg}{dx}\right)\,.}
+ %
+ Comparing the left side to the desired derivative, we make the correspondence:
+ %
+ \Eqn{}{g(x) = ax^2 + bx + c, \quad \text{so: } F(g) = g^{1/2}\,.}
+ %
+ Then the chain rule gives:
+ %
+ \Eqn{}{\dfrac{dF}{dx} = \left(\dfrac{1}{2}g^{-1/2}\right) (2ax +b) = \dfrac{2ax+b}{2(ax^2 +bx+c)^{1/2}}\,.}
+ %
+ }
+
+\AsItem{5}{PS-19c}
+{The slope of the function has a zero at \m{x = 0} and another at \m{x = -(2B)/(3A)}.
+ The signs of the second derivatives show the first to be a maximum and the second a minimum.
+ So just set \m{(1/3) = -(2B)/(3A)}.
+}
+
+\AsItem{6}{TX-1b}
+{The slope of the function has a zero at \m{x = 0} and another at \m{x = -(2B)/(3A)}.
+ The signs of the second derivatives show the first to be a maximum and the second a minimum.
+ So just set \m{(1/3) = -(2B)/(3A)}.  There is also help on the idea of a "limit." \help{7}
+}
+
+\AsItem{7}{TX-1b and [S-6]}
+{As an example of the limiting process, we examine a case where the function does not exist
+at the precise end-point of the limiting process, yet the limit exists as one approaches that end-point.
+In particular, we examine the limit of \m{y(x) = \sin(x)/x} as \m{x} approaces zero.
+Note that at \m{x = 0} both the numerator and denominator are zero so the division cannot be performed, so
+the value of \m{y(0)} is undefined.
+Nevertheless, we can calculate \m{y(x)} for any point \m{x \neq 0} and we get in the vicinity of
+\m{x = 0} (notice the truncated vertical axis):
+%
+\CenteredUnframedFixedFigure{m1gr08.eps}
+%
+\begin{center}\begin{tabular}{|r|r|}\hline
+x & y(x) \\ \hline
+0.5 & 0.9589 \\
+0.4 & 0.9735 \\
+0.3 & 0.9851 \\
+0.2 & 0.9933 \\
+0.1 & 0.9983 \\ \hline
+\end{tabular}\end{center}
+By inspection we see that the limit of \m{y(x)} as \m{x \rightarrow 0} appears to be the value:
+%
+\Eqn{AS1}{\lim_{x\rightarrow0}\,y(x) = 1\,.}
+%
+Trying this out further, we find that \m{y(0.0001) = 0.9999999983...}.
+Using calculus, one can show that \Eqnref{AS1} is an exact expression (see
+\Quote{Taylor's Polynomial Expansion for Functions,} MISN-0-4).
+}
+
+}% /Sect

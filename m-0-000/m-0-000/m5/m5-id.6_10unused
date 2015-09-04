@@ -1,0 +1,51 @@
+\revhist{12/29/87, pss; 3/16/88; 9/13/88, pss; 4/1/91, pss; 2/24/93, pss;
+         9/15/94, pss; 12/2/94, pss; 4/14/95, pss; 9/20/95, lae; 2/22/99, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{Force and Torque}
+
+\IdAuthor{Leonard M.\,Valley, Physics Dept., St.\,John's Univ.,
+Collegeville, MN}
+
+\IdVersEval{2/1/2000}{1}
+
+\begin{Hours/Pages} \HR{1} \TX{10} \PS{7} \AS{12} \ME{2} \end{Hours/Pages}
+%\begin{Hours/Pages} \HR{1} \TX{10} \PS{8} \AS{12} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  Given two or more forces, find their vector sum \prrqone{0-14}.
+\item [2.]  Resolve any force into perpendicular components \prrqone{0-72}.
+\item [3.]  Evaluate the vector product of two vectors \prrqone{0-2}.
+\item [4.]  State the relationship between torque and angular acceleration
+\prrqone{0-33}.
+\item [5.]  State the relationship between force and acceleration
+specifically including contact forces \prrqone{0-16}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Distinguish a set of concurrent forces from a set of
+nonconcurrent ones.
+\item [K2.] State the equilibrium condition for an object which is acted
+upon by a set of concurrent forces.
+\end{KnowledgeSkills}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] Given an object in static equilibrium and its environment,
+determine the forces that act on the object and draw a one-body force
+diagram (\Quote{free-body diagram}) indicating these forces.
+\item [S2.] Using the force diagram for an object, apply the conditions for
+static equilibrium to determine the unknown magnitudes and/or directions of
+forces in a set of concurrent forces.
+\end{ProblemSolvingSkills}
+
+\begin{PostOptions}
+\item [1.]  \Quote{Static Equilibrium; Centers of Force, Gravity, and Mass}
+(MISN-0-6).
+\end{PostOptions}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

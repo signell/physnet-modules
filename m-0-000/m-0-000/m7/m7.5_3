@@ -1,0 +1,22 @@
+% 10/4/94, pss
+\input nphmods.sty
+
+% there is also a Special Assistance Supplement that we do not use.
+
+%\includeonly{m7-id}
+
+%\psdraft
+
+\begin{document}
+
+\mNumber{7}
+
+\ChapterStart
+\include{m7-ct}
+\include{m7-id}
+\include{m7-tx}
+\include{m7-ps}
+\include{m7-as}
+\include{m7-me}
+\ChapterEnd
+\end{document}

@@ -1,0 +1,36 @@
+\revhist{10/15/91, pss; 12/8/92, pss; 1/8/93, pss; 4/28/93, pss; 9/29/94, pss;9/15/95, lae;
+         1/31/97, pss; 4/7/97, pss; 8/23/97, pss; 2/22/99, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{Special Relativity: the Lorentz Transformation, the Velocity Addition Law}
+
+\IdAuthor{P.\,Signell, J.\,Borysowicz, M.\,Brandl, Dept.\,of Physics, Mich.\,State
+Univ}
+
+\IdVersEval{2/22/99}{1}
+
+\begin{Hours/Pages} \HR{1} \TX{6} \ME{1} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  Vocabulary: invariance, observer, relative linear motion, velocity addition law \prrqone{0-11}.
+\item [2.]  Given an object's motion relative to one observer, and that observer's motion relative to a second observer, describe the object's motion relative to the second observer \prrqone{0-11}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Vocabulary: Galilean transformation, Lorentz transformation, relativistic velocity addition law.
+\item [K2.] Derive the Galilean transformation from the
+non-relativistic velocity addition law and show that it is invariant under interchange of the observer labels.
+Explain why one intuitively believes that this should be so.
+\item [K3.] Explain clearly how the observed constancy of the speed of light with respect to all observers shows that the Galilean transformation must be erroneous.
+\item [K4.] Given the Lorentz transformation, derive the relativistic velocity addition law from it.
+\item [K5.] Show that the relativistic velocity addition law is in agreement
+with the fact that the speed of light is the same for all observers.
+\item [K6.] Show that, for low enough relative speeds, the difference between the relativistic and non-relativistic velocity addition laws becomes unobservable.
+\end{KnowledgeSkills}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

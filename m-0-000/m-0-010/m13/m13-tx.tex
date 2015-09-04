@@ -1,0 +1,255 @@
+\revhist{5/31/85 mpm; 10/13/91, pss; 9/29/94, pss; 4/7/97, lae; 10/3/02, pss}
+%
+\Sect{1}{Overview}{\SectType{TextOnePara}}{
+%
+The measured length of a moving object is always found to be shortened and
+the rate of a moving clock is found to be decreased.
+These effects are derived from the Lorentz transformation and are applied
+to physical systems.
+The symmetry of the Lorentz transformation is used to show the reasoning
+behind the simple form of the \Quote{twin paradox.}
+}% /Sect
+%
+\Sect{2}{Length Contraction \& Time Dilation}{\SectType{TextMultiPara}}{
+%
+\CaptionedLeftFramedFigure{1}{Defining an object's \Quote{length in the
+direction of travel.}}{m13gr01}
+
+\pcap{2}{a}{The Length-Measurement Problem}
+The measurement of the length of an object which is
+traveling past you at high speed is not trivial.
+% 
+\Footnote{1}{For fifty years, physicists believed and taught that an object
+traveling past at high speed would appear physically distorted
+(\Quote{Lorentz contracted}).
+Then Terrell showed how it would really look.
+See \Quote{Appearances at Relativistic Speeds} (MISN-0-44).}
+%
+You should put a stationary meter stick ahead of the object, parallel to its
+future path of travel.
+Then, when the object is alongside the meter stick, you must note the
+positions of the two ends simultaneously (just think of what would result
+otherwise).
+Subtracting the two end-position readings would give you the length
+(see \Figref{1}).
+
+\pcap{2}{b}{One Event in Two Frames}
+If an observer in one reference frame, \m{A}, and an observer in another
+reference frame, \m{B}, each measures the position and time of an event \m{O},
+the position and time measurements in the two frames are related by the
+Lorentz transformation:
+%
+\Eqn{1}{x_{OB}(t_{OB}) = k[x_{OA}(t_{OA}) - v_{BA}\,t_{OA}]}
+%
+\Eqn{2}{t_{OB} = k[t_{OA} - v_{BA}\,x_{OA}(t_{OA})/c^2]}
+%
+where
+%
+\Eqn{}{k = [1 - v_{BA}^2/c^2]^{-1/2}\,.}
+%
+In our current case, \m{x_{OA}(t_{OA})} might refer to the location of
+one end of our
+%
+\Footnote{2}{The notation conventions are given in \Quote{Special Relativity: The
+Lorentz Transformation and the Velocity Addition Law} (MISN-0-12).}
+%
+object as measured in the Lab frame at a particular Lab time.
+We say that the object is moving with respect to a Laboratory frame of
+reference \m{L}, and our task is to measure the moving object's length in its
+direction of motion, first in the Lab frame and then in a frame of reference
+which is moving along with the object.
+Since the object is at rest in the latter frame, that frame is called the
+object's Rest frame \m{R}.
+
+\pcap{2}{c}{Derivation of the Length Contraction Factor}
+We label the leading edge of the object \#1 and the trailing \#2, as in
+the diagram.
+Then the Lab frame end-measurements are related to the Rest frame
+end-measurements by:
+%
+\Eqn{}{x_{1R}(t_{1R}) =
+k_{RL}[x_{1L}(t_{1L}) - v_{RL}\,t_{1L}]}
+%
+\Eqn{}{x_{2R}(t_{2R}) =
+k_{RL}[x_{2L}(t_{2L}) - v_{RL}\,t_{2L}]\,.}
+%
+As discussed in Sect.\,2a, the Lab frame end-measurements must be
+simultaneous,
+%
+\Eqn{}{t_{1L} = t_{2L}\,,}
+%
+because the object is moving.
+Subtracting the second equation from the first and using the simultaneity of
+measurement in the Lab frame,
+%
+\Eqn{}{x_{1R}(t_{1R}) - x_{2R}(t_{2R}) =
+k_{RL}[x_{1L}(t_L) - x_{2L}\,(t_L)]\,,}
+%
+where \m{t_{L}} is the single time of measurement in the Lab.
+
+Now in the Rest frame the object is not moving so measurements of the
+positions of the ends are independent of time, enabling us to write:
+%
+\Eqn{}{x_{1R} - x_{2R} = k_{RL}[x_{1L} - x_{2L}]\,.}
+%
+Each of the above differences is the length as measured in the indicated
+frame and so we finally obtain:
+%
+\Eqn{}{\ell_{OR} = k_{RL}\ell_{OL}\,.}
+%
+This is usually written the other way around:
+%
+\Eqn{3}{\ell_{OL} = (1 - v_{RL}^2/c^2)^{1/2}\,\ell_{OR}\,.}
+%
+Thus a moving object will always be measured to be shorter in the direction
+of travel than it will be when at rest and this length contraction is called
+the \Quote{Lorentz contraction.}
+
+\pcap{2}{d}{Derivation of the Time Dilation Factor}
+Now suppose we measure a time interval between two events.
+For concreteness we will follow a cosmic ray pion (\Quote{p\={i}\m{'}-on}),
+denoted \m{\pi}, from its time of creation at time \m{t_1} in the upper
+atmosphere to the end of its lifetime at time \m{t_2} near the earth's
+surface.
+Our two frames of reference are the Rest frame of the \m{\pi} and the Lab frame
+which is stationary on the surface of the earth.
+We wish to compare the lifetimes of the \m{\pi} as observed from the two
+frames.
+%
+From \Eqnref{2},
+%
+\Eqn{4}{t_{1L} =
+     k_{LR}[t_{1R} - v_{LR}\,x_{1R}(t_{1R})/c^2]}
+%
+\Eqn{5}{t_{2L} =
+      k_{LR}[t_{2R} - v_{LR}\,x_{2R}(t_{2R})/c^2]\,.}
+%
+To an observer in the Rest frame of the \m{\pi}, and \m{\pi} is not moving so its
+creation and annihilation are at the same space point:
+%
+\Eqn{6}{x_{1R}(t_{1R}) = x_{2R}(t_{2R})\,.}
+%
+Subtracting (4) from (5) and using (6) gives:
+%
+\Eqn{}{t_{2L} - t_{1L} = k_{LR}(t_{2R} - t_{1R})\,.}
+%
+Since the time difference \m{t_2 - t_1} is the lifetime \m{\tau} of the pion, we
+finally get,
+%
+\Eqn{}{\tau_{L} =
+         k \tau_{R} = (1 - v^2/c^2)^{-1/2}\,\tau_{R}\,.}
+%
+If there is a frame of reference \m{R} in which two events occur at the same
+space point, that will be the frame in which the measured time interval
+between the events will be the smallest.
+Measured values by other observers will be larger by the factor \m{k}, and
+this is called the \Quote{time dilation} effect.
+Thus all slowly moving pions appear to have about the same lifetime while
+those moving at speeds near that of light appear to live longer, exactly
+in accordance with the factor \m{k}.
+
+One can say that the fast moving pion appears to age more slowly!
+}% /Sect
+%
+\Sect{3}{The \Quote{Twin Paradox}}{\SectType{TextMultiPara}}{
+%
+\pcap{3}{a}{The Paradox}
+The \Quote{twin paradox} refers to the differential aging of a set of twins, one of
+whom goes away on a space trip and eventually returns to earth.
+The twin who stayed at home is seen to be much older than the one who took
+the journey.
+You may or may not feel that this is truly a \Quote{paradox} but that is what it
+is called.
+
+\pcap{3}{b}{\m{A}'s Space-time Point}
+The Lorentz transformation is independent of which frame is considered
+to be the moving one.
+
+From twin \m{A}'s point of view, twin \m{B} is moving with velocity \m{v_{BA}}
+so that:
+%
+\Eqn{7}{x_{OB}(t_{OB}) =
+                 k[x_{OA}(t_{OA}) - v_{BA} t_{OA}]}
+%
+\Eqn{8}{t_{OB} = k[t_{OA} - v_{BA}x_{OA}(t_{OA})/c^2]\,.}
+%
+However, from \m{B}'s viewpoint, \m{A} is moving and has velocity \m{v_{AB} =
+-v_{BA}}.
+Hence we have:
+%
+\Eqn{9}{x_{OA}(t_{OA}) =
+                  k[x_{OB}(t_{OB}) + v_{BA}\,t_{OB}]}
+%
+\Eqn{10}{t_{OA} =
+            k[t_{OB} + v_{BA}\,x_{OB}(t_{OB})/c^2]\,.}
+%
+\Equationsref{9} and \Eqnssref{10} are exactly equivalent to \Eqnsref{7} and \Eqnssref{8}.
+We show the equivalence by deriving \Eqnsref{7} and \Eqnssref{8} from
+\Eqnsref{9} and \Eqnssref{10}.
+
+\pcap{3}{c}{\m{B}'s Space Point}
+%
+Solving \Eqnref{10} for \m{t_{OB}} gives, 
+%
+\Eqn{11}{t_{OB} = k^{-1} t_{OA} - v_{BA} x_{OB}(t_{OB})/c^2.}
+%
+Substituting \Eqnref{11} into \Eqnref{9} gives,
+%
+\ThreeEqns{}{x_{OA}(t_{OA}) & = k[x_{OB}(t_{OB}) + v_{BA}(k^{-1}\,t_{OA} - v_{BA}x_{OB}(t_{OB})/c^2]}
+            {               & = k [k^{-1} v_{BA}t_{OA} + x_{OB}(t_{OB})(1 - v_{BA}^2/c^2)]}
+            {               & = k[k^{-1}\,v_{BA}t_{OA} + k^{-2} x_{OB}(t_{OB})]\,.}
+%
+\Eqn{12}{x_{OA}(t_{OA}) = v_{BA}t_{OA} + k^{-1} x_{OB}(t_{OB})}
+%
+Solving \Eqnref{12} for x\m{_{OB}} gives \Eqnref{7}:
+%
+\Eqn{}{x_{OB}(t_{OB}) = k[x_{OA}(t_{OA}) - v_{BA}t_{OA}]\,.}
+
+\pcap{3}{d}{\m{B}'s Event Time}
+%
+We can similarly obtain \Eqnref{8} from \Eqnsref{9} and
+\Eqnssref{10}.
+We first solve \Eqnref{9} for \m{x_{OB}(t_{OB})}:
+%
+\Eqn{13}{x_{OB}(t_{OB}) = k^{-1} x_{OA}(t_{OA}) - v_{BA}t_{OB}.}
+%
+Then we use \Eqnref{13} to eliminate \m{x_{OB}(t_{OB})} from
+\Eqnref{10}, and obtain:
+%
+\ThreeEqns{}{t_{OA} & = k\{t_{OB} + v_{BA}[k^{-1} x_{OA}(t_{OA}) - v_{BA}t_{OB}]/c^2\}}
+            {       & = k[t_{OB}(1 - v_{BA}^2/c^2) + k^{-1} v_{BA}x_{OA}(t_{OA})/c^2]}
+            {       & = k[k^{-2} t_{OB} + k^{-1} v_{BA}x_{OA}(t_{OA})/c^2]}
+%
+\Eqn{14}{t_{OA} = k^{-1} t_{OB} + v_{BA}x_{OA}(t_{OA})/c^2}
+%
+Solving \Eqnref{14} for \m{t_{OB}} gives \Eqnref{8}:
+%
+\Eqn{}{t_{OB} = k[t_{OA} - v_{BA}x_{OA}(t_{OA})/c^2].}
+%
+
+\pcap{3}{e}{Time Interval Symmetry}
+Since the Lorentz transformation is symmetric for \m{A} \m{\leftrightarrow} \m{B}
+(with \m{v_{BA} \leftrightarrow -v_{BA}}), all general results have that
+same symmetry.
+Thus if \m{A} sees \m{B}'s clock running slower, \m{B} must see \m{A}'s clock running
+slower.
+If \m{A} and \m{B} are otherwise the same (\Quote{twins}) each sees the other age less
+rapidly.
+Thus twin \m{A} should see \m{B} as the younger and twin \m{B} should see \m{A} as the
+younger.
+Hence the paradox: how can each see the other as younger?
+Note, however, that in our derivation the twins could never come back
+together to compare their ages in the same frame of reference; we had no
+\Quote{turning around} or \Quote{stopping.}
+The question of what would happen if one twin turned around, came back, and
+stopped by the other one, is not answered by Special Relativity: it has
+nothing to say about what happens during accelerations.
+For that one must go to the much more complex General theory of Relativity.
+%
+\Footnote{3}{See \Quote{The Equivalence Principle: An Introduction to Relativistic
+Gravitation} (MISN-0-110).}
+%
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}{\NsfAcknowledgment}% /Sect
+

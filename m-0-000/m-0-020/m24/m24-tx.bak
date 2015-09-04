@@ -1,0 +1,166 @@
+% 5/29/85 mpm; 4/30/87, pss; 12/18/91, pss; 10/11/94, pss
+\TxStart
+
+\mTitle{RELATIVISTIC MOMENTUM: PARTICLE DECAYS}
+
+\mAuthor{Peter Signell}
+
+\scap{1}{READINGS ALTERNATIVES: CHOOSE ONE}
+
+\pcap{1}{a}{Alternative 1: AF}
+
+\noindent Read in AF,
+%
+\Footnote{M.\,Alonso and E.\,J.\,Finn, {\em Physics}, Addison-Wesley (1970)
+(see this module's Local Guide for details on obtaining this reference).}
+%
+Sections 12.4, 12.5, and 12.6.
+Optional Chapter 12 problems: 2, 15, 22, 28.
+
+\pcap{1}{b}{Brief Answers}
+\begin{two-digit-list}
+\item [2.] When $v = \fract{\ds 1}{\ds \sqrt 2}c$
+
+\item [  ] $E_{\rm total} = \sqrt{2} m_0 c^2$
+
+\item [  ] $E_{\rm kin} = (\sqrt{2} - 1) m_0 c^2$
+
+\item [15.] Electron: 0.788\,MeV, 0.761\,$c$
+
+\item [   ] Proton: 938.3\,MeV, $1.92 \times 10^5$\,m/s =
+                      $6.39 \times 10^{-4}\,c$
+
+\item [22.] $\vec{p}_1\hspace{-1pt}' = \vec{p}$
+
+\item [   ] $\vec{p}_2\hspace{-1pt}' = - \vec{p}$
+
+\item [   ] where
+
+\item [   ] $p = \fract{\ds c}{\ds 2m_0} \left( m_0^4 + m_1^4 + m_2^4 -
+                   2 m_0^2 m_1^2 - 2 m_0^2 m_2^2 \right)^{1/2}$
+\end{two-digit-list}
+
+\pcap{1}{c}{Alternative 2: RR}
+
+\noindent Read in RR:
+%
+\Footnote{R.\,Resnick, {\it Basic Concepts in Relativity and Early
+Quantum Theory}, Wiley(1972)
+(see this module's Local Guide for details on obtaining this reference).}
+%
+Sections 3.2, 3.3, and 3.4 with the exception of those areas in
+3.4 pertaining to electric and magnetic fields.
+Optional Problems: 20, 24, and 29 on pp.\,106-109.
+
+\newpage
+
+\pcap{1}{d}{Brief Answers}
+\begin{two-digit-list}
+\item [20.] $4.42 \times 10^{-36}$\,Kg; $2.208 \times 10^{-32}$\,Kg.
+
+\item [24.] b. 0.511\,MeV
+
+\item [   ] c. 938\,MeV.
+
+\item [29.] a. (7/12)\,$M_0 c$
+
+\item [   ] b. (1/5)\,$M_0 c$
+
+\item [   ] c. (32/12)\,$M_0 c^2$
+
+\item [   ] d. (34.29/12)\,$M_0$
+
+\item [   ] e. (0.71/12)\,$M_0 c^2$
+\end{two-digit-list}
+
+\pcap{1}{e}{Alternative 3: WSM}
+
+\noindent Read in WSM:
+%
+\Footnote{R.\,Weidner and R.\,Sells, {\em Elementary Modern Physics}, 3rd
+Edition, Allyn and Bacon (1980)
+(see this module's Local Guide for details on obtaining this reference).}
+%
+Sections 3-1, 3-2, and 3-3, including the examples.
+For the purposes of this module it is not necessary to learn the derivations
+given in Section 3-1; only the results.
+
+\noindent Optional Chapter 3 problems: 1, 8, 25, pp.\,83-4.
+
+\pcap{1}{f}{Brief Answers}
+\begin{two-digit-list}
+\item [1.] 0.87\,$c$
+
+\item [8.] $8.3 \times 10^4$
+
+\item [25.] $5.6 \times 10^{19}$\,J for spaceship alone
+\end{two-digit-list}
+
+\scap{2}{WORK THESE PROBLEMS}
+
+\pcap{2}{a}{Problem A}
+The rest mass of a $\pi^+$ (``pi-plus'') meson is about
+140\,MeV/$c^2$.
+If a $\pi^+$ is traveling at 0.8\,$c$, compute its energy in MeV and momentum
+in MeV/$c$.
+
+\pcap{2}{b}{Problem B}
+In the decay of a $\Lambda^0$ (``lambda-zero'')
+particle, at rest, to a neutron (n) and a $\pi^0$ (``pi-zero''), use
+conservation of energy and momentum to show that the momentum of the neutron is
+104\,MeV/$c$.
+%
+\begin{center}\begin{tabular}{l c l}
+mass of $ \Lambda^0 $ & = & 1115.63\,MeV/$c^2$ \\
+mass of $        n  $ & = & 939.5656\,MeV/$c^2$ \\
+mass of $    \pi^0  $ & = & 134.9739\,MeV/$c^2$ \\
+\end{tabular}\end{center}
+%
+\begin{itemize}
+\item [Note:] (momentum)$^2 = k^2 v^2 m_0^2 = (k^2 - 1) m_0^2 c^2$ is a useful
+identity that you can easily prove.
+
+\item [Note:] For further decay problems see, ``Review of Particle
+Properties,'' {\it Physics Letters}, Vol.\,239, April 12, 1990.
+\end{itemize}
+
+You might also like to try Problem 12.28, AF.
+
+\Acknowledgments
+
+We wish to thank Ben Oh, J.\,Whitmore and G.\,A.\,Smith of Michigan State
+University for the cover photograph showing two 2-body decays as well as
+a 5-body one.
+\NsfAcknowledgment
+
+\spcap{}{ANSWERS TO PROBLEMS}
+
+\begin{one-digit-list}
+\item [A.] 233\,MeV, 187\,MeV/$c$.
+
+\item [B.] Consv. of $E$:  $m_\Lambda = k_n m_n + k_\pi m_\pi$
+
+           Consv. of $\vec{p}$:
+                $0 = k_n \vec{v}_n m_n + k_\pi \vec{v}_\pi m_\pi$
+
+           Squaring the second equation and using the identity in the Note,
+
+           (a) $(k_n^2 - 1) m_n^2 = (k_\pi^2 - 1) m_\pi^2$.
+
+           Squaring the first equation after solving it for $k_\pi m_\pi$:
+
+           (b) $k_\pi^2 m_\pi^2 =
+                   m_\Lambda^2 - 2 m_\Lambda k_n m_n + k_n^2 m_n^2$.
+
+           Then putting (b) into (a) to eliminate $k_\pi$ gives:
+
+           \eqn{}{k_n = \fract{m_{\Lambda}^2 - m_{\pi}^2 + m_n^2}
+                          {2 m_{\Lambda} m_n}\,.}
+
+           Again using the identity we find:
+
+           \eqn{}{{\rm (momentum)}_n = \left( k_n^2 - 1 \right)^{1/2} m_n c =
+                                      103.9\,{\rm MeV}/c\,.}
+\end{one-digit-list}
+
+\TxEnd

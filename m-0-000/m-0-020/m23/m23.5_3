@@ -1,0 +1,21 @@
+% 6/22/94, pss; 11/2/94, pss; 3/27/97, pss
+\input nphmods.sty
+
+%\includeonly{m23-id}
+
+%\psdraft  %(activate only for hp mode; percent-out for ps mode)
+
+\begin{document}
+
+\mNumber{23}
+
+\ChapterStart
+\include{m23-ct}
+\include{m23-id}
+\include{m23-tx}
+\include{m23-lg}
+\include{m23-ps}
+\include{m23-me}
+\ChapterEnd
+
+\end{document}

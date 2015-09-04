@@ -1,0 +1,52 @@
+\revhist{8/1/91, pss; 10/22/91, pss; 4/24/92, pss; 2/17/93, pss; 5/8/94, pss;
+         5/9/94, pss; 10/21/94, pss; 10/4/95, pss; 11/8/96, pss; 2/11/97, pss;
+         8/23/97, pss; 10/20/97, pss; 6/4/98, pss; 9/23/98, pss; 11/23/98, pss;
+         12/1/98, pss; 12/3/98, pss; 2/22/99, pss, 5/3/99, pss; 10/14/99, pss;
+         10/25/99, pss; 2/24/2000, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{One-Body Diagrams and Contact Forces}
+
+\IdAuthor{Harry G.\,Dulaney and Peter Signell, Michigan State}
+
+\IdVersEval{2/24/2000}{1}
+
+\begin{Hours/Pages} \HR{1} \TX{12} \PS{8} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  State Newton's laws of motion and apply them to problems
+involving constant forces acting on one particle traveling in one
+dimension \prrqone{0-14}, \prrqone{0-15}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Vocabulary: contact force, non-contact force, surface force,
+            resultant force.
+\end{KnowledgeSkills}
+
+\begin{RuleApplicationSkills}
+\item [R1.] Given a non-rotating object on a linear trajectory, or two
+such objects connected by a string or rope, possibly over a pulley,
+and given the information on the acceleration of the object and all
+forces except a surface force, determine the magnitude and direction
+of the surface force:
+\begin{one-digit-list}
+\item [a.] Draw a one-body diagram for each object showing the given
+forces acting on the object, with each force clearly labeled.
+Resolve those forces into components with one axis along the direction
+of acceleration and draw those components on another one-body force
+diagram.
+\item [b.] Write Newton's second law in component form for the known
+forces and the resultant force.
+\item [c.] Solve for the unknown surface force and add it the the
+original one-body force diagram.
+\end{one-digit-list}
+\end{RuleApplicationSkills}
+
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

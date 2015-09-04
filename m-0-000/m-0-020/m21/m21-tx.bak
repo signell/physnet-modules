@@ -1,0 +1,403 @@
+% 7/3/86, pss; 3/16/88, pss; 8/18/91, pss; 2/24/93, pss; 4/20/94, pss;
+% 11/8/94, pss; 10/28/96, pss; 11/22/96, pss; 7/15/99, abs; 3/3/2000, pss
+\TxStart
+
+\TxStart
+
+\mTitle{POTENTIAL ENERGY, CONSERVATION OF ENERGY}
+
+\mAuthor{Joe Aubel}
+
+\spcap{1}{INTRODUCTION}
+
+In this module we are primarily concerned with the concept of conservation of
+energy.
+We first introduce the concept of potential energies to replace those line
+integrals in the work definition that produce path-independent work.
+We then state the Law of Conservation of Energy, which is perhaps
+the most useful unifying concept of science.
+
+Understanding Conservation of Energy will give you insight into many ordinary
+experiences from everyday life (such as why some people get fat!).
+You will also be better prepared to analyze the ``energy crisis'' and some of
+the proposed cures.
+(Don't waste time with schemes that promise more energy out than you put
+in!)
+In addition, you will develop an extremely powerful tool for solving a large
+class of physics problems with a minimum of mathematical manipulation.
+In order to further restrict the mathematics needed, we shall only deal with
+one-dimensional motion in this module.
+
+\scap{2}{POTENTIAL ENERGY}
+
+\pcap{2}{a}{Overview}
+When work is performed on a system,
+%
+\Footnote{See ``Work, Power, Kinetic Energy'' (MISN-0-20).}
+%
+and the energy thus transferred into the system is stored internally in such
+a way that it can later be converted back to mechanical energy by reversing
+the storage process, we call the stored energy ``potential energy.''
+That is because it has the {\it potential} to be recovered by reversing the
+storage process.
+Good examples are the energy stored through raising water against the force of
+gravity and the energy stored through compressing a spring in a mechanical
+clock.
+In the case of the elevated water the stored energy can be reclaimed to run
+electrical generators while in the case of the clock spring the stored energy
+is used to move the hands.
+
+\pcap{2}{b}{Frictional Forces}
+Work done against {\it the force of friction} does not cause a gain in
+mechanical {\it potential} energy because the process is not mechanically
+reversible.
+For example, running a car at constant speed in reverse gear does not enable
+you to regain the mechanical energy you previously expended running the car
+at the same speed in forward gear.
+In fact, running the car in reverse gear requires the same {\it expenditure}
+of energy as running it in forward gear.
+While running the car at constant speed, in either gear, {\it all} of the
+energy expended goes into overcoming friction.
+\help{2}
+
+\pcap{2}{c}{Conditions for Potential Energy}
+There are several {\em equivalent} ways of describing the situations in which
+potential energy can be gained or lost.
+Two of them are: (i) the work done is reversible; and (ii) the work integral
+is independent of path.
+
+\pcap{2}{d}{Meaning of ``Conservative Force'' }
+When the above conditions are fulfilled, the storage force involved in the
+energy storage is universally said by professionals to be a ``conservative''
+force.
+By this they mean that the energy involved is conserved, with no losses, as
+{\it mechanical} energy.
+The energy-storage force is {\it not} the force you apply as you do work
+on the system; rather, it is an opposing force that is internal to the
+system, a loss-less mechanical storage force.
+The main two examples we will deal with here are the force of gravity
+and the restoring force of springs.
+
+Whether the force is ``conservative'' or not, {\it total} energy is
+{\it always} conserved.
+
+\pcap{2}{e}{Potential Energy Difference}
+The work done {\it by} a lossless mechanical storage force whose point of
+application moves from $A$ to $B$ is:
+%
+\eqn{}{W_{A \rightarrow B} = \int_A^B \vec{F}_c \cdot d\vec{s}.}
+%
+where the subscript ``c'' explicitly shows that the force is a
+``conservative'' one.
+The negative of this work is the work done {\it on} the force and hence is
+the change in stored energy.
+We call this change the ``potential energy difference,
+$\Delta E_p$, at point $B$ relative to point $A$'':
+%
+\Footnote{Some authors use $U$, $V$ or $PE$.
+Our notation, $E_p$, emphasizes that this is just a particular form of
+energy.}
+%
+\eqn{1}{\Delta E_p \equiv - \int_A^B \vec{F}_c \cdot d\vec{s} =
+- W_{c, A \rightarrow B}}
+%
+Note the significance of the signs of the terms: because the line integral
+does not depend on path, $W_{A \rightarrow B} = - W_{B \rightarrow A}$:
+i.e., the work done against $\vec{F}$ in moving from $A$ to $B$ can be
+retrieved by moving back from $B$ to $A$.
+Thus the net path-independent work done around any {\it closed} path is
+{\it zero}.
+Actually, this should be obvious since one possible path from a point $A$ to
+the same point $A$ is no movement at all and that certainly involves zero
+work.
+
+\pcap{2}{f}{Path-Dependent Work}
+When a non-conservative force, $\vec{F}_{nc}$, is involved, the value
+of the line integral,
+%
+\eqn{}{\int_A^B \vec{F}_{nc} \cdot d\vec{s},}
+%
+depends on the actual path of integration. \help{1}
+The integration path in such cases must follow the actual physical path taken
+by the point of application of the force.
+
+\scap{3}{THE POTENTIAL ENERGY FUNCTION}
+
+\pcap{3}{a}{Standard Reference Points}
+We often dispense with the cumbersome {$A \rightarrow B$} terminology and
+choose a ``standard reference point,'' a point which often turns out to be
+the lower limit of the integral in practical problems.
+We then integrate from this point as the lower limit to an arbitrary space
+point ($x$,$y$,$z$) as the upper limit of the integral.
+The resulting function of ($x$,$y$,$z$) is called the ``potential energy
+function'' and, for an object at ($x$,$y$,$z$), $E_p(x,y,z)$ is called the
+object's ``potential energy.''
+
+If you have a potential energy function and you wish to know the difference
+in potential energy between a space point and the reference point, merely
+evaluate the function at the point in question.
+If you wish to know the difference in potential energy between the point in
+question and a point that is not the reference point, merely evaluate the
+function at both points and take the difference.
+If you see a potential energy function and you are uncertain as to the
+reference point that was used to generate it, just set the potential energy
+function equal to zero and solve for ($x$,$y$,$z$).
+That will be the reference point that was used.
+
+\pcap{3}{b}{Gravitational Potential Energy}
+Near the surface of the earth, the gravitational force on mass $m$ (i.e., its
+weight) is essentially constant and is given by $m\vec{g}$.
+Choosing a coordinate system with unit vectors $\uvex{x}$, $\uvex{y}$, and
+$\uvex{z}$ along east, north and up, respectively, and choosing the coordinate
+origin (wherever we might have put it) as the reference point, the
+gravitational potential energy at the point $z_0$ is:
+%
+\eqn{}{E_{p,{\rm grav}}(z_0) =
+             - \int_0^{z_0} m (-g)\,dz = m g \int_0^{z_0} \,dz = m g z_0\,.}
+%
+where $z_0$ is height above the coordinate origin (which we have taken as the
+zero of potential energy for this case).
+We usually prefer to talk about the potential energy at some point $z$ so we
+make a change of notation in the equation above to get the usually-used form:
+%
+\eqn{4}{E_{p,{\rm grav}}(z) =
+             - \int_0^z m (-g)\,dz' = m g \int_0^z \,dz' = m g z\,.}
+%
+where $z$ is now height above the coordinate origin, our chosen
+zero of potential energy.  The variable $z'$ is called the ``dummy variable of
+integration.'' \help{30}
+
+Suppose an object of mass $m$ is located at the point ($x_1$,$y_1$,$z_1$) and
+is then moved to the point ($x_2$,$y_2$,$z_1 + h$).
+Using Eq.\,(\eqnno{4}) we find that its increase in gravitational potential
+energy is just $m g h$.
+Note also that this is equal to the work done by an outside force
+$\vec{F} = m g \uvex{z}$ that raises the mass $m$ through height $h$ against
+the gravitational force that is pulling the mass and the earth toward each
+other.
+So $m g h$ is called the gravitational potential energy of the mass $m$ at
+height $h$ above some coordinate origin, the reference level we have chosen.
+
+Thus a typical concrete block with a weight of 175\,N will have a potential
+energy of 175\,N\,m relative to your toe if you are holding it at a height of
+1.00 meter above your toe.
+
+Note that the gravitational potential energy in Eq.\,(\eqnno{4}) is {\it not}
+a property of the object of mass $m$: instead, it is a property of the
+object-plus-earth system and that system's gravitational interaction.
+The gravitational potential energy of that system increases when the distance
+between the object and the earth is increased, and it decreases when that
+distance is decreased.
+
+\pcap{3}{c}{Other Illustrative Forces}
+\begin{itemize}
+\item [1.] Consider a conservative force of the form $F_c = - k x$, a
+spring-type force, acting on some particle.
+Using Eq.\,(\eqnno{1}):
+%
+\eqn{5}{E_p = - \int_0^x - k x'\,dx' = k x^2/2.}
+%
+Just looking at the result, it is clear that the reference point is $x = 0$
+since that is the point where $E_p = 0$.
+
+\item [2.] Consider $F_c = k/r^2$.
+Using Eq.\,(\eqnno{1}):
+%
+\eqn{6}{E_p = - \int_{\infty}^r k/r'^2\,dr' = k/r.}
+%
+The reference point, the point where $E_p = 0$, is at infinity, so $E_p$
+represents the work that is done by $F_c$ on a particle as it moves from
+any point at radius infinity to any point at radius $r$.
+\end{itemize}
+
+\spcap{4}{CONSERVATION OF ENERGY}
+
+Many of the great turning points in the history of physics have been
+characterized by the discovery of situations that appeared at first to
+violate Eq.\,(\eqnno{1}).
+But, in every case, it has been found that some form of $E_k$ or $E_p$ had
+been overlooked and total energy was actually conserved.
+We can write Conservation of Energy this way:
+
+\noindent\hspace*{\fill}\begin{tabular}{|c|}\hline
+The total energy in a system at time $t$ \\
+ $+$ \\
+the energy entering the system during time $\Delta t$ \\ \hline
+\end{tabular}\hspace*{\fill}
+%
+\vspace*{-4pt}
+\eqn{11}{ = }
+\vspace*{-4pt}
+%
+\noindent\hspace*{\fill}\begin{tabular}{|c|}\hline
+the total energy in the system at time $t + \Delta t$ \\
+ $+$ \\
+the energy leaving the system during time $\Delta t$. \\ \hline
+\end{tabular}\hspace*{\fill}\medskip
+
+Note the close analogy with your financial affairs:
+
+\noindent\hspace*{\fill}\begin{tabular}{|c|}\hline
+Your total money at the beginning of some time interval \\
+ $+$ \\
+money you acquired during the time interval \\ \hline
+\end{tabular}\hspace*{\fill}\vspace*{-1pt}
+%
+\eqn{}{=}
+%
+\noindent\hspace*{\fill}\begin{tabular}{|c|}\hline
+money you have at the end of the time interval \\
+ $+$ \\
+money you spent during the time interval. \\ \hline
+\end{tabular}\hspace*{\fill}\medskip
+
+Just as ``the money you have'' at a given time may be stored in various
+places and in various forms, so ``the energy in a system'' may be stored
+in many forms. \help{23}
+Fortunately, we need only consider those forms that change for systems we
+study during the time interval being considered.
+We will only study two forms here: kinetic energy and mechanical potential
+energy.
+
+\tryit Rephrase each of the four terms in Eq.\,(\eqnno{11}) in terms of the change in a system's
+kinetic energy, $\Delta E_k$, the change in its potential energy, $\Delta E_p$, and
+the work done \textit{on} the system by non-conservative forces, $W_{nc,on}$.
+\help{16}
+
+\tryit Suppose we have a 60.0\,kg box that we wish to unload from a truck.
+Suppose this will require lowering the box through a height of 1.0\,m.
+Use kinematics to find the speed of the box just before hitting the ground
+if the box is simply pushed off the end of the truck. \help{14}
+
+\tryit In the above exercise assume that the velocity of impact is
+unacceptable, so we must find a gentler way of unloading the box.
+It is too heavy to lift by hand, but the truck is equipped with a ramp
+that is 3.0\,m long.
+Use Eq.\,(\eqnno{11}) and proper problem solving techniques to find the
+average force up the incline, $F$, that must be applied to the box to let
+it arrive at the bottom of the incline with negligible speed. \help{15}
+
+\scap{5}{EXAMPLES}
+
+\pcap{5}{a}{Energy in the Morning}
+\begin{center}\begin{tabular}{|c|}\hline
+Your total energy in the morning \\
+   $+$ \\
+energy taken in during the day (from food, etc.)  \\ \hline
+\multicolumn{1}{c}{\bf = } \\ \hline
+your total energy at the end of the day. \\
+   $+$ \\
+energy leaving during the day (work, heat, etc.) \\ \hline
+\end{tabular}\end{center}
+
+Note that significant increases in internal energy are stored as fat!
+
+\pcap{5}{b}{Concrete Block Drops on Toe}
+Consider what would happen if you let go of the concrete block mentioned near
+the end of Sect.\,3b.
+It started with 175\,J of gravitational $E_p$ relative to your toe.
+The only significant force on the block while falling is mg, which is
+conservative, so when the block first touches your toe it will have $E_k =
+175$\,J.
+A short time later the block is at rest at $h = 0$ so it has $E_k = 0$ and
+$E_p = 0$.
+At first glance it appears that 175\,J of energy was ``lost.``
+Actually, this energy went into breaking chemical bonds (change in chemical
+potential energy) and into random kinetic energy of molecules (increase in
+temperature).
+
+\pcap{5}{c}{Box Slides Down Incline}
+A box slides 5.0\,m down a 36.87$^\circ$ incline in a region where $g$ is
+9.8\,m/$s^2$.
+The velocities of the box at the beginning and end of this interval are
+4.0\,m/s and 6.0\,m/s, respectively, down the incline.
+
+\tryit Find the coefficient of friction, assuming it is independent of velocity.
+\newline
+%\noindent\hspace*{-1.5pc}
+\TableAndFigure
+{{\setlength{\tabcolsep}{0.1pc}
+ \begin{tabular}[t]{r c l}
+ $L$      & = & 5.0\,m \\
+ $\theta$ & = & $36.87\degrees$ \\
+ $v_0$    & = & 4.0\,m/s \\
+  $v$     & = & 6.0\,m/s \\
+  $g$     & = & 9.8\,m/s$^2$ \\
+  $\mu$   & = & ? \\
+ \end{tabular}}%
+}{m21gr01}
+
+\noindent
+From Eq.\,(\eqnno{11}):
+%
+\eqn{}{(m g h + \fract{1}{2} m v_0^2) + 0 = \fract{1}{2 }m v^2 + f L,}
+%
+where $f$ is the frictional force and $h$ is $L \sin\theta$.
+From Newton's second law:
+%
+\eqn{}{N = m g \cos\theta.}
+%
+Then:
+\ThreeEqns{}%
+{\mu=\fract{f}{N} & = &
+             \fract{mg \sin\theta - m(v^2-v_0^2)/(2L)}{mg \cos\theta}}
+{                & = & \tan\theta - \fract{(v^2 - v_0^2)}{2 L g \cos\theta}}
+{ & = & \fract{3}{4}-\fract{(36\unit{m}^2/\unit{s}^2-
+     16\unit{m}^2/\unit{s}^2)}{2(5\unit{m})(9.8\unit{m/s}^2)(0.80)}=0.49\,.}
+
+\pcap{5}{d}{Other Examples}
+Potential energy curves are useful in analyzing motion and can be used to
+display complete information about the dynamical motion of a one-dimensional
+conservative system.
+%
+\Footnote{See ``Potential Energy and Motion; Potential Curve, Turning Points''
+(MISN-0-22).}
+%
+The application of conservation of energy to fluids is the basis of fluid
+dynamics.
+%
+\Footnote{See ``Fluids, Static and Dynamic'' (MISN-0-48).}
+%
+Conservation of energy is used to determine the motion of oscillating systems.
+%
+\Footnote{See ``Simple Harmonic Motion'' (MISN-0-25).}
+%
+Energy concepts are applied to the analysis of the rotation of rigid
+bodies.
+%
+\Footnote{See ``Translational and Rotational Motion of a Rigid Body''
+(MISN-0-43).}
+
+\Acknowledgments
+I would like to thank Richard Hagan, Angelite Arnold, Richard Jones, and
+Tom Hudson for their helpful reviews of this module.
+\NsfAcknowledgment
+
+%\newpage
+
+\spcap{}{SYMBOLS USED}
+
+\begin{itemize}
+\item [] $A$, an arbitrary fixed point
+\item [] $B$, an arbitrary fixed point
+\item [] $d\vec{s}$, a differential displacement
+\item [] $E_k$, kinetic energy
+\item [] $\Delta E_k$, change in kinetic energy
+\item [] $E_p$, potential energy
+\item [] E$_{p,g}$, gravitational potential energy
+\item [] $\Delta E_p$, change in potential energy
+\item [] $\vec{F}_c$, conservative force
+\item [] $\vec{F}_{nc}$, non-conservative force
+\item [] $\vec{F}$, force
+\item [] $\vec{f}$, frictional force
+\item [] $g$, acceleration of gravity
+\item [] $h$, height
+\item [] $m$, mass
+\item [] $\vec{r}$, radius
+\item [] $\uvex{r}$, unit vector in the radial direction (away from origin)
+\item [] $W_{A\rightarrow B}$, work done by a force moving from $A$ to $B$
+\item [] $W_{nc,on}$, the work done on a system by non-conservative forces
+\item [] $\uvex{x}$, a unit vector in the $x$-direction
+\end{itemize}
+
+\TxEnd

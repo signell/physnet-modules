@@ -1,0 +1,20 @@
+% 3/14/99, pss
+\input nphmods.sty
+
+%\includeonly{m27}
+
+\begin{document}
+
+\mNumber{27}
+
+\ChapterStart
+\include{m27-ct}
+\include{m27-id}
+\include{m27-tx}
+\include{m27-lg}
+\include{m27-ps}
+\include{m27-as}
+\include{m27-me}
+\ChapterEnd
+
+\end{document}

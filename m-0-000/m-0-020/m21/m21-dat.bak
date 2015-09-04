@@ -1,0 +1,34 @@
+\revhist{11/6/91, pss; 2/26/92, pss; 10/22/92, pss; 2/24/93, pss; 4/20/94, pss;
+         4/19/95, pss; 4/21/95, pss; 10/2/95, lae; 10/28/96, pss;
+         11/23/96, pss; 11/13/97, pss; 2/22/99, pss; 11/8/99, pss; 3/3/2000, pss;
+         1/5/01, pss; 10/15/01, pss; 2/12/02, pss}
+%
+\defModTitle{\ph{Potential Energy,} \ph{Conservation of Energy}}
+\defCtAuthor{Joe Aubel, University of Southern Florida}
+\defIdAuthor{Joe Aubel, Physics Dept., Univ.\,of South Florida, Tampa, FL}
+%
+\defIdItems{
+    \IdVersEval{2/12/2002}{1}
+    \IdHours{1}
+    \begin{InputSkills}
+    \item [1.]  Vocabulary: friction \prrqone{0-16}, line integral \prrqone{0-20}.
+    \item [2.]  Calculate the work done by a force along a prescribed path.
+    \item [3.]  State Newton's second and third laws \prrqone{0-14}.
+    \item [4.]  Solve a system of \m{n} simultaneous equations in \m{n} unknowns \prrqone{0-1}
+    and calculate the dot (scalar) product of any two vectors \prrqone{0-2}.
+    \end{InputSkills}
+    %
+    \begin{KnowledgeSkills}
+    \item [K1.] Define the potential energy function associated with a conservative
+    force.
+    Explain what a \Quote{conservative} force conserves, using examples of both
+    conservative and non-conservative forces.
+    \end{KnowledgeSkills}
+    %
+    \begin{ProblemSolvingSkills}
+    \item [S1.] Given any one dimensional conservative force, determine the
+    potential energy function using standard reference points.
+    \item [S2.] Solve problems involving both conservative and non-conservative
+    forces using the general form of the law of conservation of energy.
+    \end{ProblemSolvingSkills}
+}

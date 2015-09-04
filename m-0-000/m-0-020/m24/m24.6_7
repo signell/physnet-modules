@@ -1,0 +1,72 @@
+% 5/29/85 mpm; 12/19/91, pss; 10/11/94, pss
+\PsStart
+
+\noindent Note: These problems also occur on this module's {\it Model Exam}.
+
+\begin{one-digit-list}
+\item [1.] The rest mass of a \m{\Sigma^+} (``sigma-plus'') particle is
+           1189.37\,MeV/\m{c^2}.
+           If it is traveling at speed 0.8000\,\m{c}, compute its energy in MeV
+           and its momentum in MeV/\m{c}.
+
+\item [2.] Reduce the expression for relativistic momentum to its
+           non-relativistic form, using the general expression for Taylor's
+           Series for the expansion of a function about a point.
+
+\item [3.] In the decay of a \m{\Sigma^+} particle at rest, to a proton and a
+           \m{\pi^0} particle, calculate the momentum of the proton in MeV/\m{c}.
+           \begin{eqnarray*}
+           m_p          & = & 938.2723\,{\rm MeV}/c^2 \\
+           m_{\pi^0}    & = & 134.9739\,{\rm MeV}/c^2 \\
+           m_{\Sigma^+} & = & 1189.37 \,{\rm MeV}/c^2 \\
+           \end{eqnarray*}
+           Compare to the value of (189\,MeV/\m{c}) listed in ``Review of Particle
+           Properties,'' {\it Physics Letters}, Vol.\,239, April 12, 1990.
+
+\item [4.] Show that \m{\vec{F} = m \vec{a}} is generally valid only for
+           \m{v^2 \ll c^2}.
+\end{one-digit-list}
+
+\newpage
+
+\BriefAns
+
+\begin{one-digit-list}
+\item [1.] 1982\,MeV, 1586\,MeV/\m{c}.
+
+\item [2.] Taylor's Series:
+
+           \m{f(x)=f(0) + \fract{\ds f'(0)}{\ds 1!} x +
+                                 \fract{\ds f''(0)}{\ds 2!} x^2 + \ldots}
+
+           \m{k(x) = (1 - x)^{-1/2}} where \m{x \equiv v^2/c^2} for our case
+
+           \m{k'(x) = (1/2)(1 - x)^{-3/2}}
+
+           \m{k''(x) = (3/4)(1 - x)^{-5/2}}
+
+           \m{k(x) = 1 + (1/2)x + (3/8)x^2 + \ldots}
+
+           \m{k(v^2) = 1 + (1/2)(v^2/c^2) + (3/8)(v^4/c^4) + \ldots}
+
+           \m{{\rm mom.} = k v m_0 = m_0 v + (1/2) m_0 (v^3 / c^2) + \ldots}
+
+           Then if \m{v^2 \ll c^2} we can neglect the second term and get:
+           \eqn{}{{\rm mom.} = m_0 v, \hs {\rm for}\; v^2 \ll c^2.}
+
+\item [3.] As in Problem B, derive:
+           \eqn{}{k_p = \fract{m_{\Sigma}^2 - m_{\pi}^2 + m_p^2}{2 m_{\Sigma} m_p}}
+           and find the numerical value of the momentum.
+
+\item [4.] Newton's Second Law, verified relativistically, is:
+           \eqn{}{\vec{F} = \fract{d\vec{p}}{dt},}
+           but then:
+           %
+           \ThreeEqns{}{\vec{F} & = & \fract{d(m\vec{v})}{dt}}
+                       {        & = & m \vec{a} + \vec{v} \fract{dm}{dt}, \hs
+                                      {\rm where}\;m \equiv k m_0}
+                       {     & \neq & m \vec{a}, \;{\rm unless}\;
+                                      v^2 \ll c^2 \;{\rm so}\;dm/dt = 0\,.}
+           %
+\end{one-digit-list}
+%\PsEnd

@@ -1,0 +1,76 @@
+\scap{6. POWER}
+
+\pcap{6a. Definition of Power. }
+Let us now consider the time involved in doing work.
+The same amount of work is done in raising a given body through a given
+height whether it takes one second or one year to do so.
+However, the rate at which work is done is often as interesting to us as is
+the total work performed.
+When an engineer designs a machine it is the time rate at which the machine
+can do work that matters.
+
+Instantaneous power is defined as the time rate at which work is being done
+at some instant of time.
+That is, it is the limit, as the time interval approaches zero, of the amount
+of work done during the interval divided by the interval.
+Since this is the definition of the time derivative, we have:
+\begin{equation}\setcounter{equation}{14}
+P=\frac{dW}{dt}.
+\end{equation}
+
+Using Eq.\,(4) and recalling that \m{\vec{v}} = d\m{\vec{s}}/dt, we can also write:
+\begin{equation}\setcounter{equation}{15}
+\rightarrow\rightarrow\rightarrow\rightarrow
+P=F\cdot\frac{ds}{dt}=F\cdotv.
+\end{equation}
+
+Thus power can also be defined as the scalar product of force and velocity.
+The average power <P>\m{_av} during a time interval t is:
+\begin{displaymath}
+<P>=\frac{W}{t}.
+av
+\end{displaymath}
+
+If the power is constant in time, then P = <P>\m{_av} and
+\begin{equation}\setcounter{equation}{16}
+W = P\,t. (for constant P)
+\end{equation}
+
+\pcap{6b. Units of Power. }
+According to the definition of power, its units are units of work divided by
+units of time.
+In SI units, the unit of power is called a watt, abbreviated W, which
+is equivalent to a joule per second.
+One watt is the power of a machine that does work at the rate of one joule
+every second.
+Recalling that 1\,J = 1\,\m{m^2}\,kg/\m{s^2}, we have that:
+\begin{displaymath}
+1\,W = 1\,J/s = 1\,m^2\,kg/s^3.
+\end{displaymath}
+
+The name watt was chosen in honor of the British engineer James Watt
+(1736-1819) who improved the steam engine with his inventions.
+
+Work can be expressed in units of power\,\m{\times}\,time.
+This is the origin of the term kilowatt-hour (kWh).
+One kilowatt-hour is the work done in 1 hour by an agent working at a
+constant rate of 1\,kW (1000 W).
+Electricity is sold ``per kWh.''
+
+Example 8.
+Under very intense physical activity the total power output of the heart
+may be 15 watts.
+How much work does the heart do in one minute pumping blood?
+Since
+\begin{displaymath}
+P=\frac{dW}{dt}
+\end{displaymath}
+\begin{displaymath}
+W = \int\,P\,dt = \int^^1\,min__0  P dt
+\end{displaymath}
+\begin{displaymath}
+  = (15\,W)\,(60\,s)
+\end{displaymath}
+\begin{displaymath}
+  = 900\,J.
+\end{displaymath}

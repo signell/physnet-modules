@@ -1,0 +1,507 @@
+% 7/5/91, pss; 9/16/93, pss; 2/25/94, pss; 9/29/94, pss; 8/16/1995, pss; 1/31/97, pss;
+% 11/7/97, lae; 2/24/00, pss; 1/4/01, pss
+\TxStart
+
+\mTitle{SUMS, DIFFERENCES AND \\ PRODUCTS OF VECTORS}
+
+\mAuthor{J.\,S.\,Kovacs, Michigan State University}
+
+\scap{1}{Introduction}
+
+\pcap{1}{a}{Scalars, Vectors, and Others}
+Most physical quantities can be classified mathematically as either scalars or
+\Index{vector}vectors.
+Values of {\it scalar} \Index{scalar quantity}\Index{quantity, scalar}quantities are single numbers, sizes, and this includes such
+quantities as temperature, work, distance, speed, musical pitch, and
+electric charge.
+Values of {\it vector} quantities have both size and direction, and this includes
+such quantities as displacement, velocity, acceleration, force, electric field,
+and momentum.
+There are other quantities whose values cannot be represented by either scalars
+or vectors; examples are color, stress, and inertia.
+
+The rules for adding, subtracting, and multiplying scalars are just the
+familiar rules of arithmetic and algebra.
+In this module we deal with the rules for adding, subtracting, and
+multiplying vectors, rules that are used throughout professional science
+and engineering.
+
+\pcap{1}{b}{Indicating Vectors Visually}
+Just as scalar quantities are referred to in graphs, drawings, text, and
+equations by alphabetic symbols, vector quantities are indicated by the
+use of arrows.
+
+As a scalar example, suppose the length of a panel of concrete in a highway
+increases as its temperature rises.
+While describing the situation mathematically, we represent the length by the
+symbol \m{L} and the temperature by the symbol \m{T}.
+To indicate that the length is a function of temperature, we write \m{L(T)}.
+
+As a vector example, suppose a particular force is changing with time.
+We write \m{\vec{F}} to indicate that we are treating the force as a vector and
+\m{t} to show that we are treating time as a scalar.
+To indicate that the force is a function of time we write \m{\vec{F}(t)}.
+If we are only interested in the size of the force, not its direction, we
+write: \m{F(t)}.
+
+When we want to indicate the size and \Index{direction, of vector}direction of a vector quantity on a
+graph or a sketch of some physical phenomenon, we draw it as an
+arrow, a line with an arrowhead on one end (see Fig.\,1).
+The length of the arrow shows the vector quantity's {\it \Index{magnitude, of vector}magnitude} (its size)
+and the arrowhead shows its direction.
+
+\CaptionAfterLeftFigure{Fig.\,1. Force indicated on a diagram.}{m2gr01}
+
+\tryit In Fig.\,1 the force scale is 10\,lb per inch.
+Determine the magnitude of the force. \help{1}
+%
+\Footnote{This notation indicates that help is available in sequence [S-1]
+of this module's {\it Special Assistance Supplement}.}
+%
+
+\scap{2}{Addition, Subtraction of Vectors}
+
+\pcap{2}{a}{General Features}
+When the rules of \Index{addition, of vectors}vector addition are properly used to add two vectors,
+the result is a third vector which usually has a different magnitude and
+direction than those of the two vectors being added.
+We here present two methods for adding two vectors: both produce the same
+result.
+In the {\it graphical} method you draw the vectors to scale and then
+construct the sum on the drawing and measure its magnitude and direction.
+The result only has the precision of your drawing and does not produce
+symbolic answers.
+In the {\it trigonometric} method you sketch the vectors and apply simple rules
+of trigonometry.
+
+\pcap{2}{b}{Addition: Graphical Method}
+Here are the rules for \Index{vector addition}adding two vectors graphically:
+\begin{itemize}
+\item [1.] Take either of the vectors to be added and draw it on graph paper
+to scale, so it is an arrow of appropriate \Index{magnitude, of vector sum}magnitude and direction.
+\item [2.] Draw the arrow representing the second vector on the same graph,
+to the same scale, with the correct magnitude and direction, but with its tail
+at the head of the first arrow.
+\item [3.] Draw a third arrow on the graph, going from the tail of the first
+arrow to the head of the second arrow.
+This third arrow is the sum of the other two: it is called the \Quote{\Index{resultant vector}resultant,}
+which is the vector word for \Quote{\Index{vector sum}\Index{sum, of two vectors}sum.}
+\end{itemize}
+These three steps are illustrated in Fig.\,2, where each of the
+vectors being added is taken in turn as the first vector.
+Note that the resultant is the same in both cases.
+%
+\Footnote{Mathematically, one says that vector addition is commutative.}
+%
+\CaptionAfterLeftFigure{Fig.\,2. Two vectors are added two ways:
+(a) \m{\vec{A}} is drawn first and then \m{\vec{B}} is added to it;
+(b) \m{\vec{B}} is drawn first and then \m{\vec{A}} is added to it.
+The resultants in the two methods are the same: they have identical
+magnitudes and directions.}{m2gr02}
+
+\tryit Show, graphically, that the result of \m{\vec{A} + \vec{B}} is the same
+as the result of \m{\vec{B} + \vec{A}}. \help{2}
+
+\pcap[\Index{trigonometric determination of vector sum}]{2}{c}{Addition: Trigonometric Method}
+The trigonometric method of \Index{vector addition}adding two vectors makes use of the law of cosines.
+This is illustrated in Fig.\,3, where \m{\vec{R}} is the \Quote{resultant} from
+adding vectors \m{\vec{A}} and \m{\vec{B}}.
+The \Index{sum, of two vectors}\Index{vector sum}\Index{vector sum, magnitude of}\Index{magnitude, of vector sum}magnitude of \m{\vec{R}} is determined from the right triangle whose
+sides are \m{A + B \cos\phi} and \m{B \sin\phi} and whose hypotenuse is \m{R}.
+Here \m{\phi} is the angle \m{B} makes with \m{A}.
+Then:
+%
+\eqn{}{R^2 = (A + B \cos\phi)^2 + B^2 \sin^2\phi\,,}
+%
+and the magnitude of \m{R} is:
+%
+\eqn{1}{R = \left( A^2 + B^2 + 2AB \cos\phi \right)^{1/2}\,.}
+%
+Most scientists and engineers either remember this equation or become
+proficient at quickly deriving it.
+%
+\Footnote{The derivation is in Sect.\,4d of this module.}
+%
+The angle that vector \m{\vec{R}} makes with the vector \m{\vec{A}} can also be
+expressed in terms of the magnitudes of \m{\vec{A}} and \m{\vec{B}} and the angle
+\m{\phi} by (see Fig.\,3):
+%
+\eqn{2}{\theta =\tan^{-1}\left[\fract{B\sin\phi}{A+B\cos\phi}\right].}
+%
+
+%
+\tryit Check Eqs.\,(\eqnno{1}) and (\eqnno{2}) by measuring and
+%
+then calculating with the relevant quantities in Fig.\,3. \help{3}
+%
+\TwoFullFigures{Fig.\,3. Using trigonometry to add two vectors.}{m2gr03}{Fig.\,4. Illustration of vector subtraction.}{m2gr04}
+
+\pcap[\Index{subtraction, of vectors}]{2}{d}{Subtraction}
+Subtraction is performed by using the rules for vector addition.
+That is, the subtraction of one vector from another is accomplished by adding
+the negative of the vector being \Quote{subtracted.}
+The negative of a vector is most easily seen from its \Index{vector product, geometric definition of}geometrical
+representation where the head and the tail of the arrow are interchanged.
+The magnitude of the vector is unchanged but its direction reverses.
+The subtraction \m{\vec{A} - \vec{B}} is illustrated in Fig.\,4.
+
+Note also in Fig.\,3 the difference \m{\vec{R} - \vec{B}} must be \m{\vec{A}}
+since \m{\vec{A} + \vec{B} = \vec{R}}.
+If the head and tail of \m{\vec{B}} are interchanged, the result is \m{-\vec{B}}
+and that vector can then be added to \m{\vec{R}}: \m{\vec{R} + (-\vec{B}) =
+\vec{A}}.
+
+\tryit Try it geometrically and see if you get \m{\vec{A}}!
+
+\scap{3}{The Product of Two Vectors}
+
+\pcap{3}{a}{Two Kinds of Products}
+There are two kinds of multiplication possible for two vectors: one produces a
+scalar result while the other produces a vector result.
+Important physical quantities are usually obtained by such multiplication.
+For example, work is often obtained as a {\it scalar} product of force and
+displacement vectors, while angular momentum is often obtained as a {\it vector}
+product of radius and momentum vectors.
+Each of these kinds of multiplication has its own rules.
+
+\CaptionAfterFullFramedFigure{Fig.\,5. Two rules for
+finding the direction of \m{\vec{C} = \vec{A} \times \vec{B}} by:
+(a) the \Quote{right hand} rule; (b) the \Quote{screw} rule.}{m2gr05}
+
+\newpage
+
+\pcap[\Index{product, scalar}\Index{scalar product}]{3}{b}{The Scalar Product}
+The scalar product of two vectors \m{\vec{A}} and \m{\vec{B}} is the
+magnitude of \m{\vec{A}} times the magnitude of \m{\vec{B}} times the cosine of
+angle between them (this angle is usually denoted \m{\theta}).
+The scalar product is sometimes called the \Quote{\Index{dot product}dot product} because of the
+way it is indicated visually:
+%
+\eqn{3}{{\rm scalar\;product\;} \equiv \vec{A} \cdot \vec{B} = A B \cos\theta.}
+%
+\tryit Show that the scalar product of two vectors is zero if the two are
+perpendicular.
+
+\tryit Under what other circumstances will the scalar product be zero?
+\help{4}
+
+\tryit Let \m{\vec{R} = \vec{A} + \vec{B}} and let \m{\theta} be the angle between
+\m{\vec{A}} and \m{\vec{B}}.
+Use \m{R = \sqrt{R^2} = \sqrt{\vec{R} \cdot \vec{R}}} to show that
+\m{R = \sqrt{A^2 + B^2 + 2AB\cos\theta}}. \help{5}
+Note: Some professionals use this method to produce the \Quote{adjacent sides and
+included angle} trig formula.
+
+\pcap[\Index{product, vector}\Index{vector product}]{3}{c}{The Vector Product}
+The vector product of, say, \m{\vec{A}} and \m{\vec{B}}, is itself a
+vector and we will show separately how to find its \Index{magnitude, of vector product}magnitude and direction.
+The vector product is sometimes called the \Quote{\Index{cross product}cross product} because of the way
+it is indicated visually:
+%
+\eqn{}{\vec{C} = \vec{A} \times \vec{B}.}
+%
+The magnitude of \m{\vec{C}} is defined as magnitude of \m{\vec{A}} times the
+magnitude of \m{\vec{B}} times the sine of the angle between them, as measured
+counterclockwise from the direction of \m{\vec{A}} to the direction of \m{\vec{B}}:
+%
+\eqn{4}{|\vec{C}| = |\vec{A} \times \vec{B}| = A B \sin\theta.}
+%
+The direction of the vector \m{\vec{C}} is perpendicular to the plane formed by
+\m{\vec{A}} and \m{\vec{B}} and that narrows it to one of two directions.
+We will here describe two rules for obtaining the exact direction.
+
+\noindent The \Quote{\Index{right-hand rule}right-hand rule}:
+\begin{itemize}
+\item [1.] Extend the index finger of your right hand in the direction of
+the first vector (\m{\vec{A}} in the example) with the rest of the fingers closed.
+\item [2.] Rotate the index finger and hand until the index finger aligns with
+the second vector (\m{\vec{B}} in the above example).
+That is, the first of the two vectors denoted in the cross product is rotated
+toward the second through the smaller angle between them (\m{\vec{A}} rotated
+toward \m{\vec{B}} such that \m{\theta} in Fig.\,5 decreases) and the curled
+fingers of the right hand follow this rotation.
+\item [3.] The direction of the extended thumb gives you the direction of
+\m{\vec{C}} (see Fig.\,5).
+\end{itemize}
+
+\noindent The \Quote{screw} rule:
+\begin{itemize}
+\item [1.] Imagine placing vectors \m{\vec{A}} and \m{\vec{B}} tail-to-tail,
+as in Fig.\,5.
+\item [2.] Imagine a screw with right hand threads placed where the tails of
+the two screws come together, with the axis of the screw perpendicular to the
+plane formed by the two vectors (see Fig.\,5).
+\item [3.] Imagine a screwdriver placed in the screw with the axis of the
+screwdriver being along the axis of the screw.
+\item [4.] Imagine a spot on the screw, next to vector \m{\vec{A}}.
+\item [5.] Turn the screwdriver through the shortest angle so the spot is
+now next to vector \m{\vec{B}}.
+The direction the screw went (in or out) is the direction of the product vector
+\m{\vec{C}} (see Fig.\,5).
+\end{itemize}
+
+\tryit Show that the vector product of two vectors is \Index{zero vector product}zero if the two are
+parallel.
+
+\tryit Show that the vector product of a vector with itself is zero.
+
+\scap{4}{Using Cartesian Components}
+
+\CaptionAfterFullFramedFigure{Fig.\,6. Cartesian components of a vector.}{m2gr06}
+
+\enlargethispage{.5pc}
+
+\pcap{4}{a}{The Components}
+You can use the \Index{cartesian components, of vector}\Index{vector, cartesian components of}Cartesian components of vectors to add and subtract the vectors
+and to take their scalar and vector products.
+Here is the process for obtaining the components of vectors so the
+\Index{components, vector}\Index{vector components}components can be combined according to the rules for addition, subtraction,
+and scalar and vector multiplication.
+For two vectors, say \m{\vec{A}} and \m{\vec{B}} (refer to Fig.\,6 in each step):
+\begin{itemize}
+\item [1.] Draw a set of Cartesian (mutually perpendicular) \Index{axes, coordinate}\Index{coordinate axes}coordinate axes
+and label them \m{x}, \m{y}, and \m{z}, as usual.
+Choose the origin and orientation of the axes for convenience in the problem
+being tackled (this will become automatic with experience).
+The results will be independent of your choice of axes.
+\item [2.] Draw lines from each end of both \m{\vec{A}} and \m{\vec{B}} to the
+axes, such that these lines are perpendicular to the axes.
+Thus for the two vectors \m{\vec{A}} and \m{\vec{B}} there will be four such lines
+to each of the three axes (12 lines in all).
+\item [3.] Label \m{A_x} the distance along the \m{x}-axis between the two
+perpendiculars from the ends of \m{\vec{A}}.
+Label \m{A_y} and \m{A_z} the similar distances along the \m{y}- and \m{z}-axes for
+\m{\vec{A}}.
+Do the same for \m{\vec{B}}, labeling the projections along the axes
+\m{B_x}, \m{B_y}, and \m{B_z}.
+\item [4.] Call \m{A_x}, \m{A_y}, and \m{A_z} the {\it components} of \m{\vec{A}} and \m{B_x},
+\m{B_y}, and \m{B_z} the {\it components} of \m{\vec{B}}.
+\end{itemize}
+The components of a vector are frequently presented as a \Index{triad}triad of numbers, in
+the specific order: \m{x}-component, \m{y}-component, \m{z}-component.
+Thus for \m{\vec{A}} we write:
+%
+\eqn{5}{\vec{A} = (A_x,\,A_y,\,A_z).}
+%
+
+\tryit Find the numerical values of the components of the vector in
+Fig.\,6. \help{6}
+
+\pcap[\Index{vector addition}\Index{vector components, addition of}\Index{addition, of vector components}]{4}{b}{Addition}
+If the two vectors to be added are \m{\vec{A}} and \m{\vec{B}}, with components
+\m{(A_x,\,A_y,\,A_z)} and \m{(B_x,\,B_y,\,B_z)}, then the resultant vector
+\m{\vec{R}} has components \m{(A_x + B_x, A_y + B_y, A_z + B_z)}.
+That is,
+%
+\ThreeEqns{6}{R_x & = & A_x + B_x\,,}
+             {R_y & = & A_y + B_y\,,}
+             {R_z & = & A_z + B_z\,.}
+%
+\Index{vector sum}\Index{sum, of two vectors}Thus if the Cartesian components of two vectors are known, the Cartesian
+components of the resultant are easy to compute.
+The verification of this equation is left to an Appendix.
+
+\tryit Vector \m{\vec{A} = (1,0,1)} while \m{\vec{B} = (0,1,-1)}.
+Determine the components of \m{R = \vec{A} + \vec{B}}. \help{7}
+
+\pcap[\Index{subtraction, of vector components}]{4}{c}{Subtraction}
+If \m{\vec{B}} is to be subtracted from \m{\vec{A}} to produce \m{\vec{C}},
+%
+\eqn{}{\vec{C} = \vec{A} - \vec{B}}
+%
+we just use the rules of addition but with the sign of the components of \m{\vec{B}} made negative:
+%
+\ThreeEqns{7}{C_x & = & A_x - B_x\,,}
+             {C_y & = & A_y - B_y\,,}
+             {C_z & = & A_z - B_z\,.}
+
+\tryit Example: Vector \m{\vec{A} = (1,0,1)} while \m{\vec{B} = (0,1,-1)}.
+Determine the components of \m{R = \vec{A} - \vec{B}}. \help{8}
+
+\pcap[\Index{product, scalar}\Index{scalar product}]{4}{d}{Scalar Product}
+In terms of Cartesian components, the scalar or \Quote{dot} product of \m{A} and \m{B}
+to form \m{C} is:
+%
+\eqn{8}{C = \vec{A} \cdot \vec{B} = A B \cos\theta =
+       A_x B_x + A_y B_y + A_z B_z.}
+%
+\tryit \Index{zero scalar product}Vector \m{\vec{A} = (1,0,1)} while \m{\vec{B} = (0,1,-1)}.
+Use Cartesian components to determine: \m{R = \vec{A} \cdot \vec{B}}. \help{9}
+
+\pcap[\Index{vector product}\Index{product, vector}\Index{cross product}]{4}{e}{Vector Product}
+The six remaining products of the \Index{vector product, in terms of components}components of two
+vectors may be combined so that they form the three components of another vector which is used
+in almost all areas of physics and technology.
+This new vector is called the \textit{vector product} of the two combining vectors and is written with
+a multiplication sign.
+Here is how the vector \m{\vec{C}} is written as the vector product of \m{\vec{A}} and \m{\vec{B}}:
+%
+\eqn{20}{\vec{C} = \vec{A} \times \vec{B}\,.}
+%
+In terms of Cartesian components:
+%
+\ThreeEqns{9}{C_x & = & A_y B_z - A_z B_y}
+             {C_y & = & A_z B_x - A_x B_z}
+             {C_z & = & A_x B_y - A_y B_x}
+%
+The mnemonic for remembering the order of the subscripts on these components
+is to note that, starting from left to right, the first three subscripts
+are always cyclic permutations of \m{xyz} (\m{xyz}, \m{yzx}, \m{zxy}).
+%
+\Footnote{Note that the combination \m{A_y B_z - A_z B_y} is the \m{x}-component of this
+vector, expressed with respect to the same coordinate system.
+Two other pairs of products complete the groupings (and, incidentally,
+together with the combinations that form the scalar product, exhaust the
+possibilities of pairs of products of components of \m{A} and
+\m{\vec{B}}.}
+%
+
+\tryit Vector \m{\vec{A} = (1,0,1)} while \m{\vec{B} = (0,1,-1)}.
+Determine the components of \m{\vec{R} = \vec{A} \times \vec{B}}. \help{10}
+
+\scap{5}{Using Unit Vectors}
+
+\pcap{5}{a}{Cartesian Unit Vectors}
+A vector can be written as the sum of its components through the use of
+\Quote{\Index{vector, unit}\Index{unit vector}unit vectors,} which are three vectors
+of unit length that each point outward
+along one of the three Cartesian coordinate axes you are using.
+We write these unit vectors as \m{\uvex{x}}, \m{\uvex{y}} and \m{\uvex{z}},
+where \m{\uvex{x}} is a vector of unit length that points in the direction of
+increasing values along the \m{x}-axis, \m{\uvex{y}} similarly along the \m{y}-axis,
+and \m{\uvex{z}} along the \m{z}-axis.
+%
+\Footnote{Different authors use different notations for unit vectors along
+the axes of a Cartesian coordinate system.
+We use \m{\uvex{x}}, \m{\uvex{y}} and \m{\uvex{z}} for unit vectors along the
+\m{x}-, \m{y}-, and \m{z}-axes, which is a commonly used notation.
+Other authors have used such notations as:
+(\m{\uvex{i}}, \m{\uvex{j}}, \m{\uvex{k}}),
+(\textbf{i}, \textbf{j}, \textbf{k}),
+(\m{\uvex{e}_1}, \m{\uvex{e}_2}, \m{\uvex{e}_3}),
+and (\m{\uvex{u}_x}, \m{\uvex{u}_y}, \m{\uvex{u}_z}).
+All such sets are equivalent.}
+%
+Since the unit vectors are of unit length, a vector \m{\vec{A}} with components
+\m{(A_x,A_y,A_z)} can be written as the sum of three vectors:
+%
+\eqn{10}{\vec{A} = A_x \uvex{x} + A_y \uvex{y} + A_z \uvex{z}.}
+%
+This addition is illustrated for two dimensions in Fig.\,7.
+
+\pcap{5}{b}{Products Using Cartesian Unit Vectors and Components}
+
+\tryit Use the definitions of products of vectors, Eqs.\,(\eqnno{8}) and
+(\eqnno{9}), to show that:
+%
+\FourEqns{12}%
+{\uvex{x} \cdot \uvex{x} & = & 1, \hs \uvex{y} \cdot \uvex{y} = 1, \hs
+                      \uvex{z} \cdot \uvex{z} = 1,}
+{\uvex{x} \cdot \uvex{y} & = & 0, \hs \uvex{x} \cdot \uvex{z} = 0, \hs
+                       \uvex{y} \cdot \uvex{z} = 0,}
+{\uvex{x} \times \uvex{y} & = & \uvex{z}, \hs
+         \uvex{y} \times \uvex{z} = \uvex{x}, \hs
+         \uvex{z} \times \uvex{x} = \uvex{y},}
+{\uvex{x} \times \uvex{z} & = & - \uvex{y}, \hs
+ \uvex{x} \times \uvex{x} = 0, {\rm \;etc.}}
+%
+Note that, in the vector product, the order (\m{xyz}), in any cyclic
+permutation, has a plus sign on the right hand side.
+Any other order has a minus sign.
+%
+\Footnote{This provides a test for whether a Cartesian coordinate system
+is {\it right-handed}, which is what we use throughout science and engineering.
+An improperly defined, {\it left-handed}, system would produce
+\m{\uvex{x} \times \uvex{y} = - \uvex{z}}.}
+%
+\help{11}
+
+\CaptionAfterFullFramedFigure{Fig.\,7. Illustration of combining unit vectors and a
+vector's components.}{m2gr07}
+
+\pcap{5}{c}{The Length of a Vector in Terms of its Components}
+To find the length of a vector \m{\vec{A}} write:
+ %
+%
+ \eqn{}{\vec{A} = A_x \uvex{x} + A_y \uvex{y} + A_z \uvex{z}}
+%
+ %
+ and take the scalar product of \m{\vec{A}} with itself:
+ %
+ \TwoEqns{}%
+     {\vec{A} \cdot \vec{A} & = & (A_x \uvex{x} + A_y \uvex{y} + A_z \uvex{z})
+                         \cdot (A_x \uvex{x} + A_y \uvex{y} + A_z \uvex{z})}
+     {                      & = & A_x^2 + A_y^2 + A_z^2\,.}
+ %
+%
+ where we have used the products of unit vectors, Eq.\,(\eqnno{12}).
+ 
+ Now from the definition of the scalar product, Eq.\,(\eqnno{8}), we
+%
+ know that \m{\vec{A} \cdot \vec{A} = A^2}, which is the square of the length
+ of vector \m{\vec{A}}.
+ Then the length of \m{A} is given in terms of its components by the square
+ root of the product of \m{A} with itself, \m{\vec{A} \cdot \vec{A}}:
+ %
+%
+ \eqn{13}{A = \sqrt{A_x^2 + A_y^2 + A_z^2}\,.}
+%
+
+\pcap{5}{d}{Determinant Form of the Vector Product}
+Unit vectors can be used to write the vector product in determinant form.
+Some people find easier to remember these forms:
+%
+\eqn{11}{\vec{C} = \vec{A} \times \vec{B} =
+\left|
+\begin{array}{c c c}
+\uvex{x} &  \uvex{y} & \uvex{z} \\
+A_x   &  A_y   & A_z   \\
+B_x  &  B_y   & B_z   \\
+\end{array}
+\right|}
+%
+The minors of the unit vectors as co-factors are the appropriate components.
+\help{16}
+
+\tryit Use the determinant method to show that \m{\uvex{x} \times \uvex{y} =
+\uvex{z}}. \help{12}
+
+\tryit Given \m{\vec{A} = 5 \uvex{x} - 2 \uvex{y}} and \m{\vec{B} = \uvex{x} +
+\uvex{y} + 3\uvex{z}}), show that \m{\vec{A} \times \vec{B} = -6 \uvex{x} -
+15 \uvex{y} + 7 \uvex{z}}. \help{13}
+
+\pcap{5}{e}{Representing a Vector by Magnitude and Direction}
+It is often convenient to to write a vector as the product of a single magnitude and
+a single direction rather than as the sum of its Cartesian Components.
+First we define the magnitude of a vector:
+%
+\eqn{14}{A \equiv |\vec{A}| = \sqrt{A_x^2 + A_y^2 + A_z^2}\,.}
+%
+Note that the magnitude it always positive.
+Next we define a unit vector that is in the direction of the vector we are representing:
+%
+\eqn{15}{\uvex{A} = \equiv \fract{\vec{A}}{|\vec{A}|}\,.}
+%
+Note that \m{\uvex{A}} has unit length because we have divided \m{\vec{A}} by its own length.
+Then we can rewrite Eqn.\,(\eqnno{15}) to show the vector as the product of a
+magnitude and a direction, which is entirely equivalent to the representation of the
+vector in Cartesian components:
+%
+\eqn{16}{\vec{A} = A \uvex{A} = A_x \uvex{x} + A_y \uvex{y} + A_z \uvex{z}\,.}
+%
+Finally, we write the magnitude and direction of the vector product \m{\vec{C}} of two vectors
+\m{\vec{A}} and \m{\vec{B}} in terms of the magnitudes and directions of \m{\vec{A}} and \m{\vec{B}}.
+First, the magnitude is:
+%
+\TwoEqns{17}{C & = & \left[(A_y B_z - A_z B_y)^2 + (A_z B_x - A_x B_z)^2 + (A_x B_y - A_y B_x)^2\right]^{1/2}}
+            {  & = & A B \sin{\theta}\,,}
+%
+where \m{\theta} is the counter-clockwise angle between the directions of \m{\vec{A}} and \m{\vec{B}}.
+The direction of the vector product is:
+%
+\eqn{18}{\uvex{C} = \fract{\vec{C}}{C} = \fract{\vec{A} \times \vec{B}}{|\vec{A} \times \vec{B}|}
+                  = \fract{(A_y B_z - A_z B_y) \uvex{x} + \ldots}{\left[(A_y B_z - A_z B_y)^2 + \ldots \right]^{1/2}}\,.}
+
+\Acknowledgments\NsfAcknowledgment
+
+\TxEnd

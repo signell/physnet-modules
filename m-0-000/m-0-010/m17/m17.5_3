@@ -1,0 +1,21 @@
+% 9/8/94, pss; 8/30/95, pss; 11/8/95, pss
+\input nphmods.sty
+
+%\includeonly{m17-id}
+
+%\psdraft  %(activate only for hp mode; percent-out for ps mode)
+
+\begin{document}
+
+\mNumber{17}
+
+\ChapterStart
+\include{m17-ct}
+\include{m17-id}
+\include{m17-tx}
+\include{m17-ps}
+\include{m17-as}
+\include{m17-me}
+\ChapterEnd
+
+\end{document}

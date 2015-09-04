@@ -1,0 +1,24 @@
+
+\input nphmods.sty
+
+\ModuleNo{21}
+
+\begin{document}
+
+\Module{21}{Stnd}{
+    \ModData{
+        \Section{m21-dat}%
+    }%
+    \ModText{
+        \Section{m21-tx}%
+    }%
+    \ModSupp{
+        \Section{m21-ps}%
+        \Section{m21-as}%
+        \Section{m21-me}%
+    }%
+}%
+
+\end{document}
+
+\revhist{2/24/93, pss; 8/30/95, pss}

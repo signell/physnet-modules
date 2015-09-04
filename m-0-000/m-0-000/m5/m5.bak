@@ -1,0 +1,21 @@
+% 9/15/94, pss
+\input nphmods.sty
+
+%\includeonly{m5-id}
+
+%\psdraft
+
+\begin{document}
+
+\mNumber{5}
+
+\ChapterStart
+\include{m5-ct}
+%\include{m5-id}
+%\include{m5-tx}
+%\include{m5-ps}
+%\include{m5-as}
+%\include{m5-me}
+\ChapterEnd
+
+\end{document}

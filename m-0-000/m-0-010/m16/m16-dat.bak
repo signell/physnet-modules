@@ -1,0 +1,36 @@
+\revhist{9/13/89, pss; 12/9/89, pss; 4/1/91, pss; 5/11/91, pss; 11/16/92, pss;
+         4/27/94, pss; 9/7/94, pss; 9/12/95, pss; 9/25/95, lae; 8/25/96, pss;
+         2/22/99, pss; 10/25/99, pss; 3/3/00, pss; 12/15/00, pss; 11/16/01, pss;
+         4/15/02, pss; 5/17/02, pss; 6/13/02, pss}
+%
+\defModTitle{\ph{Friction in Applications} \ph{of Newton's Second Law}}
+\defCtAuthor{Peter Signell and Harry Dulaney}
+\defIdAuthor{Peter Signell and Harry G.\,Dulaney, Physics, Georgia Institute of Technology, Atlanta, GA}
+%
+\defIdItems{
+    \IdVersEval{6/13/2002}{0}
+    \IdHours{1}
+    \begin{InputSkills}
+    \item [1.]  Solve problems with contact and non-contact forces, connected
+    bodies, and constant forces, without friction \prrqone{0-10}.
+    \end{InputSkills}
+    %
+    \begin{KnowledgeSkills}
+    \item [K1.] Vocabulary: coefficient of non-sliding friction, coefficient of
+    sliding friction, force of non-sliding friction, force of sliding friction.
+    \end{KnowledgeSkills}
+    %
+    \begin{RuleApplicationSkills}
+    \item [R1.] Interpret the starting and stopping of motion of given objects such
+    as walking persons, cars, bicycles, boats, and planes in terms of Newton's
+    three laws and forces of non-sliding and sliding friction.
+    \end{RuleApplicationSkills}
+    %
+    \begin{ProblemSolvingSkills}
+    \item [S1.] Given sufficient information on one or more masses, possibly
+    connected, possibly on inclines, possibly with zero or non-zero non-sliding
+    and/or sliding coefficients of friction, and possibly with constant applied
+    forces, solve for requested values of forces, masses, coefficients of friction,
+    and kinematic variables.
+    \end{ProblemSolvingSkills}
+}

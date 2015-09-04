@@ -1,0 +1,708 @@
+% 9/13/89, pss; 4/11/91, pss; 6/29/91, pss; 7/30/92, pss; 3/23/94, pss;
+% 3/24/95, pss; 9/14/95, pss; 9/6/96, pss; 10/25/96, pss; 3/24/99, pss; 7/15/99, abs;
+% 2/27/01, pss
+\TxStart
+
+\mTitle{SIMPLE DIFFERENTIATION AND~INTEGRATION}
+
+\mAuthor{J.\,S.\,Kovacs, Michigan State University}
+
+\spcap{1}{INTRODUCTION}
+
+The \Index{physical phenomena, description of}\Index{description, of physical phenomena}description of physical phenomena without the results of measurements
+and without mathematics is, at best, incomplete and very limited in its
+scope.
+For example, the observation that the moon orbits the earth is a \Index{qualitative description}\Index{description, qualitative}qualitative
+description of that motion.
+The description becomes \Index{quantitative, description}\Index{quantitative description}quantitative when measurements are made that give
+the position of the moon relative to the earth for various times.
+With the accumulation of such data, the description begins to enter the realm
+of science when, on the basis of these data, the location of the moon can be
+predicted for times in the future.
+However, the description achieves full scientific status when it can also be
+arrived at from a basic principle or physical law which not only fully
+predicts all aspects of the observed motion of the moon around the earth,
+but also can be applied to problems of the motion of other objects in other
+environments.
+Relating various observations through physical laws invariably involves the
+use of mathematics.
+In this module, we will consider some of the basic mathematical skills
+necessary for understanding such applications.
+
+The functions whose derivatives are dealt with here constitute most
+of the kinds of functions encountered in an introductory physics course.
+For ready reference, we tabulate the rules and frequently used derivatives
+in Appendix B.
+
+\scap[\Index{differentiation}]{2}{DIFFERENTIATING COMMON FUNCTIONS}
+
+\pcap[\Index{derivative, definition of}]{2}{a}{Definition of the Derivative}
+The derivative of a function of a single independent variable, $y(x)$, with
+respect to that independent variable, $x$, is defined as:
+%
+\eqn{1}{\fract{dy(x)}{dx}=\lim_{\Delta x\rightarrow 0}
+                            \fract{y(x+\Delta x)-y(x)}{\Delta x}}
+%
+where $\Delta x$ is a small incremental change in the value of $x$ that is
+required
+to go to zero as the prescribed ratio is examined.
+
+As an example, consider %\Index{derivative, of (a/x)}$y(x)=a/x$
+where $a$ is a constant.
+This relationship defines a value for $y$ for each value of $x$ except at
+$x=0$.
+The derivative of this function is:
+%
+\begin{eqnarray*}
+\fract{dy(x)}{dx}&=&\fract{d}{dx}\left(\fract{a}{x}\right)\\
+&=& \lim_{\Delta x\rightarrow 0}
+    \fract{\fract{a}{x+\Delta x}-
+    \fract{a}{x}}{\Delta x}\\
+&=& \lim_{\Delta x\rightarrow 0}\fract{-a}{x(x+\Delta x)}
+    \fract{\Delta x}{\Delta x}\\
+&=&-\fract{a}{x^2 }.\\
+\end{eqnarray*}
+%
+This function defines a value of the derivative of $y$ for each value of $x$
+except at $x=0$.
+
+\pcap{2}{b}{Derivatives of Simple Algebraic Functions}
+It is not necessary to go through the cumbersome limiting procedure each
+time a derivative of a function needs to be determined.
+Instead, some general rules can be used.
+For example, if the function is some power of $x$, \Index{derivative, of $a/x^p$}$y(x)=ax^p$, where $p$ is
+any positive or negative number, then:
+%
+\eqn{}{\fract{dy(x)}{dx}=
+   \lim_{\Delta x\rightarrow 0}\fract{a(x+\Delta x)^p -ax^p}{\Delta x}}
+%
+becomes, after applying the \Index{binomial theorem}binomial theorem and the limiting procedure,
+\help{2}
+%
+\footnote{The [S-2] means that, if you need help, turn to the Special
+Assistance Supplement at the end of this module and look at Sequence [S-2].}
+%
+\eqn{2}{\fract{d(ax^p)}{dx}=pax^{p-1}.}
+%
+Equation (2) can be applied any time the derivative of any power of the
+independent variable is desired.
+Because the derivative \Index{derivative, of a sum of terms}of a sum of terms is the sum of the derivatives of
+the terms, the above result can be used to produce the derivative of any
+\Index{polynomial, derivative of}\Index{derivative, of polynomial}polynomial.
+%
+\Footnote%
+{A \Index{polynomial, definition of}polynomial is a sum of integer powers of the independent
+ variable with constant coefficients.
+ A polynomial of degree $n$ in general is written as:
+ %
+ \eqn{}{ y(x) =
+ a_0 x^n + a_1 x^{n-1} + \ldots + a_{n-1}x + a_n.\hspace*{.2in}(a_0 \neq 0)}
+}
+%
+For example, if
+%
+\eqn{}{y(t)=y_0 + v_0 t - \fract{g t^2}{2}}
+%
+where $y_0$, $v_0$ and $g$ are constants, and $t$ is the independent
+variable, then Eq.\,(\eqnno{2}) produces:
+%
+\eqn{}{\fract{dy(t)}{dt} = v_0 - g t.}
+
+\pcap[\Index{derivative, second}\Index{second derivatives}]{2}{c}{Second Derivatives}
+The derivative of $dy(t)/dt$, called the second derivative of $y(t)$, is
+written:
+%
+\eqn{}{\fract{d^2 y(t)}{dt^2}.}
+%
+For example, for the function $y(t) = y_0 + v_0 t - gt^2/2$, double
+application of rule (2) produces:
+%
+\eqn{}{\fract{d}{dt}\left(\fract{dy(t)}{dt}\right) = - g.}
+%
+This $y(t)$ is a polynomial of degree two, its first derivative is a
+polynomial of degree one and its second derivative is a polynomial of degree
+zero (just a constant).
+
+\pcap[\Index{product, derivative of}\Index{derivative, of product}]{2}{d}{Derivative of a Product}
+The derivatives of more complicated \Index{derivative, of algebraic function}\Index{algebraic function, derivative of}algebraic functions, such as the
+products or ratios of polynomials, can also be readily found with the aid of
+some basic rules.
+Consider a function which can be written as the product (gf) of two
+functions of the same independent variable; g(x) and f(x).
+The derivative of this function, according to the definition, is:
+%
+\eqn{}{\fract{d(gf)}{dx}=
+\lim_{\Delta x\rightarrow 0}\fract{g(x+\Delta x)f(x+\Delta x)-g(x)f(x)}
+{\Delta x}.}
+%
+If $g(x) f(x + \Delta x)$ is added and subtracted in the numerator, the
+expression may be rewritten in this way:
+%
+\eqn{}{\fract{d(gf)}{dx} = \lim_{\Delta x\rightarrow 0}
+\left(g(x)h_1(x)
++ h_2(x) f(x+\Delta x)\right)\,,}
+%
+where
+%
+\eqn{}{h_1(x) \equiv \fract{f(x+\Delta x)-f(x)}{\Delta x}}
+%
+and
+%
+\eqn{}{h_2(x) \equiv \fract{g(x+\Delta x)-g(x)}{\Delta x}\,.}
+%
+In the limit that $\Delta x$ goes to zero, the two quantities $h_1(x)$ and $h_2(x)$ go to the derivatives of the respective functions while the
+$f(x + \Delta x)$ multiplying $h_2(x)$ goes simply to $f(x)$.
+Thus:
+%
+\eqn{3}{\fract{d(gf)}{dx}=
+           \left(\fract{dg}{dx}\right) f + g \left(\fract{df}{dx}\right) .}
+%
+Similarly:
+\eqn{4}{\fract{d}{dx}\left(\fract{g}{f}\right) =
+\fract{\left(\fract{dg}{dx}\right) f -
+g \left(\fract{df}{dx}\right)}{f^2}.}
+%
+These rules enable us to find the derivative of rational algebraic functions
+(polynomials or ratios of polynomials), but not of irrational algebraic
+functions (such as square roots of polynomials).
+
+\pcap{2}{e}{Chain Rule}
+To enable us to find the derivative of an irrational algebraic function, we
+need to use the \Quote{\Index{chain rule}chain rule.}
+If $f$ is a function of $x$ and if $x$ is a function of $t$ then $f$
+is also a function of $t$ and its derivative with respect to $t$ is
+%
+\eqn{5}{\fract{df(x)}{dt}=
+                  \left(\fract{df}{dx}\right)\left(\fract{dx}{dt}\right) .}
+%
+Using this, the derivative of a function such as
+%
+\eqn{}{F(x) = (ax^2 + bx + c)^{1/2} ,}
+%
+where $a$, $b$, and $c$ are constants, can readily be shown to be:
+%
+\eqn{6}{\fract{dF(x)}{dx}=\fract{2ax+b}{2(ax^2 +bx+c)^{1/2}}.}
+
+\pcap[\Index{trigonometric functions, derivative of}\Index{derivative, of trigonometric functions}]{2}{f}{Derivatives of Trigonometric Functions}
+We can evaluate the derivatives of transcendental functions, such as
+\Index{SIN, derivative of}\Index{derivative, of SIN}$\sin x$, which cannot be expressed as rational or irrational algebraic
+functions, using rules developed from the definition of the derivative.
+Consider the function $y(x) = \sin (kx + \delta )$ where $k$ and $\delta$
+are constants.
+The derivative of $y(x)$ is:
+%
+\eqn{}{\fract{dy(x)}{dx}=\lim_{\Delta x\rightarrow 0}
+    \fract{\sin(kx + k\Delta x + \delta) - \sin(kx+\delta )}{\Delta x}.}
+%
+Using a trigonometric identity,
+%
+\Footnote%
+{See {\em Handbook of Chemistry and Physics}, Chemical Rubber Publishing Co.
+ The identity can be proved by recalling the expansion for $\sin(x\pm y)$
+ and using the substitutions $A=x+y$ and $B=x-y$.
+}
+%
+\eqn{}{\sin A - \sin B = 2 \sin\left(\fract{A-B}{2}\right)
+             cos\left(\fract{A+B}{2}\right) ,}
+%
+and the limit
+%
+\eqn{}{\lim_{\theta \rightarrow 0}\fract{sin\theta }{\theta } = 1,}
+%
+we find that: \help{3}
+\eqn{7}{\fract{d}{dx}[\sin(kx + \delta)] = k \cos(kx + \delta).}
+%
+The \Index{derivative, of COS}\Index{COS, derivative of}derivative of $\cos(kx + \delta)$ can be obtained directly from the
+above result using the relations
+%
+\eqn{}{\cos(kx + \delta) = -\sin\left(kx + \delta + \fract{\pi}{2}\right)}
+%
+and
+%
+\eqn{8}{\cos\left(kx + \delta - \fract{\pi}{2}\right) =sin(kx+\delta),}
+%
+yielding:
+\eqn{9}{\fract{d}{dx}\cos(kx + \delta ) = - k \sin(kx + \delta).}
+%
+The derivatives of other trigonometric functions may be obtained from the
+above results and the appropriate trigonometric identities.
+For example, the derivative of \Index{TAN, derivative of}\Index{derivative, of TAN}$\tan\theta$  with respect to $\theta$  is:
+%
+\eqn{10}{\fract{d}{d\theta}\tan\theta =
+           \fract{d}{d\theta}\left(\fract{\sin\theta}
+           {\cos\theta}\right) = \fract{1}{\cos^2\theta} = \sec^2\theta .}
+%
+Similarly, the derivatives of the \Index{inverse functions}\Index{functions, inverse}inverse trigonometric functions, such a\Index{derivative, of ARCTAN}\Index{ARCTAN, derivative of}s
+$\theta = \arctan x$ (also written as $\tan^{-1} x$, which means $\theta$ is
+the angle whose tangent is $x$) can also be obtained from the above results
+using the rule:
+%
+\eqn{11}{\fract{dy(x)}{dx}=\fract{1}{\fract{dx(y)}{dy}};
+\;\left(\fract{dx}{dy}\neq 0\right) .}
+%
+Frequently used derivatives of trigonometric functions are listed in
+Appendix B.
+
+\pcap{2}{g}{Derivatives of Exponentials and Logarithms}
+None of our rules, developed from algebraic and trigonometric functions,
+apply to \Index{exponential function, derivative of}\Index{derivative, of exponential function}exponential and \Index{logarithm, derivative of}\Index{derivative, of logarithm}logarithmic functions, so here it's necessary to
+begin again with the \Index{logarithm, definition of}definition of the derivative.
+If $x = \log_a F$, then the \Index{derivatives, table of}\Index{table, of derivatives}derivative of $x$ with respect to $F$ is:
+%
+\FourEqns{}%
+{\fract{dx}{dF} & = & \fract{d}{dF}\left(\log_a F\right)}
+{ & = & \lim_{\Delta F\rightarrow 0}\fract{\log_a(F+\Delta F)-
+                                                 \log_a(F)}{\Delta F}}
+{ & = & \lim_{\Delta F\rightarrow 0}
+        \fract{\log_a\left(1+\fract{\Delta F}{F}\right) }{\Delta F}}
+{ & = & \lim_{\Delta F\rightarrow 0}
+        \fract{\fract{\Delta F}{F}\log_a
+        \left[\left(1+\fract{\Delta F}{F}
+        \right)^{F/\Delta F}\right]}{\Delta F}}
+%
+Here we have used \Index{logarithm, properties of}property (3) of logarithms (see Appendix A).
+What is the limit of the argument of this logarithm?
+%
+\Footnote%
+{The \Index{limit, of logarithm of function}limit of the logarithm of a \Index{logarithmic function}function is the same as the logarithm of
+ the limit of the same function.
+}
+%
+That is, what is:
+%
+\eqn{}{y = \lim_{x \rightarrow 0} (1 + x)^{1/x} ?}
+%
+This limit has a definite value, as can be seen by evaluating it and
+plotting it for a few values of $x$ on both sides of zero.
+%
+\CaptionAfterFullFramedFigure{Fig.\,1. A graph of $(1 + x)^{1/x}$ in the vicinity
+of $x = 0$.}{m1gr01}
+%
+The value of the limit is the transcendental number $e$, which to 9 decimal
+places is
+%
+\eqn{}{e = 2.718281828\ldots}
+%
+As we shall see, $e$'s \Index{e, value of}actual value is often of no real interest in physical
+problems, but it enters in a natural way as the exponential base appropriate
+to the mathematical description of many different kinds of physical
+phenomena.
+
+Completing the development of the derivative of the logarithm, we get
+%
+\eqn{13}{\fract{d\left(\log_a F\right)}{dF}=\fract{\log_a e}{F}}
+%
+If we choose the \Index{logarithmic base}\Index{base, logarithmic}base $a = e$, then the constant $\log_a e$ becomes 1 (see
+property (4) of logarithms, Appendix A).
+Because this makes life simpler, we will restrict the remainder of our
+review of derivatives of logarithms and exponentials to that base.
+Furthermore, we write \Quote{$\log_e$} as simply \Quote{$\ell$n.}
+Thus, for a variable $F$, the derivative of \Quote{$\log F$ to the base $e$,}
+$\ell n\,F$, is:
+%
+\eqn{14}{\fract{d(\ell n\,F)}{dF}=\fract{1}{F}.}
+%
+We can obtain the derivative of $e^x$ with respect to $x$ from the
+reciprocal relation between the derivatives when the roles of the dependent
+and independent variables are interchanged [See Eq.\,(\eqnno{10})].
+We use
+%
+\begin{eqnarray*}
+x(F) & = & \ell n\,F \\
+F(x) & = & e^x \\
+\fract{dx(F)}{dF} & = & \fract{1}{dF(x)/dx} \\
+\end{eqnarray*}
+%
+to get:
+%
+\eqn{15}{\fract{d}{dx}\left(e^x\right) = F = e^x.}
+%
+Thus the exponential (to the base $e$) is its own derivative!
+Finally, using the chain rule, it can be shown that:
+%
+\eqn{18}{\fract{d}{dx}\left(e^{mx}\right) = m e^{mx}.}
+
+\scap{3}{DERIVATIVES AS GRAPHICAL SLOPES}
+
+\pcap{3}{a}{Graph of An Equation}
+The functional relationship between two variables, often expressed in the
+form of an equation, may also be displayed on a graph.
+The graphical representation has distinct visual advantages, presenting
+all of the properties of the function in one picture.
+All of the points that lie on the \Index{curve, of equation}curve are points which satisfy the
+equation connecting the variables.
+
+\CaptionAfterLeftFigure{Fig.\,2. The graph of $F(x) = Ax + b$.}{m1gr02}
+
+As an example, consider the \Index{function, graph of}\Index{graph, of function}functional relationship between $F$ and $x$
+given by the equation
+%
+\eqn{}{F(x) = A x + B,}
+%
+where $A$ and $B$ are constants.
+For every value of $x$ there is one value
+$F(x)$ and for every value of $F(x)$ there is one value of $x$.
+The points for which this correspondence exists can be connected by a
+continuous curve.
+This \Index{graph, of equation}\Index{equation, graph of}graph of the equation can be plotted on a rectangular coordinate system
+in which $F(x)$ and $x$ are the perpendicular axes (See Fig.\,2.).
+The graph of this equation is a straight line, reflecting the linear
+relationship between $F$ and $x$.
+Given a value $x = x_1$, the value of $F(x)$ which satisfies the equation
+can be obtained from the equation $F(x_1) = A x_1 + B$ or can be determined
+from the graph [point $P$ on the graph in Fig.\,2 has coordinates
+$x_1$, $F(x_1)$].
+%
+\Footnote%
+{On a two-dimensional rectangular plot it is customary to represent
+ points by the ordered pair of numbers [$x ,y$] which are, respectively, the
+ horizontal and vertical coordinates of the point.
+}
+
+\CaptionAfterFullFramedFigure{Fig.\,3. The slope of a curve $G(x)$, at some point
+$P$, equals the slope of the tangent to the curve at that point.}{m1gr03}
+
+\pcap[\Index{slope, of line}\Index{line, slope of}]{3}{b}{Slope of a Straight Line}
+A property associated with equations which is of importance in physical
+applications and which can most easily be discussed with reference to the
+graph of the equation is the rate at which one variable changes due to
+changes in the other.
+For a graph which is a straight line, the rate is the same as the slope of
+the line (the slope being the tangent of the angle that the line makes with
+the horizontal axis).
+Referring to Fig.\,2, if $P_1$ and $P_2$ are two points whose \Index{coordinates}coordinates
+are [$x_1$, $F(x_1)$] and [$x_2$, $F(x_2)$], then the rate at which $F$
+changes between those two points relative to the corresponding change in $x$
+is:
+%
+\eqn{}{\fract{\Delta F}{\Delta x}=\fract{F(x_2)-F(x_1)}{x_2-x_1}.}
+%
+Let $\Delta x = x_2 - x_1$ so that $F(x_2) = F(x_1 + \Delta x)$ and the
+slope of the line may be written as:
+%
+\eqn{16}{{\rm slope} \equiv \fract{F(x_1 + \Delta x) -
+                                       F(x_1)}{\Delta x} \hspace{0.2in}
+{\rm (straight\;line)}.}
+%
+For a straight line, the result of Eq.\,(\eqnno{16}) is clearly the same no
+matter what size we pick for $\Delta x$.
+That will not be the case for curves that are not straight lines.
+
+\pcap[\Index{slope, of curve}\Index{curve, slope of}]{3}{c}{Slopes of Curves}
+If we take the limit of Eq.\,(\eqnno{16}) as $\Delta x \rightarrow 0$, this
+expression for the slope
+becomes the derivative of $F$ with respect to $x$, and we can define the
+slope at a single point on any curve as:
+%
+\eqn{17}{{\rm slope\;at\;point}\;x_1 \equiv
+                                \left.\fract{dF(x)}{dx}\right|_{x = x_1}.}
+%
+For a function whose graph is not a straight line,
+the \Index{slope, of function}\Index{function, slope of}slope does depend upon the point at which it is evaluated.
+The slope in such cases is the slope of the straight line that is
+tangent to the curve at the point in question (see Fig.\,3).
+
+\pcap{3}{d}{Finding Maximum and Minimum Points}
+The collection of all \Index{maximum point}maximum and \Index{minimum point}minimum points of a
+function can be found by finding the points of \Index{zero slope}zero \Index{slope, sign of}slope (see Fig.\,4).
+From the definition of slope [see Eq.\,(\eqnno{17})] it is apparent that the
+slopes at $P_1$ and $P_5$ in Fig.\,4 are \Index{positive slope}positive.
+However, the slope at $P_3$, on the decreasing part of the curve, is
+\Index{negative slope}negative.
+At point $P_2$, where the tangent to the curve is horizontal, the slope is
+zero.
+Similarly, the slope is zero at $P_4$.
+The two points, $P_2$ and $P_4$, are, respectively, a \Quote{\Index{point, maximum}\Index{maximum point}maximum point} and
+a \Quote{\Index{point, minimum}\Index{minimum point}minimum point} of the curve.
+At $P_2$ all points on the curve in the immediate neighborhood of $P_2$ have
+$y(x)$ less than the corresponding value at $P_2$, while at $P_4$ all points
+in the neighborhood of $P_4$ have $y(x)$ greater than the value of $P_4$.
+This illustration indicates the method for determining the maximum and
+minimum points of a function:
+Find the values of $x$ which make the derivative of the function equal to
+zero.
+
+\tryit Show that the locations of the maximum and minima of the function
+%
+\eqn{}{y(x) = 5 x^3 - 2 x^2 - 3 x + 2.}
+%
+are at:  $x = 3/5; x = -1/3$. \help{1}
+Show that the first is where $y$ is a minimum, the \Index{second derivative}second where it is a
+maximum.
+\help{1}
+
+\pcap{3}{e}{Separating into Maxima and Minima}
+How do you determine whether a point of zero slope is a maximum or a
+minimum?
+You could plot a graph and examine it, or you could evaluate the second
+derivative of the function at the point in question.
+Referring to Fig.\,4, the slope of the curve is positive to the left of
+$P_2$, zero at $P_2$, and negative to the right of $P_2$.
+Hence the slope is decreasing.
+The derivative of the slope, the second derivative of the function $y(x)$
+itself, is therefore negative.
+Thus the second derivative is negative at a maximum---this is because the
+second derivative is the \Quote{bending function} and at a maximum it is bending
+the function down, negatively.
+Correspondingly, at the location of a minimum, the second derivative of the
+function, the \Quote{bending,} is positive.
+
+\tryit See for yourself that the function
+%
+\eqn{}{y(x) = 2x^3 - 3x^2 + 4,}
+%
+has a maximum at point (0,4) and a minimum at point (1,3).
+
+\CaptionAfterFullFramedFigure{Fig.\,4. For the curve shown, the slopes at $P_1$
+and $P_5$ are positive numbers while the slope at $P_3$ is negative.
+At the points $P_2$ and $P_4$, where the tangent line is horizontal, the
+slope is zero.}{m1gr04}
+
+\scap{4}{DEFINITE AND INDEFINITE INTEGRALS}
+
+\pcap[\Index{integral, indefinite}\Index{indefinite integral}]{4}{a}{Indefinite Integrals}
+Knowing the derivative of a function with respect to an independent
+variable, we often wish to determine the function itself.
+The inverse of the derivative is desired here, and the procedure is called
+\Quote{\Index{integration}integration.}
+The result of this procedure is called \Quote{\Index{integral}the integral.}
+For example, because $2x$ is the derivative of $x^2$  with respect to $x$,
+the integral of $2x$ is $x^2$.
+However, $x^2 + 4$ is also the integral of $2x$, as is $x^2 - 10$.
+In fact, because the derivative of a constant is zero, the integral of $2x$
+is $x^2 + C$, where $C$ is any constant.
+Because of the presence of the indefinite constant, $x^2 + C$ is called the
+\Quote{indefinite integral} of $2x$.
+This inverse of differentiation, the indefinite integral, is customarily
+written in the form:
+%
+\eqn{}{\int  y(x)\,dx = F(x) + C.}
+%
+That is, the indefinite integral of $y(x)$ with respect to $x$ is:
+$F(x) + C$.
+This will be true if $y(x)$ is the derivative of $F(x) + C$ with respect to
+$x$.
+The function being integrated, $y(x)$, is called \Quote{the \Index{integrand}integrand.}
+Examples:
+%
+\begin{eqnarray*}
+  (i) & \int & \left( 4x^2 +7\right) dx=\fract{4}{3}x^3 +7x+C \\
+ (ii) & \int & x^n\,dx = \fract{x^{n+1}}{n+1} + C \\
+(iii) & \int & \fract{dx}{x}=\ell n\,x + C \\
+ (iv) & \int & \cos\theta\,d\theta = \sin\theta + C \\
+  (v) & \int & e^x dx = e^x + C                   \\
+ (vi) & \int & \fract{dI(x)}{dx}dx =
+I(x) + C\hspace*{0.2in}{\rm for\;any}\;I(x). \\
+\end{eqnarray*}
+%
+The last result, (vi), can be verified by taking the derivative with respect
+to $x$ of the right side of each equation, thereby producing the integrand
+of the integral on the left.
+The integrals of other frequently encountered functions, such as those
+appearing to the right of the equality sign for entries in Appendix B, may
+be determined by identifying the integrands as the derivative of sought-for
+answers as illustrated in (vi).
+
+\pcap{4}{b}{Integration by Parts}
+The \Index{integrals, techniques for evaluating}technique of \Quote{integration by parts} can often be used to integrate
+functions whose derivatives do not appear in a brief table or among easily
+remembered derivatives such as those in Appendix B.
+Consider, for example, the integral of $x\,\cos x$.
+This is the integral of the product of the two functions, $x$ and $\cos x$
+whose integrals are individually well-known.
+For such cases we can use entry (2) of Appendix B to write:
+%
+\eqn{}{g(x)\fract{df(x)}{dx}=\fract{d}{dx}[f(x)g(x)]-f(x)\fract{dg(x)}{dx}.}
+%
+Integrating this expression, we get the well-known formula for \Quote{integration
+by parts}:
+%
+\Footnote{This is sometimes written with $f(x)$ replaced by $u(x)$ and
+$g(x)$ replaced by $v(x)$:
+$\int v \, \fract{du}{dx}\,dx =
+                            u \, v - \int u \, \fract{dv}{dx}\,dx$ or
+$\int u \, dv = u \, v - \int v \, du$.}
+%
+\eqn{}{\int g(x)\fract{df(x)}{dx}\,dx=
+                            f(x)g(x)-\int f(x)\fract{dg(x)}{dx}\,dx.}
+%
+Now let $g(x) = x$ and $df(x)/dx = \cos x$, so:
+%
+\eqn{}{\fract{dg(x)}{dx}=1\hspace*{0.2in} {\rm and} \hspace*{0.2in} f(x)=
+                                                        \sin x + C.}
+%
+
+Substituting into the integral gives:
+%
+\eqn{}{\int \,x\, \cos x\,dx = x (\sin x + C) - \int \,(\sin x + C)\,dx,}
+%
+or:
+\eqn{}{\int \,x\, \cos x\, dx = x \sin x + \cos x + C.}
+
+\pcap[\Index{limits, of integral}\Index{integral, limits of}]{4}{c}{Other Integration Techniques}
+Other difficult-to-perform integrations may be reduced to tractable
+form by the introduction of a new variable.
+Integrands involving radicals, such as $\left(a^2 + x^2 \right)^{1/2}$,
+where $a$ is a constant, can be performed by making a trigonometric
+substitution $(x = a \tan\theta$ in the above case).
+
+Tables of integrals of functions of many kinds are available and are the
+quickest technique for evaluating the integrals of functions which can be
+cast into certain standard forms.
+%
+\Footnote%
+{For example, {\em A Short Table of Integrals}, Third Revised Edition,
+ B.\,O.\,Pierce, Ginn and Co. (1929).
+ There is also a table of integrals included in the
+ {\em Handbook of Chemistry and Physics}, Chemical Rubber
+ Publishing Co., any edition.
+}
+%
+There are also computer programs that produce either formal or numerical
+integrals.
+\footnotetext%
+{See \Quote{Numerical Integration} (MISN-0-349) and \Quote{Formal Mathematical
+ Solutions by Computer} (MISN-0-361).
+}
+%
+\CaptionAfterFullFramedFigure{Fig.\,5. The integral of $y(x)$ from $x_0$ to $x$
+equals the area that is \Index{curve, area under}\Index{area, under curve}under the curve and bounded by $x_0$ and $x$.}{m1gr05}
+
+\pcap[\Index{integral, definite}\Index{definite integral}]{4}{d}{Definite Integrals}
+While the derivative of a function equals the slope of the curve
+representing the function, the integral of a function equals the area under
+the function's curve (see Fig.\,5).
+To see this, consider the graph of some function $y(x)$ shown in Fig.\,5.
+The area under the curve, between the value $x_0$ and some other value $x$,
+is the area $A$ shown in the figure.
+If $x$ is increased by the incremental amount $\Delta x$, the area under the
+curve increases by some amount we label $\Delta A$.
+This amount $\Delta A$ is more than the area of the rectangle of area
+$y(x)\,\Delta x$ (the
+smaller dotted rectangle to the right of $A$) and less than the area of the
+larger rectangle $y(x + \Delta x) \Delta x$.
+The incremental area may be written as:
+%
+\eqn{}{\Delta A = y(x)\,\Delta x + {\rm an\; amount\; less\; than\;}
+[y(x + \Delta x) - y(x)]\,\Delta x.}
+%
+Then:
+%
+\eqn{}{\fract{\Delta A}{\Delta x} = y(x) + {\rm an\; amount\; less\; than\;}
+y(x + \Delta x) - y(x).}
+%
+In the limit as $\Delta x \rightarrow 0,$ the second area on the right goes
+to zero while the left side of the equation becomes $dA/dx$:
+%
+\eqn{}{\fract{dA}{dx}=y(x).}
+%
+Integrating this expression, the area under any $f(x)$ between any $x_1$ and
+$x_2$ is:
+%
+\eqn{}{A(x_1,x_2) = \int_{x_1}^{x_2} y(x) \,dx.}
+%
+For parts of the curve that are below the $x$-axis, the area between the
+curve and the $x$-axis is given a negative numerical value since the
+function is negative there.
+Thus for the graph of the sine function, shown in Fig.\,6, in the interval
+from $x = 0$ to $x = 2\pi$, there is just as much area below the axis
+(negative area) as there is above the axis (positive area), so they cancel
+each other and the integral from 0 to 2$\pi$  is zero:
+
+\CaptionAfterFullFramedFigure{Fig.\,6. Graph of $\sin x$ illustrating that the
+integral over the full cycle, 0 to 2$\pi$, is zero.
+The part of the area above the axis, $0$ to $\pi$, is equal to the part of
+the area below axis, $\pi$  to $2\pi$.}{m1gr06}
+%
+\eqn{}{\int_0^{2 \pi} \sin x dx =
+                             \int_0^{\pi} \sin x\; dx + \int_{\pi}^{2\pi}
+\sin x\; dx = 2 + (-2) = 0.}
+%
+\Acknowledgments\NsfAcknowledgment
+
+\newpage
+
+\spcap{A}{LOGARITHMS}
+
+The logarithm of a number $F$ to the base $a$ is the power to which $a$ must
+be raised to yield the number $F$:
+%
+\begin{center}\begin{tabular}{r l}
+if:   & $F = a^x$          \\
+then: & $\log_a F = x$ \,. \\
+\end{tabular}\end{center}
+%
+%\eqn{}{x = \log_a F,\hspace*{0.15in}{\rm if:}\hspace*{0.15in} F = a^x.}
+%
+For example, to the base $a = 10$, the logarithm of $F = 100$ is
+$x = \log_{10} F = 2$,
+while to the base $a = 2$, the logarithms of $F = 1,024$ and $F = 10$ are
+$x = \log_2 F = 10$ and 3.32, respectively.
+The familiar properties of logarithms, listed below, all follow from the
+definition.
+
+\noindent
+If $F = a^x$ and $G = a^y$, then $FG = a^x a^y = a^{x + y}$, and
+%
+\begin{eqnarray*}
+(A1) & \hs & \log_a(FG) = x + y = \log_a F + \log_a G. \\
+(A2) & \hs & \log_a\fract{F}{G}=\log_a F-\log_a G \\
+(A3) & \hs & \log_a F^n = n\,\log_a F \\
+(A4) & \hs & \log_a a = 1 \\
+(A5) & \hs & \log_a 1 = 0 \\
+\end{eqnarray*}
+%
+Each of these can be proved using the definition of the logarithm.
+Another useful property expresses the relationship between the logarithms of
+the same number $F$ in two different bases, $a$ and $b$:
+%
+\eqn{12}{\log_b F = (\log_a F)\cdot(\log_b a).}
+%
+The inverse functional relationships,
+%
+\eqn{}{x(F) = \log_a F;\hspace*{0.2in}{\rm and}\hspace*{0.2in} F(x) = a^x}
+%
+define a value of $x$ for each given value of $F$, and vice versa.
+
+\clearpage
+
+\spcap{B}{FREQUENTLY USED DERIVATIVES}
+
+\begin{eqnarray*}
+(B1)  & \hs & \fract{d}{dx}\left(a x^n\right) = n a x^{n-1} \\
+(B2)  & \hs & \fract{d}{dx}[f(x)g(x)]=
+                        g(x)\fract{df(x)}{dx}+f(x)\fract{dg(x)}{dx} \\
+(B3)  & \hs & \fract{d}{dx}\left[\fract{f(x)}{g(x)}\right] =
+             \fract{g(x)\fract{df(x)}{dx}-f(x)
+             \fract{dg(x)}{dx}}{[g(x)]^2} \\
+(B4)  & \hs & \fract{d}{dt}[f(x)]=\fract{df}{dx}\cdot \fract{dx}{dt} \\
+(B5)  & \hs & \fract{df(x)}{dx}=\left[\fract{dx(f)}{df}\right]^{-1} \\
+\end{eqnarray*}
+\lcr{}{\fbox{Trigonometric}}{}
+\begin{eqnarray*}
+(B6)  & \hs & \fract{d}{d\theta}\sin\theta = \cos\theta  \\
+(B6') & \hs & \fract{d}{d\theta}\sin m\theta = m \cos m\theta  \\
+(B7)  & \hs & \fract{d}{d\theta}\cos\theta = - \sin\theta  \\
+(B8)  & \hs & \fract{d}{d\theta}\tan\theta = \sec^2 \theta  \\
+(B9)  & \hs & \fract{d}{d\theta}\cot\theta = - \csc^2 \theta  \\
+(B10) & \hs & \fract{d}{d\theta}\sec\theta = \sec\theta \tan\theta  \\
+(B11) & \hs & \fract{d}{d\theta}\csc\theta = - \csc\theta \cot\theta  \\
+(B12) & \hs & \fract{d}{d\theta}\sin^{-1}x(\theta)=
+\fract{\fract{dx}{d\theta}}{(1-x^2 )^{1/2}} \\
+(B13) & \hs & \fract{d}{d\theta}\cos^{-1}x(\theta)=
+\fract{-\fract{dx}{d\theta}}{(1-x^2 )^{1/2}} \\
+(B14) & \hs & \fract{d}{d\theta}\tan^{-1}x(\theta)=
+\fract{\fract{dx}{d\theta}}{1+x^2} \\
+\end{eqnarray*}
+\lcr{}{\fbox{Logarithmic}}{}
+\begin{eqnarray*}
+(B15) & \hs & \fract{d}{dx}\log_a U(x) =
+\left[\fract{1}{U(x)}\right] \left[\log_a e\right]
+\left[\fract{dU(x)}{dx}\right] \\
+(B16) & \hs & \fract{d}{dx}\ell n\,x = \fract{1}{x} \\
+(B17) & \hs & \fract{d}{dx}\left(a^x\right) = a^x log_e a \\
+(B18) & \hs & \fract{d}{dx}\left(e^{y(x)}\right) =
+e^{y(x)}\left(\fract{dy(x)}{dx}\right)  \\
+\end{eqnarray*}
+
+%\TxEnd

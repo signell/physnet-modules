@@ -1,0 +1,62 @@
+% 4/29/92, pss; 12/8/92, pss; 2/12/93, pss; 3/11/93, pss; 9/2/94, pss
+\IdStart
+
+\begin{id-items}
+\item Title: {\bf CIRCULAR MOTION: KINEMATICS}
+
+\item Author: James M.~Tanner, School of Physics, Georgia Inst.~of Tech.,
+Atlanta, GA  30332
+
+\item Version: 9/2/94 \hfil Evaluation: Stage 0
+
+\item Length: 1 hr., TX(11 pp.), PS(4 pp.), AS(4 pp.), ME(2 pp.).
+
+\item {\bf Input Skills}:
+
+\begin{id-subitems}
+\item [1.] Define kinematically: velocity, speed, and acceleration (MISN-0-7),
+(MISN-0-8).
+
+\item [2.] Use the Cartesian unit vectors $\hat{x}$, $\hat{y}$, $\hat{z}$ to write a
+vector in terms of its Cartesian components (MISN-0-1), (MISN-0-2).
+
+\item [3.] Use the chain rule to differentiate sine and cosine (MISN-0-1), (MISN-0-2).
+
+\item [4.] Given the position, velocity, and acceleration vectors for a particle
+executing circular motion, determine: (1) if the motion is clockwise or
+counterclockwise; and (2) if the particle's speed is increasing, decreasing
+or unchanging (MISN-0-72).
+
+\item [5.] Given: (1) a particle's position on a circle; (2) its direction of motion
+as clockwise or counterclockwise: and (3) its change of speed as
+increasing, decreasing, or unchanging.
+Draw plausible position, velocity, and acceleration vectors with correct spatial
+orientations (MISN-0-72).
+\end{id-subitems}
+
+\item {\bf Output Skills (Knowledge)}:
+\begin{id-subitems}
+\item [K1.] Define angular velocity in terms of angular displacement and explain
+how to determine the direction of the angular velocity vector.
+\end{id-subitems}
+
+\item {\bf Output Skills (Rule Application)}:
+\begin{id-subitems}
+\item [R1.] Given a particle's position (as measured along the arc of its circular
+path) as a function of time, formally calculate its position, velocity, and
+acceleration vectors at any instant.
+
+\item [R2.] A particle in uniform circular motion has these four descriptors: radius,
+speed, radial acceleration (magnitude), plus either of period or frequency.
+Given any two of these quantities, determine the other two.
+\end{id-subitems}
+\end{id-items}
+\vfill
+
+\newpage
+
+\lhead{}
+
+\input mod-pd.tex
+
+\endinput

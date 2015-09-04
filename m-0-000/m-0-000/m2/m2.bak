@@ -1,0 +1,20 @@
+% 8/16/95, pss; 6/5/97, abs;
+\input nphmods.sty
+
+%\includeonly{m2-tx}
+
+%\psdraft
+
+\begin{document}
+
+\mNumber{2}
+
+\ChapterStart
+\include{m2-id}
+\include{m2-tx}
+\include{m2-ps}
+\include{m2-as}
+\include{m2-me}
+\ChapterEnd
+
+\end{document}

@@ -1,0 +1,50 @@
+
+******* extra stuff:
+
+\scap{4}{Relative Linear Motion}
+
+\pcap{4}{a}{General Equation of Motion is a Vector Equation}
+The equation of motion for a particle is given by the vector relation
+\begin{equation}
+\vec{a} = \fract{dv}{dt},
+\end{equation}\setcounter{eqn12}{\the\value{equation}}
+which is actually three component equations expressed in mathematical
+shorthand.
+Equation (\eqnno{12}) describes the acceleration of an object with
+respect to a given frame of reference, or the acceleration of one frame of
+reference with respect to another.
+In general, to find a given acceleration we must first construct the
+corresponding velocity vector, and then differentiate each component of the
+velocity.
+
+\pcap{4}{b}{Linear Motion}
+If the direction of the velocity is not changing with time, we do not need
+to use vector equations.
+For such a case the trajectory is a straight line and we can align one of the
+coordinate axes with the trajectory.
+If we align the \m{x}-axis with the trajectory, we get this equation:
+\begin{equation}
+a_x = \fract{dv_x}{dt}.
+\end{equation}\setcounter{eqn13}{\the\value{equation}}
+Then the magnitude of the acceleration is given by:
+\begin{equation}
+a = |a_x| = |\fract{dv_x}{dt}| = |\fract{dv}{dt}|
+\end{equation}\setcounter{eqn15}{\the\value{equation}}
+where \m{v} is the magnitude of the vector \m{v} and is positive, as vector
+magnitudes must be.
+
+\pcap{4}{d}{Relative Motion That is Non-Linear}
+Although it is easier to calculate accelerations in the case of relative
+linear motion, there are many interesting examples of relative motion in
+which the direction of one or more velocity is not constant.
+For example, if one of the frames of reference is rotating or revolving,
+an observer within this reference frame will perceive the motion of a
+particle in a dramatically different manner than will an observer in a
+non-rotating reference frame.
+This type of relative motion is responsible for such simple effects as the
+counter-clockwise motion of a sink drain vortex in the northern hemisphere.
+Tornados and cyclones more serious examples of the influence of rotating
+frames of reference.%
+%\Footnote{For a more detailed discussion of this topic, see \Quote{Classical Mechanics in
+Rotating Frames of Reference: Effects on the Earth's Surface} (MISN-0-18).}
+%

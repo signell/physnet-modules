@@ -1,0 +1,43 @@
+\revhist{11/5/91, pss; 11/24/92, pss; 12/15/92, pss; 3/8/93, pss; 11/19/93, pss;
+         4/13/94, pss; 9/7/94, pss; 3/27/95, pss; 3/29/95, pss; 9/15/95, pss;
+         9/27/95, lae; 12/8/95, pss; 8/23/97, pss; 11/13/97, pss; 12/4/97, pss; 2/22/99, pss;
+         5/21/99, pss; 11/8/99, pss; 2/18/2000, pss; 4/1/02, pss; 4/23/02, pss}
+%
+\defModTitle{\ph{Work, Power, Kinetic Energy}}
+\defCtAuthor{John \inits{S.}Ross, Rollins College}
+\defIdAuthor{John S.\,Ross, Dept.\,of Physics, Rollins College, Winter Park,
+FL}
+%
+\defIdItems{
+    \IdVersEval{4/23/2002}{1}
+    \IdHours{1}
+    \begin{InputSkills}
+    \item [1.] Define the integral, evaluate integrals of polynomials \prrqone{0-1}.
+    \item [2.] Define the scalar product of two vectors and express it in
+    component form \prrqone{0-2}.
+    \item [3.] Solve problems involving Newton's second law \prrqone{0-16}.
+    \end{InputSkills}
+    %
+    \begin{KnowledgeSkills}
+    \item [K1.] Vocabulary: watt.
+    \item [K2.] State the line integral definition of the work done by a force
+    and explain how it reduces to other mathematical formulations for special
+    cases.
+    \item [K3.] Define the power developed by an agent exerting a force.
+    \item [K4.] Derive the Work-Kinetic Energy Relation using Newton's second
+    law and the work done by a variable force.
+    \item [K5.] Define the kinetic energy of a particle.
+    \end{KnowledgeSkills}
+    %
+    \begin{ProblemSolvingSkills}
+    \item [S1.] Calculate the work done on an object given either:
+    \begin{itemize}
+    \item [a.] one or more constant forces, or
+    \item [b.] a force that is a function of position along a prescribed path.
+    \end{itemize}
+    \item [S2.] Use the definition of power to solve problems involving agents
+    exerting constant forces on objects moving with constant velocity.
+    \item [S3.] Use the Work-Kinetic Energy Relation to solve problems involving
+    the motion of particles.
+    \end{ProblemSolvingSkills}
+}

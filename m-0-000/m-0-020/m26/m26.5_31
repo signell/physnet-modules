@@ -1,0 +1,21 @@
+
+\input nphmods.sty
+
+\begin{document}
+
+\Module{26}{Stnd}{
+    \ModData{
+        \Section{m26-dat}%
+    }%
+    \ModText{
+        \Section{m26-tx}%
+    }%
+    \ModSupp{
+        \Section{m26-ps}%
+        \Section{m26-as}%
+        \Section{m26-me}%
+\ChapterEnd
+
+\end{document}
+
+\revhist{11/18/93, pss; 8/30/95, pss}

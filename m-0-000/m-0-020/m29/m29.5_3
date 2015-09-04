@@ -1,0 +1,21 @@
+% 10/11/94, pss; 9/12/95, pss; 2/1/99 bds
+\input nphmods.sty
+
+%\includeonly{m29-as}
+
+%\psdraft  %(activate only for hp mode; percent-out for ps mode)
+
+\begin{document}
+
+\mNumber{29}
+
+\ChapterStart
+\include{m29-ct}
+\include{m29-id}
+\include{m29-tx}
+\include{m29-ps}
+\include{m29-as}
+\include{m29-me}
+\ChapterEnd
+
+\end{document}

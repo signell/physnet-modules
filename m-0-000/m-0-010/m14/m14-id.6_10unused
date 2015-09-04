@@ -1,0 +1,53 @@
+\revhist{7/12/85; mpm; 9/13/88, pss; 10/4/89, pss; 8/7/91, pss; 9/10/91, pss;
+         9/29/94, pss; 3/3/95, pss; 9/18/95, lae; 8/23/97, pss; 11/13/97, pss;
+         2/22/99, pss; 9/21/99, pss; 12/15/99, pss; 3/3/2000, pss; 12/15/2000, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{Particle Dynamics; the Laws of Motion}
+
+\IdAuthor{William Faissler, Dept.\,of Physics, Northeastern Univ., Boston, MA}
+
+\IdVersEval{12/15/2000}{1}
+
+%\begin{Hours/Pages} \HR{1} \TX{15} \PS{4} \AS{8} \ME{2} \end{Hours/Pages}
+\begin{Hours/Pages} \HR{1} \TX{16} \PS{4} \AS{8} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  Add and subtract vectors, both graphically and in terms of components
+\prrqone{0-2}.
+\item [2.]  Define position, velocity, and acceleration, and state the relationship
+between these quantities, both in one dimension \prrqone{0-7} and in three
+dimensions \prrqone{0-8}.
+\item [3.]  Solve problems for one-dimensional motion with constant acceleration
+\prrqone{0-7}.
+\item [4.] State Newton's three laws: explain the meaning of all terms, and
+give examples \prrqone{0-62}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Tell the \Quote{Newton and the Horse Who Wouldn't Move} story and explain
+the flaw in the horse's reasoning.
+\end{KnowledgeSkills}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] Solve problems involving single objects and constant forces.
+Some combination of the forces, mass of the object, and the acceleration will
+be given; you are to find the remaining terms.
+There are four possible levels of complexity in these problems:
+\begin{itemize}
+\item [a.] the forces all lie in one plane, hence graphical techniques can be used.
+\item [b.] the acceleration is not given directly; rather the kinematic relations
+for constant acceleration (two-step problems) will have to be used.
+\item [c.] The problem is truly three-dimensional, hence it is necessary to work
+with unit vectors or with component equations.
+\item [d.] a combination of (b) and (c).
+\end{itemize}
+\item [S2.] Solve \Quote{person in elevator} type problems.
+\end{ProblemSolvingSkills}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

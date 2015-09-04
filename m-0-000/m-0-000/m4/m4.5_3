@@ -1,0 +1,21 @@
+% 8/16/95, pss; 11/7/95, pss
+\input nphmods.sty
+
+%\includeonly{m4-id}
+
+%\psdraft
+
+\begin{document}
+
+\mNumber{4}
+
+\ChapterStart
+\include{m4-ct}
+\include{m4-id}
+\include{m4-tx}
+\include{m4-ps}
+\include{m4-as}
+\include{m4-me}
+\ChapterEnd
+
+\end{document}

@@ -1,0 +1,42 @@
+\revhist{4/10/92, pss; 12/2/92, pss; 12/16/92, pss; 3/11/93, pss; 10/11/94, pss;
+         9/15/95, pss; 8/23/96, pss; 8/25/97, pss; 2/22/99, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{Small Oscillations}
+
+\IdAuthor{Peter Signell, Dept.\,of Physics, Mich. State Univ}
+
+\IdVersEval{2/1/2000}{0}
+
+%\begin{Hours/Pages} \HR{1} \TX{10} \PS{13} \AS{4} \ME{1} \end{Hours/Pages}
+\begin{Hours/Pages} \HR{1} \TX{10} \PS{14} \AS{4} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  Vocabulary: simple harmonic motion, linear restoring force,
+frequency, displacement, amplitude, phase \prrqone{0-26}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Vocabulary: small oscillation, point of stable equilibrium,
+linear approximation.
+\end{KnowledgeSkills}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] Given a force or potential energy function, show the small
+oscillation solution's: (i) center point; (ii) force constant; and
+(iii) frequency.
+The solution presentation should include: intermediate steps, graphs,
+and answer checks.
+\end{ProblemSolvingSkills}
+
+\begin{PostOptions}
+\item [1.]  \Quote{Interatomic Binding and Lattice Energy of Crystalline Solids} (MISN-0-334).
+\item [2.]  \Quote{Diatomic Molecules: Properties from Rotation-Vibration Spectra} (MISN-0-217).
+\end{PostOptions}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

@@ -1,0 +1,242 @@
+% 12/20/88 ejdk; 2/27/91, pss; 8/29/91, pss; 2/26/93, pss; 4/20/94, pss
+% 10/2/95, pss; 11/14/96, pss; 11/13/97, pss
+\PsStart
+
+\noindent Use: $g = 9.8$\,m/s$^2$
+
+\noindent Use Conservation of Energy in each problem marked with an asterisk (*).
+
+\noindent If no Reference Point is given, use the standard one for that
+type of problem.
+
+\noindent Problems 20-22 are also in this module's {\it Model Exam}.
+
+\begin{two-digit-list}
+\item [1.] In the example of Sect.\,5b in the text, we found that 175\,J of
+energy was converted to heat and breaking of chemical bonds, primarily in
+your toe.
+If it requires an average of $10^{-18}$\,J to break one molecular bond and
+4/7 of the ``lost'' energy went into breaking molecular bonds, how many
+bonds were broken?*(C)
+
+\item [2.] The useful output power from a certain water pump is 80.0\% of
+the electrical power supplied to it.
+This pump is used to raise 4.0\,kg/s of water from a well.
+If the water leaves the system at a speed of 8.0\,m/s at a height of 12.0\,m
+above the water level in the well, find the electrical power being supplied
+to the pump.*(G) \help{24}
+
+\item [3.] The high-dive at an Olympic swimming pool is 10.0\,m (32.8\,ft)
+above water level.
+Neglecting air resistance, with what speed will a diver hit the water if he
+or she starts with a speed of 5.0\,m/s at an angle of 36.87$\degrees$ above
+the horizontal?*(A) \help{25}
+
+\item [4.] A girl of mass 49.0\,kg is on a swing which has a mass of
+1.0\,kg.
+Suppose you pull her back until her center of mass is 2.0\,m above the
+ground.
+You let her go and she swings out and returns to the same point.
+Are all forces acting on the system conservative?
+(Caution: this question deserves a carefully qualified answer.) (B)
+
+\item [5.] Assume that all forces in the previous problem are conservative,
+and that the center of mass of the girl-plus-swing system is 0.75\,m off the
+ground at its lowest point.
+Find the girl's maximum speed.*(H)
+
+\item [6.] Suppose you push the girl in problem 5 and add 490\,J of energy
+to the system.
+Find her new maximum height above the ground.*(D)
+
+\item [7.] A certain toboggan with its riders has a mass of 305\,kg and goes
+down a hill which is 25\,m high.
+The toboggan starts from rest and attains a final speed at the bottom of the
+hill of 12\,m/s.
+Find the energy lost to friction.*(J)
+
+\item [8.] One bit of advice that bowlers often hear is ``let the weight of
+the ball do the work.
+Don't force it.''
+For each of the following two cases, find the percentage of the ball's final
+energy which is supplied by the bowler:*\help{26}
+\begin{one-digit-list}
+\item [a.] Good bowler, average = 200, backswing height = 1.10\,m, release
+speed = 6.76\,m/s. (E)
+\item [b.] Average bowler, average = 120, backswing height = 0.70\,m,
+release speed = 7.70\,m/s. (E)
+(Data from Murose, ``Biomechanics of Bowling,'' Nelson, ed.,
+{\em Biomechanics IV}, 1974.
+\end{one-digit-list}
+
+\item [9.] A rubber ball is dropped from a height of 1.5\,m onto a concrete
+floor and rebounds to a height of 1.2\,m.
+What fraction of its original energy was lost to friction?*(K)
+
+\item [10.] Given a conservative force defined by $\vec{F} =
+- k x^2 \hat{x}$ find the corresponding potential energy function.
+State the reference point. (F)
+
+\item [11.] Given a conservative force, $\vec{F} = k/r^3 \hat{r}$, find the
+associated potential energy function.
+State the reference point. (I)
+
+\item [12.] Given the conservative force $\vec{F} = x y_0 \hat{x}$ find the
+associated potential energy function.
+State the reference point. (M)
+
+\item [13.] Given the conservative force, $\vec{F} = A \cos x\,\hat{x}$,
+find the potential energy function.
+State the reference point. (N)
+
+\item [14.] A man at the scene of an accident claims that he was traveling
+on a level road at 25\,m/s (56\,mph) when he saw the car pull out in front
+of him.
+He says he skidded for about 30\,m and hit the other car with a
+speed of about 5\,m/s.
+If he is telling the truth, what was the coefficient of friction, assuming
+it to be independent of speed? (L) \help{27}
+
+\item [15.] A car with a mass of 1500\,kg accelerates from rest to a speed
+of 21\,m/s in a time of 8.0\,s.
+Neglecting losses due to friction and assuming a level road, what horsepower
+is required?
+(hp = 746\,W) (O)
+
+\item [16.] Re-do the previous problem for the car on a hilly road if its
+increase in height is 8\,m.*(Q)
+
+\item [17.] A 40.0\,kg mass is traveling horizontally with velocity
+2.0\,$\hat{x}$\,m/s as it crosses the coordinate origin and encounters the
+force $\vec{F} = - k x \hat{x}$ due to a spring.
+If $k = 250$\,N/m, at what value of $x$ will the mass stop?*(R) \help{28}
+
+\item [18.] A system consists of particles $A$ and $B$ with masses 11\,kg
+and 21\,kg respectively.
+At time zero: $A$ has a velocity of (5.0\,m/s, east) at height $h = 0.0$.
+$B$ has a velocity of (4.0\,m/s at 23$^\circ$ north of east) and
+$h = 2.0$\,m.
+One hour later: $A$ is at rest at $h = 3.0$\,m.
+$B$ has a velocity of (8.0\,m/s, north) at $h = 0.0$.
+Find the net work done on the system during the hour.*(P) \help{29}
+
+\item [19.] How many times could a 72\,kg person climb the Empire State
+Building while using up $2.0 \times 10^3$ food calories of energy, if her or
+his body were 100\% efficient in turning food energy into useful mechanical
+energy?
+The Empire State Building is 381\,m high, and a food calorie = 4186\,J. (S)
+(It should be clear from the answer to this problem that very little of the
+body's energy is converted into useful mechanical energy.
+Most of it goes into heat.)
+
+\item [20.] A nonconstant force, $F$, directed vertically upward (the force
+varies in magnitude as some unknown function of altitude) is exerted on an
+object of mass $m$.
+Under the action of this force, the object moves straight up from ground
+level to a distance $h$, above the ground.
+It starts at rest and when it gets to height $h$ it is moving with speed $v$
+upward.
+\begin{one-digit-list}
+\item [a.] Draw the free-body diagram of forces that act on this mass during
+the course of its motion upward.
+Label the unknown force vector with a symbol but point it in the proper
+direction. (AP)
+\item [b.] Write down the Work-Force integral for this system, expressing
+the work of each of the forces separately. (AC)
+\item [c.] Evaluate the integrals that can be evaluated. (AI)
+\item [d.] Draw the appropriate picture(s) for solving this problem using
+conservation of energy. (AA)
+\item [e.] Write the conservation of energy relation for this object. (AM)
+\item [f.] How much work was done by the force $F$? (AO)
+\end{one-digit-list}
+
+\item [21.] A nail partially driven into a board, is driven in further by
+dropping a mass onto it.
+The mass, $m$, is released a distance $y_0$ above the head of the nail and
+drives the nail an additional distance $s$ into the board.
+Neglect the mass of the nail.
+\begin{one-digit-list}
+\item [a.] Defining the zero of potential at the top of the nail, find
+the potential energy of the mass $m$ at the instant $m$ is released.
+Assume the nail's mass is negligible. (AD)
+\item [b.] What is the kinetic energy at that instant? (AN)
+\item [c.] Find the potential energy after the mass has driven the nail the
+additional distance $s$ into the board. (AJ)
+\item [d.] What is the kinetic energy at that instant? (AB)
+\item [e.] Write the conservation of energy relation for this problem. (AF)
+\item [f.] How much work is done on the mass $m$ by the
+nail-plus-board-plus-earth mechanically resistive system? (AK)
+\item [g.] How much work is done on the nail-plus-board-plus-earth
+mechanically resistive system by the mass-plus-earth gravitational system?
+(AL)
+\item [h.] Assuming that the nail exerts a constant force on the mass during
+the interval that the nail is slowing the mass to a stop, determine the
+magnitude of this force, $F_N$.*(AE)
+\end{one-digit-list}
+
+\item [22.] \noindent \UnframedEpsFigure{m21gr02}\newline
+An artillery shell fired from a gun at ground level leaves the muzzle of the
+gun with a speed of $5.0 \times 10^1$\,m/s.
+The shell strikes a direct hit at a site on the top of a hill which is at an
+altitude of 45\,m above ground level.
+\begin{one-digit-list}
+\item [a.] Assuming no friction, use energy conservation to find the speed
+with which the shell hits at the site. (AH)
+\item [b.] If the shell strikes the ground at the site with a speed of
+38\,m/s, what percentage of its original energy was lost (to friction with
+the air) by the shell in its flight? (AG)
+\end{one-digit-list}
+\end{two-digit-list}
+
+\newpage
+
+\BriefAns
+
+\begin{two-digit-list}
+\item [A.] 14.9\,m/s
+\item [B.] Possibly yes, if there is no friction.
+But in the more likely real case, there will be friction, which is a
+non-conservative force.
+Thus if she does indeed return to the same point, there must have been a
+non-conservative force acting on the system, e.g., the girl ``pumping.''
+\item [C.] 10$^{20}$.  Ouch!
+\item [D.] 3.0\,m
+\item [E.] a) 53\%;  b) 77\%
+\item [F.] $k x^3/3$; $x = 0$
+\item [G.] $7.5 \times 10^2\,W$
+\item [H.] 5.0\,m/s
+\item [I.] $k/(2 r^2)$; $x = \infty$
+\item [J.] 53\,kJ
+\item [K.] 1/5
+\item [L.] 1.0
+\item [M.] $- x^2 y_0/2$; $x = 0$
+\item [N.] $- A \sin x$; $x = 0$
+\item [O.] 55\,hp
+\item [P.] $2.8 \times 10^2$\,J
+\item [Q.] 75\,hp
+\item [R.] 0.80\,m
+\item [S.] 31 times
+\item [AA.] \noindent \UnframedEpsFigure{m21gr03}\newline
+\item [AB.] Zero
+\item [AC.] $\int_{\rm ground}^h \vec{F} \cdot d\vec{r} +
+           \int_{\rm ground}^h (- m g) ds = \fract{1}{2} m v^2$
+\item [AD.] $ m g y_0$
+\item [AE.] $m g \left(1+\fract{\ds y_0}{\ds s}\right)$
+\item [AF.] $m g y_0 = - m g s + $ energy dissipated in heat and ruptured
+bonds
+\item [AG.] $\approx$ 7\% (6\% or 7\%)
+\item [AH.] $4.0\times10^1$\,m/s
+\item [AI.] Second integral is $- m g h$
+\item [AJ.] $- m g s$
+\item [AK.] $- m g (y_0 + s)$
+\item [AL.] $m g (y_0 + s)$
+\item [AM.] $\int_{\rm ground}^h \vec{F} \cdot d\vec{r} =
+\fract{1}{2} m v^2 + m g h$.
+
+Note that $E_k{\rm (ground)} = 0$ and $E_p{\rm (ground)} = 0$.
+\item [AN.] Zero
+\item [AO.] $\fract{1}{2} m v^2 + m g h$
+\item [AP.] See diagram: \newline\UnframedEpsFigure{m21gr04}
+\end{two-digit-list}
+
+\PsEnd

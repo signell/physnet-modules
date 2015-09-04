@@ -1,0 +1,14 @@
+% 12/23/87, pss; 12/14/90, pss; 3/11/93, pss
+\CtStart
+
+\mCvNumber
+
+\mCvTitle{CIRCULAR MOTION: KINEMATICS}
+
+\mCvAuthor{James M. Tanner, Georgia Institute of Technology}
+
+\TableOfContents
+
+\ContentsEnd
+
+\endinput

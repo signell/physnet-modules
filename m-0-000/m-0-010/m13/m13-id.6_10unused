@@ -1,0 +1,43 @@
+\revhist{3/17/87, pss; 4/1/91, pss; 10/14/91, pss; 4/10/92, pss; 2/3/94, pss;
+         9/29/94, pss;9/15/95, lae; 11/14/96, pss; 4/7/97, pss; 2/22/99, pss;
+         10/19/99, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{The Length Contraction and Time Dilation Effects of Special Relativity}
+
+\IdAuthor{P.\,Signell and J.\,Borysowicz and M.\,Brandl, Department of
+Physics, Michigan State University}
+
+\IdVersEval{2/1/2000}{1}
+
+\begin{Hours/Pages} \HR{1} \TX{6} \PS{2} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  Vocabulary: frame of reference \prrqone{0-11}, Lorentz transformation
+\prrqone{0-12}.
+\item [2.]  Transform single-event time and position measurements using
+the Lorentz transformation \prrqone{0-12}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Vocabulary: laboratory frame, rest frame, length contraction,
+time dilation, twin paradox.
+\item [K2.] Given the Lorentz transformation, derive the relativistic length
+contraction and time dilation factors.
+\item [K3.] Show that the Lorentz transformation is independent of which
+frame of reference is considered to be moving and explain how
+this leads to the twin paradox.
+\end{KnowledgeSkills}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] Given length and time intervals measured in one frame of reference,
+find the corresponding length and time intervals measured
+in a different frame of reference.
+\end{ProblemSolvingSkills}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

@@ -1,0 +1,277 @@
+\revhist{9/8/91, pss; 11/18/93, pss; 11/14/96, pss; 11/7/97, lae; 3/22/01, pss; 3/29/01, kag}
+%
+\Sect{1}{Dynamics of Harmonic Motion}{\SectType{TextMultiPara}}{
+%
+\pcap{1}{a}{Force Varies in Magnitude and Direction}
+The force associated with simple harmonic motion%
+\Index{simple harmonic motion}\Index{SHM (Simple Harmonic Motion)}
+%
+\Footnote{1}{See \Quote{Simple Harmonic Motion: Kinematics and Dynamics} (MISN-0-25).}
+%
+is probably a more complex kind of force than any you have encountered so
+far in dynamics.
+First you met forces of constant magnitude and direction.
+Then there was the centripetal force
+%
+\Footnote{2}{See \Quote{Centripetal and \m{g} Forces in Circular Motion} (MISN-0-17).}
+%
+which varied in direction but had a constant magnitude.
+Still another was the impulsive force,%
+%
+\Footnote{3}{See \Quote{Momentum, Force and Conservation of Energy} (MISN-0-15).}
+%
+whose direction was constant but whose magnitude varied.
+Here, the force associated with harmonic motion varies both in magnitude and
+direction.
+
+\pcap{1}{b}{Potential Energy For a Restoring Force}
+The potential energy function\Index{potential energy function, for SHM} \m{E_p} for a particle undergoing harmonic motion
+can be shown to have a minimum at its equilibrium position.\Index{potential energy minimum}
+Figure~1 shows the potential energy curve for a particle oscillating between
+the limits \m{x_1} and \m{x_2}, with \m{x_0} being the equilibrium position.\Index{equilibrium position}
+The force acting on the particle is related to the potential energy by
+%
+\Eqn{1}{F=-\dfrac{dE_p}{dx}}
+%
+and thus is represented at any point by the negative value of the slope at
+that point.
+The slope is zero where the potential energy is minimum\Index{potential energy minimum} (at \m{x = x_0}),
+therefore the force is zero at the equilibrium position \m{x_0}.
+Moreover, since the slope is positive (negative) to the right (left) of
+\m{x_0}, the force always points towards \m{x_0} \help{1},
+%
+\Footnote{4}{For help, see sequence [S-1} in this module's \textit{Special Assistance
+Supplement}.}
+%
+making it a point of stable equilibrium.\FnRef{1}
+This force is called a restoring force\Index{force| restoring} because it always acts to accelerate
+the particle back toward the equilibrium position.
+
+\CaptionedFullFramedFigure{1}{Potential Energy for a Restoring Force.}{m26gr01}
+
+\CaptionedLeftFramedFigure{2}{Potential energy for SHM.}{m26gr02}
+
+\pcap{1}{c}{Potential Energy for SHM}
+The potential energy of a particle undergoing simple harmonic motion about
+the point \m{x_0} is:
+%
+\Eqn{2}{E_p = \dfrac{1}{2} k (x - x_0)^2.}
+%
+Given that the potential energy for SHM is \m{E_p = k x^2/2}
+for displacement about the point \m{x = 0},\FnRef{1} \Eqnref{2} is the more general
+expression for motion about \m{x = x_0}.
+The potential energy curve for SHM (see \Figref{2}) has a minimum at the
+equilibrium position and is symmetrical about that point.
+Thus the limits of the motion, the points where the potential energy equals
+the total energy, are equally spaced about the equilibrium position.
+The force is found from the potential energy:\Index{potential energy| for SHM}
+%
+\Eqn{}{F = - dE_p/dx}
+%
+\Eqn{3}{F = - k (x - x_0).}
+%
+which is the general form of the SHM force.\Index{SHM force}\Index{force| for SHM}
+}% /Sect
+%
+\Sect{2}{The Force}{\SectType{TextMultiPara}}{
+%
+\pcap{2}{a}{Hooke's Law}
+\Index{Hooke's law}\Index{force| Hooke's law}The relation \m{F = - k (x - x_0)} was first found empirically by Robert Hooke in
+the 17th century and so is known as Hooke's law.
+Hooke found that, for springs and other elastic bodies, the restoring force\Index{linear restoring force}
+was proportional to the displacement from equilibrium provided the elastic
+solid was not deformed beyond a certain point called the elastic limit.\Index{elastic limit}
+Past this point the elastic body will not return to its original shape when
+the applied force is removed.
+It turns out that Hooke's law holds for many common materials and can be
+applied to almost any situation where the displacement is small enough.
+%
+\Footnote{5}{See \Quote{Small Oscillations} (MISN-0-28).}
+%
+Since by Hooke's law the force is linearly proportional to the displacement,
+it is called a linear restoring force or, equivalently, a \Quote{Hooke's law
+force.}\Index{Hooke's law force}
+The proportionality constant \m{k} is known as the \Quote{force constant.}\Index{force constant}
+%
+\CaptionedLeftFramedFigure{3}{Mass hung on a spring.  Note that the
+position of stable equilibrium is at \m{x_0}, not at the origin.}{m26gr03}
+%
+
+\pcap{2}{b}{Example: Mass Hung on a Spring}
+\Index{spring, mass hung on}Consider now a mass \m{m} attached to a spring of
+negligible mass and force constant \m{k}.
+The spring is hung vertically as shown in \Figref{3}.
+The force acting to stretch the spring is just the weight of the mass, i.e.
+\m{m g}.
+When the mass is hung from the spring it causes the spring to stretch from
+its original length until the magnitude of the restoring force equals the
+weight:
+%
+\Eqn{4}{m g = | F | = k x_0}
+%
+Here we have chosen \m{x_0} as the distance the mass stretches the spring.
+The mass-spring-gravity system thus has an equilibrium point at \m{x = x_0} and
+the resultant force is zero there.
+Now if the mass is displaced from \m{x_0}, Hooke's law states that it will
+experience a force \m{F = - k (x - x_0)} acting so as to return the mass to
+\m{x_0} (so long as the elastic limit of the spring is not exceeded).
+}% /Sect
+%
+\Sect{3}{Equation of Motion}{\SectType{TextMultiPara}}{
+%
+\pcap{3}{a}{Displacement Equation from Hooke's Law}
+Hooke's law, \m{F = - k (x - x_0)}, and Newton's second law, \m{F = m a}, can be
+combined to find the displacement equation for SHM.
+Writing the acceleration as \m{d^2x/dt^2}, the equation of motion is:
+%
+\Eqn{5}{m\dfrac{d^2x}{dt^2} = - k (x - x_0),}
+%
+or:
+%
+\Eqn{6}{\dfrac{d^2x}{dt^2} + \dfrac{k}{m} (x - x_0)=0.}
+%
+Letting \m{\omega^2 \equiv k/m} and \m{X \equiv x - x_0}, \Eqnref{6} can be
+rewritten in terms of \m{X}, the displacement from equilibrium:
+%
+\Eqn{7}{\dfrac{d^2X}{dt^2} + \omega^2 X = 0}
+%
+which has the general solution
+%
+\Footnote{6}{If you have not encountered this before, here is all you need to
+know about general solutions of equations like \Eqnref{7} for this module:
+If the highest derivative in the equation is a second derivative, and
+if all terms in the equation contain the unknown function on the right
+side of each term, then any solution that satisfies the equation is in fact
+the unique solution to the equation if the solution contains two independent
+constants undetermined by the equation.
+The two undetermined constants in \Eqnref{8} are \m{a} and \m{b}.
+The statement is very powerful, since it says that you need to know nothing
+about differential equations: just find a function with two constants
+that satisfies the equation (you must merely take derivatives) and you are
+guaranteed that you have the only solution!
+\Equationref{8} obviously satisfies the criterion.
+Note: If the highest derivative in such an equation is a first derivative,
+then only one undetermined constant is needed.}
+%
+\Eqn{8}{X = a \cos\omega t + b \sin\omega t}
+%
+or the totally equivalent general solution: \help{2}
+%
+\Eqn{9}{X = x(t) - x_0 = A \cos(\omega t + \delta_0).}
+%
+This is just the displacement equation%
+\Index{displacement equation, for SHM}\Index{equation of motion, for SHM}
+for a simple harmonic oscillator,
+where \m{X = x - x_0} is the displacement, \m{A} is the amplitude,\Index{amplitude, for SHM} \m{\omega} is
+the angular frequency, and \m{\delta_0} is the \Quote{initial phase.}\Index{initial phase, for SHM}
+
+\pcap{3}{b}{\m{\omega}, \m{\nu} and \m{T} in Terms of Force Constant \m{k}.}
+The angular frequency,\Index{angular frequency, for SHM}
+\m{\omega}, frequency,\Index{frequency| for SHM} \m{\nu}, and period,\Index{period| for SHM} \m{T},
+can all be expressed in terms of the force constant \m{k} and mass \m{m}.
+Since \m{\omega^2 = k/m}, the angular frequency is
+%
+\Eqn{10}{\omega = (k/m)^{1/2}.}
+%
+The period is found to be
+%
+\Eqn{11}{T = \dfrac{2\pi}{\omega} = 2 \pi (m/k)^{1/2},}
+%
+while the frequency is
+%
+\Eqn{12}{\nu = \dfrac{1}{T} = \dfrac{1}{2\pi} (k/m)^{1/2}.}
+%
+Observe that \m{\omega}, \m{\nu}, and \m{T} all depend only on \m{k} and \m{m} and are
+independent of the amplitude of the oscillations.
+
+\tryit What would \m{\omega}, \m{\nu}, and \m{T} be when \m{m = 3\unit{kg}} and
+\m{k = 48\unit{N/m}}? \help{3}
+
+\pcap{3}{c}{Mass Hung on a Spring}\Index{spring, mass hung on}
+Suppose a spring of negligible mass and of force constant 9.8\unit{N/m} hangs
+vertically and has a mass of 0.10\unit{kg} attached to its free end.
+We define the direction of positive displacement \m{x} as being \textit{downward}.
+The equilibrium point is found from \Eqnref{4} to be
+%
+\Eqn{}{x_0 = \dfrac{mg}{k} = \dfrac{(0.10\unit{kg})(9.8\unit{m/s\up{2}})}{9.8\unit{N\,m}} = 0.10\unit{m}}
+%
+and Hooke's law can be written:
+%
+\Eqn{}{F = - (9.8\unit{N/m})\,(x - 0.10\unit{m}).}
+%
+Suppose the mass is initially pulled up a distance 0.2\unit{m} above its
+equilibrium position and then released.
+It will undergo SHM with its equation for displacement being
+%
+\Eqn{}{X(t) \equiv x(t) - x_0 = 0.20\unit{m} \cos\left(\dfrac{9.9}{\unit{s}}\,t + \pi\right)\,}
+%
+where the angular frequency, 9.9\unit{radians/s}, was found from \Eqnref{10}.\help{4}
+%
+\Footnote{7}{We normally omit the word \Quote{radians} in stating units; so when you
+see \m{\omega} given in inverse seconds you should always take it to mean
+\Quote{radians per second.}}
+%
+Note that \m{\delta_0 = \pi\unit{radians} = 180\degrees} because the mass was
+released from the position of maximum negative displacement (hence zero
+velocity).
+\help{5}
+
+\CaptionedLeftFramedFigure{4}{The oscillator point's position at
+time zero defines the oscillator's initial phase \m{\delta_0}.}{m26gr04}
+}% /Sect
+%
+\Sect{4}{Scaled Phase Space}{\SectType{TextOnePara}}{
+%
+It is often useful to make a pictorial representation of the simultaneous
+values of an oscillator's position and velocity.
+If we scale the velocity axis by a factor of (1/\m{\omega}), the point
+representing the values of the two variables traverses a circle as time
+progresses (see \Figref{4}).
+In fact, it is easy to see that the point goes around the circle clockwise
+with the same frequency as the oscillator.
+Thus in the time it takes the oscillator to execute one complete cycle of
+its straight-line motion, the point representing it in the scaled phase
+space goes around its circle once.
+Then the \Quote{angular velocity} \m{\omega} in the equation for the oscillator's
+linear displacement is just the angular velocity of the oscillator's point
+as it goes around its circle in the scaled phase space.
+Finally, on the scaled phase space diagram we can easily plot the
+oscillator's phase angle at time zero, its
+\Quote{initial phase,}\Index{initial phase, for SHM} \m{\delta_0}(see \Figref{4}).
+}% /Sect
+%
+\Sect{5}{Usefulness of Hooke's Law}{\SectType{TextOnePara}}{
+%
+Hooke's law,\Index{Hooke's law} an empirical relation describing the elasticity of solids, has
+proved to be very helpful in the quantitative description of the SHM of such
+solids.
+Moreover the derivation of the equation of motion gives valuable insight
+into more complicated systems such as those where frictional forces are
+present.
+%
+\Footnote{8}{See \Quote{Damped Mechanical Oscillations} (MISN-0-29).}
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}{\NsfAcknowledgment}% /Sect
+%
+\Sect{}{Glossary}{\SectType{Glossary}}{
+\GlossaryItem{elastic limit}\Index{elastic limit} the point beyond which an elastic body does not
+obey Hooke's law.
+
+\GlossaryItem{equilibrium position}\Index{equilibrium position} the position where the force is zero so
+a particle put there would not move.
+
+\GlossaryItem{force constant}\Index{force constant} the magnitude of the proportionality constant between
+force and displacement in Hooke's law.
+
+\GlossaryItem{Hooke's law force}\Index{Hooke's law force} a restoring force that is linearly
+proportional to displacement from equilibrium (a \Quote{linear restoring force}).
+
+\GlossaryItem{initial phase}\Index{initial phase, for SHM} the phase of an oscillation at time zero.
+
+\GlossaryItem{linear restoring force}\Index{linear restoring force} a restoring force that is linearly
+proportional to displacement from equilibrium.
+
+\GlossaryItem{restoring force}\Index{restoring force} a force that always acts toward an equilibrium position.
+}% /Sect
+

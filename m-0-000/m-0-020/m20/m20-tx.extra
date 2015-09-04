@@ -1,0 +1,52 @@
+%------------------------------------------------------
+%\begin{itemize}
+5\item How much work was done by the force of friction?
+%
+%The agent responsible for the force of friction, the pavement, was a static
+%object.
+%
+%--------------------------------------------------------
+%\m{W_{\rm friction} = \vec{f} \cdot \vec{s} = - f\,s}
+%
+%Since \m{\vec{v}} = constant, \m{\sum \vec{F}_{\rm horizontal} = 0}, so
+%\m{f = F \cos\theta}.
+%Thus \m{W_{\rm friction} = -(F \cos\theta)(s) = - 2.7 \times 10^5}\,J.
+%The negative sign here indicates that the action of this frictional force was
+%in opposition to the displacement of the car.
+%\end{itemize}
+%\begin{itemize}
+%\item How much total work was done on the car?
+%\begin{eqnarray*}
+%W_T & = & W_p + W_f + W_n + W_g \\
+%    & = & 2.73 \times 10^5\,J - 2.73 \times 10^5\,J + 0 + 0 \\
+%    & = & 0.
+%\end{eqnarray*}
+%No total work was done on the car.
+%----------------------------------------------------------------------
+
+
+\end{document}
+
+\pcap{2}{e}{Work Done by Several Constant Forces}
+If several forces act simultaneously on a system, then the total work
+done will be just the sum of the amounts of work done by each force separately.
+This is the Superposition of Work Theorem\Index{Superposition of Work Theorem} and it can be expressed
+analytically.
+
+Suppose there are \m{N} different constant forces \m{\vec{F}_i} acting on a
+system, where \m{i = 1, 2, 3,...,N}.
+Then the work done by each force on the system during a given displacement
+\m{s} is:
+\begin{displaymath}
+W_i = \vec{F}_i \cdot \vec{s}.
+\end{displaymath}
+The total work done on the system is just the work done by the resultant
+force, \m{\vec{F}_R}:
+\begin{equation}\setcounter{equation}{3}
+\sum\,W = \sum_{i=1}^N W_i = \sum_{i=1}^N \vec{F}_i \cdot \vec{s} =
+\left[ \sum_{i=1}^N \vec{F}_i \right] \cdot \vec{s} = \vec{F}_R \cdot \vec{s}.
+\end{equation}
+We will henceforth write this \Quote{total work} as \m{W_T} in any case where
+confusion might otherwise arise.
+
+\TxEnd

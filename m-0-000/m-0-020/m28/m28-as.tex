@@ -1,0 +1,163 @@
+\revhist{6/3/85, mpm, 5/19/86; 9/13/88, pss; 12/16/92, pss; 10/11/94, pss}
+
+\Sect{}{}{\SectType{SpecialAssistance}}{
+
+\AsItem{1}{TX-6b}{%
+\m{F(x) = - \cos\,x}\medskip
+
+{\bf formal:} \m{k = F'(x_0)}
+%
+\Eqn{}{\text{PSE is at}\ x_0 = 3\pi/2:\ F(3\pi/2) = -\cos(3\pi/2) = 0}
+%
+\Eqn{}{F' = \sin x:\ \ F'(3\pi/2) = \sin(3\pi/2) = -1 .}
+
+\textbf{graphical:} Use upper graph in \Figref{1}:  take a \m{\Delta x} of 0.10
+(say), find the corresponding \m{\Delta F}, and calculate:
+%
+\Eqn{}{F'=\dfrac{\Delta F}{\Delta x}=\dfrac{-0.10}{0.10}=-1.0.}
+%
+
+Another way to see it: The \m{F} and \m{x} scales are the same and the line is at
+a {45\degrees} angle to the horizontal.
+Thus the magnitude of the slope is unity: its sign is obviously negative.
+\medskip
+
+{\bf numerical}: (using a hand calculator)
+\begin{center}\begin{tabular}{c r c l}
+   \m{x} & \multicolumn{1}{c}{\m{F}} & & Differences \\ \hline
+  4.70 & 0.01239   &   &             \\
+       &           & \m{>} &  -0.01000   \\
+  4.71 & 0.00239   &   &             \\
+       &           & \m{>} &  -0.01000   \\
+  4.72 & -0.00761  &   &             \\
+\end{tabular}\end{center}
+%
+\Eqn{}{\Longrightarrow F'=\dfrac{-0.01000}{0.01}=-1.000}
+%
+}
+
+\AsItem{2}{TX-2c and PS-problem P1)}{%
+\noindent \m{E_p\,=\,mgh}: \m{h} is height above the horizontal plane containing the
+bottom point of the swing (a convenient choice for \m{E_p\,=\,0}).
+Then \m{h\,=\,\ell\ (1\,-\,\cos\,\theta}) by simple trig. (~\help{7}~)
+The rest involves differentiating sines and cosines. \help{5}
+}
+
+\AsItem{3}{TX-6b}{%
+\m{F = -5 x^{-4} + 20 x^{-6}}.
+Use hand calculator to evaluate it:\medskip
+
+\begin{center}\begin{tabular}{|c c l | l|} \hline
+       &  \m{x}  & \multicolumn{1}{c|}{\m{F}}   & Comments \\ \hline
+       &  1.9  & 4.14\, \m{\times\,10^{-2} } & Magnitudes at +\m{\Delta} and -\m{\Delta} \\
+center &  2.0  & 1.00\, \m{\times\,10^{-10}} & are not sufficiently \\
+       &  2.1  & -2.39\,\m{\times\,10^{-2}} & equal.\ Try smaller \m{\Delta}.\\ \hline
+       & 1.99  & 3.21\, \m{\times\,10^{-3} } & \\
+       & 2.00  & 1.00\, \m{\times\,10^{-10}} & Almost.\ Try smaller.\\
+       & 2.01  & -3.04\,\m{\times\,10^{-3}} & \\ \hline
+       & 1.999 & 3.13\, \m{\times\,10^{-4}}  & \\
+       & 2.000 & 1.00\, \m{\times\,10^{-10}} & O.K.;\ \m{F'\,\simeq\,-0.3125} \\
+       & 2.001 & -3.12\,\m{\times\,10^{-4}}  & \\ \hline
+\end{tabular}\end{center}
+
+%
+\Eqn{}{check: \; -\dfrac{5}{16} = -0.3125}
+%
+}
+
+\AsItem{4}{TX-5a}{%
+\m{ 0 = -a^2 x_0 + b^2 \ \ \Longrightarrow \ \ x_0 = b^2/a^2}
+
+\m{ F' = -a^2 \ \ \Longrightarrow \ \ k = a^2}
+}
+
+\AsItem{5}{\help{2}}{%
+\m{E_p = m g \ell [1 - \cos(s/\ell)]}
+
+\m{F = - E_p' = - dE_p/ds = - m g \sin(s/\ell)}
+
+\m{F' = } etc.
+}
+
+\AsItem{7}{[S-2]}{%
+\CenteredUnframedFixedFigure{m28gr16}
+
+}
+
+\AsItem{10}{TX-5a}{%
+PSE (\m{x_0}) is where F is zero:
+%
+\Eqn{}{0 = 3 - 16x_0 + 5x_0^2.}
+%
+We use the quadratic root equation:
+%
+\Eqn{}{\text{if:  } ax^2 + bx + c = 0}
+%
+%
+\Eqn{}{\text{then:  } x=\dfrac{-b\pm(b^2-4ac)^{1/2}}{2a}}
+%
+%
+\Eqn{}{\text{and find:  } x_0 = 0.2, 3.}
+%
+Then get the sign of the slope at each point (0.2, 3) by differentiation
+(~\help{13}\,~), by sketching the function, or by numerical evaluation at two
+nearby points: see \Quote{numerical} part of \help{2}.
+}
+
+\AsItem{12}{TX-6a}{%
+If you can't work this problem, first work those in Sect. 4c.
+Then you should have no trouble.
+The PSE is at; \m{x_0 = 0.2\unit{cm}}.
+The force constant is: \m{k = 14\unit{N/cm}}.
+The mass is: \m{m = 1\unit{gm} = 10^{-3}\unit{kg} = 10^{-3}\unit{N\,m\up{-1}s\up{2}}}.
+\help{16}
+
+\begin{tabular}{l l l}
+Thus: & \m{\nu=\dfrac{1}{2\pi}\left(\dfrac{k}{m}\right)^{1/2}}
+         & \m{ = \dfrac{1}{2\pi}\,\left(\dfrac{14\unit{N\,cm\up{-1}}}{10^{-3}\unit{N\,m\up{-1}s\up{2}}} \right)^{1/2}} \\
+      &  & \m{ = \dfrac{1}{2\pi}\,\left(\dfrac{14\unit{cm\up{-1}} 10^2\unit{cm/m}}
+                                              {10^{-3}\unit{m\up{-1}\,s\up{2}}}\right)^{1/2}} \\
+      &  & \m{ = 1.88 \times 102 \unit{s\up{-1}} = 188 \unit{Hz}} \\
+\end{tabular}
+}
+
+\AsItem{13}{[S-10]}{%
+\begin{itemize}
+\item[] \m{F = 3 - 16x + 5x^2}
+\item[] \m{F'(x)   = -16 + 10x}
+\item[] \m{F'(0.2) = -14 \;(<\,0 \text{ so is PSE)}}
+\item[] \m{F'(3)   = +14 \;(>\,0 \text{ so is not PSE)}}
+\end{itemize}
+}
+
+\AsItem{15}{TX-5b}{%
+\begin{center}\begin{tabular}{c r l}
+  \m{x}  & \multicolumn{1}{c}{\m{F}} & Linear interpolation \\ \hline
+   3   &  .9900 & \\
+   4   &  .6536 & \m{x_0 \simeq 4 + \dfrac{.6536}{.6536+.2837} = 4.697} \\
+   5   & -.2837 & \\
+       &        & \\
+       &        & \\
+  4.6  &  .1122 & \\
+  4.7  &  .0124 & \m{x_0 \simeq 4.7 + \dfrac{.0124}{.0124+.0875} = 4.7124} \\
+  4.8  & -.0875 & \\
+       &        & \\
+       &        & \\
+ 4.7124&  .0000 & good enough! \\
+\end{tabular}\end{center}
+}
+
+\AsItem{16}{[S-12]}{%
+For background on this conversion of units, see \Quote{Newton's Second Law of
+Motion} (MISN-0-14).
+}
+
+%\AsItem{17}{}{%
+%Can be solved formally (\Quote{analytically}).
+%}
+
+%\AsItem{18}{}{%
+%Solve numerically using a calculator or a computer.
+%}
+
+}% /Sect

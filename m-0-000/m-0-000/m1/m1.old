@@ -1,0 +1,21 @@
+% 3/23/94, pss
+\input newmods.sty
+
+%\includeonly{m1-id}
+
+\begin{document}
+%\special{hp: xy 0.65in 0.09in 5.80in 0.09in}
+%\special{hp: landscape}
+
+\input newmods2.sty
+
+\mNumber{1}
+
+%\include{m1-ct}
+%\include{m1-id}
+%\include{m1-tx}
+%\include{m1-ps}
+\include{m1-as}
+\include{m1-me}
+
+\end{document}

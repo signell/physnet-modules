@@ -1,0 +1,257 @@
+\revhist{5/24/91, pss; 11/24/92, pss; 12/15/92, pss; 3/9/93, pss; 9/7/94, pss;
+         3/29/95, pss; 9/15/95, pss; 11/8/99, pss; 12/15/00, pss; 4/1/02, pss}
+
+\Sect{}{}{\SectType{ProblemSet}}{
+
+\noindent Note: If you have trouble with a problem, see the activities in the
+\textit{Special Assistance Supplement}.
+If there is a \textit{help} reference, it also is in the \textit{Special Assistance
+Supplement}.
+
+\noindent In all problems involving the calculation of \textit{work}, you should
+start with the line-integral definition and show how it can be applied and
+simplified for the particular situation.
+
+Take \m{g = 9.8\unit{m/s\up{2}}}, 1\,HP = 550\unit{ft\,lb/sec} = 746\unit{watts}.
+
+Problems~21, 22, and 23 also occur in this module's \textit{Model Exam}.
+
+\begin{two-digit-list}
+\item [1.] A crate whose mass is 39\unit{kg} is dragged at constant speed across the
+floor for 9.0\unit{meters} by applying a force of 100.0\unit{N} at an upward angle of
+35 degrees to the horizontal.
+\begin{one-digit-list}
+\item [a.] What is the work done by the applied force \answer{5} \help{1}
+\item [b.] What is the coefficient of friction between the crate and the
+floor? \answer{14} \help{1}
+\end{one-digit-list}
+
+\item [2.] A constant force
+\m{\vect{F} = (5.0\uvec{x} + 2.0\uvec{y} + 2.0\uvec{z})\unit{N}}
+acts on an object during the displacement
+\m{\Delta\vect{r} = (10.0\uvec{x} + 5.0\uvec{y} - 6.0\uvec{z})\unit{m}}.
+Determine the net work done by this force during the displacement. \answer{6}
+\help{2}
+
+\item [3.] Determine the speed of a proton that has:
+\m{ \text{kinetic energy } = 8.0 \times 10^{-13}\unit{J}} and
+\m{ \text{mass }          = 1.67 \times 10^{-27}\unit{kg}}. \answer{13} \help{3}
+
+\item [4.] What is the kinetic energy of a 5.0\unit{kg} object with a velocity:
+\m{\vect{v} = (3.0\,\uvec{x} + 5.0\,\uvec{y})\unit{m/s}}? \answer{3} \help{4}
+
+\item [5.] An escalator in a department store joins two floors that are 5.0\unit{meters} apart.
+\begin{one-digit-list}
+\item [a.] When a 51\unit{kg} woman rides up this escalator, how much work does
+the motor do to lift her? \answer{18} \help{5}
+\item [b.] How much power must the motor develop in order to carry 80\,\unit{people}
+between floors in one minute, if the average person's mass is 70.2\unit{kg}? \answer{23}
+\help{5}
+\end{one-digit-list}
+
+\item [6.] What horsepower must be developed by the engine of a racing car when
+a forward thrust of \m{2.8\times10^3\unit{N}} moves it at a constant velocity of
+67.5\unit{m/s} (150\unit{mph})? \answer{2} \help{6}
+
+\item [7.] A car with a mass of \m{1.2 \times 10^3\unit{kg}} is pulled at constant
+velocity up a sloping street, inclined at a 31 degree angle from the horizontal,
+by a truck having a tow cable attached at an angle of 41\degrees to the street.
+The coefficient of friction between the car and the street is 0.30.
+What is the minimum work the tow truck would have to do on the car to move
+it 204 meters along the sloping street? \answer{12} \help{7}
+
+\item [8.] \ItemFigure{A particle of mass \m{m} hangs from a string of
+length \m{\ell} as shown.
+A variable horizontal force \vect{F} starts at zero and gradually increases,
+pulling the particle up very slowly (equilibrium exists at all times)
+until the string makes an angle \m{\phi} with the vertical.
+Calculate the work done by \vect{F} to raise \m{m} to this position. \answer{1}
+\help{8}}{m20gr11}
+
+\item [9.] A particle is moving with a velocity \m{v_0} along the \m{x}-axis at
+time \m{t_0}.
+It is acted upon by a constant force in the \m{x}-direction until time \m{t_1}.
+Show that:
+%
+\Eqn{}{\int_{t_0}^{t_1} (\vect{F} \cdot \vect{v})\,dt = \dfrac{\Delta (p^2)}{2m}\,}%
+%
+where \m{\Delta(p^2)} is the change in the square of its momentum. \help{9}
+
+\item [10.] A field goal kicker hits the ball at an angle of {42\degrees}
+with respect to the ground.
+The football, of mass 0.40\unit{kg}, sails through the air and hits the cross bar
+of the goal post \m{3.0\times10^1\unit{m}} away.
+If the cross bar is 3.0\,\unit{meters} above the ground, determine the work done by
+the gravitational force over the flight of the ball. \answer{11} \help{10}
+
+\item [11.] \ItemFigure{A 2.0\unit{kg} particle, currently at the origin and
+            having a velocity of \m{\vect{v} = 3.0\uvec{x}\unit{m/s}}, is acted upon by the force
+            shown in the graph.
+\begin{one-digit-list}
+\item [a.] Determine the work done, both graphically and analytically, for a
+           displacement from \m{x = 0.0} to \m{x = 5.0\unit{meters}}. \answer{16} \help{11}
+\end{one-digit-list}
+\begin{one-digit-list}
+\item [b.] What is the velocity of the particle when it is at \m{x = 5.0\unit{m}}? \answer{24} \help{11}
+\end{one-digit-list}}{m20gr12}
+
+\item [12.] A car whose mass is \m{1.8\times10^3\unit{kg}} has a safety bumper
+that can withstand a collision at 5.0\unit{mph} (2.25\unit{m/s}).
+Suppose the average retarding force of the energy absorbing bumper mechanism
+is \m{5.0 \times 10^4\unit{N}}.
+How much will the bumper be displaced if the car is going at 5.0\unit{mph} when it
+hits a tree? \answer{17} \help{13}
+
+\item [13.] An object is thrown with a velocity of 61\unit{m/s} vertically
+downward from a height of 202\,\unit{meters}.
+What is its velocity when it hits the ground?
+Work this problem two ways--by the work-kinetic energy relation and by
+the laws of linear motion. \answer{9} \help{14}
+
+\item [14.] A bullet pierces a 4.0\unit{cm} thick piece of metal armor plate with
+a velocity of 708\unit{m/s} and leaves the other side with a velocity of 310\unit{m/s}.
+Determine the thickness of the metal plate that would be required to stop
+the bullet completely. \answer{21} \help{15}
+
+\item [15.] A Mercedes-Benz 450SL is moving at 41\unit{m/s} (90\unit{mph}) when the brakes become locked.
+How far will the car slide on:
+\begin{one-digit-list}
+\item [a.] dry pavement (\m{\mu = 0.90})? \answer{22} \help{16}
+\item [b.] wet pavement (\m{\mu = 0.50})? \answer{27} \help{16}
+\item [c.] icy pavement (\m{\mu = 0.10})? \answer{8} \help{16}
+\end{one-digit-list}
+
+\item [16.] A girl in an archery class finds that the force required to pull
+the bowstring back is directly proportional to the distance pulled.
+She finds that a force of 29\unit{N} is needed to pull the bow string back a
+distance of 0.10\,\unit{meter}.
+If she pulls a 55\unit{gram} arrow back a distance of 0.30 meters,
+\begin{one-digit-list}
+\item [a.] what would be the velocity of the arrow if 81\% of the work done
+was converted into kinetic energy? \answer{20} \help{17}
+\item [b.] If she shoots the arrow straight up, how high will it go (neglect
+the effects of air resistance)? \answer{26} \help{17}
+\item [c.] If the arrow actually only goes 91\% of the height in part (b),
+what is the average resistive force of the air? \answer{29} \help{17}
+\end{one-digit-list}
+
+\item [17.] A particle of mass 4.0\unit{kg} is acted on by the force:
+%
+\Eqn{}{\vect{F} = \left[(x + 2y)\uvec{x} + (2y + 3xy)\uvec{y}\right]\unit{N}\,,}
+%
+as the particle moves along a straight line path from the point (0,0) to
+the point (2.0\unit{m},2.0\unit{m}), that is along \m{x = y}.
+\begin{one-digit-list}
+\item [a.] Find the work done by the force. \answer{19} \help{18}
+\item [b.] If the particle was at rest when it was at the coordinate origin,
+what is its speed when it is at \m{x=2.0\unit{m}}, \m{y=2.0\unit{m}}? \answer{7} \help{18}
+\end{one-digit-list}
+
+\item [18.] An airplane lands on an aircraft carrier, and is halted by the
+arresting cable.
+The force equation for the cable is \m{\vect{F} = - k x^2\uvec{x}}, where
+\m{k = 1.20\times10^2\unit{N/m\up{2}}}.
+For an initial plane velocity of 81\unit{m/s} and a plane mass of
+\m{2.25\times10^3\unit{kg}}, determine how far the plane will travel after being
+hooked. \answer{15} \help{19}
+
+\item [19.] What horsepower engine would be required if you wish to pull
+a 54\unit{kg} woman water skier up from the water in 2.0\unit{s} with a final velocity
+of 13\unit{m/s}?
+The mass of the boat plus driver is 206\unit{kg} and that of the engine is
+45.0\unit{kg}.
+During this period the average drag energy of the skier and boat is
+\m{5.0\times10^4\unit{J}}. \answer{6} \help{20}
+
+\item [20.] \ItemFigure{A constant horizontal force \vect{F} pushes an
+object of mass \m{M} up a frictionless incline which makes an angle \m{\theta}
+with the horizontal.}{m20gr13}
+
+\begin{one-digit-list}
+\item [a.] Starting with the object midway \textit{up} the incline, moving the
+speed of \m{v_0} directed up along the incline, use the work-kinetic energy
+relation to find the velocity of the object when it's at a point a distance
+\m{D} further up the incline. \answer{31}) \help{21}
+\item [b.] If at this same starting point as in part (a) the object started
+with the speed \m{v_0} directed \textit{down} along the incline (same forces
+acting as before), use the work-kinetic energy relation to find the velocity
+of the object when it's at the point a distance \m{D} further up the incline.
+\answer{33} \help{21}
+\item [c.] Explain the relation between your answers to parts (a) and (b).
+What is the difference in the overall motion between the two cases? \answer{35}
+\help{21}
+\end{one-digit-list}
+
+\item [21.] The gravitational force on an object of mass \m{m} which is at or
+above the surface of the earth, say at a total distance \m{r} from the center of
+the earth, has a magnitude \m{K\,m/r^2} and is directed toward the center of the
+earth.
+Here \m{K} is a constant equal to \m{3.99 \times 10^{14}\unit{m\up{3}/s\up{2}}}.
+Hence the force is not constant but diminishes the farther the object is
+from the earth's center.
+\begin{one-digit-list}
+\item [a.] At the surface of the earth, recall from previous knowledge that
+this force is \m{mg}.
+With this knowledge of the force at the surface of the earth and with \m{K}
+given above, determine the radius of the earth. \answer{32} \help{22}
+\item [b.] What is the minimum amount of work that you must do (energy you must
+expend) in order to move an object of mass \m{m} radially outward from the
+surface of the earth to a distance \m{r} from the center of the earth
+(\m{r > R_e})? \help{22}
+(HINT: What's the \textit{minimum} force you must exert?
+That determines the \textit{minimum} work). \answer{30} \help{22}
+\item [c.] From this result, calculate how much energy it takes to move a
+person of mass 65\,\unit{kilograms} from the surface of the earth to an infinite
+distance away (disregard gravity forces other than from the earth). \answer{36}
+\help{22}
+\end{one-digit-list}
+
+\item [22.] Suppose a car engine is delivering \m{1.60 \times 10^2\unit{hp}} at a
+continuous rate, keeping the car at 25\unit{m/s} (56\unit{mph}).
+Determine the force the engine is overcoming. \answer{34} \help{23}
+\end{two-digit-list}
+
+\newpage
+
+\BriefAns
+
+\begin{two-digit-list}
+\item [1.] \m{m g \ell (1 - \cos\phi)}
+\item [2.] 253\unit{hp}
+\item [3.] 85\unit{J}
+\item [4.] 48\unit{J}
+\item [5.] \m{7.4\times10^2\unit{J}}
+\item [6.] 51\unit{hp}.
+\item [7.] 3.0\unit{m/s}
+\item [8.] \m{8.6 \times 10^2\unit{m}}
+\item [9.] 88\unit{m/s}
+\item [11.] \m{-11.8\unit{J}}
+\item [12.] \m{1.47\times10^6\unit{J}}
+\item [13.] \m{3.1 \times 10^7\unit{m/s}}
+\item [14.] \m{[F\cos\theta /(mg - F \sin\theta)] = 0.25}
+\item [15.] 57\unit{m}
+\item [16.] 25\unit{J}
+\item [17.] \m{9.1 \times 10^{-2}\unit{m}}
+\item [18.] \m{2.5 \times 10^3\unit{J}}
+\item [19.] 18\unit{J}
+\item [20.] \m{2.0 \times 10^1\unit{m/s}}
+\item [21.] \m{4.9\times10^{-2}\unit{m}}
+\item [22.] 95\unit{m}
+\item [23.] \m{4.6 \times 10^3\unit{W} or 6.1\unit{hp}}
+\item [24.] \m{5.8\,\uvec{x}\unit{m/s}}
+\item [26.] \m{2.0 \times 10^1\unit{m}}
+\item [27.] 0.17\unit{km}
+\item [29.] \m{5.3 \times 10^{-2}\unit{N}}
+\item [30.] \m{K m \left[\dfrac{1}{R_e}-\dfrac{1}{r}\right]}.
+\item [31.] \m{\left[\dfrac{2D}{M}(F\cos\theta-M g \sin\theta) +
+             v_0^2 \right]^{1/2}}.
+\item [32.] \m{6.38 \times 10^6\unit{m}}
+\item [33.] Same answer as (BM).
+\item [34.] \m{1.1\times10^3\unit{lb}}
+\item [35.] In the second case the object moves down, slowing, stops, turns
+            around and when it gets to original point it has \m{v_0} upward
+            speed, and so on up to point distance \m{D} upward.
+\item [36.] \m{4.06 \times 10^9\unit{J}}.
+\end{two-digit-list}
+
+}% /Sect

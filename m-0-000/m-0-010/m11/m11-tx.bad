@@ -1,0 +1,250 @@
+.* 8/5/84 wcl
+.RD MOD.LIB
+.RD MOD/TX.LIB
+.DM PT
+.TL 'MISN-0-11''%'
+..
+.HD
+.CE 3
+RELATIVE LINEAR MOTION AND FRAMES OF REFERENCE
+.SP
+by
+.SP
+Peter Signell
+.SP 3
+.SC
+1. APPLICATIONS OF RELATIVE MOTION__________________________________
+.PC
+1a. Navigation______________
+.PA
+An application of relative motion which immediately comes to mind is that of
+navigation through currents of water and air.
+Consider two observers and an object, where each observer sees both the
+other observer and the object as moving.
+Given the equation of motion of the object as seen by one observer, what
+equation of motion will the other observer see for it?
+Here the equation of motion set by the pilot, with respect to the fluid
+through which he moves, must be such as to produce the correct equation of
+motion with respect to the land.
+Can you tell which are the two "observers" and which is the "object?"\  \Can
+you transform the desired land-based equation into the fluid-based one needed
+for navigation?
+.PC
+1b. Solar System Dynamics_________________________
+.PA
+For another application, consider the apparent motions of the planets across
+the night sky.
+Since very ancient times, the positions of the planets at various times had
+been carefully recorded.
+In about 140 A.D., from this vast set of numbers, the planetary equations of
+motion were finally deduced by Ptolemy.
+These equations were so excruciatingly complicated, however, that the forces
+which would produce them must have seemed incomprehensible.
+Then in 1543, in what must have been one of the most thrilling discoveries
+in history, Copernicus transformed the equations of motion to the way they
+would be observed from the sun and thereupon found them to be trivially
+simple.
+This eventually spurred Newton to discover the elegantly simple universal
+laws of motion and of gravitation, and to invent calculus.
+From that day to this, a fundamental assumption of physicists has been that
+all of the forces of nature will be found to be elegantly simple when
+properly expressed.
+.SC
+2. THE DOUBLE SUBSCRIPT NOTATION________________________________
+.PC
+2a. Relative Position Vectors_____________________________
+.PA
+Double subscript notation is a simple and consistent method of dealing with
+.NR A 25
+.NR Z 30
+.BC
+Fig.1. Vector interpretion of double subscript notation.
+.EC
+the relative positions of two objects.
+If rTA is the position vector of object A and rTB is the position vector of
+object B in a given coordinate system, then the position vector of B relative
+to A is defined by
+.SP
+.EQ ''rTBA = rTB - rTA.'(1)'
+.SP 2
+Notice that rTBA is the vector which, when added to rTA, gives rTB:
+.SP
+.EQ ''rTA + rTBA = rTB .'(2)'
+.SP 2
+That is, if you start at the position of object A, and move along rTBA,
+you end up at the position of object B (see Fig.1).
+.PC
+2b. The Order of the Subscripts_______________________________
+.PA
+The order of the subscripts of a relative position vector determines the
+direction of the vector.
+The vector rTBA is directed from object A to object B.
+The vector rTAB, from B to A, would obviously point in the opposite direction,
+and have exactly the same length as rTBA , so
+.SP
+.EQ''rTAB = -rTBA.'(3)'
+.SP
+.PC
+2c. Velocity and Acceleration from Relative Position____________________________________________________
+.PA
+Once the relative position has been determined, it is simple to get the
+velocity and acceleration of B relative to A, just by differentiating
+Eq.(1):
+.SP 3
+.EQ''vTBA = dt__d (rTBA) = dt__d (rTB-rTA) = dt__d rTB- dt__d rTA = vTB-vTA''
+.SP 5
+.EQ""aTBA = dt__d (vTBA) = dt__d (vTB-vTA) = dt__d vTB- dt__d vTA = aTB-aTA""
+.SP 3
+so
+.BR
+.EQ''vTBA = vTB - vTA ,'(4)'
+.SP 2
+.EQ''aTBA = aTB - aTA .'(5)'
+.SP 2
+Notice that the mathematical relationships between vTBA, vTA, and vTB, and
+between aTBA, aTA, and aTB are identical to those between rTBA, rTA, rTB.
+For example, if you start out having velocity vTA (or acceleration aTA),
+give yourself the additional velocity vTBA (or acceleration aTBA), you end up
+having velocity vTB (or acceleration aTB).
+.PC
+2d. Subscript Reversal on vT and aT_________________________________
+.PA
+It is also easy to see that the velocity of A relative to B, vTAB, and the
+acceleration of A relative to B, aTAB, are related to vTBA and aTBA in just the
+same way as rTAB is related to rTBA:
+.SP 2
+.EQ''vTAB = -vTBA ,'(6)'
+.SP 2
+.EQ''aTAB = -aTBA .'(7)'
+.SP 3
+.SC
+FRAMES OF REFERENCE___________________
+.PC
+3a. "Observer" Labels_____________________
+.FI
+.NL 34
+.SP 24
+.LN -2
+.IN 2
+.MS 2
+.SI 2
+Fig.2. Relative position vectors defined for various observer labels where
+rTBA is (a) the difference between two vectors, or (b) the sum of two vectors.
+.LN +2
+.IN 0
+.MS #S
+.SP 2
+.PA
+Sometimes it may be easier to deal solely with relative quantities like rTAB
+instead of "absolute" ones like rTA.
+To do this, we can simply place an observer O at the origin of our
+coordinate system and measure all the vector quantities relative to that
+observer.
+Thus rTA becomes rTAO, vTA becomes vTAO, and so on (see Fig.2a).
+Equation(1) then becomes
+.SP 2
+.EQ''rTBA = rTBO - rTAO'(8)'
+.SP 2
+or, by applying Eq.(3) to get rTAO=-rTOA (see Fig.2b), we have
+.SP 2
+.EQ''rTBA = rTOA + rTBO .'(9)'
+.SP 2
+.PC
+3b. Checking an Equation's Subscript Sequence_____________________________________________
+.PA
+The addition equation, Eq.(9), may be read "A to B equals A to O plus O to
+B."\ 
+Note that one reads the subscripts from right to left.
+This provides a powerful check on the correctness of relative-vector
+equations, since it is usually quite easy to rearrange terms into the
+addition form.
+.PC
+3c. Converting From Other Notations___________________________________
+.PA
+Many scientists use a "prime-unprime" notation when describing vectors
+relative to two frames of reference.
+Vectors in that notation may be converted to double subscript notation by
+placing observers (say, O and O') at the origins of the reference frames and
+expressing the vector quantities relative to these observers.
+For example, consider the "prime-unprime" velocity addition equation
+.SP
+.EQ ""  vT = vT'+ uT"(10)"
+.SP
+where vT is the velocity of an object in the unprimed reference frame, vT'is
+the velocity of the object in the primed reference frame, and 
+uT is the velocity of the primed frame relative to unprimed frame.
+Equation(10) can be rewritten as
+.SP 2
+.EQ ""vTAO = vTAO' + vTO'O"(11)"
+.SP 2
+by making the identifications
+.SP
+    vT = vTAO  = velocity of A relative to O,
+.SP
+   vT' = vTAO' = velocity of A relative to O', and
+.SP
+    uT = vTO'O = velocity of O' relative to O.
+.SP 2
+The double subscript form is easy to check visually.
+.SC
+4. SCALAR a=dv/dt__________________
+.PC
+4a.
+.PA
+To determine the motion of a particle 
+The equation of motion for a particle is given by the vector relation
+.SP 2
+.EQ ''aT = dvT__dt ,
+.SP 2
+which is actually three component equations expressed in mathematical
+shorthand.
+
+.PC
+4b. Conditions for a=dv/dt___________________________
+.PA
+The scalar equation a=dv/dt holds, in two and three dimensions, only when
+either: (i) v=0; or (ii) dv^/dt=0.
+Thus either the speed must be instantaneously zero or the direction of the
+velocity must be constant.
+The latter condition specifies that the motion must be linear, i.e. along a
+straight line.
+.PC
+4c. Derivation of the Conditions________________________________
+.PA
+Let vT=vv^  where v is the magnitude of vT and v^ is its directional unit
+vector, |v^|=1.
+Then:
+.SP
+.EQ''a = |aT| = |d(vT)/dt| = |d(vv^)/dt|   '(12)'
+.SP
+.EQ''        = |v^dv/dt + vdv^/dt|       '(13)'
+.SP
+where we have taken the derivative of a product.
+Hence if either v=0 or dv^/dt=0 (the result dv^/dt=0 means that the
+direction of v^ does not change with time), then
+.SP
+.EQ''a = |v^dv/dt| = |v^|^|dv/dt| = dv__dt'(13)'
+.SP
+and a=dv/dt holds as a non-vector equation.
+.SP 3
+.CE
+ACKNOWLEDGMENTS_______________
+.PA
+Production of this module was supported in part by the National Science
+Foundation (Grants SED \#74-20088 and HES \#75-16266 to Michigan State
+University) and by the Physics Department of Michigan State University.
+.SP 2
+.CE
+GLOSSARY________
+.SP
+.IN 2
+.SI -2
+{ frame of reference: a spacial coordinate system that is used to determine
+the position or describe the motion of some object of interest.
+.SP
+.SI -2
+{ observer: a person making measurements, descriptions, or determinations of
+some event.
+.SP
+.SI -2
+

@@ -1,0 +1,19 @@
+% 10/11/94, pss; 3/27/97, pss
+\input nphmods.sty
+
+%\includeonly{m24-id}
+
+%\psdraft  %(activate only for hp mode; percent-out for ps mode)
+
+\begin{document}
+
+\mNumber{24}
+
+\include{m24-ct}
+\include{m24-id}
+\include{m24-tx}
+\include{m24-lg}
+\include{m24-ps}
+\include{m24-me}
+
+\end{document}

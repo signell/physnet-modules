@@ -1,0 +1,20 @@
+% 10/3/94, pss; 8/30/95, pss
+\input nphmods.sty
+
+%\includeonlyxy{m18-ct}
+
+%\psdraft  %(activate only for hp mode; percent-out for ps mode)
+
+\begin{document}
+
+\mNumber{18}
+
+\ChapterStart
+\include{m18-ct}
+\include{m18-id}
+\include{m18-tx}
+\include{m18-lg}
+\include{m18-me}
+\ChapterEnd
+
+\end{document}

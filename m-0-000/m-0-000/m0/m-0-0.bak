@@ -1,0 +1,571 @@
+% 4/10/94, pss; 5/22/95, pss; 12/27/96, pss; 10/27/98, pss
+  0 physnet instructional units index (this document)
+  1 review of differentiation and integration
+  2 vectors: sums, differences, products
+  3 vectors: an introduction (notation-changed 405)
+  4 taylor's polynomial approximation for functions
+  5 tools for static equilibrium
+  6 static equilibrium, centers of force, gravity and mass
+  7 kinematics in one dimension
+  8 kinematics in two dimensions
+  9 kinematics of circular motion
+ 10 frictionless applications of newton's laws
+ 11 relative linear motion, frames of reference
+ 12 special relativity: the lorentz transformation, the velocity addition law
+ 13 length contraction and time dilation effects of special relativity
+ 14 particle dynamics - the laws of motion
+ 15 momentum: conservation and transfer
+ 16 frictional applications of newton's laws
+ 17 centripetal and ``g'' forces in circular motion
+ 18 coriolis and centrifugal forces
+ 18 rotating frames of reference: effects at earth's surface
+ 19 mass changing with time: rockets and other examples
+ 20 work, kinetic energy, work-energy principle, power
+ 21 potential energy, conservative forces, conservation of energy
+ 22 potential energy and motion: potential curves, turning points
+ 23 relativistic energy; reaction thresholds, binding energies
+ 24 relativistic momentum: particle decays
+ 25 simple harmonic motion: kinematics and dynamics
+ 26 shm: hooke's law
+ 27 phasors
+ 28 small oscillations
+ 29 damped mechanical oscillations
+ 30 eliminating oscillator transients: a project
+ 31 damped driven oscillations;  mechanical resonances
+ 32 small oscillations revisited
+ 33 torque and angular acceleration for rigid planar objects: flywheels
+ 34 torque and angular momentum in circular motion
+ 35 calculation of moments of inertia, principle axes
+ 36 rotational motion of a rigid body
+ 37 kinematics in three dimensions
+ 38 stability of the bicycle
+ 39 numerov method: damped driven oscillator
+ 40 foucault pendulum
+ 41 ucm: mom. of inertia, consv. of ang. mom., kin. energy, power
+ 42 pendula - simple and physical
+ 43 translational plus rotational motion of a rigid body
+ 44 appearances at relativistic speeds
+ 45 two body kinematics and dynamics
+ 46 flywheels
+ 47 laplace transform solution for the damped driven oscillator
+ 48 archimedes' principle, bernoulli's theorem
+ 49 resonances and poles: relation between real and complex world
+ 50 fourier series
+ 51 fast fourier transform
+ 52 digital fourier transform
+ 53 super-ball and successive ultraelastic collisions
+ 54 
+ 55 
+ 56 static and sliding friction: drag racer design
+ 57 euler's equations: the tennis racket theorem
+ 58 derivation of the constants of motion for central forces
+ 59 some simple functions in the complex plane
+ 60 standard resolution of the clock paradox
+ 61 history of controversy over the clock paradox
+ 62 overview of particle dynamics
+ 63 potential energy and motion: potential curves, turning points
+ 64 mass and weight
+ 65 physical description and measurement (403)
+ 66 physical changes and rates (404)
+ 67 cooperative learning
+ 68 
+ 69 physnet learner review guide
+ 70 inductive reasoning: the game of patterns
+ 71 
+ 72 trajectories and radius, velocity, acceleration
+ 73 special relativity: the michelson-morley experiment
+ 74 derivation of the relativistic energy and momentum formulas
+ 75 relativistic space-time: four-vectors
+ 76 derivation of the lorentz transformation
+ 77 angular momentum and torque: precession, precession of the equinoxes
+ 78 the poisson distribution: ``goals, floods and horse kicks''
+ 79 space colonies
+ 80 delta function
+ 81 
+ 82 problem solving strategies
+ 83 best uses of the lecture
+ 84 physnet module author's guide
+ 85 ideas for designing instructional modules
+ 86 an overview of research guides to module design
+ 87 stills vs animation: an investigation
+ 88 
+ 89 rainbow
+ 90 
+ 91 
+ 92 
+ 93 
+ 94 
+ 95 
+ 96 
+ 97 
+ 98 
+ 99 
+100 cavendish experiment
+101 newton's law of universal gravitation
+102 orbital motion in an inverse-square-law force field
+103 
+104 derivation of the numerov algorithm in two dimensions
+105 orbits in an inverse-square-law force field: a computer project
+106 derivation of orbits in inverse-square-law force fields
+107 gravitational potential energy
+108 gravitational field
+109 gravitational field outside a spherical homogeneous mass
+110 equivalence principle: an introduction to relativistic gravitation
+111 curvature of space
+112 ocean tides
+113 earth tides
+114 coulomb's law
+115 point charge: field and force
+116 electrostatic potential due to discrete charges
+117 particle energy in an electrostatic field
+118 conductivity and resistance
+119 resistors
+120 electric dipoles
+121 overview of electricity and magnetism
+122 force on a charged particle in a magnetic field: the lorentz force
+123 force on a current in a magnetic field
+124 magnetic field of a moving charge: magnetic interactions
+125 magnetic field of a current: the ampere-laplace equation
+126 
+127 cyclotron orbits (a computer project)
+128 runge-kutta algorithm in two dimensions
+129 electromagnetic fields and relativity
+130 magnetic dipoles
+131 toroidal confinement reactors
+132 gauss's law and spherically distributed charges
+133 gauss's law applied to cylindrical and planar charge distributions
+134 electric fields and potentials across charge layers and in capacitors
+135 capacitance and capacitors
+136 electric charge
+137 electrostatic field energy
+138 ampere's law
+139 sourcelessness of the magnetic field
+140 magnetic monopole: properties and search
+141 magnetic fields in bulk matter: magnets
+142 faraday-henry law of magnetic induction
+143 storage of energy in magnetic fields
+144 self-inductance and inductors
+145 ampere-maxwell equation: the displacement current
+146 maxwell's equations
+147 electrostatic potential due to a continuous charge distribution
+148 electrostatic field due to continuous charge distributions
+149 examining the charge carriers: the hall effect
+150 signal velocity in a conductor
+151 two element passive lrc circuits
+152 three element passive lrc circuits
+153 electric fields from symmetric charge distributions
+154 resonances in lrc circuits
+155 student strategies for success in cbi physics
+156 
+157 temperature and pressure of an ideal gas: the equation of state
+158 first law of thermodynamics
+159 energy distribution functions: boltzmann distribution
+160 entropy
+161 updating scientific information through key authors
+162 least-squares fitting: basic checkpoints
+163 non-linear least squares fitting of data
+164 
+165 
+166 
+167 
+168 energy distribution functions: the fermi-dirac distribution
+169 d.c. conduction along a nerve: a resistance ladder
+170 magnetohydrodynamic generators
+171 diffusion equation
+172 lightning!
+173 control of environmental noise
+174 energy and solar heating
+175 radioactive radiations and their biological effects
+176 
+177 radiation damage in solids
+178 
+179 
+180 skills for professional success
+181 quantized small oscillations
+182 the multimeter
+183 mutual inductance
+184 
+185 
+186 
+187 
+188 
+189 
+190 
+191 
+192 
+193 
+194 
+195 
+196 
+197 
+198 updating scientific information through key words
+199 
+200 
+201 wave equation and its solutions
+202 sound waves and transverse waves on a string
+203 intensity and energy in sound waves
+204 the doppler effect
+205 interference of two coherent waves (230)
+206 interference project (238)
+207 
+208 updating scientific information through key publications
+209 
+210 electromagnetic wave from maxwell's equations
+211 energy and momentum in electromagnetic waves
+212 characteristics of photons 
+213 photoelectric effect
+214 simulating statistical fluctuations
+215 energy levels and spectra of atomic one-electron systems
+216 transitions and spectral analysis
+217 diatomic molecules: properties from rotation-vibration spectra
+218 continuous spectra: planck's law
+219 compton effect
+220 rules of geometrical optics
+221 spherical mirrors
+222 refraction at spherical surfaces
+223 thin spherical lenses
+224 optical instruments
+225 brewster's law and polarization
+226 
+227 introduction to color physics
+228 land's observations on color perception
+229 measure of perceived colors
+230 interference of waves from two coherent sources
+231 interference of waves from many sources: radio interferometry
+232 standing waves
+233 standing waves in sheets of material
+234 constructing holograms
+235 fraunhofer diffraction
+236 fresnel diffraction
+237 diffraction grating and x-ray scattering from crystals
+238 numerically constructing an interference pattern
+239 glory (the)
+240 de\,broglie waves
+241 the uncertainty relations: description, applications
+242 quantization of energy in the 1d schroedinger equation
+243 wave functions, probability and mean values
+244 electron spin
+245 numerical demonstration of energy quantization for atomic hydrogen
+246 wave particle duality for light
+247 helium atom: an intuitive approach
+248 time dependent schroedinger equation
+248 derivation of newton's second law and first correction term
+249 formal solutions in the life of a tunnelling system
+250 quantum tunneling: pictures, discussion, personal reactions
+251 quantized angular momentum
+252 some uses of radioactivity
+253 locating all schroedinger equation bound states
+254 chemical bonding
+255 fundamental forces and elementary particle classification
+256 conservation laws for elementary particles
+257 optical pumping
+258 laser devices
+259 optical circuits
+260 reflection and planar mirrors
+261 spherical mirrors
+262 lenses
+263 telescope, microscope and human eye
+264 exponential decay
+265 quantum tunnelling
+266 elementary particle interaction times, ranges, cross sections
+267 metallic surface barrier tunnelling
+268 quantum harmonic oscillations
+269 hidden variables
+270 predicting the perceived colors of reflective objects
+271 thin film reflections
+272 interference overview
+273 particles and interactions
+274 particles stable against the strong force
+275 conserved quantities: an overview
+276 universally conserved quantities
+277 properties conserved in strong and em interactions
+278 isospin: conserved in strong interactions
+279 strengths of interactions and particle diagrams
+280 strong interaction
+281 weak interaction
+282 su(3) and the quark model
+283 color and charm
+284 current work in elementary particles
+285 apertures, pupils, fiber optics
+286 prisms and dispersion
+287 coherence
+288 multiple reflection interference
+289 optical boundaries
+290 schlieren optics
+291 velocity of light
+292 radiometry
+293 light scattering
+294 fourier transform spectroscopy
+295 transfer functions
+296 two dimensional transforms
+297 holography
+298 electron optics
+299 absorption of light
+300 lasers
+301 simple matrix algebra
+302 general properties of schroedinger equation solutions
+302 schroed. eqn.: separability, plane waves, parity, cm
+303 application of michelson type interferometers
+304 quantization and multiple particle schr\"{o}edinger equation.
+305 standard model of elementary particles
+306 3d plotting, hidden line removal
+307 numerical analysis of decay data
+308 topics in relativity: doppler shift and pair production
+309 bohr-sommerfeld model of the atom
+310 atoms and electrons: 3 classic experiments
+310 millikan, thomson and rutherford experiments
+311 exponential decay: observation, derivation
+312 
+313 
+314 spectrum of sodium
+315 anomalous zeeman effect and the lande g-factor
+316 spectra of helium and calcium
+317 x-ray spectra
+318 pauli principle and the periodic table of the elements
+319 musical scales
+320 
+321 acoustics
+322 
+323 
+324 
+325 
+326 
+327 
+328 
+329 
+330 
+331 
+332 
+333 
+334 interatomic binding and lattice energy of crystalline solids
+335 crystal symmetry and structure
+336 crystal diffraction
+337 the reciprocal lattice
+338 lattice defects
+339 vibrational modes for simple lattice structures, monatomic
+340 vibrational modes for simple lattice structures, diatomic
+341 specific heat of crystal lattices
+342 classical free electron theory of metals
+343 quantized free electron theory
+344 band theory of solids
+345 electron dynamics according to band theory
+346 introduction to running fortran
+347 fortran format, dimension, and do statements - printer graphics
+348 advanced printer graphics, scaling
+349 numerical integration
+350 numerical solution of diff. eqns., rc circuits - euler method
+351 num'l sol'n of diff'l eq'ns - improved euler method
+352 fourier analysis and superposition of waves (computer project)
+353 waves in two dimensions (computer project)
+354 generation of random numbers by computer
+355 monte carlo evaluation of definite integration
+356 simulation of a chain reaction
+357 approach to equilibrium
+358 analysis of bubble chamber photographs (computer project)
+359 least squares fitting of experimental data (computer project)
+360 minuit: function minimization, error analysis package (cern)
+361 formal mathematical solutions by computer
+362 searches of technical literature by computer
+363 scientific text processing
+364 feynman diagrams: an introduction
+365 technical data bank management by computer
+366 magnets (reif)
+367 runge-kutta method for solving differential equations
+368 
+369 
+370 
+371 experimental demonstration of errors in measurement
+372 propagation of errors in calculations
+373 error analysis of time interval data
+374 
+375 interference, n sources (reif)
+376 circular motion (reif)
+377 
+378 
+379 
+380 
+381 photon particle/wave duality
+382 wave nature of particles
+383 fourier analysis and wave packets
+384 the schr\"{o}dinger equation
+385 rectangular potentials
+386 harmonic oscillator i
+387 harmonic oscillator ii
+388 intro. to the formal structure of quantum mechanics i
+389 intro. to the formal structure of quantum mechanics ii
+390 time-independent perturbation theory
+391 time-dependent perturbation theory i
+392 harmonic perturbations
+393 scattering in the born approximation
+394 
+395 
+396 
+397 
+398 
+399 
+400 
+401 math background for pre-professional level general physics
+402 scientific goals and methods
+403 physical description and measurement
+404 physical changes and rates
+405 vectors for reif-level general physics
+406 description of motion
+407 component description of motion and vectors
+408 theory of motion
+409 application of the theory of motion
+410 gravitational force
+411 electric force and charged particles
+412 motion relative to different reference frames
+413 motion of a system of particles
+414 kinetic energy and work
+415 potential energy and conservation of energy
+416 energy of a system of particles
+417 solids and fluids at rest
+418 fluids in motion
+419 electric field
+420 electric potential
+421 electric properties of materials
+422 capacitance
+423 electric current
+424 resistors
+425 emf and electric circuits
+426 magnetic force and field
+427 production of magnetic fields
+428 magnetically induced emf
+429 changing field and electromagnetic waves
+430 basic properties of waves
+431 interference
+432 resolution and diffraction
+433 standing waves
+434 
+435 
+436 dielectric properties of solids, part i
+437 dielectric properties of solids, part ii
+438 p-n junction and the photovoltaic effect
+439 thermal conductivity
+440 superconductivity (i) - experimental survey
+441 superconductivity (ii) - theoretical survey
+442 semiconductor junctions, diodes, transistors
+443 homogeneous semiconductors i: intrinsic
+444 
+445 
+446 
+447 
+448 
+449 
+450 first law of thermodynamics
+451 probability, entropy and the second law of thermodynamics
+452 heat bath and boltzmann distribution
+453 applications of the boltzmann distribution
+454 entropy changes and reversible processes
+455 thermodynamic potentials
+456 fundamental relations of thermodynamics
+457 thermodynamic coefficients of change
+458 thermodynamics of simple systems i
+459 thermodynamics of simple systems ii
+460 classical perfect gas
+461 quantum perfect gases
+462 phase equilibria, one component systems
+463 multicomponent systems and the law of mass action
+464 properties of solutions
+465 historical introduction to special relativity
+466 lorentz transformations
+467 minkowski diagrams and space-time intervals
+468 relativistic kinematics and einsteinian optics
+469 four-tensors and the lorentz group
+470 electrodynamics
+471 relativistic mechanics
+472 introduction to general relativity
+473 tensor analysis
+474 vacuum field equations and schwarzschild's solution
+475 classical tests of special relativity
+476 einstein's field equations
+477 weak-field approximation and gravitational wave
+478 vector algebra review
+479 differential vector calculus
+480 integral vector calculus
+481 orthogonal curvilinear coordinates
+482 fourier analysis - series: part i
+483 fourier analysis - series: part ii
+484 fourier integrals: part i
+485 fourier integrals: part ii
+486 vibrating strings and heat diffusion
+487 analytic functions
+488 cauchy integral theorem, laurent series and residues
+489 conformal mapping
+490 cauchy residue theorem and definite integrals
+491 matrices and transformations
+492 vector analysis
+493 newtonian mechanics - single particle
+494 newtonian mechanics - system of particles
+495 linear oscillations
+496 driven oscillations
+497 calculus of variations
+498 hamilton's principle and lagrange's equations
+499 lagrangian mechanics
+500 hamiltonian formalism
+501 central force motion
+502 rigid bodies - the inertia tensor
+503 review of vector analysis
+504 review of electrostatics: vector notation, multipole expansion
+505 sol'ns to laplace's eq'n - spherical and cylindrical coord's
+506 theory of dielectrics - displacement vector
+507 theory of dielectrics - boundary value problems
+508 electrostatic energy density
+509 magnetostatics: magnetic induction vector, vector potential
+510 magnetic properties of matter
+511 magnetic materials and boundary value probems
+512 faraday's law of electrom. induction, magnetic energy density
+513 maxwell's equations - electromagnetic waves
+514 propagation, reflection, refraction: plane electrom'ic waves
+515 electromagnetic radiations
+516 quantum theory: a brief introduction
+517 quantum theory of angular momentum
+518 orbital angular momentum eigenvalues
+519 orbital angular momentum eigenfunctions
+520 spin and the addition of angular momenta
+521 one-electron atom energy eigenfunctions and eigenvalues
+522 useful properties of the one-electron atom energy eigenfunc's
+523 one-electron atom corrections
+524 atomic transitions - theory
+525 atomic transitions: multipole radiation and phenomenology
+526 multi-electron atoms i: shell structure, periodic table
+527 multi-electron atoms ii: ls-coupling and jj-coupling
+528 atoms in external fields
+529 molecular structure
+530 electric current density
+531 
+532 statistical methods in nuclear physics
+533 nuclear size
+534 nuclear accelerators
+535 nuclear fusion
+536 beta decay
+537 beta decay theory
+538 theories of nuclear reactions
+539 elementary particles in nuclear physics
+540 basic concepts of the atomic nucleus
+541 nuclear magnetism and hyperfine structure
+542 radioactivity-1
+543 radioactivity and successive disintegrations
+544 nuclear detectors
+545 semiconductor detectors
+546 nuclear reactions-i
+547 nuclear cross sections
+548 nuclear masses and binding energies
+549 semiempirical mass formula
+550 alpha decay
+551 alpha decay theory
+552 interaction of heavy charged particles with matter
+553 interaction of light charged particles with matter
+554 neutrino-antineutrino and parity non-conservation
+555 multipole nuclear moments
+556 gamma decay
+557 interaction of gamma rays with matter
+558 nuclear shell model
+559 nuclear forces: the deuteron problem
+560 nuclear fission
+561 properties of the schr\"{o}dinger equation
+562 nuclear collective model
+563 nuclear forces: qualitative
+564 neutron physics
+565 neutron detectors

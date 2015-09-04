@@ -1,0 +1,540 @@
+% 7/11/85; mpm; 9/13/88, pss; 12/8/89, pss; 7/5/91, pss; 10/4/94, pss;
+% 11/12/97, pss; 7/15/99, abs; 12/11/2000, pss
+\TxStart
+
+\mTitle{KINEMATICS IN ONE DIMENSION}
+
+\mAuthor{Leon F.\,Graves}
+
+\scap{1}{Introduction}
+
+\CaptionAfterLeftFigure{Fig.\,1.  Height of the bottom of a flag, as a function of
+time, as it is being raised and then lowered to half mast.}{m7gr01}
+
+\pcap[\Index{kinematics}]{1}{a}{Kinematics}
+Kinematics is the study of the motion of \Index{particle}particles in terms of space and
+time.
+By a particle we mean an identifiable physical object with spatial
+dimensions so small so that it can be located at a point in a
+coordinate system.
+
+\pcap{1}{b}{The Reason for One Dimension}
+The real world consists of three space-dimensions but in this module
+we will be dealing only with those \Index{one-dimensional motion}\Index{motion, in one dimension}motions that are one-dimensional,
+motions that are along a straight line.
+This is because motion in a straight line is the simplest
+motion to analyze so its study is a good introduction to motion in general.
+Furthermore, when motion does occur in more than one dimension, one often
+solves for the Cartesian components of the vector quantities.
+The equations for these Cartesian components have much in common with their
+one-dimensional counterparts that you will see in this module.
+
+A major reason that it is easier to begin with one-dimensional motion is
+that one does not have to have a multitude of vector symbols obscuring the
+other concepts that are being introduced.
+To get rid of vectors, we always choose a coordinate system in which the
+straight-line motion being examined is along a coordinate axis.
+Then there is only one common unit vector and it multiplies
+all terms in all vector equations, so it can be eliminated (\Quote{canceled})
+from the equations.
+Although we will thus not use vectors much in one dimension, we suggest that
+when interpreting positive and negative values for quantities that have
+direction, you think of those values as being multiplied by the appropriate
+unit vectors.
+
+\CaptionAfterFullFramedFigure{Fig.\,2. Illustration of \Index{displacement}displacement quantities (see
+text).}{m7gr02}
+
+\scap{2}{Position, Displacement}
+
+\pcap{2}{a}{Introduction}
+In straight line motion, \Index{position}position is defined as distance along the
+line of motion as measured from some chosen origin.
+For example, when a flag is run up a flagpole, the position of the bottom of
+the flag can be taken as its distance above the ground.
+This position can be shown by a graph of height versus time (see Fig.\,1).
+In this diagram the bottom of the flag reaches height \m{h_1} at time \m{t_1}
+and \m{h_2} at \m{t_2}; it is then lowered, reaching \m{h_3} at \m{t_3}, after which
+it remains at the half-mast position.
+Since the selection of the coordinate system and its origin is arbitrary,
+position may be negative or positive in value.
+The standard SI unit of \Index{SI units, of length}length is the \Index{meter}meter, where 1\,meter equals 3.28\,feet
+or 1.09\,yards.
+
+\pcap{2}{b}{Displacement is Change of Position}
+Position is a vector quantity; for example, \m{\vec{r} = x \uvex{x}}.
+Displacement, written \m{\Delta\vec{r}}, is defined as change in position.
+For example,
+%
+\eqn{1}{\Delta\vec{r} = \vec{r}_f - \vec{r}_o = (x_f - x_o)\,\uvex{x}  =
+                             \uvex{x} \Delta x\,,}
+%
+where the subscript \m{f} indicates final position and the subscript \m{o} indicates
+starting or originating position for the time interval \m{t_f - t_o}, and
+\m{\uvex{x}} is a unit vector in the positive \m{x}-direction (see Fig. 2).
+
+\scap{3}{Velocity}
+
+\CaptionAfterLeftFigure{Fig.\,3.  Illustration of quantities used to find
+average velocity (see text).}{m7gr03}
+
+\pcap{3}{a}{Overview}
+\Index{vlocity}Velocity is the time rate of change of position.
+When we change position, we move.
+We may move slowly or rapidly.
+We may move forward or backward.
+Mathematically, velocity is the rate at which one's position changes.
+Since the rate at which position changes can itself be continually changing,
+velocity can be different at each instant of time (think of a car speedometer
+that is continually changing).
+When beginning to study physics, it is sometimes quite difficult to imagine
+a quantity as being defined for an infinite continuum of instants during a
+finite interval of time.
+In fact, Newton invented calculus just so he could deal with the real world's
+infinite continuum of instants.
+To make things a little easier, we will first deal with a finite number
+of average quantities, then graduate to the real thing.
+
+\pcap[\Index{velocity, average}\Index{average velocity}]{3}{b}{Average Velocity}
+If a particle is at position (\m{x_o\uvex{x}}) at time \m{t_o} and at position
+(\m{x_f\uvex{x}}) at a later time \m{t_f}, the average velocity over the time
+interval is (see Fig.\,3):
+%
+\eqn{2}{\vec{v}_{av}=\fract{\Delta \vec{r}}{\Delta t} =
+              \fract{\left(x_f - x_o\right)\uvex{x}}{t_f - t_o} =
+                                \uvex{x} \fract{\Delta x}{\Delta t}\,.}
+
+\pcap{3}{c}{Instantaneous Velocity and Speed from \m{x(t)}}
+The \Index{velocity, instantaneous}\Index{instantaneous velocity}instantaneous velocity, called simply \Quote{the velocity,} is the limit of the
+average velocity as the length of the time interval over which one is
+averaging approaches zero; that is, as \m{t_f} approaches \m{t_o}.
+Dropping the unit vectors in Eq.\,(\eqnno{2}) and taking the limit, we get:
+%
+\eqn{3}{v=\lim_{\Delta t\rightarrow 0} v_{av} =
+      \lim_{\Delta t\rightarrow 0} \fract{\Delta x}{\Delta t} \equiv
+                                                       \fract{dx}{dt}\,.}
+%
+The always-positive magnitude of \m{v}, written \m{|v|}, is the \Index{speed, instantaneous}\Index{instantaneous speed}instantaneous speed,
+or simply \Quote{the \Index{speed}speed.}
+It is the quantity a car's speedometer is designed to display, in miles per
+hour and/or kilometers per hour.
+The international standard \Index{SI units, of speed}(SI) unit of speed is meters per second.
+
+\CaptionAfterFullFramedFigure{Fig.\,4. The small triangles show how to measure
+      \m{\Delta x} and \m{\Delta t} to determine instantaneous velocities
+                \m{\Delta x/\Delta t} at times \m{t_1}, \m{t_2}, \m{t_3}, \m{t_4}.}{m7gr04}
+
+\pcap{3}{d}{Instantaneous Velocity From Position Graph}
+If a graph of position versus time is constructed from a data table, or
+drawn by a recording instrument, the velocity at any time can be
+found graphically.
+The slope of the tangent to the curve at any particular point is \m{dx/dt} at
+that point and this is the instantaneous velocity at that time.
+
+This tangent to the curve can be called the \Index{slope, physical}\Index{physical slope}physical slope to distinguish it
+from a geometrical slope measured in degrees or radians.
+Unlike a geometrical slope, a physical slope has units determined by
+the scale of the graph, those of the ordinate divided by those of the
+abscissa.
+These slopes can be determined by drawing tangents to the curve at points
+on the curve, and subsequently using the tangents as the hypotenuses of
+right triangles that can be drawn and measured (see Fig.\,4).
+
+\pcap{3}{e}{Units}
+The standard \Index{SI units, of speed}\Index{SI units, of velocity}SI unit for speed and velocity is one meter per second,
+which is approximately equal to 3.28 feet per second or 2.24\,mph---a brisk
+walking speed.
+To run a four minute mile, a track star must average 22\,ft/s or 15\,mph (the
+maximum speed posted for many school zones).
+In SI units this is 6.70\,m/s.
+Tropical storms are called hurricanes as soon as their winds reach 33\,SI
+units, 33\,m/s, equivalent to 64 knots or 74\,mph.
+The speed of sound is approximately 330\,SI units, 330\,m/s.
+
+\TwoFullFigures{Fig.\,5. Table graph.}{m7gr05}%
+               {Fig.\,6. Getting \m{v_{\rm av}}.}{m7gr06}
+
+\pcap{3}{f}{Example}
+The motion of a particle traveling along a straight line can be described
+roughly by giving its position at a number of times.
+Here is an example:
+%
+\begin{center}\begin{tabular}{|c c c c c c c|}\hline
+ \m{t}(\m{s})    & 0.10 & 0.20 & 0.30 & 0.40 & 0.50 & 0.60 \\
+ \m{x}(\m{t})(m) & 0.15 & 0.55 & 0.60 & 0.40 & 0.35 & 0.50 \\ \hline
+\end{tabular}\end{center}
+%
+This information can also be shown by plotting a graph, as in Fig.\,5.
+Since we believe such a particle travels smoothly, we would normally
+connect the points by a smooth line as indicated.
+In any case, if we collected more and more data on the particle, we could
+plot more and more points until the graph took on a smooth appearance as
+in Fig.\,6.
+
+Now suppose we need to find the average velocity over the interval from
+\m{t = 0.10}\,s to 0.20\,s.
+We can use data table\,to find:
+%
+\TwoEqns{}{v_{av} & = & \fract{\Delta x}{\Delta t} =
+                        \fract{0.55\,{\rm m} - 0.15\,{\rm m}}{0.20\,{\rm s} -
+                        0.10\,{\rm s}}}
+          {       & = & 4.0\,{\rm m/s}\,.}
+%
+Or we can measure on our (carefully constructed) graph (Fig.\,6) to discover
+that:
+%
+\eqn{}{v_{av}=\fract{\Delta x}{\Delta t} =
+            \fract{0.40\,{\rm m}}{0.10\,{\rm s}} = 4.0\,{\rm m/s}\,.}
+%
+This is the slope of the dashed line connecting the end points of the
+interval in Fig.\,6.
+
+On the other hand, if we want the instantaneous velocity at \m{t = 0.10}\,s, we
+let the \m{\Delta t} in Fig.\,6 shrink toward zero:
+%
+\eqn{}{v(0.10\,{\rm s}) = \lim_{\Delta t\rightarrow 0}
+        \left.\fract{\Delta x}{\Delta t}\right|_{0.10\,{\rm s}} 
+            = \left.\fract{\Delta x}{\Delta t}\right|_{0.10\,{\rm s}}\,.}
+%
+which is just the slope of the first dashed line in Fig.\,7.
+That is, the (instantaneous) velocity at any given time is the slope of the
+graph, the time derivative of the function, at that time.
+
+We can immediately see from Fig.\,7 that \m{v} is positive throughout the
+interval from \m{t = 0.10}\,s to 0.20\,s (for example), because \m{x} is always
+increasing with \m{t} throughout this interval.
+
+\CaptionAfterLeftFigure{Fig.\,7. Getting \m{v(t)}.}{m7gr07}
+
+\scap{4}{Acceleration}
+
+\pcap{4}{a}{Overview}
+The word \Quote{\Index{acceleration}acceleration} implies a change in velocity.
+Thus we must associate acceleration with change in velocity over some
+interval of time; we must not associate it with any one particular
+\Index{acceleration, instantaneous}\Index{instantaneous acceleration}instantaneous velocity.
+Both direction and magnitude of velocity change are important.
+For example, a ball thrown upward into the air slows down, momentarily
+stops, then picks up downward velocity, all because of the constant downward
+acceleration due to gravity.
+
+\pcap[\Index{acceleration, average}\Index{average acceleration}]{4}{b}{Average Acceleration}
+If a particle has a velocity \m{v_o\uvex{x}} at time \m{t_o}, and a velocity
+\m{v_f\uvex{x}} at a later time \m{t_f}, the average acceleration over that time
+interval is:
+%
+\eqn{4}{\vec{a}_{av}=\fract{\Delta \vec{v}}{\Delta t} =
+         \fract{\left(v_f - v_o\right)\uvex{x}}{t_f-t_0} =
+                           \uvex{x}\fract{\Delta v}{\Delta t}\,.}
+
+\pcap[\Index{acceleration, instantaneou}\Index{instantaneous acceleration}]{4}{c}{Instantaneous Acceleration}
+The instantaneous acceleration, called simply \Quote{the \Index{acceleration}acceleration,} is the
+limit of the average acceleration as \m{t_f \rightarrow t_o}.
+Dropping the unit vectors in Eq.\,(\eqnno{4}) and going to the limit,
+%
+\eqn{5}{a = \lim_{\Delta t\rightarrow 0}\fract{\Delta v}{\Delta t} \equiv
+                  \fract{dv}{dt}=\fract{d^2x}{dt^2}\,.}
+%
+This is \Quote{the acceleration of a particle at the time \m{t_o}.}
+The acceleration is in the direction of the \m{x}-axis and has the dimensions
+length/time\m{^2}.
+When its value is non-zero, its direction may be to the right (positive
+value) or to the left (negative value).
+
+\pcap[\Index{instantaneous acceleration, from velocity}]{4}{d}{Instantaneous Acceleration From Velocity Graph}
+A curve of velocity versus time, whether the velocities are obtained from
+graphs or tables, can be quite useful.
+Not only does the slope give instantaneous acceleration but, as we shall see
+later, the area between the velocity curve and the time axis gives the
+displacement.
+The slope, \m{dv/dt} (which is also \m{a}), can be determined by drawing tangents and triangles
+at desired times (see Fig.\,8).
+Here we drew the same shape for \m{v(t)} as we did for \m{x(t)} in Fig.\,4 so as to emphasize that
+acceleration relates to velocity in somewhat the same manner as velocity relates
+to position.
+
+\CaptionAfterFullFramedFigure{Fig.\,8. The small triangles show how to
+determine instantaneous acceleration \m{\Delta v/\Delta t} at times
+\m{t_1}, \m{t_2}, \m{t_3}, \m{t_4}.
+This is not the velocity corresponding to the displacement in Fig.\,4.}{m7gr08}
+
+\pcap[\Index{instantaneous acceleration, from position}]{4}{e}{Instantaneous Acceleration From Position Graph}
+Since the slope of the velocity curve, \m{dv/dt}, is the time rate of change of
+velocity, it is \m{d^2x/dt^2} which is called the \Quote{bending function} of the
+position/time curve.
+It is instructive to draw separate position, velocity and acceleration
+curves, one above the other, using a common time scale (see Fig.\,9).
+
+Geometrically, \m{a(t)} is the rate of change of the slope of \m{x(t)}; it is the
+rate at which that function \Quote{bends.}
+For instance, in Fig.\,7 the slope is positive at \m{t = 0.10}\,s but negative at
+\m{t = 0.30}\,s.
+In fact, the slope decreases continuously from \m{t = 0.10}\,s to \m{t = 0.30}\,s
+as the curve continues to bend negatively.
+Therefore the acceleration is negative throughout this interval.
+
+In general, the acceleration \m{a} is positive where the graph of \m{x} as a
+function of \m{t} bends upward (positively), like an outstretched palm, as one
+proceeds to the right.
+Of course \m{a = 0} where the graph is a straight line; \m{a} is negative when the
+curve is bending negatively downward.
+
+Suppose, for example, we wish to examine the motion of a photophobic bug that
+continually moves in order to stay in the (noonday) shadow of a swinging
+pendulum.
+The bug's motion, which is technically called \Quote{simple harmonic motion}
+(students may question the word \Quote{simple}), can be described by the equation:
+%
+\eqn{}{x = A \sin\omega t.}
+%
+Here A is the farthest the bug gets from the center of its \Quote{back and forth}
+travels and \m{\omega} (\Quote{omega}) is 2\m{\pi} times the bug's number of complete
+circuits per unit time.
+
+The velocity of the bug is the first derivative of position:
+%
+\Footnote{See \Quote{Review of Mathematical Skills - Calculus: Differentiation and
+Integration} (MISN-0-1).}
+%
+\eqn{}{v=\fract{dx}{dt}=\omega A\cos\omega t\,.}
+%
+Its acceleration is the next derivative:
+%
+\eqn{}{a=\fract{dv}{dt}=\fract{d^2x}{dt^2}=-\omega^2 A\sin\omega t\,.}
+%
+This can be written:
+%
+\eqn{}{a = - \omega^2 x\,.}
+%
+Figure 9 shows the bug's position, velocity, and acceleration as functions
+of time.
+You should check to see if each of the lower two curves is the slope of the
+one above it, and that the third is the bending function of the first.
+Figure 10 illustrates what happens when there is constant position,
+velocity, and/or acceleration.
+This position curve is composed of several distinct segments, as can be seen
+more easily in the velocity and acceleration curves.
+%
+\CaptionAfterFullFramedFigure{Fig.\,9. Plots of bug position, velocity and
+acceleration on the same time scale (see text).}{m7gr09}
+%
+Where the position curve is bending downward as time increases, note that
+the velocity is decreasing and the acceleration is negative.
+Where the position curve is bending upward as time increases, note that
+the velocity is increasing and the acceleration is positive.
+The acceleration is zero at the point of inflection, the point where the
+the bending changes from downward to upward and the acceleration from
+negative to positive.
+The acceleration is also zero wherever a straight line segment of the
+position curve shows that the velocity is constant.
+
+Note the difference in appearance between the curves of Fig.\,9
+and the three successive parabolas on the right hand side of the
+position curve in Fig.\,10.
+%
+\Footnote{The dashed lines show where a quantity is undefined (ambiguous).
+Where the velocity \Quote{is} a vertical line, the acceleration would be
+infinite.
+Such a situation cannot occur in real life, so such an x(t) is said to be
+\Quote{unphysical.}
+Nevertheless, such x(t) curves are often close enough to real-life curves so
+they can be used as approximations: they are often easy to deal with
+mathematically.}
+%
+Although the displacement curves are rather similar, the graphs of
+velocity and acceleration are not, as can be easily seen by evaluating the
+derivatives.
+This illustrates the difficulty in accurately determining
+position, velocity, and acceleration relationships from graphs.
+
+\pcap[\Index{derivatives, higher order}\Index{higher order derivatives}]{4}{f}{Higher Order Derivatives}
+Derivatives of position beyond the second can be taken and in general they
+will be non-zero.
+For example, the first derivative of acceleration, which is the third
+derivative of position, is called the \Quote{\Index{jiggle}jiggle} or \Quote{\Index{jerk}jerk,} and it is used in
+studying vibrations.
+In general, one or more of the higher derivatives is of interest only when
+it is directly related to some other quantity involved in the motion.
+
+\CaptionAfterFullFramedFigure{Fig.\,10. Concurrent plots of position,
+ velocity and acceleration when one or more remains constant with time.}{m7gr10}
+
+\pcap{4}{g}{Units}
+One of the most common accelerations is that \Index{gravity, acceleration due to}\Index{acceleration, due to gravity}due to gravity near the surface
+of the earth.
+Generally called \Quote{\Index{g}\m{g},} this is 9.8\,m/s\m{^2}, or 32\,ft/s\m{^2}.
+One \Index{SI units of acceleration}\Index{acceleration, SI units of}SI unit of acceleration, therefore, is about one tenth the acceleration
+of gravity near the surface of the earth.
+When dropped from rest near the surface of the earth, a particle undergoes
+an increase in velocity of about 1\,m/s every tenth of a second.
+Half way to the moon (a distance of 30 earth radii, or \m{2\times10^7}\,m), the
+acceleration of gravity is about one SI unit, 1\,m/\m{s^2}.
+A particle in that vicinity and in free fall would find its velocity
+increasing toward the earth at the rate of 1\,m/s every second.
+
+\pcap{4}{h}{Example} A Problem: Given that a particle moves along the \m{x}-axis
+with acceleration \m{a(t) = A + B t^2}, starting from rest at \m{x = 5.0}\,m at
+\m{t = 0}.
+Find its position at all instants of time, \m{x(t)}.
+\newline\noindent{\bf Solution}: Since a = dv/dt, write:\m{^1}
+%
+\TwoEqns{}{v & = & \int\,dv = \int a\,dt = \int[A + Bt^2]\,dt =
+                   A \int dt + B \int t^2\,dt}
+          {  & = & At + \fract{1}{3}Bt^3 + C\,,}
+%
+where \m{C} is a constant that can be determined from the given initial
+condition that \m{v = 0} when \m{t = 0}; \m{v(0) = 0}.
+To do so, we can set \m{t = 0} in the equation above to obtain:
+%
+\eqn{}{0 = 0 + 0 + C\,,}
+%
+so
+%
+\eqn{}{v(t) = A t + B t^3/3\,.}
+%
+Next use \m{v = dx/dt} to obtain:
+%
+\eqn{}{x = \int dx = \int v\,dt = \int[At+\fract{1}{3}Bt^3]\,dt =
+             \fract{1}{2} A t ^2 + \fract{1}{12} B t^4 + D\,,}
+%
+and applying the initial conditions on \m{x} we get:
+%
+\eqn{}{x(t) = \fract{1}{2} A t^2 + \fract{1}{12} B t^4 + 5.0\,{\rm m}\,.}
+%
+
+\scap{5}{\m{a(t) \rightarrow v(t) \rightarrow x(t)} USING INTEGRATION}
+
+\pcap{5}{a}{Start With Acceleration}
+In dynamics it is common to analyze the motion of an object by examining
+its acceleration.
+This is because acceleration can often be deduced from known forces, but
+also because instruments that measure acceleration (``accelerometers'')
+are used on ships, submarines, aircraft, and rockets for ``inertial
+navigation.''
+Accelerometers are used because they need not be in contact with the
+earth.
+Assuming the acceleration has been obtained as a function of time during
+a journey, either by instrument or from known forces, the velocity and
+position of the traveler can be obtained provided they are known for some
+one time in the journey (for example, at the beginning point).
+
+\pcap{5}[\Index{velocity, from acceleration graph}]{b}{Change in Velocity From Acceleration Graph}
+The area between an acceleration curve and the time axis is the
+integral \m{\int a(t)\,dt}, so this gives the change in velocity over the period
+of time being used.
+The sign of the area gives the sign of the acceleration, hence determines
+the acceleration's direction and this can be either positive or negative.
+Therefore the total or net change in velocity over any period of time
+is equal to the net area that is bounded by the beginning and ending times
+(see Fig.\,11).
+The \index{average acceleration}{{acceleration, average}{average acceleration}} for the interval is the change in velocity
+during the time interval, the net area, divided by the length of
+the time interval.
+
+\pcap[\Index{velocity, as integral of acceleration}]{5}{c}{Velocity as an Integral}
+Starting with the defining equation for acceleration, \m{a(t) =  dv(t)/dt},
+we change the symbol for time from \m{t} to \m{t'} and then integrate both sides
+of the equation with respect to \m{t'}:
+%
+\eqn{}{\int_{t_0}^t\,\left(\fract{dv}{dt'}\right)\,dt' =
+                                      \int_{t_0}^t\,a(t')\,dt'\,.}
+%
+But:
+%
+\eqn{}{\int_{t_0}^t\,\left(\fract{dv}{dt'}\right)\,dt' =
+                  \int_{t_0}^t\,dv = v(t)-v(t_0) \equiv v-v_0\,.}
+%
+Then:
+%
+\eqn{}{v - v_0 = \int_{t_0}^t\,a(t')\,dt'\,.}
+%
+Rearranging,
+%
+\eqn{6}{v = v_0 + \int_{t_0}^t a(t')\,dt'\,.}
+%
+We can think of ``\m{a(t')\,dt'}'' as representing the change in velocity over
+the small  time increment \m{dt'}.
+Then we can think of summing over all such small changes in velocity made during
+each of many small time increments in our interval from \m{t_0} to \m{t}.
+The integral is then the limit as the size of each time increment approaches
+zero so the number of such increments in our time interval goes to infinity.
+
+\CaptionAfterFullFramedFigure{Fig.\,11. Graph of a hypothetical \m{a(t)}.
+The net area between the curve and the time axis gives the object's
+change in velocity from time \m{t_0} to time \m{t_f}.}{m7gr11}
+
+\pcap[\Index{displacement, from velocity graph}]{5}{d}{Displacement From Velocity Graph}
+The net area between the \m{v(t)} curve and the time-axis is the
+integral \m{\int v(t)\,dt}, and this is the displacement, the change in
+position during the period concerned (see Fig.\,12).
+
+The \index{average velocity}{{velocity, average}{average velocity}} for the interval is the change in displacement, the
+net area, divided by the length of the time interval.
+
+\CaptionAfterFullFramedFigure{Fig.\,12. Graph of a hypothetical \m{v(t)}.
+The net area between the curve and the time axis gives the
+displacement from \m{t_0} to \m{t_f}.
+The curve is not the \m{v(t)} corresponding to the \m{a(t)} of Fig.\,11.}{m7gr12}
+
+\pcap[\Index{position, as integral of velocity}\Index{displacement, as integral of velocity}]{5}{e}{Position as an Integral}
+Writing \m{v(t) = dx(t)/dt} in the form \m{dx(t') = v(t')\,dt'} and integrating,
+we get:
+%
+\eqn{}{\int_{x_0}^x\,dx' = \int_{t_0}^t\,v(t')\,dt'\,.}
+%
+Integrating the left hand side, we get:
+%
+\eqn{7}{x(t) = x_0 + \int_{t_0}^t\,v(t')\,dt'\,,}
+%
+where \m{v(t')dt'} can be thought of as the small displacement of the particle
+in the small increment of time \m{dt'}(see Fig.\,12).
+We can think of the integral as the sum of many small changes in
+displacement.
+
+\spcap{6}{CONSTANT ACCELERATION}
+
+In this section we will particularize the equations of motion to the
+restricted case of objects undergoing constant acceleration.
+Such constant acceleration occurs when the net force acting on an object
+is itself constant in time.
+A number of real-life motions are close enough to this situation so that the
+constant acceleration equations we develop can be used as good
+approximations.
+The chief merit in using constant-acceleration equations is their
+mathematical simplicity.
+
+Starting with Eq.\,(\eqnno{6}) and with \m{a(t') = a}, a constant, we get:
+%
+\eqn{8}{v = v_0 + a t\,.}
+%
+Note that we have chosen \m{t_0 = 0}.
+Substituting that result into Eq.\,(\eqnno{7}) we get:
+%
+\ThreeEqns{9}{x(t) & = & x_0 + \int_0^t\,(v_0 + a t')\,dt'}
+          {     & = & x_0 + v_0 \int_0^t\,dt' + a \int_0^t\,t'\,dt'}
+          {     & = & x_0 + v_0 t + \fract{1}{2} a t^2\,.}
+%
+If \m{v_0} is not given in a constant-acceleration problem, you can eliminate
+it between Eqs.\,(8) and (9).
+Try it now and make sure you get: \help{1}
+%
+\eqn{10}{x = x_0 + v t - \fract{1}{2} a t^2\,.}
+%
+Do not memorize that equation: just make sure you can derive it when you
+need it.
+
+Similarly, if \m{t} is not given you can eliminate it between Eqs.\,(8) and (9).
+Try it now and make sure you get: \help{1}
+%
+\eqn{11}{v^2 - v_0^2 = 2\,a\,(x - x_0)\,.}
+%
+Remember, whenever you see \m{a}, rather than a(t), as in the equations of this
+section, it means that the equations you are looking at are valid only for
+problems involving constant acceleration.
+If the acceleration is not constant, do not use them: instead, use
+equations involving \m{a(t)}.
+
+\Acknowledgments
+This module is based, in part, on modules prepared by D.\,W.\,Joseph,
+J.\,S.\,Kovacs, and P.\,S.\,Signell.
+\NsfAcknowledgment

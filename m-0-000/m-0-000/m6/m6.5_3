@@ -1,0 +1,21 @@
+% 9/16/94, pss
+\input nphmods.sty
+
+%\includeonly{m6-id}
+
+%\psdraft
+
+\begin{document}
+
+\mNumber{6}
+
+\ChapterStart
+\include{m6-ct}
+\include{m6-id}
+\include{m6-tx}
+\include{m6-ps}
+\include{m6-as}
+\include{m6-me}
+\ChapterEnd
+
+\end{document}

@@ -1,0 +1,250 @@
+
+\scap{5. KINETIC ENERGY}
+
+\pcap{5a. Definition of Kinetic Energy. }
+A particle's kinetic energy is defined as the amount of energy a particle
+has, due solely to its velocity.
+Using Newton's second law and the definition of total work, one can show that
+the kinetic energy, \m{E_k}, of a particle of mass \m{m} traveling at velocity
+\m{v} is:
+%
+\eqn{9}{KINETIC\;ENERGY = E_k =\frac{1}{2}mv^2\..}%
+%
+This is valid whenever Newtonian mechanics is valid.
+We can easily illustrate this derivation for the special case of a resultant
+force, \m{\vec{F}_R}, that acts on a particle of mass \m{m} along the direction
+of its displacement.
+For this case the total work done on the particle is:
+%
+\eqn{10}{W_{T,i\rightarrow f} = \int_{s_i}^{s_f} \vec{F}_R \cdot \,d\vec{s} =
+                              \int_{x_i}^{x_f} F_R \,dx\,.}%
+%
+Since the force, hence the acceleration, is along the direction of
+displacement, we can use Eq.\,(\eqnno{10}) and Newton's second law%
+%
+\footnote{See ``Free-Body Force Diagrams, Frictional Forces, Newton's Second
+Law'' (MISN-0-15).}
+%
+to write:
+%
+\eqn{}{W_{i\rightarrow f} = \int_{x_i}^{x_f}  \,m \,a \,dx =
+                   \int_{x_i}^{x_f}  \,m\,\fract{dv}{dt}ds =
+                   \int_{x_i}^{x_f}  \,m\,dv\,\fract{dx}{dt}%
+%
+\eqn{11}{W_{i\rightarrow f} = \int_{x_i}^{x_f}  \,m\,v\,dv =
+ m \int_{x_i}^{x_f} \,v\,dv = \fract{m v_f^2}{2}-\fract{m v_i^2}{2}\,.}%
+%
+Thus the work that went into accelerating the particle, from \m{v_i} to \m{v_f},
+is exactly equal to the change in the kinetic energy for that particle.
+Note that kinetic energy is a scalar quantity.
+It is, as we shall see, just as significant as the vector quantity, momentum,
+that is also a quantity used to describe a particle in motion.
+
+From its definition, kinetic energy has dimensions \m{M L^2/T^2}, either mass
+multiplied by the square of speed, or, since it is equivalent to work [as
+shown in Eq.\,(\eqnno{11})], force multiplied by distance.
+Thus, the kinetic energy of a particle may be expressed in {\it joules}.
+It follows that a 2\,kg particle moving at 1\,m/s has a kinetic energy of
+1\,J.
+
+The kinetic energy of a particle can be expressed in terms of the
+magnitude of its linear momentum, \m{m \vec{v} = \vec{p}}:
+%
+\eqn{12}{E_k=\fract{1}{2}mv^2=\fract{(mv)^2}{2m}=\fract{p^2}{2m}=
+                \fract{|\vec{p}|^2}{2m}\.}%
+%
+
+[Example 4.]
+A particle of mass \m{m} starts from rest and falls a vertical distance \m{h}.
+What is the work done on this particle and what is its final kinetic energy?
+
+The particle experiences only a single constant force,
+\m{\vec{F} = - m g\,\hat{y}}, in the downward direction.
+The displacement, \m{d\vec{s} = -\,dy\,\hat{y}}, is also downward for a
+distance \m{h}.
+Therefore the work done by the gravitational force is:
+%
+\eqn{}{W = \int\,\vec{F} \cdot d\vec{s} =
+   \int_0^h (-m g\,\hat{y})\cdot(-dy\,\hat{y}) =
+   \int_0^h \,m\,g\,dy = m\,g\,h\,.}%
+%
+Since this is the only work done on the particle, it is equal to the final
+kinetic energy:
+%
+\eqn{}{m g h = \fract{1}{2}m v^2\,.}%
+%
+Solving for velocity:
+%
+\eqn{}{v = \sqrt{2\,g\,h\,}%
+%
+which is the same result we obtain from kinematics for an object falling
+with constant acceleration \m{g} (a ``freely-falling'' object).
+
+[Example 5.]
+It is possible for a person with a mass of \m{7.0 \times 10^1}\,kg to fall to
+the ground from a height of 10.0 meters without sustaining an injury.
+What is the kinetic energy of such a person just before hitting the ground?
+The velocity of the person is:
+%
+\eqn{}{v = \sqrt{2\,g\,h} = \sqrt{2(9.8\,{\rm m/s}^2)(10\,{\rm m})} =
+            14\,{\rm m/s}\,.}%
+%
+Then the kinetic energy of the person is:
+%
+\eqn{}{E_k = \fract{1}{2}m v^2 =
+ \fract{1}{2}(70\,{\rm kg})(14\,{\rm m/s})^2 = 6.9 \times 10^3\,{\rm J}\,.}%
+
+\pcap{5b. The Energy Concept. }
+Of all the concepts of physics, that of energy is perhaps the most
+far-reaching.
+Everyone, whether a scientist or not, has an awareness of energy and what it
+means.
+Energy is what we have to pay for in order to get things done.
+The work itself may remain in the background, but we recognize that each
+gallon of gasoline, each Btu of heating gas, each kilowatt-hour of
+electricity, each calorie of food value, represents, in
+one way or another, the wherewithal for doing something.
+We do not think in terms of paying for force, or acceleration, or momentum.
+Energy is the universal currency that exists in apparently countless
+denominations, and physical processes represent a conversion from one
+denomination to another.
+
+The above remarks do not really define energy.
+No matter.
+It is worth recalling once more the opinion that H.\,A.\,Kramers expressed:
+``The most important and most fruitful concepts are those to which it is
+impossible to attach a well-defined meaning.''
+The clue to the immense value of energy as a concept lies in its
+transformation.
+We often find energy defined in general as the ability to do work.
+A system possesses energy; it can do work.
+At any instant a system has a certain energy content.
+Part or all of this energy can be transformed into the activity of work.
+Work is only an active measure of energy and not a form of energy itself.
+Work is best regarded as a mode of transfer of energy from one form to
+another.
+It is a medium of exchange.
+In this unit we are dealing with only one category of energy--the kinetic
+energy associated with the motion of an object.
+If energy should be transferred from this form into chemical energy,
+radiation, or the random molecular and atomic motion we call heat, then from
+the standpoint of mechanics it is gone.
+This is a very important feature, because it means that, if we restrict our
+attention purely to mechanics, conservation of energy does not hold.
+Nevertheless, as we shall see, there are many physical situations in which
+total mechanical energy is conserved, and in such contexts it is of
+enormous value in the analysis of real problems.
+
+\scap{6. WORK-KINETIC ENERGY RELATION}
+
+\pcap{6a. Derivation of the Relation. }
+Equation (\eqnno{11}) shows that the work done on a particle, when the
+resultant force acting on the particle is in the direction of the
+displacement, is equal to the change in the particle's kinetic energy.
+For the more general case of a force that is not in the direction of motion,
+we can still derive this valuable relation between the work done and the
+change in kinetic energy.
+
+Write \m{\vec{F}_r} for the resultant force acting upon a particle of mass \m{m},
+moving along a path between the two positions \m{s_i} and \m{s_f}, then:
+%
+\eqn{}{\sum W_{i\rightarrow f} = \int_{s_i}^{s_f} \vec{F}_r \cdot \,ds =
+        \int m \vec{a}\,\cdot\,ds = m \int \frac{dv}{dt}\,\cdot\,d\vec{s} =
+        m \int \,d\vec{v} \cdot \frac{d\vec{s}}{dt} =
+        m \int\,d\vec{v}\cdot \vec{v}\,.}%
+%
+Thus:
+%
+\eqn{}{\sum W_{i\rightarrow f} = m \int_{v_i}^{v_f}\,d\vec{v} \cdot \vec{v} =
+   \fract{mv_f^2}{2}-\fract{mv_i^2}{2} = E_{k,f} - E_{k,i} =\Delta E_k\,.}%
+%
+The evaluation of the integral in this last step can be easily seen if you
+write \m{\vec{v}} and \m{d\vec{v}} in scalar component notation.%
+%
+\footnote{For additional discussion of the mathematical steps presented in
+this derivation see {\em Newtonian Mechanics}, A.\,P.\,French, W.\,W.\,Norton
+& Co. (1971), pp.\,368-72, or {\em Physics for Scientists and Engineers,
+Volume 1}, Meilissinos and Lobkowicz, W.\,B.\,Saunders Company (1975),
+p.\,170.}
+%
+In summary,
+%
+\eqn{13}{W_{i\rightarrow f} = \int_i^f \,\vec{F}_r\,\cdot\,d\vec{s} =
+                    \Delta E_kz\,.}%
+%
+Equation (\eqnno{13}) is known as the Work-Kinetic Energy Relation and it
+is valid no matter what the nature of the force:
+\begin{itemize}
+{\it The total work done on a particle (by the resultant force acting on it),
+between some starting point \m{s_i} and ending point \m{s_f}, is the change in
+the particle's kinetic energy between those two end points.
+\end{itemize}
+
+This relation applies quite apart from the particular path followed, so long
+as the total work done on the particle is properly computed from the
+resultant force.
+
+\pcap{6b. Significance of the Relation. }
+The work-kinetic energy relation is not a new independent relationship of
+classical physics.
+We have derived it directly from Newton's second law, utilizing the
+definitions of work and kinetic energy.
+This relation is helpful in solving problems where the work done by the
+resultant force is easily computed, or where we are interested in finding the
+speed of a particle at a particular position.
+However, we should recognize that the work-kinetic energy principle is the
+starting point for formulating some sweeping generalizations in physics.
+We have stressed that this principle can be applied when \m{\sum W} is interpreted
+as the work done by the resultant force acting on a particle.
+In many cases however, it is more useful to compute separately the work done
+by each of certain types of forces which may be acting and to give these
+special designations.
+This leads us to the identification of different types of energy, and the
+principle of the conservation of energy.%
+%
+\footnote{See ``Potential Energy, Conservative Forces, the Law of
+Conservation of Energy'' (MISN-0-21).}
+%
+
+[Example 6.]
+
+(a) How much work is required to stop a \m{1.0 \times 10^3}\,kg car which is
+moving at a speed of 20.0\,m/s?
+%
+\eqn{}{W_{T,i\rightarrow f} = E_{k,f} - E_{k,i} = 0 -\fract{1}{2}m v_i^2 =
+ 0 - \fract{1}{2}(100\,0\,{\rm kg})(20\,}\rm m/s})^2
+  -\,2.0 \times 10^5\,{\rm J}\,.}%
+%
+The ({-}) sign indicated that there was a decrease in the kinetic energy of
+the car, that is, work was done on the car by a nraking force opposing
+its motion.
+
+(b) If this car requires 100 meters to come to rest, what is the total
+resultant braking force acting on the car?
+%
+\eqn{}{W_i\rightarrow f = \int_i^f\vec{F}_r \,\cdot\, d\vec{s} =
+                          -f \int_{s_i}^{s_f} \,ds\,,}%
+%
+since the total resultant force can be represented by a single constant
+braking force f which directly opposes the motion.
+Thus:
+%
+\eqn{}{-2 \times 10^5\,{\rm J} = - f(100\,{\rm m}) \hs {\rm or} f =
+                                   2 times 10^3\,{\rm N}\,.}%
+%
+
+[Example 7.]
+In a previous example we found that a stretched spring did an amount of work
+\m{k x^2/2} on an object when it returned to its equilibrium position from a
+displacement \m{x}.
+
+(a) We can now easily find the velocity of the block as it passes the
+equilibrium position from the Work-Kinetic Energy relation:
+%
+\eqn{}{W_{i\rightarrow f} = \Delta E_k}%
+%
+\eqn{}{\fract{k x^2}{2} = \fract{m v_f^2}{2} - \fract{m v_i^2}{2}\,.}%
+%
+Since it initially started from rest we find:
+%
+\eqn{}{v_f = x \, \sqrt{k/m}\,.}%

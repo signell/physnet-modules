@@ -1,0 +1,21 @@
+% 3/15/93, pss; 5/9/94, pss; 8/30/95, pss; 9/25/96, pss
+\input nphmods.sty
+
+%\includeonly{m15-tx}
+
+%\psdraft  %(activate only for hp mode; percent-out for ps mode)
+
+\begin{document}
+
+\mNumber{15}
+
+\ChapterStart
+%\include{m15-ct}
+%\include{m15-id}
+\include{m15-tx}
+\include{m15-ps}
+%\include{m15-as}
+%\include{m15-me}
+\ChapterEnd
+
+\end{document}

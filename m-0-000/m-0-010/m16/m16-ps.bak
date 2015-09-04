@@ -1,0 +1,187 @@
+\revhist{9/12/89, pss; 3/8/91, pss; 5/9/91, pss; 7/31/91, ejdk; 4/27/94, pss;
+         11/7/97, lae; 3/3/00, pss; 11/16/01, pss; 4/15/02, pss}
+
+\Sect{}{}{\SectType{ProblemSet}}{
+
+{\bf ADVICE}: Treat each problem as having five separate parts:
+\begin{itemize}
+\item [a.] Draw a one-body diagram showing all relevant forces acting on the
+relevant object, with symbols representing all quantities;
+\item [b.] Draw a diagram similar to the one in part (a), but with the forces
+now represented only by their components, where one axis is along the direction
+of acceleration and the axes are labeled;
+\item [c.] Write Newton's second law equations for the force components; and
+\item [d.] Solve for the target unknown(s), still with all quantities
+represented by symbols.
+\item [e.] Substitute numerical values along with their units and solve for
+the numerical answer(s).
+Express vector answers in terms of the unit vectors for the axes shown
+in part (b).
+\end{itemize}
+
+{\bf ADVICE}: In step (a) above, suppose the direction of some force is
+unknown.
+For example consider the first problem below.
+There you must at least partially solve the problem before you know whether
+the roadbed exerts a force on the truck that is \Quote{up} the incline or
+\Quote{down} it.
+That force is unknown in the beginning so at that point you assign it a
+symbol and a direction (see the figure in Brief Answer 1a).
+If you pick the wrong direction, all that will happen is that you will get
+a negative value when it comes out in the solution.
+
+\begin{one-digit-list}
+\item [1.] \ItemFigure{A 16~ton truck has a deceleration of 1.0\unit{ft/s\up{2}}
+as it moves up a 5.0\% grade (a 5\% grade means that for every 100\unit{ft}
+traveled, you rise 5\unit{ft} vertically).
+Determine the force \vect{p} of the road on the truck (see ADVICE above).}{m16gr09}
+
+\item [2.] A farmer is taking a loaded wagon of produce to market (weight of
+wagon plus produce is 1800\unit{lb}).
+The wagon is pulled by a horse weighing 810\unit{lb}.
+The farmer wishes to uniformly increase the speed of the wagon by 22\unit{ft/s}
+in 5.0\unit{s}.
+A frictional force of 290\unit{lb} acts on the wagon.
+Determine the force with which the horse must push backward on the ground,
+and determine the tension the harness (connecting the horse to the wagon)
+must be able to withstand.
+
+\item [3.] \ItemFigure{A 2.0\unit{kg} block is at rest on a horizontal surface.
+A force \vect{P} is then applied to the block as shown in the figure.
+The coefficient of non-sliding friction between the block and surface is
+0.30. \hfill If \m{P} = 4.0\unit{N} is applied to}{m16gr11}
+
+the block at rest, what frictional force will act on the block?
+
+\item [4.] How large a force \m{P} must be applied to the block in Problem~3
+in order to make it move?
+
+\item [5.] Once the block in Problem~4 starts to move, it is observed that a
+force \m{P} of 12\unit{N} causes the block to have an acceleration of 2.0\unit{m/s\up{2}}.
+Determine the coefficient of sliding friction.
+
+\item [6.] \ItemFigure{A block weighing 8.0\unit{lb} is moving up an incline
+of {20.0\degrees}.  At some instant it has velocity \vect{v_0} as shown in the sketch.
+For the interface between the block and the surface of the incline,
+\m{\mu_{ns} = 0.40} and \m{\mu_{sl} = 0.30}.
+Only gravity and the incline exert forces on the block.
+Determine the acceleration of the block.}{m16gr12}
+
+\item [7.] When the block in Problem~6 stops, will it remain at rest or will
+it slide back down the incline?
+If it remains at rest, what frictional force will be acting on it?
+
+\item [8.] If the block in Problem~6 is initially projected down the
+incline, determine its (vector) acceleration.
+
+\item [9.] A skier slides down a 150.0\unit{ft} ski jump ramp that makes an angle
+of {37\degrees} with the horizontal.
+The coefficient of sliding friction of waxed hickory skis on dry snow is
+about 0.050 (CRC Handbook of Chem. and Phys.).
+Neglect air resistance and determine the acceleration of the skier.
+If the skier starts from rest, what will be the skier's speed at the end
+of the ramp?
+
+\item [10.] You are in your best car at the local dragway.
+The \Quote{christmas tree} (column of lights that \Quote{counts down} the start of a
+race) is not yet lit.
+The coefficient of non-sliding friction between your tires and the strip is
+2.13, while the coefficient of sliding friction is 1.02 (courtesy of the CRC
+Handbook).
+The lights on the christmas tree are blinking down --yellow--yellow--GREEN!
+Do you:
+\begin{one-digit-list}
+\item [a.] stomp on the gas and then let back to where your wheels are just
+barely spinning as you accelerate, or
+\item [b.] stay just below where your wheels begin to spin?
+Explain.
+\end{one-digit-list}
+\end{one-digit-list}
+
+\BriefAnsNewPage
+
+\begin{two-digit-list}
+\item [1a.] \CharacterUnframedFigure{m16gr15} 2a. \CharacterUnframedFigure{m16gr16}
+\item [3a.] \CharacterUnframedFigure{m16gr17} 4a. (same as 3a)
+\item [5a.] \CharacterUnframedFigure{m16gr19} 6a. \CharacterUnframedFigure{m16gr20}
+\item [7a.] \CharacterUnframedFigure{m16gr21} 8a. \CharacterUnframedFigure{m16gr22}
+\newpage
+\item [9a.] \CharacterUnframedFigure{m16gr23} 10a.\CharacterUnframedFigure{m16gr24}
+\item [1b.] \CharacterUnframedFigure{m16gr25} 2b. \CharacterUnframedFigure{m16gr26}
+\item [3b.] \CharacterUnframedFigure{m16gr27} 4b. (same as 3b)
+\item [5b.] \CharacterUnframedFigure{m16gr29} 6b. \CharacterUnframedFigure{m16gr30}
+\item [7b.] \CharacterUnframedFigure{m16gr31} 8b. \CharacterUnframedFigure{m16gr32}
+\item [9b.] \CharacterUnframedFigure{m16gr33} 10b.\CharacterUnframedFigure{m16gr34}
+\item [1c.] \m{f - W \sin\theta = m a_x = (W/g)\, a_x}
+\item []    \m{N - W \cos\theta = 0}
+\item [2c.] \m{T - f_w = m_w\, a_x = (W_w / g)\, a_x}
+\item []    \m{F_x - T = m_h a_x = (W_h / g)\, a_x}
+\item [3c.] \m{p \cos\theta - f = 0}
+\item [4c.] \m{p \cos\theta - f = 0}
+\item []    \m{N - p\sin\theta - mg = 0}
+\item []    \m{f = \mu_{ns}N}
+\item [5c.] \m{p \cos\theta - f = m a_x}
+\item []    \m{N - p\sin\theta - m g = 0}
+\item []    \m{f = \mu_{sl}N}
+\item [6c.] \m{- f_{sl} - W \sin\theta = m a_x = (W / g)\, a_x}
+\item []    \m{N - W\cos\theta = 0}
+\item []    \m{f_{sl} = \mu_{sl}N}
+\item [7c.] \m{f_{ns} - W sin\theta = 0}  (for staying at rest)
+\item []    \m{N - W \cos\theta = 0}
+\item []    \m{f_{ns}\text{(max)} = \mu_{ns}N}
+\item [8c.] \m{f_{sl} - W \sin\theta = m a _x = (W/g)\, a_x}
+\item []    \m{N - W \cos\theta = 0}
+\item []    \m{f_{sl} = \mu_{sl}N}
+\item [9c.] \m{W \sin\theta - f_{sl} = m a_x = (W/g)\,a_x}
+\item []    \m{N - W \cos\theta = 0}
+\item []    \m{f_{sl} = \mu_{sl}N}
+\item [10c.] (i) \m{f_{sl} = m a_x;\; W = N;\; f_{sl} = \mu_{sl}N}
+\item []    (ii) \m{f_{ns} = m a_x;\; W = N;\; f_{ns} = \mu_{ns}N}
+\item [1d.] \m{f = W \,[(a_x/g) + \sin\theta]}
+\item []    \m{N = W \cos\theta}
+\item []    \m{\vect{p} = W \,[(a_x/g) + \sin\theta] \uvec{x} +
+            W (\cos\theta)\uvec{y}}
+\item [2d.] \m{F_x = (W_w + W_h)\,(a_x/g) + f_w}
+\item []    \m{T = W_w\,(a_x/g) + f_w}
+\item [3d.] \m{f = p\cos\theta}
+\item [4d.] \m{p = \mu_{ns}\, m g/(cos\theta - \mu_{ns}\, \sin\theta)}
+            \help{2}
+\item [5d.] \m{\mu_{sl} = (p \cos\theta - m a_x)/(p\sin\theta + mg)}
+\item [6d.] \m{a_x = - g \,(\mu_{sl}\, \cos\theta + \sin\theta)}
+\item [7d.] \m{f_{ns} = W \sin\theta;\; f_{ns}\text{(max)} =
+            \mu_{ns}\, W \cos\theta}
+\item [8d.] \m{a_x = g \,(\mu_{sl}\, \cos\theta - \sin\theta)}
+\item [9d.] \m{a_x = g \,(\sin\theta - \mu_{sl}\, \cos\theta)}
+\item [10d.] (i) \m{a_x = \mu_{sl}\, g;\;} (ii) \m{a_x = \mu_{ns}\, g}
+\item [1e.] \m{f = (32000\unit{lb})\,[\,(-1\unit{ft/s\up{2}})/(32\unit{ft/s\up{2}}) +
+            (\sin 2.87\degrees )\,] = 6.0\times10^2\unit{lb}}
+            \help{1}
+\item []    \m{N = (32000\unit{lb})\,(\cos 2.87\degrees) = 3.2\times10^4\unit{lb}}
+\item []    \m{\vect{p} = (6.0\times10^2\uvec{x} + 3.2\times10^4\uvec{y})\unit{lb}}
+\item [2e.] \m{F_x = (810\unit{lb} +
+1800\unit{lb})\,(4.4\unit{ft/s\up{2}})/(32\unit{ft/s\up{2}}) +
+290\unit{lb} = 6.5\times10^2\unit{lb}}
+\item []    \m{T = (1800\unit{lb})\,(4.4\unit{ft/s\up{2}})/(32\unit{ft/s\up{2}}) +
+290\unit{lb} = 5.4\times10^2\unit{lb}}
+\item [3e.] \m{f = (4.0\unit{N})\,(\cos37\degrees) = 3.2\unit{N}}
+\item [4e.] \m{p = \dfrac{(0.30)\,(2.0\unit{kg})(9.8\unit{m/s\up{2}})}{(0.80)\,-\,(0.30)(0.60)} =
+5.88 / .62 = 9.5\unit{N}}
+\item [5e.] \m{\mu_{sl} = \dfrac{(12\unit{N})\,(.80) - (2.0\unit{kg})\,(2.0\unit{m/s\up{2}})}
+{(12\unit{N})(.60) + (2.0\unit{kg})\,(9.8\unit{m/s\up{2}})} = 0.21}
+\item [6e.] \m{a_x = - (32\unit{ft/s\up{2}})\,[\,(.30)\,(.94) + (.34)] =
+-2.0\times10^1\unit{ft/s\up{2}}};
+\item []    (the negative sign means deceleration)
+\item [7e.] \m{f_{ns} = (8.0\unit{lb})\,(0.34) = 2.7}\,lb
+\item []    \m{f_{ns}\text{(max)} = (0.40)\,(8.0\unit{lb})\,(0.94) = 3.0\unit{lb}}
+\item []    conclusion: required \m{f_{ns}} is less than \m{f_{ns}\text{(max)}}
+                so block will stay at rest.
+\item [8e.] \m{a_x = (32\unit{ft/s\up{2}})\,[\,(0.30)(0.94) - (0.34)] =
+-1.9\unit{ft/s\up{2}}};\ (\Quote{\m{-}}means down the incline)
+\item [9e.] \m{a_x = (32\unit{ft/s\up{2}})\,[0.60 - (0.050)\,(0.80)] =
+17.9\unit{ft/s\up{2}} \approx 18\unit{ft/s\up{2}}} \ (down the ramp)
+\item []    \m{v = \sqrt{2ad} =
+[(2)\,(17.9\unit{ft/s\up{2}})\,(150\unit{ft})]^{1/2} = 73unit{ft/s}}
+\item [10e.] \m{\mu_{ns} > \mu_{sl}}\ so choice is (ii)
+\end{two-digit-list}
+
+}% /Sect

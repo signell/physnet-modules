@@ -1,0 +1,82 @@
+\revhist{12/18/91, pss; 6/22/94, pss; 11/2/94, pss; 4/24/02, pss}
+
+\Sect{}{}{\SectType{ProblemSet}}{
+
+\Eqn{}{E = k m_0 c^2 \qquad \text{where: } k = (1 - v^2/c^2)^{-1/2}}
+%
+\Eqn{}{\unit{amu} = 1.6604 \times 10^{27}\unit{kg} = 931\unit{MeV/c\up{2}}}
+%
+\Eqn{}{\unit{MeV} = 1.6022 \times 10^{-13}\unit{J}}
+
+\noindent Note: These problems are also on this module's \textit{Model Exam}.
+
+\begin{one-digit-list}
+\item [1.] Starting from Taylor's Series for the expansion of a function about a
+point, reduce the expression for relativistic kinetic energy to its non-relativistic form.
+
+\item [2.] In reactions produced by scattering protons on protons, we find that
+{\bDelta}'s are produced,
+%
+\Eqn{}{\bp + \bp \rightarrow \bp + \bDelta\,,}
+%
+only when the total CM kinetic energy of the initial protons exceeds 298\unit{MeV}.
+Calculate the mass of the {\bDelta}, using Conservation of Energy.
+
+\item [3.] The binding energy of the deuteron nucleus has been measured to be
+2.225\unit{MeV}.
+Use Conservation of Energy to calculate its mass in \unit{amu}'s, given the masses
+of its constituents:
+%
+\begin{center}\begin{tabular}{r r c l}
+neutron: & \m{m_\bn} & = & 939.5527\unit{MeV/c\up{2}} \\
+proton:  & \m{m_\bp} & = & 938.2592\unit{MeV/c\up{2}} \\
+\end{tabular}\end{center}
+\end{one-digit-list}
+\newpage
+
+\BriefAns
+
+\begin{one-digit-list}
+\item [1.] \m{k(x) = (1 - x)^{-1/2}}  where \m{x \equiv v^2/c^2}
+
+\item [  ] \m{k'(x) = (1/2) (1 - x)^{-3/2}}
+
+\item [  ] \m{k''(x) = (3/4) (1 - x)^{-5/2}}
+
+\item [  ] \m{k(x) = k(0) + \dfrac{k'(0)}{1!} x +
+                              \dfrac{k''(0)}{2!} x^2 + \ldots}
+
+\item [  ] \m{\phantom{k(x)} = 1 + (1/2) x + (3/8) x^2 + \ldots}
+
+\item [  ] \m{E = k (v^2/c^2) m_0 c^2 = m_0 c^2 + (1/2) m_0 v^2 +
+                (3/8) m_0 (v^4/c^2) + \ldots}
+
+\item [  ] Then if \m{v^2 \ll c^2}, neglect the third and higher terms compared
+           to the second and lower.
+           The first term is not kinetic, so
+           %
+           \Eqn{}{E_k \approx \dfrac{1}{2} m v^2, \qquad \text{for } v^2 \ll c^2\,.}
+           %
+
+\item [2.] \m{\underbrace{E_\text{mass}\text{(initial)}}_%
+             {\ds 2(m_\bp) c^2} +
+            \underbrace{E_k\text{(initial)}}_{\ds 298\unit{MeV}} =
+            \underbrace{E_\text{mass}\text{(final)}}_%
+             {\ds (m_\bp + m_{\bDelta}) c^2} +
+            \underbrace{E_k\text{(final)}}_{\ds 0\text{(thresh.)}}}
+
+\item [  ] \m{m_{\bDelta} = 1236\unit{MeV/c\up{2}}}
+
+\item [3.] \m{\underbrace{E_\text{mass}\text{(initial)}}_%
+             {\ds m_\bd c^2} +
+            \underbrace{E_k\text{(initial)}}_{\ds E_B} =
+            \underbrace{E_\text{mass}\text{(final)}}_%
+             {\ds (m_\bp + m_\bn) c^2} +
+            \underbrace{E_k\text{(final)}}_{\ds 0\text{(thresh.)}}}
+
+\item [  ] \m{m_\bp c^2 + m_\bn c^2 = m_\bd c^2 + E_B}
+
+\item [  ] \m{m_\bd = m_\bp + m_\bn - E_B/c^2 = 2.0146\unit{amu}}.
+\end{one-digit-list}
+
+}% /Sect

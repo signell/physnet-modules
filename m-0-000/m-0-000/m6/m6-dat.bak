@@ -1,0 +1,39 @@
+\revhist{3/16/88, pss; 12/8/89, pss; 4/1/91, pss; 10/13/91, pss;
+         9/16/94, pss; 11/13/97, pss; 2/22/99, pss; 1/12/00, pss; 12/11/00, pss;
+         4/25/02, pss; 6/11/02, pss}
+%
+\defModTitle{\ph{Static Equilibrium and the} \ph{Centers of Gravity and Mass}}
+\defCtAuthor{Peter Signell and Charles Lavine}
+\defIdAuthor{Peter Signell, Physics-Astronomy, Mich. State Univ., East Lansing, MI, and
+Charles Lavine, Physics Dept., St.\,John's Univ., Collegeville, MN}
+%
+\defIdItems{
+    \IdVersEval{6/11/2002}{0}
+    \IdHours{1}
+    \begin{InputSkills}
+    \item [1.]  Integrate functions \prrqone{0-1}.
+    \item [2.]  Add and multiply vectors \prrqone{0-2}.
+    \item [3.]  State the equilibrium condition for an object acted on by a set of
+    concurrent forces \prrqone{0-5}.
+    \item [4.] Define torque \prrqone{0-5}.
+    \end{InputSkills}
+    %
+    \begin{KnowledgeSkills}
+    \item [K1.] State the equilibrium conditions for an extended object that is acted
+    upon by any set of forces, concurrent or non-concurrent.
+    \item [K2.] Define the center of gravity of an object.
+    \item [K3.] Define the center of mass of a system of point particles or of an object.
+    \end{KnowledgeSkills}
+    %
+    \begin{ProblemSolvingSkills}
+    \item [S1.] Starting with the force diagram for an extended body use the conditions
+    for static equilibrium to determine the magnitude and/or direction of some
+    unknown forces on the body when the other forces are given.
+    \item [S2.] Calculate the location of the center of mass of a given system of point
+    masses.
+    \item [S3.] Extend S2 to include systems of discrete extended masses having known
+    centers of mass.
+    \item [S4.] Given a mass density and a simple geometrical shape for a continuous
+    object, locate the center of mass of the object using integration.
+    \end{ProblemSolvingSkills}
+}

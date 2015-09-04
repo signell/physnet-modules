@@ -1,0 +1,33 @@
+
+\AsItem{20}{TX-3b}
+{Assume that no particles enter or leave the system during time \m{\Delta t}.
+Define:
+
+\m{\Sigma (E_k)_0 + \Sigma (E_p)_0 \equiv} total energy in system at time \m{t}.
+
+\m{\Sigma (W_{nc})_{\rm on} \equiv} positive work done on the system by
+non-conservative forces during \m{\Delta t}.
+
+\m{\Sigma (W_{nc})_{\rm by} \equiv} positive work done by the system against
+non-conservative forces during \m{\Delta t}.
+Then, from Newton's third law: (See \Quote{Particle Dynamics - The Laws of
+Motion,} MISN-0-14)
+%
+\Eqn{}{\Sigma W_{nc} = \Sigma (W_{nc})_{\rm on} - \Sigma (W_{nc})_{\rm by}}
+%
+where all terms inside the sums are positive.
+
+Finally define:
+\m{\Sigma (E_k)_f + \Sigma (E_p)_f \equiv}
+total energy in the system at time \m{t + \Delta t}.
+
+Then \EqnTXref{5} says:
+\begin{displaymath}
+\Sigma (E_k)_0 + \Sigma (E_p)_0 + \Sigma (W_{nc})_{\rm on} =
+\Sigma (E_k)_f + \Sigma (E_p)_f + \Sigma (W_{nc})_{\rm by}.
+\end{displaymath}
+Using the notation \m{\Delta (\,) \equiv (\,)_f - (\,)_0} and the equation for \m{\Sigma W_{nc}} above,
+simple rearrangement gives \EqnTXref{10}.
+Thus \EqnTXref{5} is more general than \EqnTXref{10}, but they are equivalent in
+the case of no matter entering or leaving the system during time \m{\Delta t}.
+}

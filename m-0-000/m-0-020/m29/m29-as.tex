@@ -1,0 +1,74 @@
+\revhist{4/4/91, pss; 10/11/94, pss}
+
+\Sect{}{}{\SectType{SpecialAssistance}}{
+
+\AsItem{1}{TX-2a}{%
+\m{F=ma} becomes: \newline
+\m{-kx=m(d^2x/dt^2)x=m[-x(0)\omega_0^2 \cos{(\omega_0 t + \alpha)}] =
+-m \omega_0^2 x}\,.
+\smallskip\newline
+We set \m{\omega_0^2 = k/m}, substitute it in on the right hand side,
+and the equation is satisfied.
+}
+
+\AsItem{2}{TX-2b}{%
+\m{f=ma} becomes: \newline
+\m{ - \lambda v = m (d/dt) v = m [-v(0) \gamma \exp{(-\gamma t)}] =
+- m \gamma v}\,. \smallskip\newline
+We set \m{\gamma = \lambda /m}, substitute it in on the right hand side,
+and the equation is satisfied.
+}
+
+\AsItem{3}{TX-2b}{%
+As \m{\gamma} increases the curve falls off more sharply.
+}
+
+\AsItem{4}{TX-3a}{%
+\m{x=A\exp{-\gamma t}\cos{(\omega t + \alpha)}} \newline
+Differentiate \m{x} to get: \newline
+\m{v=-\gamma A \exp{-\gamma t} \cos{(\omega t + \alpha)} - \omega A \exp{-\gamma t} \sin{(\omega t + \alpha)}} \newline
+hence: \newline
+\m{v=- \gamma x - \omega A \gamma \exp{-\gamma t} \sin{(\omega t + \alpha)}} \newline
+hence: \newline
+\m{\omega A \exp{-\gamma t} \sin{(\omega t + \alpha)} = - v - \gamma x}\,.\newline
+Now differentiate \m{v} to get: \newline
+\m{a=- \gamma v + \omega A \gamma \exp{-\gamma t} \sin{(\omega t + \alpha)} - \omega^2 A \exp{-\gamma t} \cos{(\omega t + \alpha)}} \newline
+or:\newline
+\m{a=-(2\gamma) v - (\gamma^2 + \omega^2) x}\,. \newline
+Then \m{f=ma} becomes: \newline
+\m{ - k x - \lambda v = m a = -(2\gamma m) v - [m(\gamma^2 + \omega^2)] x }\,. \newline
+We set \m{\gamma=\lambda/(2m)} and \m{\omega^2=\omega_0^2 - \gamma^2} and the
+equation is satisfied (with \m{\omega_0^2 = k/m}).
+}
+
+\AsItem{5}{TX-3b}{%
+\hspace*{2mm} \underline{Step 1}: \hspace{38mm} \underline{Step 2}: \newline
+\CenteredUnframedFixedFigure{m29gr03}
+}
+
+\AsItem{6}{Appendix-a}{%
+Compare the definitions of \m{\omega} and \m{\omega '} and you will see
+that: \m{\omega ' = i \omega}.
+We substitute that into \Eqnref{10} and find:\newline
+\m{x = A' e^{-\gamma t - i \omega t} + B' e^{-\gamma t + i \omega t}}\,. \newline
+Now \m{e^{a+b} = e^a\,e^b} hence: \newline
+\m{x = e^{-\gamma t} [A' e^{-i\omega t} + B' e^{+i\omega t}]}\,. \newline
+We now set \m{A' = A e^{-i\alpha/2}} and \m{B' = A e^{+i\alpha/2}} \newline
+so we get:
+\m{x = A e{-\gamma t}\,\cos{(\omega t + \alpha)}} which is just \Eqnref{6}. \newline
+Note: \m{\cos{x} = (e^{ix} + e^{-ix})/2}.
+}
+
+\AsItem{7}{Appendix-b}{%
+Write \Eqnref{10} as: \newline
+\m{x = e^{-\gamma t} (A' e^{-\omega ' t} + B' e^{+\omega ' t})}\,. \newline
+We now make \m{\omega '} small so \m{e^{\pm \omega ' t} \approx (1 \pm \omega ' t)}\,. \newline
+Substituting this, we get: \newline
+\m{x = e^{-\gamma t} [A' (1 - \omega ' t) + B' (1 + \omega ' t)]}\,, \newline
+or: \newline
+\m{x = e^{-\gamma t} [ (A' + B') + t (\omega' B' - \omega ' A')]}\,. \newline
+We now set \m{A'' = A' + B'} and \m{B'' = \omega ' (B' - A')} so we get: \newline
+\m{x = e^{-\gamma t} (A'' + B'' t)}\,, which is just \Eqnref{12}.
+}
+
+}% /Sect

@@ -1,0 +1,65 @@
+% 7/10/85; mpm; 8/30/91, pss; 2/26/93, pss; 4/20/94, pss; 11/8/94, pss
+\AsStart
+
+\AsItem{1}{TX-Appendix A}
+{Since \m{x_1 \leq x_0 \leq x_1 + \Delta x},
+ %
+ \eqn{}{| x_0 - x_1 | \leq \Delta x.}
+ %
+ Then given any \m{\epsilon > \Delta x},
+ %
+ \eqn{}{| x_0 - x_1 | < \epsilon.}
+ %
+}
+
+\AsItem{2}{TX-Appendix A}
+{We assumed that \m{F(x)} is continuous, so use the definition of continuity.
+}
+
+\AsItem{3}{TX-Appendix B}
+{%
+ \eqn{}{a(x)\,dx = v\,dv}
+ %
+ \ThreeEqns{}%
+ {\int_{x_0}^x a(x')\,dx' & = & \int_{v_0}^v v'\,dv' \hs \help{5}}
+ {                        & = & \left. \fract{v'^2}{2} \right|_{v_0}^v}
+ {                        & = & \fract{1}{2}(v^2 - v_0^2)}
+ %
+}
+
+\AsItem{4}{TX-4c}
+{At \m{x_0} the total energy is all in the form of potential energy,
+ hence the velocity of the particle at that point is zero.
+ The acceleration of the particle there is also zero because:
+ %
+ \eqn{}{F(x_0) = - \left.\fract{dE_p}{dx}\right|_{x_0} = 0.}
+ %
+
+ The left and right turning points coincide: the particle cannot move!
+}
+
+\AsItem{5}{[S-3]}
+{We changed to primed symbols for the variables of integration because we
+ wanted to use unprimed symbols for the upper limits of integration.
+}
+
+\AsItem{6}{TX-2a}
+{The term ``dummy variable of integration'' is standard usage.
+ It indicates that the symbol used for the variable of integration is
+ immaterial in a definite integral because it does not appear in the final
+ answer.
+ Thus
+ %
+ \eqn{}{\int_0^1 x\,dx \hs {\rm and} \hs \int_0^1 y\,dy}
+ %
+ give exactly the same answer.
+}
+
+\AsItem{7}{TX-2a}
+{If you are confused by the force being a function of \m{x} and the integrand
+ being a function of \m{x'}, read [S-6].
+ Merely write the force as a function of the variable required in the
+ integrand, \m{F(x') = - k x'}, and the integration is easy.
+}
+
+\AsEnd

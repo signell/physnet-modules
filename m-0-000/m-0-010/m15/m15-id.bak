@@ -1,0 +1,51 @@
+\revhist{9/9/91, pss; 11/19/91, pss; 3/11/93, pss; 3/29/93, pss; 5/9/94, pss;
+         10/24/94, pss; 10/3/95, lae; 8/24/96, pss; 9/25/96, pss; 11/13/97, pss; 2/22/99, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{Momentum: Conservation and Transfer}
+
+\IdAuthor{James M.\,Tanner, School of Physics, Georgia Institute of Technology,
+Atlanta, GA}
+
+\IdVersEval{2/22/99}{1}
+
+%\begin{Hours/Pages} \HR{1} \TX{13} \PS{14} \AS{5} \ME{1} \end{Hours/Pages}
+\begin{Hours/Pages} \HR{1} \TX{14} \PS{14} \AS{6} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  State Newton's laws of motion and use them in the solution of
+one-particle dynamics problems where all forces are constant \prrqone{0-14}.
+\item [2.]  Use SI and English units in the solution of one-particle dynamics
+problems \prrqone{0-14}.
+\item [3.]  Add vectors graphically and formally \prrqone{0-2}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Define the momentum of a particle and of a system of particles.
+State the SI and English units of momentum and express them in terms of force
+and time units.
+\item [K2.] Using Newton's laws and the definition of momentum, show that the
+momentum of an isolated system of particles does not change with time.
+\end{KnowledgeSkills}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] Given an object's mass, its velocity before and after a collision, and
+data relevant to the collision time, calculate the average value of the
+resultant force on the object during the collision; and, given a collision
+time and the average resultant force on an object during the collision,
+calculate the object's change in momentum.
+\item [S2.] Given information about two or more particles' momenta before and after
+a collision, use momentum conservation to determine quantities (speed,
+directions, etc.) related to the collision.
+\end{ProblemSolvingSkills}
+
+\begin{PostOptions}
+\item [1.]  ``Work, Kinetic Energy, Work-Energy Principle, Power'' (MISN-0-20).
+\end{PostOptions}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

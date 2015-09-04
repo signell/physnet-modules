@@ -1,0 +1,192 @@
+\revhist{8/6/84 wcl; 9/6/91, pss; 9/29/94, pss; 4/7/97, lae}
+%
+\Sect{1}{Applications of Relative Motion}{\SectType{TextMultiPara}}{
+
+\pcap{1}{a}{Navigation}
+An application of relative motion which immediately comes to mind is that of
+navigation through currents of water and air.
+Consider two observers and an object, where each observer sees both the
+other observer and the object as moving.
+Given the equation of motion of the object as seen by one observer, what
+equation of motion will the other observer see for it?
+Here the equation of motion set by the pilot, with respect to the fluid
+through which he moves, must be such as to produce the correct equation of
+motion with respect to the land.
+Can you tell which are the two \Quote{observers} and which is the \Quote{object?}
+Can you transform the desired land-based equation into the fluid-based one
+needed for navigation?
+
+\pcap{1}{b}{Solar System Dynamics}
+For another application, consider the apparent motions of the planets across
+the night sky.
+Since very ancient times, the positions of the planets at various times had
+been carefully recorded.
+In about 140 A.D., from this vast set of numbers, the planetary equations of
+motion were finally deduced by Ptolemy.
+These equations were so excruciatingly complicated, however, that the forces
+which would produce them must have seemed incomprehensible.
+Then in 1543, in what must have been one of the most thrilling discoveries
+in history, Copernicus transformed the equations of motion to the way they
+would be observed from the sun and thereupon found them to be trivially
+simple.
+This eventually spurred Newton to discover the elegantly simple universal
+laws of motion and of gravitation, and to invent calculus.
+From that day to this, a fundamental assumption of physicists has been that
+all of the forces of nature will be found to be elegantly simple when
+properly expressed.
+}% /Sect
+%
+\Sect{2}{Double Subscript Notation}{\SectType{TextOnePara}}{
+
+\pcap{2}{a}{Relative Position Vectors}
+Double subscript notation is a simple and consistent method of dealing with
+the relative positions of two objects.
+If \m{\vec{r}_A} is the position vector of object \m{A} and \m{\vec{r}_B} is the
+position vector of object \m{B} in a given coordinate system, then the
+position vector of \m{B} relative to \m{A} is defined by
+%
+\eqn{1}{\vec{r}_{BA} = \vec{r}_B - \vec{r}_A\,.}
+%
+Notice that \m{\vec{r}_{BA}} is the vector which, when added to \m{\vec{r}_A},
+gives \m{\vec{r}_B}:
+%
+\eqn{2}{\vec{r}_A + \vec{r}_{BA} = \vec{r}_B\,.}
+%
+That is, if you start at the position of object \m{A}, and move along
+\m{\vec{r}_{BA}}, you end up at the position of object \m{B} (see Fig.\,1).
+
+\CaptionAfterLeftFigure{Fig.\,1. Vector interpretation of double subscript
+notation.}{m11gr01}
+
+\pcap{2}{b}{The Order of the Subscripts}
+The order of the subscripts of a relative position vector determines the
+direction of the vector.
+The vector \m{\vec{r}_{BA}} is directed from object \m{A} to object \m{B}.
+The vector \m{\vec{r}_{AB}}, from \m{B} to \m{A}, would obviously point in the
+opposite direction, and have exactly the same length as \m{\vec{r}_{BA}}, so
+%
+\eqn{3}{\vec{r}_{AB} = - \vec{r}_{BA}\,.}
+
+\pcap{2}{c}{Velocity and Acceleration from Relative Position}
+Once the relative position has been determined, it is simple to get the
+velocity and acceleration of \m{B} relative to \m{A}, just by differentiating
+Eq.\,(\eqnno{1}):
+%
+\TwoEqns{}{\vec{v}_{BA} & = & \fract{d}{dt}(\vec{r}_{BA}) =
+  \fract{d}{dt}(\vec{r}_B - \vec{r}_A) =
+  \fract{d}{dt}\vec{r}_B - \fract{d}{dt}\vec{r}_A = \vec{v}_B - \vec{v}_A}
+          {\vec{a}_{BA} & = & \fract{d}{dt}\vec{v}_{BA} =
+  \fract{d}{dt}(\vec{v}_B - \vec{v}_A) =
+  \fract{d}{dt}\vec{v}_B - \fract{d}{dt}\vec{v}_A = \vec{a}_B - \vec{a}_A\,,}
+so
+%
+\eqn{4}{\vec{v}_{BA} = \vec{v}_B - \vec{v}_A\,,}
+%
+\eqn{5}{\vec{a}_{BA} = \vec{a}_B - \vec{a}_A\,.}
+%
+Notice that the mathematical relationships between \m{\vec{v}_{BA}},
+\m{\vec{v}_A}, and \m{\vec{v}_B}, and between \m{\vec{a}_{BA}}, \m{\vec{a}_A}, and
+\m{\vec{a}_B} are identical to those between \m{\vec{r}_{BA}}, \m{\vec{r}_A},
+\m{\vec{r}_B}.
+For example, if you start out having velocity \m{\vec{v}_A} (or acceleration
+\m{\vec{a}_A}), give yourself the additional velocity \m{\vec{v}_{BA}} (or
+acceleration \m{\vec{a}_{BA}}), you end up having velocity \m{\vec{v}_B} (or
+acceleration \m{\vec{a}_B}).
+
+\pcap{2}{d}{Subscript Reversal on \m{\vec{v}} and \m{\vec{a}}}
+It is also easy to see that the velocity of \m{A} relative to \m{B},
+\m{\vec{v}_{AB}}, and the acceleration of \m{A} relative to \m{B}, \m{\vec{a}_{AB}},
+are related to \m{\vec{v}_{BA}} and \m{\vec{a}_{BA}} in just the
+same way as \m{\vec{r}_AB} is related to \m{\vec{r}_{BA}}:
+%
+\eqn{6}{\vec{v}_{AB} = - \vec{v}_{BA}\,,}
+%
+\eqn{7}{\vec{a}_{AB} = - \vec{a}_{BA}\,.}
+
+\pcap{2}{e}{An Example}
+As an example of the velocity addition law, Eq.\,(\eqnno{4}), suppose
+you are driving down a highway at 45~mph when a state trooper approaches you
+from the rear at 65~mph.
+If the trooper has a radar gun trained on you, what will it read?
+Using Eq.\,(\eqnno{4}), we find the answer to be 20~mph. \help{3}
+Perhaps the answer was obvious to you without using Eq.\,(\eqnno{4}).
+
+Now suppose the trooper is traveling along a road that makes an angle with
+the road on which you are traveling.
+What will the radar gun read then?
+Perhaps it is obvious that Eq.\,(\eqnno{4}) is needed in order to
+determine the result in this case. \help{4}
+}% /Sect
+%
+\Sect{3}{Frames of Reference}{\SectType{TextOnePara}}{
+
+\CaptionAfterFullFramedFigure{Fig.\,2. Relative position vectors defined for
+various observer labels where \m{\vec{r}_{BA}} is (a) the difference between
+two vectors, or (b) the sum of two vectors.}{m11gr02}
+
+\pcap{3}{a}{\Quote{Observer} Labels}
+Sometimes it may be easier to deal solely with relative quantities like
+\m{\vec{r}_{AB}} instead of \Quote{absolute} ones like \m{\vec{r}_A}.
+To do this, we can simply place an observer \m{O} at the origin of the
+coordinate system and measure all the vector quantities relative to that
+observer.
+The coordinate system is called the observer's \Quote{frame of reference.}
+Thus \m{\vec{r}_A} becomes \m{\vec{r}_{AO}}, \m{\vec{v}_A} becomes \m{\vec{v}_{AO}},
+and so on (see Fig.\,2a).
+Equation\,(\eqnno{1}) then becomes
+%
+\eqn{8}{\vec{r}_{BA} = \vec{r}_{BO} - \vec{r}_{AO}\,,}
+%
+or, by applying Eq.\,(\eqnno{3}) to get \m{\vec{r}_{AO} =
+- \vec{r}_{OA}} (see Fig.\,2b), we have:
+%
+\eqn{9}{\vec{r}_{BA} = \vec{r}_{OA} + \vec{r}_{BO}\,.}
+
+\pcap{3}{b}{Checking an Equation's Subscript Sequence}
+The addition equation, Eq.\,(\eqnno{9}), may be read \Quote{\m{A} to \m{B} equals \m{A}
+to \m{O} plus \m{O} to \m{B}.}
+Note that one reads the subscripts from right to left.
+This provides a powerful check on the correctness of relative-vector
+equations, since it is usually quite easy to rearrange terms into the
+addition form.
+
+\pcap{3}{c}{Converting From Other Notations}
+Many scientists use a \Quote{prime-unprimed} notation when describing vectors
+relative to two frames of reference.
+Vectors in that notation may be converted to double subscript notation by
+placing observers (say, \m{O} and \m{O'}) at the origins of the reference frames
+and expressing the vector quantities relative to these observers.
+For example, consider the \Quote{prime-unprimed} velocity addition equation
+%
+\eqn{10}{\vec{v} = \vec{v}' + \vec{u}\,,}
+%
+where \m{\vec{v}} is the velocity of an object in the unprimed reference frame,
+\m{\vec{v}'} is the velocity of the object in the primed reference frame, and
+\m{\vec{u}} is the velocity of the primed frame relative to unprimed frame.
+Equation\,(\eqnno{10}) can be rewritten as
+%
+\eqn{11}{\vec{v}_{AO} = \vec{v}_{AO'} + \vec{v}_{O'O}\,,}
+%
+by making the identifications
+%
+\ThreeEqns{}{%
+\vec{v}  & = & \vec{v}_{AO} = 
+                          {\rm velocity\;of\;} A {\rm \;relative\;to\;} O}
+{\vec{v}' & = & \vec{v}_{AO'} =
+                          {\rm velocity\;of\;} A {\rm\;relative\;to\;}O'}
+{\vec{u}  & = & \vec{v}_{O'O} =
+                          {\rm velocity\;of\;} O'{\rm \;relative\;to\;} O\,.}
+%
+The double subscript form is easy to check visually.
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}{
+\NsfAcknowledgment
+}% /Sect
+%
+\Sect{}{Glossary}{\SectType{Glossary}}{
+\GlossaryItem{frame of reference} a spatial coordinate system that is used to determine
+the position or describe the motion of some object of interest.
+\GlossaryItem{observer} a person making measurements, descriptions, or determinations
+of some event.
+}% /Sect

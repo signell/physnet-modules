@@ -1,0 +1,21 @@
+
+\input nphmods.sty
+
+\begin{document}
+
+\Module{29}{Stnd}{
+    \ModData{
+        \Section{m29-dat}%
+    }%
+    \ModText{
+        \Section{m29-tx}%
+    }%
+    \ModSupp{
+        \Section{m29-ps}%
+        \Section{m29-as}%
+        \Section{m29-me}%
+\ChapterEnd
+
+\end{document}
+
+\revhist{10/11/94, pss; 9/12/95, pss; 2/1/99 bds}

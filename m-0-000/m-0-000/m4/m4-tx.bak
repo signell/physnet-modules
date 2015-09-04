@@ -1,0 +1,197 @@
+\revhist{10/27/81; 10/5/91, pss; 9/15/94, pss; 8/16/95, pss; 11/7/95, pss; 12/20/01, pss;
+         4/16/02, pss}
+%
+\Sect{1}{Introduction}{\SectType{TextMultiPara}}{
+%
+\pcap{1}{a}{Simplifying a Complicated Function}
+We frequently encounter some complicated mathematical function,
+\m{f(x)}, which is valid over a wide range of \m{x}, in a situation where we
+would prefer a simpler polynomial even if it were a good approximation
+only over a limited region.
+For example, the force holding two atoms together in a diatomic
+molecule is an exceedingly complicated function of the interatomic distance.
+If we attempt to use this function directly, we find it almost impossible to
+calculate the vibrational motions of the atoms.
+Even if we succeed through the use of heroic computer calculations, we get
+little insight.
+However, if we replace the complicated function by a simple best-match
+polynomial, the approximate atomic motions can be easily obtained.
+Such approximate solutions are very important in applied mechanics and in
+molecular chemistry and physics.
+In this module we show you how to obtain the best-match polynomial for any
+given (complicated) function.
+
+\pcap{1}{b}{The Goal of This Module}
+Technically, this module explains how to make a power series expansion of a
+function using the Taylor series method, and how to check the validity of the expansion.
+No attempt is made to give the mathematical basis for the method.
+The module also uses such expansions to derive handy approximations
+for the derivatives of a function.
+}% /Sect
+%
+\Sect{2}{The Expansion of a Function}{\SectType{TextMultiPara}}{
+%
+\pcap{2}{a}{The Taylor Series Method}
+Suppose we have a complicated function \m{f(x)} and that we know or can find 
+its value and the value of each of its derivatives at some point \m{x_0}.
+We can put that value and those derivatives into the Taylor Series and use
+it to evaluate \m{f(x)} at any other point \m{x} that is in neighborhood of
+\m{x_0}:
+%
+\Eqn{1}{f(x) = f(x_0) + \dfrac{f'(x_0)}{1!}(x-x_0) + \dfrac{f''(x_0)}{2!}(x-x_0)^2 + \ldots}
+%
+The complete definition of the Taylor Series is:
+%
+\Eqn{20}{f(x) = \sum_{n=0}^{n=\infty} \dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n\,,}
+%
+where \m{f^{(n)}(x_0)} is the \m{n^{th}} derivative of \m{f(x)}, evaluated at \m{x_0}.
+The quantity \m{n!} is the factorial (\m{n! = 1 \cdot 2 \cdot 3 \cdots (n-1) \cdot n}).
+
+\pcap{2}{b}{Truncating the Series}
+The Taylor series is an infinite series, but if \m{x} is near to \m{x_0},
+the series can usually be truncated (cut-off) after a few
+terms and this leaves a simple polynomial.
+
+\pcap{2}{c}{Example of a Taylor Series Expansion}
+Here is a specific example: Suppose you wish to have a power series
+expansion of \m{f(x) = \sin x} about the point \m{x_0 = 0}, where \m{x} is in
+radians.
+To make the power series we evaluate the terms of the Taylor Series:
+%
+\FiveEqns{2}{f(x)       = + \sin x & \Longrightarrow f(0)     = 0   }
+            {f'(x)      = + \cos x & \Longrightarrow f'(0)    = 1   }
+            {f''(x)     = - \sin x & \Longrightarrow f''(0)   = 0   }
+            {f'''(x)    = - \cos x & \Longrightarrow f'''(0)  = - 1}
+            {f''''(x)   = + \sin x & \Longrightarrow f''''(0) = 0   }
+%
+Putting these and further derivatives into \Eqnref{1} gives us the power series:
+%
+\Eqn{3}{\sin x = x - \dfrac{x^3}{6} + \dfrac{x^5}{120} - \ldots}
+%
+For cases where \m{x} is much smaller than 1, \m{x^3} is much smaller than
+\m{x} and hence \m{x^5} is much much smaller than \m{x}.
+Then we can truncate the series after the first term:
+%
+\Eqn{4}{\sin x \simeq x \qquad (x^2 \ll 1)\,.}
+%
+
+\pcap{2}{d}{Convergence of the Series}
+How rapidly does the series approach the correct answer?
+Technically, this question is phrased: \Quote{How rapidly does the series
+converge?}
+As an example, suppose \m{x = \pi/6 = 30\degrees} so that \m{\sin x = 0.500}.
+Then various truncations of the series for the expansion of \m{\sin x}
+about the origin gives:
+
+\renewcommand{\arraystretch}{1.25}\begin{center}
+\begin{tabular}{|c | l | l | l | l|}\hline
+TERMS & APPROXIMATION & SUM & ERROR & \% ERROR \\ \hline
+1     &      \m{x}              & 0.523599 & \m{+ 0.023599} & \m{+ 5}      \\ \hline
+2     & \m{x - x^3/6}           & 0.499674 & \m{- 0.000326} & \m{- 0.07}   \\ \hline
+3     & \m{x - x^3/6 + x^5/120} & 0.500002 & \m{+ 0.000002} & \m{+ 0.0004} \\ \hline
+\end{tabular}
+\end{center}
+%
+Since the series rapidly approaches the exact answer, it is said to
+\Quote{converge rapidly} for \m{x = \pi/6}.
+
+\pcap{2}{e}{Always Check For Convergence}
+A check for convergence should always be made:
+the range of \m{\Delta} for which the series converges may be
+unexpectedly small.
+%
+\Footnote[1]{This would be due to a nearby singularity in the complex plane.
+See \Quote{Some Simple Functions in the Complex Plane} (MISN-0-59) for some
+highly visual examples.}
+%
+The usual method of checking is to calculate the next term or two and
+see whether the additional contribution to the sum is or is not
+significant at the desired level of accuracy.
+}% /Sect
+%
+\Sect{3}{Approximations for Derivatives}{\SectType{TextMultiPara}}{
+%
+\pcap{3}{a}{Rewriting the Expansion}
+In order to work with finite difference equations we usually write
+Taylor's series in an especially convenient notation.
+%
+First we substitute \m{x = x_0 + \Delta} into \Eqnref{1}:
+%
+\Eqn{6}{f(x_0 + \Delta) = f(x_0) + \dfrac{f'(x_0)}{1!}\Delta +
+%
+                              \dfrac{f''(x_0)}{2!}\Delta^2 + \ldots}
+%
+A similar expression is written with \m{x = x_0 - \Delta}.
+The subscript on \m{x_0} is then dropped and the two equations
+are written as one:
+%
+\Eqn{7}{f(x\pm\Delta) = f(x)\pm\dfrac{f'(x)}{1!}\Delta+
+\dfrac{f''(x)}{2!}\Delta^2\pm\dfrac{f'''(x)}{3!}\Delta^3+\ldots}
+%
+We say \Quote{\m{f} at \m{x} plus or minus delta equals \m{f} at \m{x} plus or minus \m{f}
+prime at \m{x} over one factorial times delta plus \ldots}
+
+\pcap{3}{b}{A Finite Difference Approximation for \m{f'(x)}}
+An approximation for \m{f'(x)} can be obtained by subtracting
+\m{f(x - \Delta)} from \m{f(x + \Delta)}:
+%
+\Eqn{8}{f(x+\Delta)-f(x-\Delta)=
+          2\dfrac{f'(x)}{1!}\Delta+2\dfrac{f'''(x)}{3!}\Delta^3+\ldots}
+%
+For small \m{\Delta}, the \m{\Delta^3}, \m{\Delta^5}, etc. terms will
+be much smaller than the \m{\Delta} term .
+Truncating and solving for \m{f'(x)} gives:
+%
+\Footnote[2]{Note the similarity of this approximate result to the precise
+definition of the derivative:
+%
+\Eqn{}{f'(x) = \lim_{\Delta x \rightarrow 0} \dfrac{f(x+\Delta x) -
+            f(x)}{\Delta x}.}}
+%
+%
+\Eqn{9}{f'(x)\simeq\dfrac{f(x+\Delta)-f(x-\Delta)}{2\Delta}\,.}
+%
+
+\pcap{3}{c}{Approximations for Higher Derivatives}
+An approximation for \m{f''(x)} can be obtained by adding \m{f(x + \Delta)}
+to \m{f(x - \Delta)}.
+Truncating and solving for \m{f''(x)} gives:
+%
+\Eqn{10}{f''(x) \simeq \dfrac{f(x+\Delta) - 2 f(x) +
+                                     f(x-\Delta)}{\Delta^2}\,.}
+%
+Approximations for higher derivatives can be developed by similar techniques.
+You might wish to verify that: \help{1}
+%
+\Eqn{11}{f'''(x)\simeq\dfrac{f(x+2\Delta)-2f(x+\Delta)+2f(x-\Delta)-
+                     f(x-2\Delta)}{2\Delta^3}}
+%
+
+\pcap{3}{d}{A Handy Check of Formal Derivatives}
+%
+\Equationsref{9}, \Eqnssref{10}, and \Eqnssref{11} offer a quick
+%
+calculator method for checking your work when formally differentiating
+complicated functions.
+Merely choose some convenient point \m{x} and a small value for \m{\Delta} and
+use them to evaluate the finite difference derivative.
+Then evaluate your formal derivative at the same point \m{x} and compare the
+two answers.
+
+\pcap{3}{e}{A Calculator Caution}
+Truncation and rounding errors may lead to incorrect results if \m{\Delta} is
+too small.
+%
+For example, in \Eqnref{9} the numerator is small through almost exact
+cancellation of its two terms.
+If \m{\Delta} is too small, the terms will be the same to as many significant
+digits as the calculator carries.
+The net result for the numerator is then zero!
+A slightly larger \m{\Delta} will result in a non-zero numerator but one with
+little accuracy.
+Watch out for this effect whenever using the finite difference equations.
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}{\NsfAcknowledgment
+Ray G. Van Ausdal made valuable editorial contributions.}% /Sect
+

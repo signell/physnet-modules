@@ -1,0 +1,575 @@
+\revhist{12/10/89, pss; 8/9/91, pss; 3/11/93, pss; 3/29/93, pss; 5/9/94, pss; 10/26/95, pss;
+         8/24/96, pss; 11/7/97, lae; 3/22/01, pss; 3/29/01, kag}
+\TxStart
+
+\mTitle{MOMENTUM: CONSERVATION AND TRANSFER}
+
+\mAuthor{James M.\,Tanner}
+
+\scap{1}{Introduction}
+
+\pcap{1}{a}{Describing Conservation Principles}
+Imagine a self-sufficient group of people living and working in an
+environment somewhat isolated from the rest of society; say on a secluded
+South Pacific island (see this module's cover).
+The people have familiar homes, jobs, businesses, etc.
+Some time ago they adopted American currency as the medium of exchange.
+Lacking a formal government, they have no mints and have agreed to keep the
+total number of dollars fixed, except when they acquire a surplus of goods
+which are then sold to an American merchant ship that makes very infrequent
+calls.
+The captain of the ship always pays for the goods with American currency,
+thereby increasing the total number of dollars available to the people.
+
+Between visits of the ship the total number of dollars in the society is
+fixed.
+Any money added to one person's dollar possession is always balanced by a
+decrease in another's.
+The important point here is that if at any instant the dollar possession of
+all inhabitants are totaled, the sum remains constant (until the visiting
+ship adds new money).
+
+Physicists would describe the constraint on the total money available as
+a Conservation of Dollar Principle.
+The number of dollars any person possesses may change fifty times per day,
+but at any instant the sum of dollars summed over the societal system is
+fixed, or \Quote{conserved.}
+Thus a conservation principle\Index{conservation principle}\Index{principle, conservation} is nothing more than a statement that for a
+given system (e.g., the isolated community of people) there exists some
+quantity (total number of dollars) which remains constant in time provided
+certain conditions are met (no dollars added by visiting ships).
+
+\pcap{1}{b}{Conservation of Mass}
+Perhaps the simplest conservation principle in classical physics is that
+of mass conservation.\Index{conservation of mass}\Index{mass| conservation of}
+Essentially, the principle is this.
+If a system, \m{A}, is defined and then isolated from all other systems by not
+permitting a flow of mass into or out of system \m{A}, the mass conservation
+principle asserts that the sum of the masses of the constituent objects in
+system \m{A} remains constant even though the number of objects may be changing
+(two lead blocks may be melted and solidified into one, a block of cheese
+may be cut into ten slices, etc.), and the mass of individual entities may
+change with time (water evaporating from a glass, frictional wear of rubber
+from a tire, etc.).
+Classically, if the total mass of the universe at any one instant is \m{M},
+this would apparently be the total mass at all times even though subsystem
+masses may be changing at very rapid rates because of interaction between
+the subsystems.
+
+\pcap{1}{c}{Whether Mass Is Really Conserved}
+The mass conservation principle\Index{mass| conservation of} just asserted seemed to scientists of the
+nineteenth century to be an accurate statement of natural law.
+In the first half of this century, careful investigation of phenomena like
+relativistic physics, fission, fusion, antimatter, etc., led to the
+conclusion that, in fact, the total mass of a uranium nucleus is greater than
+the combined mass of the particles which result from its fission.
+As a result of these new discoveries and the accompanying interpretations,
+physicists concluded that mass, rather than being conserved, is just one form
+of energy, a quantity which is conserved.
+%
+\Footnote{See \Quote{Potential Energy, Conservative Forces, The Law of Conservation
+of Energy} (MISN-0-21), and \Quote{Work, Kinetic Energy, Work-Energy Principle,
+Power,} (MISN-0-20).
+\Quote{Collisions} (MISN-0-32) illustrates the usefulness of the two conservation
+principles (energy and momentum) }
+%
+What now?
+Are you to assume (in working a problem in this course) that mass is
+conserved or not?
+The answer is \Quote{Yes,} but with the proviso that there are phenomena in which
+mass is not conserved.
+Your first experience with such phenomena will probably come in studying
+either relativistic or atomic physics or chemistry.
+%
+\Footnote{See \Quote{Relativistic Energy; Thresholds for Reactions} (MISN-0-23).}
+%
+
+\pcap{1}{d}{Conservation of Momentum}
+The topic of fundamental importance in this unit is that of momentum
+conservation.\Index{conservation of momentum}\Index{momentum| conservation of}
+You will see that for a system of particles which are isolated from
+interaction with other particles, a vector quantity called the system's
+\Quote{total (linear) momentum}\Index{linear momentum} is constant in time.
+This will be true even though the system's individual constituent particles
+may have rapidly changing momenta.
+This situation is not too different from the fixed number of dollars
+available to the isolated island dwellers whose individual dollar
+possessions may change rapidly as a result of interaction with other island
+dwellers.
+
+\pcap{1}{e}{Newton's Laws and Conservation of Momentum}
+In Sect.\,4 we will use Newton's laws\Index{Newton's laws, and conservation of momentum} to derive the momentum conservation
+principle.
+This shows that the momentum conservation principle is valid throughout
+Newtonian dynamics.
+While Newtonian dynamics is valid over a very wide range of natural
+phenomena,
+%
+\Footnote{See \Quote{Particle Dynamics, Mass, Force, and the Laws of Motion}
+(MISN-0-14), Section 5b.}
+%
+radical corrections can be necessary for high speeds and/or high masses, and
+for phenomena on the atomic scale.
+However, the momentum conservation principle is valid for all of those
+phenomena as well as for Newtonian dynamics.
+There are no known data which contradict it: conservation of momentum is one
+of the few universal physical principles known.
+
+\scap{2}{Momentum and Force}
+
+\pcap{2}{a}{Definition of Momentum}
+The linear momentum\Index{linear momentum} \m{\vec{p}} associated with a particle of mass m moving with
+a velocity \m{\vec{v}} is defined by:\Index{momentum| definition of}
+%
+\eqn{}{\vec{p} \equiv m\,\vec{v}.}
+%
+As a particle moves, its velocity changes as a result of its interaction
+with other particles, so we can write:
+%
+\eqn{1}{\vec{p}(t) \equiv m\,\vec{v}(t)}
+%
+
+\pcap{2}{b}{An Isolated Particle has a Constant Momentum}
+First, let us consider the special case of an isolated particle, one having
+no measurable interaction with other particles.
+This case is easy since, by Newton's first law, such a particle moves with a
+constant velocity.
+%
+\Footnote{See \Quote{Particle Dynamics: The Laws of Motion} (MISN-0-14).}
+%
+Since the mass is constant, it thereby moves with a constant momentum:\Index{conservation of momentum}
+%
+\eqn{2}{\vec{p} = {\rm constant}.\hs {\rm (Isolated\;Particle)}}
+%
+
+This is the purest and simplest statement of the Conservation of Momentum
+Principle.\Index{momentum| conservation of}
+Unfortunately, in this form it is also the most useless statement.
+Do not despair, for in Sect.\,4 you will see how to enrich this principle to
+make it useful.
+
+\pcap{2}{c}{Force Equals Time-Rate-of-Change of Momentum}
+Before extending the conservation discussion, let's  investigate how a
+particle's momentum changes.
+To do so, differentiate each side of Eq.\,(\eqnno{1}) with respect to time:
+\begin{eqnarray*}
+\fract{d\vec{p}}{dt} & = & \fract{d}{dt}(m\vec{v}) \\
+           & = & m \fract{d\vec{v}}{dt} \hs (m\;{\rm is\;constant}) \\
+ & = & m \vec{a}. \hs (\vec{a} \equiv \fract{d\vec{v}}{dt}:\;{\rm Definition})
+\end{eqnarray*}
+Now, according to Newton's second law\Index{Newton's second law of motion} \m{m \vec{a}} equals the resultant force
+\m{\vec{F}_R} acting on the particle so:
+%
+\eqn{3}{\fract{d\vec{p}}{dt} = \vec{F}_R.}
+%
+Equation (3) is another way to express Newton's second law
+(\m{\vec{F}_R} is the vector sum of all forces acting on the particle whose
+momentum is \m{\vec{p}}).
+
+\pcap{2}{d}{Which is More Fundamental, Force or Momentum}
+Equation (3) can be given at least two interesting interpretations.
+If you prefer to think of force as being that which causes acceleration,
+then you can interpret \m{\vec{F}_R = d\vec{p}/dt} as stating: a
+resultant force being exerted on the object we are studying implies that the
+object's momentum must be changing.
+If you prefer to think of \Quote{the natural state} of an isolated particle being
+one of constant momentum, then you can think of
+\m{\vec{F}_R = d\vec{p}/dt} as stating:
+a changing momentum\Index{change, in momentum} implies that other objects must be exerting a resultant
+force on the object we are studying.\Index{momentum| change in}
+
+Another interesting facet of momentum is that it plays a crucial role in
+atomic physics, where the concept of force does not exist.
+
+Enough of this patter about what fundamental meaning (if any) is provided
+by this new way of writing Newton's second law.
+The crucial information for you at this point is that the resultant force
+on a particle equals the time-rate-of-change of that particle's momentum
+[Eq.\,(\eqnno{3})].
+
+\scap{3}{Collision Forces}[\Index{collision force}]
+
+\pcap{3}{a}{Examining the Force Exerted on a Ball by a Bat}
+Situation: Nolan Ryan (California Angel pitcher) fires his fastest pitch
+(approximately 100\,mi/hr or 30\,m/s) to Henry Aaron (Milwaukee Brewer
+designated hitter) who swings and sends a hit (at the same speed) past
+Nolan's head.
+
+Question: If the magnitude of the ball's weight is \m{W}, the average force of
+the bat on the ball during contact is most nearly equal to:
+\begin{center}\begin{tabular}{l l l}
+(a) \m{W}      &       (c)  100\,\m{W}   &     (e)  10,000\,\m{W} \\
+(b) 10\,\m{W}  &       (d) 1000\,\m{W}   &     (f) 100,000\,\m{W} \\
+\end{tabular}\end{center}
+
+\tryit What's your best guess?
+
+\pcap{3}{b}{If the Force Were Constant, Here's the Answer}
+In order to obtain an approximate answer for the force on a ball during
+collision with a bat, we assume that the force on the ball is constant
+during the collision.\Index{force| collision}
+This seems to be a mediocre approximation at best, since intuitively you
+probably feel that the force at the times of initial and final contact is
+much less than that when one of the ball's sides has \Quote{pancaked} against the
+bat and is momentarily at rest with respect to it.
+Nevertheless, we'll begin with the \Quote{constant force during the collision}
+assumption in order to make things simple.
+We start with:
+%
+\eqn{}{\fract{d\vec{p}}{dt} = \vec{F}.}
+%
+
+We multiply each side by \m{\Delta t}, the collision time, to get:
+%
+\eqn{}{\fract{d\vec{p}}{dt}\Delta t = \vec{F} \Delta t.}
+%
+
+\CaptionAfterLeftFigure{Fig.\,1. The momentum change during the collision.}{m15gr01}
+
+Since \m{\vec{F}}, and so also d\m{\vec{p}/dt}, is constant in time, the quantity
+\m{(d\vec{p}/dt) \Delta t} is
+the change in the ball's momentum, \m{\Delta \vec{p}}, during the time of the
+collision.
+So now we have:
+%
+\eqn{}{\Delta \vec{p} = \vec{F} \Delta t;}
+%
+or:
+%
+\eqn{4}{\vec{F} = \fract{\Delta \vec{p}}{\Delta t}. \hs ({\rm Constant\;Force})}
+%
+
+To find the force on the ball, using Eq.\,(\eqnno{4}), we
+must compute the ball's change in momentum, \m{\Delta\vec{p}}, during the time
+interval \m{\Delta t}.
+Consider Fig.\,1, showing the initial and final momenta.
+Note that the momentum of the ball is reversed in direction by the collision
+but is left unchanged in magnitude.
+Then:
+\begin{eqnarray*}
+\Delta \vec{p} & = & \vec{p}_f - \vec{p}_i \\
+               & = & - m v_0 \uvex{x} - (m v_0 \uvex{x}) \\
+               & = & - 2 m v_0 \uvex{x},
+\end{eqnarray*}
+where \m{v_0} is the ball's speed (30\,m/s in this case) and \m{\uvex{x}} is a unit
+vector in the direction of motion before the collision.
+
+Now what about \m{\Delta t}, the time for collision?
+No doubt you have seen strobe flash pictures
+%
+\Footnote{See {\em Fundamentals of Physics}, Halliday and Resnick,
+Wiley (1974), Fig.\,9-1,p.\,154.}
+%
+of a ball and bat in contact which show the ball to be distorted, as
+represented in Fig.\,2.
+We will use what we have seen in such pictures in order to make estimates.
+
+\CaptionAfterLeftFigure{Fig.\,2. The collision-deformed ball.}{m15gr02}
+
+Let's estimate the maximum value of \m{x} (see Fig.\,2) to be about one-fourth
+of the ball's diameter \m{D}.
+This maximum compression occurs at the instant the ball is at rest with
+respect to the bat (at approximately one-half \m{\Delta t}).
+During this time, the first half of the collision time, the ball's speed has
+gone from \m{v_0} to zero (neglecting the bat's speed).
+Assuming constant deceleration, the ball's average speed is \m{v_0}/2.
+Now (av.\,speed)\m{\cdot}(time)\,\m{\simeq}\,distance, so:
+\begin{center}
+\m{\fract{v_0}{2} \cdot \fract{\Delta t}{2} \simeq
+\fract{D}{4};}
+\end{center}
+or:
+\begin{center}
+\m{\Delta t \simeq \fract{D}{v_0}.}
+\end{center}
+With these estimates for \m{\Delta \vec{p}} and \m{\Delta t}, we use Eq.\,(\eqnno{4}) to
+get
+%
+\eqn{}{\vec{F} \simeq \fract{- 2 m v_0^2 \uvex{x}}{D}}
+%
+or
+%
+\eqn{5}{F \simeq \left(\fract{2v_0^2}{g D}\right) m g =
+\left(\fract{2 v_0^2}{g D}\right) W,}
+%
+where \m{W = m g} is the ball's weight.
+Substituting approximate values for \m{v_0 \simeq 30}\,m/s,
+\m{g \simeq 10}\,m/s\m{^2}, and \m{D = 0.10}\,m,
+gives:
+%
+\eqn{}{F \simeq \left(\fract{2 \times 900\unit{m}^2/{\rm s}^2}
+      {10\;{\rm m/s}^2\times 0.10\unit{m}}\right) W = 1800 W.}
+%
+So, if your answer in the original problem was (d), 1000\,\m{W}, congratulations!
+
+\tryit By the way, how many pounds or Newtons is that?
+
+\pcap{3}{c}{But the Collision Force Isn't Constant}
+Now let's see what we can do about the \Quote{constant force} swindle of the
+previous paragraph.\Index{collision force, related to momentum}\Index{momentum| related to collision force}
+Starting with \m{\vec{F}(t) = d\vec{p}/dt}, where we have explicitly noted the
+dependence of \m{\vec{F}} on \m{t}, we integrate both sides of the equation with
+respect to time, from \m{t = 0} (ball first touches bat) to \m{t = \Delta t}
+(ball leaves bat):
+%
+\eqn{}{\int_0^{\Delta t} \vec{F}_R(t)\,dt =
+\int_0^{\Delta t} \fract{d\vec{p}}{dt}\,dt.}
+%
+But
+%
+\eqn{}{\int_0^{\Delta t} \fract{d\vec{p}}{dt}\,dt = \vec{p}(\Delta t) - p(0) =
+\Delta \vec{p}.}
+%
+Then:
+%
+\eqn{6}{\int_0^{\Delta t} \vec{F}_R(t)\,dt = \Delta \vec{p}.}
+%
+In the Appendix we show that an integral of a vector function of a single
+scalar variable, such as the one in Eq.\,(\eqnno{6}), can be written as the average
+value of the function \m{\vec{F}_{R,av}} multiplied by the averaging interval
+\m{\Delta t}.
+So:
+%
+\eqn{}{\vec{F}_{R,av} \Delta t = \Delta \vec{p};}
+%
+or:
+%
+\eqn{7}{\vec{F}_{R,av} = \fract{\Delta \vec{p}}{\Delta t}.}
+%
+Compare Eqs.\,(4) and (7).
+The time-average resultant force over a time interval \m{\Delta t} is exactly
+equal to the constant force which would cause an that same momentum change
+during that same time interval.
+Consequently, our previous estimate of approximately 1800 times the ball's
+weight is exactly correct for the average resultant force on the ball.
+
+
+\pcap{3}{d}{Why Collision Forces Are Usually So Large}
+
+\CaptionAfterFullFramedFigure{Fig.\,3. A collision in which a particle's
+momentum changes from \m{\vec{p}_i} to \m{\vec{p}_f}.}{m15gr03}
+
+While we obtained Eq.\,(\eqnno{7}) in considering a
+ball-bat collision, you can discover by rereading that its derivation was
+completely general.
+Thus the time-average resultant force on an object always equals its change
+in momentum divided by the time interval during which the momentum change
+occurred: \m{\vec{F}_{R,av} = \Delta \vec{p} / \Delta t} (see Fig.\,3).
+Thus for a given momentum change, the average force increases as the
+collision time decreases.
+And that's why pole vaulters land on a few feet of foam rubber rather than
+concrete!
+In each case, their momentum change would be the same, but the increased
+collision time resulting from the foam's compressibility saves the day \ldots
+not to mention the pole vaulter.
+
+\pcap{3}{e}{The Impulse-Momentum Principle}
+The impulse\Index{impulse} of a force \m{\vec{F}(t)} during a time interval
+\m{t_1 \leq t \leq t_2} is defined as:
+%
+\eqn{}{{\rm Impulse} \equiv \int_{t_1}^{t_2} \vec{F}(t)\,dt.}
+%
+Comparing this with Eq.\,(\eqnno{6}), we have the so-called Impulse-Momentum
+Principle:\Index{impulse-momentum principle}
+
+\begin{center}\begin{tabular}{|l| c |l|}\cline{1-1}\cline{3-3}
+Impulse by resultant &   & Change in momentum   \\
+force during time    & = & during time interval \\
+interval \m{\Delta t}  &   & \m{\Delta t} \\ \cline{1-1}\cline{3-3}
+\end{tabular}\end{center}
+
+\scap{4}{Conservation of Momentum}
+
+\pcap{4}{a}{Dealing With Larger Systems}
+For a single-particle system, the conservation of momentum principle is
+equivalent to Newton's first law (See Sect.\,2b).\Index{conservation of momentum| for system}
+We will now extend the discussion to systems with two or more particles and
+discover that the momentum conservation principle acquires added
+significance.
+
+\CaptionAfterLeftFigure{Fig.\,4. An isolated two-particle system.}{m15gr04}
+
+\pcap{4}{b}{Derivation for Isolated Two-Particle Systems}
+Using Newton's second law and third laws, we can
+derive conservation of momentum for any isolated system consisting of two
+interacting particles.\Index{conservation of momentum| isolated system}\Index{isolated system, conservation of momentum}
+This is a system in which two particles interact with each other but not
+with other particles.\Index{two-particle system}
+The system momentum\Index{momentum| of system of particles}\Index{system of particles, momentum for} at the time \m{t} is denoted by \m{\vec{P}}(t) and defined by
+%
+\eqn{8}{\vec{P}(t) = \vec{p}_1(t) + \vec{p}_2(t),}
+%
+where \m{\vec{p}_n(t)} is the momentum of particle \m{n} at time \m{t} (See Fig.\,4).
+Differentiating both sides of Eq.\,(\eqnno{8}) with respect to time, and using
+Newton's second law, we get:
+%
+\eqn{9}{\fract{d\vec{P}}{dt} = \fract{d\vec{p}_1}{dt} +
+\fract{d\vec{p}_2}{dt} = \vec{F}_{R1}(t) + \vec{F}_{R2}(t),}
+%
+where \m{\vec{F}_{Rn}(t)} is the resultant force on particle \m{n} at time \m{t}.
+Since the system is assumed to be isolated, particle 1 interacts only with
+particle 2 so:
+%
+\eqn{}{\vec{F}_{R1}(t) = \vec{F}_{2\;{\rm on}\;1}(t),}
+%
+where \m{\vec{F}_{2\;{\rm on}\;1}(t)} is the force particle 2 exerts on particle
+1 at time \m{t}.
+Similarly,
+%
+\eqn{}{\vec{F}_{R2}(t) = \vec{F}_{1\;{\rm on}\;2}(t).}
+%
+Now by Newton's third law, \m{\vec{F}_{1\;{\rm on}\;2}(t)} and
+\m{\vec{F}_{2\;{\rm on}\;1}(t)}
+are equal in magnitude and opposite in direction at each instant of time.
+Then Eq.\,(\eqnno{9}) becomes:
+%
+\eqn{}{\fract{d\vec{P}}{dt} = \vec{F}_{2\;{\rm on}\;1}(t) +
+\vec{F}_{1\;{\rm on}\;2}(t) = 0.}
+%
+Since its time rate of change is zero, the total linear momentum for an
+isolated two-particle system must not change with time;\Index{system| conservation of momentum for} i.e.,
+%
+\eqn{10}{\vec{P}(t) = {\rm Constant}. \hs {\rm (Isolated\;System)}}
+%
+
+Very interesting.
+While \m{\vec{p}_1} and \m{\vec{p}_2} may be changing very rapidly because of the
+two particles' mutual interaction, their sum \m{\vec{P}} remains constant.
+In simple terms, \m{\vec{P}} represents the total momentum available to the two
+particles (as long as they are isolated), and the two of them \Quote{swap} parts of
+that momentum back and forth via their interaction.
+
+\pcap{4}{c}{The General Conservation of Momentum Principle}
+Here is the principal result of this unit:
+\begin{center}\begin{tabular}{l p{0.3in} |l|} \cline{3-3}
+{\it Conservation} & & The total linear momentum for an \\
+{\it of Momentum}  & & isolated system of interacting \\
+{\it Principle}    & & particles is constant. \\ \cline{3-3}
+\end{tabular}\end{center}
+Thus even for \m{10^{20}} interacting particles, each of which may have an
+erratically changing momentum vector, the sum of these \m{10^{20}} vectors will
+remain constant provided the total system is isolated from any other system.
+The proof of this principle, for Newtonian mechanics, is relegated to Problem
+2 of this module's {\it Problem Supplement}.
+
+\pcap{4}{d}{When the System Isn't Isolated}
+\Index{conservation of momentum| non-isolated system}If a system is not isolated, then the rate of change of the system's total
+linear momentum equals the sum of the resultant external forces acting on all
+the particles of the system.
+We can easily demonstrate this for a two-particle system, starting with
+Eq.\,(\eqnno{9}):
+%
+\eqn{}{\fract{d\vec{P}}{dt}=\vec{F}_{R1}(t)+\vec{F}_{R2}(t).}
+%
+If particles 1 and 2 interact with other particles as well as each other,
+then the resultant force on each is the sum of the force on it by the other
+particle and the force on it by particles external to the system; i.e.,
+%
+\eqn{}{\vec{F}_{R1} = \vec{F}_{2\;{\rm on}\;1} + \vec{F}_1^{\rm ext}}
+%
+\eqn{}{\vec{F}_{R2} = \vec{F}_{1\;{\rm on}\;2} + \vec{F}_2^{\rm ext}.}
+%
+Substituting these into the equation for d\m{\vec{P}/dt} gives
+%
+\eqn{}{\fract{d\vec{P}}{dt} = \vec{F}_1^{\rm ext} + \vec{F}_2^{\rm ext},}
+%
+where the internal forces cancel once again because of Newton's third law.
+Now let \m{\vec{F}_R^{\rm ext}} be the sum of the external force on the system;
+i.e.,
+%
+\eqn{}{\vec{F}_R^{\rm ext}(t) = \vec{F}_1^{\rm ext} + \vec{F}_2^{\rm ext},}
+%
+so that
+%
+\eqn{11}{\fract{d\vec{P}}{dt}=\vec{F}_R^{\rm ext}.}
+%
+Comparing this result with the corresponding equation for a one-particle
+system, \m{d\vec{p}/dt = \vec{F}_R}, you see that the momentum for the
+two-particle system changes just as if the system were a single particle acted
+upon by the external force \m{\vec{F}_R^{\rm ext}}.
+
+\pcap{4}{e}{Using Momentum Conservation to Analyze Collisions}
+You will find momentum conservation useful in many applications, particularly
+in phenomena which involve the collision of two or more particles.
+In these collisions the particles usually undergo rapid momentum changes
+which involve very large, but short-lived forces (remember the baseball).
+Even though the particles in such a collision may not be completely isolated
+from the surroundings, the collision forces\Index{collision force}\Index{force| collision} are usually so large and the
+collision time so short that the system can be very accurately approximated
+as being isolated for the duration of the collision.
+
+\Acknowledgments\NsfAcknowledgment
+
+\newpage
+
+\spcap{A}{Averaging a Vector Function}
+\noindent\vspace*{-36pt}\newline
+\begin{center}(for those interested)\end{center}
+
+\CaptionAfterFullFramedFigure{Fig.\,5. (a) \m{\int_a^b f(\tau)\,d\tau}
+equals the shaded area.
+(b) \m{f_{av}} equals the height of the rectangle with area equal to
+\m{\int_a^b f(\tau )\,d\tau}.}{m15gr05}
+
+If \m{\vec{C}(\tau)} is a vector function of a single variable \m{\tau} (e.g.,
+position as a function of time), the integral\Index{integral| of vector function}\Index{vector function| integral of} of \m{\vec{C}} on the interval
+\m{a < \tau < b} is defined in terms of the corresponding integrals of the
+components of \m{\vec{C}}; i.e.,
+%
+\eqn{12}{\int_a^b \vec{C}(\tau)\,d\tau =
+\uvex{x} \int_a^b C_x(\tau)\,d\tau + \uvex{y} \int_a^b C_y(\tau)\,d\tau +
+\uvex{z} \int_a^b C_z(\tau)\,d\tau.}
+%
+Each of these three integrals are just integrals of a real function of one
+variable of the form
+%
+\eqn{}{\int_a^b f(\tau)\,d\tau.}
+%
+Remember that this integral is the area of the region inside \m{y = f(\tau)},
+\m{\tau = a}, \m{\tau = b}, and the \m{x}-axis.
+This area is the shaded region in Fig.\,5a.
+The average value\Index{average value, of vector function}\Index{vector function| average value of} of \m{f} on this interval, denoted by
+\m{f_{av}}, equals the height of the rectangle of the same area as that defined by
+the integral.
+Thus
+%
+\eqn{}{{\rm Area\;of\;Rectangle} = \int_a^b f(\tau)\,d\tau.}
+%
+But the area of the rectangle of height \m{f_{av}} and base \m{b - a} is
+\m{f_{av}(b - a)}, so that
+%
+\eqn{}{f_{av}(b - a) = \int_a^b f(\tau)\,d\tau,}
+%
+or:
+%
+\eqn{}{f_{av} = \fract{1}{b - a} \int_a^b f(\tau)\,d\tau.}
+%
+This value is the dashed line in Fig.\,5b.
+Note that it checks visually with what would expect for an \Quote{average}
+value.
+
+Using the results we just obtained for a real function of one variable, we
+write for the vector function:
+%
+\eqn{}{C_{x,av}(b - a) = \int_a^b C_x(\tau)\,d\tau,}
+%
+\eqn{}{C_{y,av}(b - a) = \int_a^b C_y(\tau)\,d\tau,}
+%
+\eqn{}{C_{z,av}(b - a) = \int_a^b C_z(\tau)\,d\tau.}
+%
+Substituting these into Eq.\,(\eqnno{12}), gives
+%
+\eqn{}{\int_a^b \vec{C}(\tau)\,d\tau =
+\left(C_{x,av} \uvex{x} + C_{y,av} \uvex{y} + C_{z,av} \uvex{z}\right)(b - a).}
+%
+We define the average of \m{\vec{C}(\tau)} on \m{a < \tau < b} as
+%
+\eqn{}{\vec{C}_{av} \equiv C_{x,av} \uvex{x} + C_{y,av} \uvex{y} + C_{z,av} \uvex{z}
+\hs ({\rm Definition}).}
+%
+Equation (13) may now be rewritten:
+%
+\eqn{}{\vec{C}_{av} = \fract{1}{b-a} \int_a^b \vec{C}(\tau)\,d\tau.}
+%
+
+%\TxEnd

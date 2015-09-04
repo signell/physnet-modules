@@ -1,0 +1,39 @@
+% 9/10/89, pss; 2/22/91, pss; 2/24/93, pss; 5/9/94, pss; 6/4/98, pss
+\MeStart
+
+\noindent
+\textbf{Important Note:} Make each problem have these three separate parts:
+\begin{itemize}
+\item [a.] draw a one-body diagram with the forces ``as given'';
+\item [b.] draw a diagram similar to the one in part (a), but with the forces now
+represented only by their components, where one axis is along the direction of
+acceleration and the axes are labeled;
+\item [c.] write Newton's-second-law equations for the force
+           components and solve for the components of the unknown force.
+           Convert the answer components to magnitude and angle to the
+           acceleration direction.''
+\end{itemize}
+
+\begin{one-digit-list}
+\item [1.] \ItemFigure{An airplane climbs upward in a direction 53$^\circ$
+above the horizontal as shown in the figure.
+At the particular instant illustrated, the acceleration of the plane is
+24\,ft/sec$^2$ and is parallel to the direction of the velocity.
+Determine the (surface) force of the plane on the 160 pound
+pilot.}{m10gr23}
+
+
+\item [2.] \ItemFigure{A 16 ton truck has a deceleration of 8.0\,ft/s$^2$
+as it coasts up a flat $14.5\degrees$ grade.
+Determine the force of the road on the truck.}{m10gr24}
+\end{one-digit-list}
+
+\BriefAns
+
+\begin{one-digit-list}
+\item [1.] See this module's {\it Problem Supplement}, problem 5.
+
+\item [2.] See this module's {\it Problem Supplement}, problem 6.
+\end{one-digit-list}
+
+\MeEnd

@@ -1,0 +1,487 @@
+\revhist{12/23/87, pss; 12/14/90, pss; 3/11/93, pss; 9/14/94, pss; 11/7/97, pss; 3/3/2000, pss;
+         11/5/01, pss; 10/3/02, pss; 12/19/02, pss; 1/16/03, pss; 1/21/03, pss}
+%
+\Sect{1}{Introduction}{\SectType{TextMultiPara}}{
+%
+\pcap{1}{a}{Understanding Circular Motion is Important}
+Circular motion appears routinely in our day-to-day living:
+amusement park rides, satellites, analog clocks, wheels on cars and
+bicycles, and rotating driers are just a few of the many examples we
+encounter.
+Applications are everywhere, as well, in science and engineering.
+In addition, circular motion must be studied because it has its own concepts
+and vocabulary that are widely used.
+
+The special case of circular motion at a constant speed, \Quote{uniform
+circular motion,} occurs in so many applications that we give it special
+attention in this module.
+The prime example of uniform circular motion which we use here is a spot on
+the minute hand of an analog clock (the kind of clock that has hands!).
+
+\pcap{1}{b}{A Special Case of General Motion}
+Circular motion is just a special case of general motion.
+Consequently, the concepts and equations treated here are just special
+cases of concepts and equations of general motion.
+%
+\Footnote{1}{See \Quote{Trajectories and Radius, Velocity, Acceleration}
+(MISN-0-72).}
+%
+You can think of this module's topic as a special case that illustrates
+some interesting and useful facets of those general concepts and equations.
+
+\pcap{1}{c}{Prerequisites}
+Below we list some statements assumed to be familiar to the reader of
+this module from prior study.
+If any of these statements are not apparent to you, at least upon
+reflection, you should immediately go back and study the relevant
+prerequisites\FnRef{1} before plunging into this module's material.
+The statements refer to a particle executing circular motion (see \Figstoref{1}{3}):
+\begin{one-digit-list}
+\item [1.] its radius vector, going from the center of the circle to the particle,
+continually changes direction;
+\item [2.] its velocity vector continually changes direction to stay
+tangent to the circle: the velocity points in the direction of motion and
+has a  magnitude (the particle's \Quote{speed}) equal to \m{\mid}ds/dt\m{\mid} where
+\m{s} measures distance traveled along the particle's circular trajectory;
+\item [3.] it always has a non-zero radial acceleration, one pointing toward the
+center of the circle, perpendicular to the velocity vector, that causes
+the velocity vector to continually change its direction but not its
+magnitude;
+\item [4.] it may have a tangential acceleration, one parallel to the velocity
+vector, that causes the magnitude of the velocity vector to change;
+\item [5.] the direction of a tangential acceleration is the same as the
+direction of the velocity if the speed is increasing, and it is opposite to
+the direction of the velocity if the speed is decreasing;
+\item [6.] if there is a tangential acceleration, then the (total) acceleration
+vector points inward but not toward the center of the circle.
+\end{one-digit-list}
+
+\CaptionedFullFramedFigure{1}{\,\vect{v} is always tangent to the circle
+and its direction shows whether the motion is CW (clockwise) or CCW
+(counterclockwise).}{m9gr01}
+
+\CaptionedFullFramedFigure{2}{(a.) The radius and velocity vectors change
+direction as time goes on.
+(b.) The acceleration always has a radially inward component.}{m9gr02}
+}% /Sect
+%
+\Sect[\Index{kinematics}]{2}{Quantitative Kinematics}{\SectType{TextMultiPara}}{
+%
+\pcap{2}{a}{The General Equations That We Particularize}
+In this section, for the radius, velocity, and \Index{acceleration vector, in circular motion}acceleration vectors of
+\Index{motion, circular}\Index{circular motion}circular motion, we formally:
+(1) look at their directional characteristics; and
+(2) examine simple equations relating them.
+We do this by starting with the general kinematical equations relating the
+radius, velocity, and acceleration vectors,
+%
+\Footnote{4}{See \Quote{Two-Dimensional Motion} (MISN-0-8).}
+%
+\Eqn{}{\vect{v} = d\vect{r}/dt \text{ and } \vect{a} = d\vect{v}/dt \,\;}
+%
+and particularizing them to the circular motion case.
+
+\pcap{2}{b}{The Radius Vector: Path and Cartesian Coordinates}
+The \Index{position vector, in circular motion}position of a particle
+in circular motion can be specified in terms of
+its distance s measured along its circular trajectory, starting from
+the \m{x}-axis (see \Figref{3}) as the point with \m{s = 0}.
+The sign convention for \m{s} is important:
+\m{s} is defined to be positive when measured CCW from the \m{x}-axis.
+Thus if \m{s} is increasing, so \m{ds/dt > 0}, the motion is CCW (see \Figref{1}).
+The particle's angle from the \m{x}-axis, \m{\theta}, is given by the ratio of
+\m{s} to \m{r}:
+%
+\Eqn{1}{\theta = \dfrac{s}{r} \qquad (\text{only for } \theta \text{ in radians!})}
+%
+Can you write down the more complicated expression for \m{\theta} in
+degrees? \help{9}
+Because we like to use simple relationships, most of us think
+of \Index{radians}radians, not degrees, as the natural units for angles in most of physics.
+
+\pcap{2}{c}{The Radius Vector in Polar Coordinates}
+It is often convenient to express a particle's radius vector in
+polar coordinates:
+%
+\Eqn{2}{\vect{r} = r \uvec{r}\,.}
+%
+In this system the orthogonal unit vectors are \uvec{r} and \m{\uvec{\theta}},
+illustrated in \Figref{4}.
+The unit vector \m{\uvec{\theta}} always points CCW because its direction is
+defined as the direction of motion when \m{\theta} is increasing.
+The unit vector \m{\uvec{r}} always points radially outward (see \Figref{4}).
+Note that the directions of the unit vectors \m{\uvec{r}} and \m{\uvec{\theta}}
+depend on the value of the coordinate \m{\theta} so we write them as \m{\uvec{r}(\theta)} and
+\m{\uvec{\theta}(\theta)}.
+This is in contrast to the Cartesian description of points in space where the directions of the
+\m{\uvec{x}} and \m{\uvec{y}} do not depend on the value of \m{\theta}:
+%
+\Eqn{}{\vect{r} = r\,\uvec{r}(\theta) = x\,\uvec{x} + y\,\uvec{y}\,.}
+%
+Thus as a point travels counterclockwise around a circular path, the directions of \m{\uvec{r}} and
+\m{\uvec{\theta}} rotate counterclockwise but the directions of \m{\uvec{x}} and \m{\uvec{y}} remain
+unchanged.
+
+\TwoCaptionedFramedFigures%
+     {3}{The geometrical relationships between \m{r}, \m{s}, \m{\theta}, \m{x}, \m{y}.}{m9gr03}%
+     {4}{The unit vectors \m{\uvec{r}}, \m{\uvec{\theta}}.}{m9gr04}
+
+\pcap{2}{d}{Velocity and Speed}
+The velocity of a particle is always \Index{tangential acceleration}\Index{acceleration, tangential}tangential to its trajectory, so for
+circular motion it is tangential to the circle:
+%
+\Eqn{3}{\vect{v} = (ds/dt) \, \uvec{\theta} \qquad (\text{see \Figref{4}})\,.}
+%
+From \Eqnref{3} we see that: for CCW motion we have \m{ds/dt\,>\,0} and
+\vect{v} points in the same direction as \m{\uvec{\theta}}; for CW motion,
+\m{ds/dt\,<\,0} and \vect{v} points in the direction opposite to
+\m{\uvec{\theta}}.
+Speed \m{v} is defined to be the magnitude of the velocity:
+%
+\Eqn{4}{v = |\vect{v}| = |{ds/dt}|\,.}
+%
+Thus speed is the (positive) rate at which distance is being traversed
+around the circle, no matter in which direction:
+%
+\Eqn{}{\vect{v} = v \, \uvec{v} = \pm v \, \uvec{\theta}\,.}
+
+\CaptionedLeftFramedFigure{5}{\m{\vect{a}_r} for an example of circular
+motion.}{m9gr05}
+
+\pcap[\Index{radial acceleration}\Index{tangential acceleration}\Index{acceleration, radial}]%
+{2}{e}{Radial}
+Circular-motion acceleration must almost always be computed in terms
+of its tangential and radial components and then those two components must
+be added vectorially (easy since they are orthogonal).
+These two components can be derived by differentiating \Eqnref{3} with
+respect to time (see the Appendix for details), with the result:
+%
+\Eqn{5}{\vect{a} = d\vect{v}/dt = \vect{a}_t + \vect{a}_r\,,}
+%
+where the tangential and radial vector components are:
+%
+\Eqn{6}{\vect{a}_t = (dv/dt) \uvec{\theta}\,,}
+%
+\Eqn{7}{\vect{a}_r = (-v^2/r) \uvec{r}\,.}
+%
+\Index{unit vector, angular}\Index{angular unit vector} A radial component is illustrated in \Figref{5} for a case where \m{\vect{a}_t}
+and \vect{v} are in the same direction so the speed is increasing.
+Note that \m{\vect{a}_r} always points toward the origin in circular motion.
+
+The \Index{radial}radial and tangential components of the acceleration are mutually
+perpendicular so the magnitude of the acceleration is:
+%
+\Eqn{8}{a = [ (dv/dt)^2 + (v^2/r)^2 ]^{1/2}\,.}
+}% /Sect
+%
+\Sect[\Index{uniform circular motion}]{3}{Uniform Circular Motion}{\SectType{TextMultiPara}}{
+%
+\CaptionedLeftFramedFigure{6}{Acceleration in uniform circular motion.}{m9gr06}
+
+\pcap{3}{a}{Constant Speed}
+Uniform circular motion is defined to be circular motion in which the
+particle's speed is constant in time.
+This condition, usually expressed as \m{dv/dt = 0}, results in major
+simplifications to the equations of motion.
+It also allows us to easily introduce the widely used quantities \Quote{period,}
+\Quote{frequency,} and \Quote{angular velocity.}
+Here are some examples of uniform circular motion: (1) a spot on one of the
+hands of an analog clock; (2) a spot on the turbine of a jet plane traveling
+at constant speed; (3) a point on the shaft of a motor running at constant
+speed; and (4) a piece of chewing gum on the tire of a bicycle going at
+constant speed.
+
+\pcap{3}{b}{The Acceleration Direction is Radially Inward}
+Speed \m{v} is constant for uniform circular motion, \m{dv/dt\,=\,0}, and
+thus the \Index{acceleration, tangential}tangential acceleration, whose magnitude is \m{dv/dt}, vanishes.
+The entire acceleration is therefore \Index{unit vector, radial}\Index{radial unit vector}radial (see \Figref{6}) and is given
+by \Eqnref{7}: \m{\vect{a} = - (v^2/r) \uvec{r}}.
+Since the acceleration is perpendicular to the velocity, the direction of
+the velocity is continually changing while the magnitude of the velocity is
+constant.
+}% /Sect
+%
+\Sect{4}{Parameters of the Motion}{\SectType{TextMultiPara}}{
+%
+\pcap{4}{a}{The Example We Will Use}
+Throughout this section we will use the example of an analog clock, a clock
+with hands.
+When we describe the motion of a point on the hand, you can think of the
+point as being half way out from the center to the tip of the hand, or at
+the tip, or wherever suits you.
+
+\pcap{4}{b}{Cycle}
+Basic to the description of \Index{circular motion, uniform}\Index{acceleration, uniform circular motion}uniform circular motion is the idea of the
+\Quote{\Index{cycle}cycle.}
+This word denotes one complete trip around the circle, from when the
+particle passes some particular point on the trajectory until it again
+passes that same point.
+The descriptor \Quote{2.3 cycles} would denote two and three-tenths trips around
+the circle.
+A point on the second hand of an analog clock completes 60\unit{cycles} for each
+cycle of a point on the clock's minute hand.
+
+\pcap[\Index{period, for uniform circular motion}]{4}{c}{Period}
+The period \m{T} is defined as the time required for each cycle.
+For example, a point on the minute hand of an analog clock has a period of
+60\unit{minutes} while the period of the hour hand is 12\,\unit{hours}.
+Thus the period \m{T} of a point moving at speed \m{v} around a circle of radius \m{r}
+is the time for one cycle so it is just the distance traveled in that time divided by
+the (constant) speed:
+%
+\Footnote{5}{The relationship between distance traveled, speed, and time interval, is given in
+\Quote{Kinematics in One Dimension} (MISN-0-7).}
+%
+\Eqn{9}{T = \dfrac{2\pi r}{v}\,.}
+%
+Another way of getting \Eqnref{9} is to compute the speed as the distance traveled in one cycle (the
+circumference of the circle) divided by the time for that cycle (the period),
+\m{v = 2 \pi r/T}, then solve that equation for the period and obtain \Eqnref{9}.
+
+\pcap{4}{d}{Frequency}
+The \Index{SI units, of frequency}\Index{frequency, SI units of}frequency
+\m{\nu} (this Greek letter is pronounced \Quote{\m{n \bar{u}}}) is
+defined, for uniform circular motion, as a number of cycles divided by the time necessary
+to complete that number of cycles (\Quote{the number of cycles per unit time}).
+The frequency \m{\nu} of an object in uniform circular motion can be easily related to its
+period \m{T} by noting that the period is the time for one cycle.
+Inverting this gives the number of cycles per unit time: \m{\nu = 1/T}.
+%
+\Footnote{6}{For example, the period of rotation of the earth is one day, which is 24 hours or
+1440 minutes or 86400 seconds.  Thus the frequency of rotation \m{\nu} is
+\Quote{one per day} or \Quote{1/1440 of a rotation per minute} or \Quote{1/86400 of a rotation
+per second}.}
+%
+Using this expression in Eq.\,9 gives a second expression for the frequency:
+%
+\Eqn{10}{\nu = \dfrac{1}{T} = \dfrac{v}{2 \pi r}\,.}
+%
+For an analog clock, the frequency of a spot on the minute hand is 1\unit{cycle/hr}
+while the frequency of the hour hand is 1\unit{cycle per half day}.
+
+The SI (international standard) unit of frequency is the \Quote{cycle per
+second,} called the \Index{hertz}hertz and abbreviated as Hz.
+Thus the earth's rotational frequency is \m{\nu = (1/86400) \unit{Hz} = 1.1574 \times 10^{-5} \unit{Hz}}.
+
+\tryit Show that the frequency of a spot on an analog clock's second hand is
+\m{\nu = 0.0167\unit{Hz}}, to 3 significant digits, while that of the hour hand is
+\m{\nu = 0.0000231\unit{Hz}}. \help{17}
+
+\pcap{4}{e}{Angular Speed}
+Angular speed is defined as the time rate of change of
+\Index{position, angular}\Index{angular position}angular position
+\m{\theta}, and is denoted by the Greek letter \m{\omega}.
+In English \m{\omega} is written \Quote{omega} and pronounced \Quote{oh-may'-gah.}
+Mathematically,
+%
+\Eqn{11}{\omega = | {d\theta/dt} |\,.}
+%
+Using the relation \m{\theta = s/r} (where \m{\theta} is measured in
+radians) we obtain:
+%
+\Eqn{12}{\omega = \left| \dfrac{d}{dt}\left(\dfrac{s}{r}\right) \right| =
+\dfrac{1}{r} \left| \dfrac{ds}{dt} \right| = \dfrac{1}{r} v\,. \help{16}}
+%
+Thus the tangential speed, \m{v = | {ds/dt} |}, is related to \m{\omega} by:
+%
+\Eqn{13}{v = \omega r\,.}
+%
+Note that \m{v}, \m{\omega}, and \m{r} are either positive or zero, never
+negative.
+
+We can derive a very important relation by noting that there are \m{2 \pi}
+radians per circular cycle, so the rate at which radians are swept out by
+the radius vector is \m{2 \pi} times the rate at which cycles are completed:
+%
+\Eqn{14}{\omega = 2 \pi (\unit{radians}) \nu\,.}
+%
+We normally just write \Quote{\m{\omega = 2 \pi \nu}} and leave the
+\Quote{(radians)} as understood.
+
+\tryit Show that the angular speed of a point on the minute hand of an
+analog clock is 0.00175\unit{rad/sec}. \help{18}
+
+\CaptionedLeftFramedFigure{7}{Direction of \vect{\omega} for
+\Index{frequency, for uniform circular motion}circular motion: 2 methods.}{m9gr07}
+
+\pcap[\Index{angular velocity}\Index{angular velocity, related to velocity}\Index{pseudo-vector}\Index{angular velocity, pseudo-vector}]{4}{f}{Angular Velocity}
+Angular velocity is defined as the vector-like quantity \vect{\omega} whose
+magnitude is defined to be the angular speed, \m{\omega}, and whose direction
+is defined to be: \help{8}
+%
+\Eqn{15}{\uvec{\omega} = \uvec{r} \times \uvec{v}\,. \qquad \text{(circular motion only)}}
+%
+The direction \m{\uvec{\omega}} always lies along the \Quote{axis of rotation.}
+There are two ways of determining the direction in which \m{\uvec{\omega}}
+points along the rotation axis (see \Figref{7}).
+Pick the method you like best:
+
+\noindent{\bf First Way}:  Wrap the fingers of your right hand around the
+axis, pointing them in the direction of rotational motion:  your thumb then
+points in the direction of \m{\uvec{\omega}}.
+
+\noindent{\bf Second Way}:  The direction of \m{\uvec{\omega}} is the
+direction in which a right hand screw thread (the standard thread) would
+advance if moved in the same direction as the motion (imagine opening or
+closing a jar lid).
+For a point moving with angular velocity \vect{\omega} in a circle whose
+position is \vect{r} (See \Figref{8}), the point's tangential velocity is:
+\m{\vect{v} = \vect{\omega} \times \vect{r}}.
+
+Note that \m{\uvec{\omega} \neq d\uvec{\theta}/dt} because \m{\uvec{\omega}} and
+\m{d\uvec{\theta}/dt} are mutually perpendicular (make sure you see that!).
+
+Mathematically, \m{\uvec{\omega}} is a \Quote{pseudo-vector} because it does not
+behave the same way as a true vector under reflection in a mirror.
+Its other properties are those of true vectors such as \vect{r}, \vect{v},
+and \vect{a}.
+
+\CaptionedLeftFramedFigure{8}{\vect{\omega}, \vect{r} and \vect{v}.}{m9gr08}
+}% /Sect
+%
+\Sect{5}{Why Forces are Not Considered}{\SectType{TextMultiPara}}{
+%
+\pcap{5}{a}{The Problem}
+A number of people encountering the subject of kinematics for the first time
+have asked questions like this:
+\Quote{You calculated the acceleration of the pilot in the bottom of the dive,
+using the plane's speed and radius of curvature, but you didn't take into
+account the force of gravity.
+How come?}
+Suppose a friend studying physics asked you that question.
+How would you reply?
+
+\pcap{5}{b}{The Answer}
+Forces are never considered in a kinematics problem.
+There is no symbol representing a force in any of the kinematics equations.
+The reason that forces do not come into kinematics calculations is that
+kinematics is complete without knowledge of the forces involved.
+Put another way, the same information that forces would supply is already
+completely given to you in the statement of a kinematics problem.
+
+For the example given above, forces determine the plane's speed and radius
+of curvature and those quantities are then used to calculate the
+acceleration.
+However, in a kinematics problem you are given the speed and radius of
+curvature in the statement of the problem; therefore you do not need to
+calculate them using forces.
+You can just go ahead and calculate the acceleration.
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}{\NsfAcknowledgment}% /Sect
+%
+\Sect{A}{Derivations: for Those Interested}{\SectType{AppendixMultiPara}}{
+%
+\xpcap{1}{}{Show: \m{\vect{v} \perp \vect{r}}}
+First we write down the unit vector in the radial direction:
+%
+\Eqn{16}{\uvec{r} = \uvec{x} \cos{\dfrac{s}{r}} +
+                          \uvec{y} \sin{\dfrac{s}{r}}\,.}
+%
+\begin{center}
+\fbox%
+{\parbox[t]{3.2in}%
+ {Exercise 1:  Show that:
+  (a) \m{\uvec{r}} is a  unit vector; and
+  (b) \m{\uvec{r}} points in the same direction as \vect{r}.
+  \help{1}
+ }
+}
+\end{center}
+%
+Differentiating \Eqnsref{2} and \Eqnssref{16} with respect to time
+gives the velocity:
+%
+\Footnote{3}{See \Quote{Review of Mathematical Skills-Calculus: Differentiation
+and Integration} (MISN-0-1).}
+%
+\help{4}
+%
+\Eqn{}{\vect{v} = \dfrac{d\vect{r}}{dt} = \dfrac{d(r\uvec{r})}{dt} =
+     r \dfrac{d\uvec{r}}{dt} = r \dfrac{d\uvec{r}}{ds} \dfrac{ds}{dt}\,,}
+%
+\Eqn{17}{= \dfrac{ds}{dt} \left( - \uvec{x} \sin{\dfrac{s}{r}} +
+                                    \uvec{y} \cos{\dfrac{s}{r}} \right) \,.}
+%
+We can write this as:
+%
+\Eqn{}{\vect{v} = \dfrac{ds}{dt} \uvec{\theta}\,,}
+%
+where
+%
+\Eqn{18}{\uvec{\theta} = - \uvec{x} \sin{\dfrac{s}{r}} +
+                               \uvec{y} \cos{\dfrac{s}{r}}\,.}
+%
+\begin{center}
+\fbox%
+{\parbox[t]{3.2in}%
+ {Exercise 2:  Show that:
+  (a) \m{\uvec{\theta}} is a unit vector;
+  (b) \m{\uvec{\theta} \cdot \vect{r} = 0}; and
+  (c) \m{\uvec{\theta}} is perpendicular to \vect{r}. \help{2}
+ }
+}
+\end{center}
+
+\xpcap{2}{}{Derive: tangential and radial acceleration}
+Start with the most general relation between velocity and acceleration and
+particularize it to the case of circular motion:
+%
+\Eqn{}{\vect{a} = \dfrac{d\vect{v}}{dt} =
+         \dfrac{d}{dt} \left(\dfrac{ds}{dt} \uvec{\theta}\right) =
+         \dfrac{d^2s}{dt^2} \uvec{\theta} +
+           \dfrac{ds}{dt} \dfrac{d\uvec{\theta}}{dt}\,.}
+%
+Differentiating \Eqnsref{1} and \Eqnssref{18}:
+%
+\Eqn{}{\dfrac{d\uvec{\theta}}{dt} =
+            - \dfrac{1}{r} \dfrac{ds}{dt} \uvec{r}\,.}
+%
+Then:
+%
+\Eqn{19}{\vect{a} = \left(\dfrac{d^2s}{dt^2}\right) \uvec{\theta} -
+                 \dfrac{1}{r} \left(\dfrac{ds}{dt}\right)^2 \uvec{r}\,.}
+%
+Since \m{\uvec{\theta}} is tangent to the circle, the tangential component of
+the acceleration is:
+%
+\Eqn{}{\vect{a}_t = (d^2s/dt^2) \uvec{\theta}\,,}
+%
+and its magnitude is
+%
+\Eqn{}{a_t = | \vect{a}_t | = | d^2s/dt^2 | = | dv/dt |\,.}
+%
+\begin{center}
+\fbox%
+{\parbox[t]{3.2in}%
+ {Exercise 3:  Show that if \m{\vect{a}_t} and \vect{v} in the same direction
+  then the speed is increasing; and that if \m{\vect{a}_t} and \vect{v} are in
+  opposing directions then the speed is decreasing.
+  \help{5}
+ }
+}
+\end{center}
+The second term of \Eqnref{19} is the radial component of \vect{a}:
+%
+\Eqn{}{\vect{a}_r = - \dfrac{1}{r} (ds/dt)^2 \uvec{r}\,.}
+%
+Since \m{(1/r) \cdot (ds/dt)^2} is always positive, \m{\vect{a}_r} is
+opposite to \vect{r} and points radially inward.
+Squaring \m{v = | ds/dt |} we get \m{v^2 = (ds/dt)^2} so the radial component of
+the  acceleration has magnitude \m{a_r = v^2/r} and direction (\m{-\uvec{r}}).
+Consequently the radial acceleration is:
+%
+\Eqn{}{\vect{a}_r = - \dfrac{v^2}{r} \uvec{r}\,.}
+%
+
+\xpcap{3}{}{Acceleration and Velocity are Perpendicular in UCM}
+For UCM, \m{d^2 s/dt^2 = 0} so:
+%
+\Eqn{}{\vect{a} = \vect{a}_r + \vect{a}_t = - a_r \uvec{r}\,,}
+%
+\Eqn{}{\vect{v} = (ds/dt) \uvec{\theta}\,.}
+%
+Now \m{\uvec{r}} and \m{\uvec{\theta}} are mutually perpendicular so \vect{a}
+and \vect{v} are mutually perpendicular.
+}% /Sect
+

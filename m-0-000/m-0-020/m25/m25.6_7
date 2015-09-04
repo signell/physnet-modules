@@ -1,0 +1,172 @@
+% 9/13/88, pss; 9/11/90, pss; 10/29/90, pss; 11/17/93, pss; 10/13/94, pss;
+% 4/7/95, pss; 4/5/96, pss; 11/6/96, pss; 11/14/96, pss; 1/5/01, pss
+\PsStart
+
+Note:  Make sure your calculator is set for the correct angular units among
+the choices available: radians, degrees, etc.
+Answers are in coded order, given by bracketed letters.
+
+Note: Problem 6 also occurs in this module's {\it Model Exam}.
+
+\begin{one-digit-list}
+\item [1.] Fill in the chart below for a particle in SHM, writing ``min,'' ``max,''
+or ``0'' in each space. \answer{5}
+
+\renewcommand{\arraystretch}{1.5}
+\tabcolsep 0.2in
+\begin{tabular}{| c | c | c | c | c | c |}\hline
+Phase\,\m{\rightarrow}  & 5\m{\pi}/2 & 3\m{\pi} & 7\m{\pi}/2 & 4\m{\pi} & 9\m{\pi}/2 \\ \hline
+   x     & & & & & \\ \hline
+   v     & & & & & \\ \hline
+   a     & & & & & \\ \hline
+   F     & & & & & \\ \hline
+   E\m{_k} & & & & & \\ \hline
+   E\m{_p} & & & & & \\ \hline
+\end{tabular}
+
+\item [2.] An ant sits on the end of the minute hand (15.0\,cm long) of a clock.
+Write the equation for its displacement along an axis that goes through 3:00,
+9:00, and the center of the dial. \answer{3}
+
+\item [3.] The displacement of a 1.0\,kg mass attached to the end of a vibrating
+spring is given by the equation:
+%
+\eqn{}{x = 0.040\unit{m}\,\cos(\pi\unit{s}^{-1}\,t)\,.}
+%
+\begin{one-digit-list}
+\item [a.] Determine the amplitude, phase, angular frequency, frequency, and
+period of this motion. \answer{1}
+\item [b.] Determine the force, potential energy, kinetic energy and total
+energy when \m{t}\,=\,0.10\,s. \answer{1}
+\item [c.] Sketch the kinetic energy and potential energy, along with the
+displacement, as functions of time. \answer{1}
+\end{one-digit-list}
+
+\item [4.] The maximum force acting on a certain 2.0\,kg mass, which oscillates
+with SHM, is found to be 10.0\,N.
+At that time its displacement from equilibrium is 0.10\,m.
+Determine the angular frequency, period and frequency of its motion. \answer{4}
+
+\item [5.] A particle is moving with simple harmonic motion.
+Its displacement at \m{t}\,=\,0.167\,sec is 0.0050\,m and its period is
+ 1.00\,sec.
+Determine the displacement, velocity and acceleration as functions of time.
+Evaluate \m{x}, \m{v}, \m{a}, and \m{\delta} at \m{t}\,=\,0.50\,s. \answer{2}
+
+\item [6.] An object of mass 1.0\,kg is moving with SHM, with an amplitude of
+0.010\,m, an angular frequency of 4\m{\pi}\,rad/s, and a maximum displacement
+at time zero.
+\begin{one-digit-list}
+\item [a.] Write down the kinematical expression for the displacement as a
+function of time.
+\item [b.] Find the displacement, velocity, potential energy and kinetic energy
+at a time 3/8 of a period past a time when \m{x = 0.010}\,m.
+\item [c.] Sketch the displacement and potential energy versus time on a graph.
+\item [d.] Use the above sketch to describe how the velocity changes as
+position changes through a cycle.
+\end{one-digit-list}
+\item [  ]  \answer{6}
+
+\end{one-digit-list}
+
+\BriefAns
+
+\begin{one-digit-list}
+\item [1.] \NullItem
+\begin{one-digit-list}
+\item [a.] \m{x} = 0.040\,m \m{\cos(\pi}\,s\m{^{-1}}\,\m{t})
+\item [  ] \m{A} = 0.040\,m; \m{\omega}\,t = \m{\pi}\,t; \m{\omega} = \m{\pi}\,rad/s
+\item [  ] \m{\nu = \omega / (2 \pi)} = (1/2) cycle/s; \m{T = 1/\nu} = 2.0\,s.
+\item [b.] \m{F = - m\,\omega^2\,x}; \m{m} = 1.0\,kg; \m{t} = 0.10\,s
+\item [  ] \m{F = -} (1.0\,kg)(\m{\pi}\,s\m{^{-1}})\m{^2}\,[0.040\,m \m{\cos(0.10\,\pi)]
+           = -}\,0.38\,N
+\item [  ] \m{E_p = (1/2) k x^2 = (1/2) m \omega^2 x^2}
+\item [  ] \m{\phantom{E_p} = (1/2) \,(1.0\unit{kg})(\pi\unit{s}^{-1})^2
+                      (0.038\unit{m})^2 = 0.0071\unit{J}}
+\item [  ] \m{E_k = (1/2) (m\,\omega^2)(A^2 - x^2)}
+\item [  ] \m{\phantom{E_k} = (1/2) [(1.0\unit{kg})(\pi\unit{s}^{-1})^2]
+                      [(0.040\unit{m})^2 - (0.038\unit{m})^2] =
+                      0.0008\unit{J}}
+\item [  ] \m{E = (1/2) k A^2 = (1/2) m \omega^2 A^2}
+\item [  ] \m{\phantom{E} = (1/2) (1.0\unit{kg})(\pi/\unit{s})^2
+                    (0.040\unit{m})^2 = 0.0079\unit{J}}
+\item [c.] \UnframedEpsFigure{m25gr06}
+\item [  ] \hfill \help{12}
+\end{one-digit-list}
+
+\item [2.] \m{\omega = 2 \pi}\,rad/s
+
+\item [  ] \m{x(t) = A \cos(\omega t)}
+
+\item [  ] \m{x(0.167,{\rm s}) = 0.0050\,{\rm m} =
+           A \cos(2 \pi\,{\rm rad/sec} \times 0.167\,{\rm s})};
+           solve for the amplitude.
+\item [  ] \m{A = 0.0050\,{\rm m} / (0.50) = 0.0100}\,m
+
+\item [  ] At all times:
+\begin{one-digit-list}
+\item [  ] \m{x = 0.0100\,{\rm m} \cos(2\pi\,{\rm s}^{-1}\,t)}
+\item [  ] \m{v = dx/dt =
+           -\,0.0200\,\pi\,{\rm m/s}\,\sin(2\pi\,{\rm s}^{-1}\,t)}
+\item [  ] \m{a = d^2x/dt^2 =
+           -\,0.0400\,\pi^2\,{\rm m/s}^2\,\cos(2\pi\,{\rm s}^{-1}\,t)
+           = - (2 \pi / {\rm sec})^2\,x}
+\end{one-digit-list}
+
+\item [  ] At t = 0.50\,s:
+\begin{one-digit-list}
+\item [  ] \m{x = 0.0100\,{\rm m} \cos(\pi) = - 0.0100}\,m
+\item [  ] \m{v = 0.000}\,m/s
+\item [  ] \m{a = 0.395}\,m/s\m{^2}
+\item [  ] \m{\delta = \omega\,t = 1.8 \times 10^2}\,degrees
+\end{one-digit-list}
+
+\item [3.] \m{x = A \cos\,\omega t}
+
+\item [  ] \m{\omega = 2 \pi/T = 2 \pi}/60 min = 0.10/min \help{13}
+
+\item [  ] \m{x} = 15.0\,cm \m{\cos}(0.10\,min\m{^{-1}\,t})
+
+\item [4.] \m{F = -\,k\,x}
+
+\item [  ] \m{k = - F / x = - (-}10.0\,N) / 0.10\,m = 1.0\m{\times 10^2}\,N/m
+
+\item [  ] \m{\omega = (k/m)^{1/2} =
+           (100\,{\rm N\,m}^{-1}/2.0\,{\rm kg})^{1/2} = 7.1}\,rad/s
+
+\item [  ] \m{T = 2 \pi / \omega = 2 \pi /(7.1/{\rm s}) = 0.88}\,s
+
+\item [  ] \m{\nu = 1/T = 1 / 0.88\,{\rm s} = 1.1\,{\rm cycles/s} = 1.1}\,Hz.
+
+\item [5.]
+\begin{tabular}[t]{| c | c | c | c | c | c |}\hline
+Phase\,\m{\rightarrow} & 5\m{\pi}/2 & 3\m{\pi} & 7\m{\pi}/2 & 4\m{\pi} & 9\m{\pi}/2 \\ \hline
+   \m{x}               &    0     &   min  &   0      &  max   &   0      \\ \hline
+   \m{v}               &   min    &    0   &  max     &   0    &  min     \\ \hline
+   \m{a}               &    0     &   max  &   0      &  min   &   0      \\ \hline
+   \m{F}               &    0     &   max  &   0      &  min   &   0      \\ \hline
+   \m{E_k}             &   max    &  0=min &  max     & 0=min  &  max     \\ \hline
+   \m{E_p}             &  0=min   &   max  & 0=min    &  max   & 0=min    \\ \hline
+\end{tabular}
+
+\item [6.] \NullItem
+\begin{one-digit-list}
+\item [a.] \m{x} = 0.010\,m \m{\cos (4 \pi {\rm rad/s} t)}
+\item [b.] \m{T} = (1/2)\,s.
+\item [  ] at \m{t} = (3/16)\,s:
+\begin{one-digit-list}
+\item [  ] \m{x} = \m{-}0.0071\,m (see graph below)
+\item [  ] \m{v} = \m{-}0.089\,m/s (see slope of graph below)
+\item [  ] \m{E_p} = 0.0040\,J (see graph below)
+\item [  ] \m{E_k} = 0.0040\,J
+\end{one-digit-list}
+\item [c.] \NullItem
+
+\UnframedEpsFigure{m25gr08}
+%
+\item [d.] See text.
+\end{one-digit-list}
+
+\end{one-digit-list}
+
+%\PsEnd

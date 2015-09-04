@@ -1,0 +1,77 @@
+\revhist{10/26/81, pss; 10/6/91, pss; 9/15/94, pss; 8/16/1995, pss}
+
+\Sect{}{}{\SectType{ProblemSet}}{
+
+\noindent Note: There is a Table of Derivatives in the \textit{Model Exam}.
+Problems~9 and 10 (below) also occur in the \textit{Model Exam}.
+
+\begin{two-digit-list}
+\item [1.] Obtain the power series expansion of \m{\cos x} about the point
+\m{x = 0}, obtaining at least the first three terms. [C]
+
+\item [2.] Do the same as in problem~1, but for the function \m{e^x}. [B]
+
+\item [3.] Obtain the power series expansion for \m{\ln x} about the point
+\m{x = 1}.
+Note that you must go back to the full Taylor Series, and you must evaluate
+the derivatives of \m{\ln x} at \m{x = 1}.
+When you have finished, ask yourself why we chose \m{x = 1} for this
+expansion rather than, say, \m{x = 0}. [D]
+
+\item [4.] Obtain the power series expansion of (\m{x^2 + 4)^{-1}} about
+the point \m{x = 0}.
+Show, by numerical evaluation of the first few terms, that
+the series converges rapidly for \m{x = 1}, does not converge for
+\m{x = 2}, and diverges (goes away from the exact value as more terms
+are added) for \m{x = 3}. [A]
+
+\item [5.] Differentiate the power series expansion of \m{e^x} and see that
+all the derivatives of \m{e^x} are equal to itself.
+
+\item [6.] If \m{z = x + iy}, the exponential function of \m{z} is defined by
+its power series:
+%
+\Eqn{}{e^z = 1 + z + \dfrac{z^2}{2!} + \dfrac{z^3}{3!} + \ldots}
+%
+By substituting \m{z = iy}, show that \m{e^{iy} = \cos y + i \sin y}.
+
+\item [7.] By substituting the first two terms of the power
+series for \m{\sin x} into the first three terms of the
+power series for \m{(1 - x^2)^{1/2}}, determine the first three
+terms of the power series for \m{\cos x}.
+
+\item [8.] Given \m{f(x) = (x^2 + 4)^{-1}}, find \m{f'(1)} and \m{f''(1)}:
+\begin{one-digit-list}
+\item [a.] by formal differentiation \help{2}
+\item [b.] by numerical differentiation (using finite difference approximations). [E] \help{3}
+\end{one-digit-list}
+
+\item [9.]  Determine the first three terms of the power series expansion,
+about the origin, of the function:
+\m{f(x) = (1 + x^2)^{-1/2}}. [F]
+
+\item [10.]  Use numerical differentiation to determine \m{f''(x)} at \m{x = 0.5} where:
+%
+\Eqn{}{f(x) = (x^2 - 8 x + 25)^{-1}. \qquad \text{[G]}}
+\end{two-digit-list}
+
+\BriefAns
+
+\begin{one-digit-list}
+\item [A.] \m{(x^2 + 4)^{-1} = 1/4 \left[ 1 - (x/2)^2 + (x/2)^4 - (x/2)^6 + \ldots \right]}
+
+\item [B.] \m{e^x = 1 + x + x^2/2! + x^3/3! + x^4/4! + \ldots} (see module's cover for \m{x = 0.1})
+
+\item [C.] \m{\cos x = 1 - x^2/2! + x^4/4! - x^6/6! + \ldots}
+
+\item [D.] \m{\ln x = (x - 1) - (x - 1)^2/2 + (x - 1)^3/3 - \ldots}
+
+\item [E.] \m{f'(1) = - 0.0800}
+\item [  ] \m{f''(1) = - 0.0160}
+
+\item [F.]  \m{(1 + x^2)^{-1/2} = 1 - \dfrac{1}{2} x^2 + \dfrac{3}{8} x^4 - \dfrac{5}{16} x^6 + \ldots}
+
+\item [G.]  \m{f''(0.5) = .00578}
+\end{one-digit-list}
+
+}% /Sect

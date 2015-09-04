@@ -1,0 +1,47 @@
+\revhist{4/30/87, pss; 4/1/91, pss; 12/18/91, pss; 2/14/92, pss; 6/29/93, pss; 6/29/93, pss;
+         6/22/94, pss; 11/2/94, pss; 3/27/97, pss; 2/22/99, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{Relativistic Energy: Thresholds for Particle Reactions, Binding Energies}
+
+\IdAuthor{P.\,Signell, Dept.\,of Physics, Mich.\,State Univ.}
+
+\IdVersEval{2/22/99}{B1}
+
+\begin{Hours/Pages} \HR{1} \TX{5} \LG{1} \RD{7} \PS{2} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  Analyze linear collisions using conservation of energy \prrqone{0-21}.
+\item [2.]  Expand a function around a point using Taylor's series \prrqone{0-4}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Reduce the expression for relativistic kinetic energy to its
+non-relativistic form, starting from the general expression for Taylor's
+series.
+\end{KnowledgeSkills}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] Calculate CM-frame thresholds for given 2\,$\Rightarrow$\,2 particle reactions using
+Conservation of Energy and the masses of the four particles involved, and
+vice versa.
+\item [S2.] Calculate binding energies using Conservation of Energy and the masses of
+the separated and conglomerate given objects, and vice versa.
+\end{ProblemSolvingSkills}
+
+\begin{RequiredResources}
+\item [1.] M.\,Alonso and E.\,J.\,Finn, {\it Physics},
+           Addison-Wesley, Reading MA (1970),
+       or: R.\,Resnick, {\it Basic Concepts in Relativity
+           and Early Quantum Theory}, John Wiley \& Sons, New York (1972),
+       or: R.\,T.\,Weidner and R.\,L.\,Sells, {\it Elementary
+           Modern Physics}, Allyn and Bacon, Boston (1973).
+\item [  ] See this module's {\it Local Guide} for access.
+\end{RequiredResources}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

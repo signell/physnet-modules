@@ -1,0 +1,231 @@
+% 5/29/85 mpm; 12/18/91, pss; 6/22/94, pss
+\TxStart
+
+\mTitle{RELATIVISTIC ENERGY: THRESHOLDS FOR PARTICLE REACTIONS, BINDING
+ENERGIES}
+
+\mAuthor{Peter Signell}
+
+\scap{1}{Readings Alternatives: Choose One}
+
+\pcap{1}{a}{Alternative 1: AF}
+Read in AF
+%
+\Footnote{M.\,Alonso and E.\,J.\,Finn, {\em Physics}, Addison-Wesley (1970)
+(see this module's Local Guide for details on obtaining this reference).}
+%
+at least Sections 12.1, 12.4, 12.6, and pages 242-3, paying attention
+to those parts pertaining to the Ouput Skills.
+We will not use the concept of \Quote{relativistic mass} in this unit.
+The CM frame of reference, called the \Quote{C-frame} in AF, is the regular
+center-of-mass frame; meaning the zero-total-momentum frame.
+For two particles the CM frame of reference is thus the one in which the
+particles have equal and opposite momenta.
+If the two particles have equal mass then they have equal but opposite
+velocities as viewed from this frame.
+For the purposes of this unit we ignore the \Quote{L-frame} material in AF.
+Do these AF Chapter 12 problems: 3-6, 8, 10.
+
+\noindent {Brief Answers}:\vspace{-6pt}
+\begin{itemize}
+\item [3.] \m{8.20 \times 10^{-14}}\,J, \m{1.51 \times 10^{-10}}\,J, 0.51\,MeV,
+       940\,MeV.
+\item [4.] \m{v_p = 0.99954\,c},  \m{p = 32.9576\,m\,c}.
+\item [5.] b. \m{v_p = 0.027\,c = 8.1 \times 10^6}\,m/s.
+\item [6.] a. \m{4.03 \times 10^{-5}}.
+\item [  ] b. 0.0480.
+\item [  ] c. 0.749.
+\item [8.] electron:
+\begin{itemize}
+\item [a.] 0.0789\,MeV
+\item [b.] 0.581\,MeV
+\item [c.] 0.463\,MeV
+\item [d.] 1.98\,MeV
+\end{itemize}
+\item [  ] proton:
+\begin{itemize}
+\item [a.] 27.8\,MeV
+\item [b.] 107\,MeV
+\item [c.] 852\,MeV
+\item [d.] 3650\,MeV
+\end{itemize}
+\item [10.] \m{0.115\,c = 3.45 \times 10^7}\,m/s
+\end{itemize}
+
+\pcap{1}{b}{Alternative 2: RR}
+Read in RR
+%
+\Footnote{R.\,Resnick, {\it Basic Concepts in Relativity and Early
+Quantum Theory}, Wiley(1972)
+(see this module's Local Guide for details on obtaining this reference).}
+%
+at least Sections 3.3, 3.4, and 3.5, including examples.
+Do problems 2, 3, 4, 7, 26, and 34 on p.\,106-109.
+
+\noindent Brief Answers:\vspace{-4pt}
+\begin{two-digit-list}
+\item [2.] \m{0.866\,c}, No
+\item [3.] \NullItem
+\begin{one-digit-list}
+\item [a.] \m{0.942\,c = 2.83 \times 10^8}\,m/sec
+\item [b.] \m{621\,M_e}
+\item [c.] 212\,MeV, \m{1.6 \times 10^{-19}}\,kg\,m/sec
+\end{one-digit-list}
+\item [4.] \NullItem
+\begin{one-digit-list}
+\item [a.] \m{1962\,M_e}
+\item [b.] \m{0.99999987\,c}
+\item [c.] \m{2.961\,M_e,\; 0.940\,c}
+\end{one-digit-list}
+\item [7.] Derivation
+\item [26.] 92.1\,MeV
+\item [34.] 29.6\,MeV (neutrino), 4.15\,\m{M_e} (muon)
+\end{two-digit-list}
+
+\pcap{1}{c}{Alternative 3: WSM}
+Read in WSM
+%
+\Footnote{R.\,Weidner and R.\,Sells, {\em Elementary Modern Physics}, 3rd
+Edition, Allyn and Bacon (1980)
+(see this module's Local Guide for details on obtaining this reference).}
+%
+at least Sections 3-1, 3-2, and 3-3, including examples.
+For the purposes of this module, it is not necessary to learn the derivations
+given in Section 3-1; only the results.
+
+\noindent Do problems 3-2, 3-4, 3-10, p.\,83.
+
+%\newpage
+
+\noindent {Brief Answers}:
+
+\begin{tabular}{l l}
+3-2.   & Show it. \\
+3-4.   & 0.14\,\m{c}. \\
+3-10   & 0.999998\,\m{c}. \\
+\end{tabular}
+
+\spcap{2}{Collisions}
+
+Consider the problem of particle \m{A} colliding with particle \m{B}, producing
+particles \m{C} and \m{D}: \m{A + B \rightarrow C + D}.
+If the total mass after an interaction is greater than before, then the
+mass-energy has increased during the interaction.
+Since overall energy must be conserved, some other form of energy must have
+decreased during the interaction.
+Usually this is kinetic energy.
+For such cases, conservation of energy becomes:
+%
+\eqn{}{E_A + E\,_B = E_C + E_D\,,}
+%
+where \m{E_A} is the total energy (mass energy plus kinetic energy) of particle
+\m{A}, etc.
+The minimum initial energy necessary for this reaction will be that which
+barely allows the final two particles to be created: the kinetic energy of
+that initial state is referred to as the threshold kinetic energy necessary
+for the reaction.
+The CM kinetic energy of the final state will be zero when the initial energy
+is at the threshold.
+
+\tryit Problem A: Use Conservation of Energy to determine the CM-frame threshold
+kinetic energy, in Joules, for the process:
+%
+\eqn{}{n^0 + \pi^0 \rightarrow p^+ + \pi^- \,,}
+%
+\begin{eqnarray*}
+m_{n^0} & = & 939.550\,MeV/c^2 \\
+%
+m_{\pi^0} & = & 134.975\,MeV/c^2 \\
+%
+m_{\pi^-} & = & 139.578\,MeV/c^2 \\
+%
+m_{p^+} & = & 938.256\,MeV/c^2. \\
+\end{eqnarray*}
+
+\spcap{3}{Binding Energy}
+
+Consider the deuteron nucleus used in the example on p.\,243 of AF, or
+Example 6 on p.\,101 of RR, or Example 3-3 on p.\,85 of WSM.
+Suppose we bombard such nuclei with a beam of \m{\gamma} particles which have
+the characteristic that they can be completely converted to energy upon
+absorption.
+Our \m{\gamma}'s have been produced in a manner such that each one in the beam
+has the same energy.
+We now gradually increase the beam energy, the energy of each \m{\gamma} in the
+beam, and look for the \Quote{photodisintegration} reaction,
+% 
+\eqn{}{\gamma + d \rightarrow n + p\,,}
+%
+in which a \m{\gamma} is annihilated and its energy is absorbed by
+the deuteron's constituents, the neutron and proton.
+We find experimentally that this reaction is not observed to take place
+until the energy of each \m{\gamma} reaches 2.225\,MeV.
+This disintegration threshold energy is called the \Quote{binding energy} of the
+conglomerate deuteron.
+At threshold the \m{n} and \m{p} are produced essentially at rest.
+If the beam energy of the \m{\gamma}'s is increased further, the excess energy
+goes into kinetic energy of the final-state \m{n} and \m{p}.
+
+\noindent
+NOTE: the binding energy is actually defined as the disintegration threshold
+energy as measured in the CM frame so that the \m{n} and \m{p} can be produced
+completely at rest.
+However, the \m{\gamma} carries so little momentum that the deuteron-at-rest
+frame is very close to being a zero-momentum frame.
+
+\tryit Problem B: The binding energy of the nitrogen monoxide molecule (NO)
+has been measured to be 5.296\,eV.
+Use Conservation of Energy to calculate the difference between the mass
+of the molecule and the total mass of its constituents, in amu.
+Note that \m{m_N = 14.0067}\,amu, and \m{m_0 = 15.9994}\,amu.
+
+\noindent Brief Answers:\vspace{-6pt}
+\begin{itemize}
+\item [A.] \m{\underbrace{E_{\rm mass}{\rm (initial)}}_%
+             {\ds (m_{\pi^0} + m_n ) c^2} +
+            \underbrace{E_k{\rm (initial)}}_{\ds E{\rm (thresh.)}} =
+            \underbrace{E_{\rm mass}{\rm (final)}}_%
+             {\ds (m_{\pi^-} + m_p) c^2} +
+            \underbrace{E_k{\rm (final)}}_{\ds 0{\rm (thresh.)}}}
+
+\item [  ] \m{E_{\rm thresh.} = 5.30 \times 10^{-13}}\,J.
+
+\item [B.] \m{\underbrace{E_{\rm mass}{\rm (initial)}}_%
+             {\ds (m_{NO}) c^2} +
+            \underbrace{E_k{\rm (initial)}}_{\ds E_B} =
+            \underbrace{E_{\rm mass}{\rm (final)}}_%
+             {\ds (m_N + m_O) c^2} +
+            \underbrace{E_k{\rm (final)}}_{\ds 0{\rm (thresh.)}}}
+
+\item [  ] \m{\Delta m \equiv (m_N + m_O) - (m_{NO}) = E_B/c^2 =
+            5.7 \times 10^{-9}}\,amu
+\end{itemize}
+
+
+\spcap{4}{Reduction to Non-Relativistic Form}
+
+Expand the function
+%
+\Footnote{See \Quote{Taylor's Series for the Expansion of a Function About
+a Point} (MISN-0-4).}
+%
+\eqn{}{k(x) = (1 - x)^{-1/2}}
+%
+in a power series about the origin, where \m{x \equiv v^2/c^2} and \m{k \equiv
+E / (m_0 c^2)}.
+We find:
+%
+\eqn{}{E = m_0 c^2 + (1/2)m_0 v^2 + (3/8) m_0 (v^4/c^2) + \ldots}
+%
+Then for \m{v^2 \ll c^2}, the third and higher terms can be neglected compared to
+the first and second.
+The first term is not kinetic since it is not a function of velocity.
+The leading kinetic term is:
+%
+\eqn{}{E_k \approx (1/2) m_0 v^2 \;;\; v^2 \ll c^2\,.}
+%
+NOTE WELL: The reduction given in AF is insufficient.
+
+\Acknowledgments\NsfAcknowledgment
+
+%\TxEnd

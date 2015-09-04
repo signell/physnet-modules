@@ -1,0 +1,78 @@
+
+%displacement force, o
+%\m{W_{\rm friction} = \vec{f} \cdot \vec{s} = - f\,s}
+%
+%Since \vect{v} = constant, \m{\sum \vec{F}_{\rm horizontal} = 0}, so
+%\m{f = F \cos\theta}.
+%Thus \m{W_{\rm friction} = -(F \cos\theta)(s) = - 2.7 \times 10^5}\,J.
+%The negative sign here indicates that the action of this frictional force was
+%in opposition to the displacement of the car.
+%\end{itemize}
+%\begin{itemize}
+%\item How much total work was done on the car?
+%\begin{eqnarray*}
+%W_T & = & W_p + W_f + W_n + W_g \\
+%    & = & 2.73 \times 10^5\,J - 2.73 \times 10^5\,J + 0 + 0 \\
+%    & = & 0.
+%\end{eqnarray*}
+%No total work was done on the car.
+%Perhaps that was obvious because the summation of all forces gave a resultant
+%force \m{\vec{F}_R} which was zero.
+%This checks with the fact that the acceleration was zero.
+%\end{itemize}
+
+
+
+Suppose one finds that a 36\,N force compresses a particular spring by 6.0\,cm.
+A block with a mass of 2.0\,kg rests on a frictionless surface and is attached
+to this spring.
+The other end of the spring is rigidly fixed (see Fig.\,6).
+The block is compressed 5.0\,cm from its equilibrium position.
+What work does the spring do in pushing the block back to its equilibrium
+position?
+
+\fullwidthfigure{240pt}{Fig.\,6. Force characteristics of a spring.
+(a) The spring force F as a function of its displacement x.
+(b) The spring in its equilibrium state.
+(c) The spring stretched by a displacement x to the right and with a spring
+force F to the left.
+(d) The spring compressed with a displacement x to the spring force F to the
+right.}
+
+The value of the spring constant is:
+\begin{displaymath}
+k = -\dfrac{F}{x} = \dfrac{-36\unit{N}}{-6.0 \times 10^{-2}\unit{m}} =
+6.0 \times 10^2\,{\rm N/m}.
+\end{displaymath}
+Then the work done by the spring on the block is:
+\begin{displaymath}
+W = \int \vec{F}_R \cdot d\vec{s} = \int_{-x}^0 (-k x)\,dx,
+\end{displaymath}
+since \vect{F} is parallel to \m{d\vec{s}} and is in the same direction.
+Thus:
+\begin{displaymath}
+W = - k \int_{-x}^0 x\,dx = \dfrac{k x^2}{2} = 0.75J.
+\end{displaymath}
+We can arrive at the same result graphically by calculating the area under
+the ``\m{F} versus \m{x}'' curve.
+Since the area of a triangle is half its height times its base, we have:
+\begin{displaymath}
+\dfrac{1}{2}(-k x)(-x) = \dfrac{1}{2}k x^2.
+\end{displaymath}
+
+%\nfig{0}{168pt}{192pt}{Fig.\,7. The work done by a spring expanding from \m{-x}
+%to 0 is the area \m{(1/2) k x^2} under the ``force versus displacement'' graph.}
+
+
+\pcap{3d. Total Work. }
+The most general definition of total work, expressed in line integral
+formulation, is
+\begin{equation}\setcounter{equation}{8}
+W_{T,A\rightarrow B} = \int_A^B \vec{F}_R \cdot d\vec{s}\;{\rm where}\;
+\vec{F}_R = \sum_{i=1}^N \vec{F}_i(s).
+\end{equation}
+
+Here \m{W_{T,A\rightarrow B}} is the total work done on a particle when it is
+displaced from position \m{A} to position \m{B} by the force \m{\vec{F}_R}, the
+resultant of all \m{N} forces acting on the particle.
+

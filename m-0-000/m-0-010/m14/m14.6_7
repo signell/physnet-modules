@@ -1,0 +1,166 @@
+\revhist{7/16/85; mpm; 8/7/91, pss; 10/3/94, pss; 3/3/95, pss; 6/21/99, pss;
+         12/15/99, pss}
+\PsStart
+
+These problems are grouped by skill so that you can easily find the ones
+corresponding to the skills for which you are responsible.
+The answers are at the end of the list.
+The notation ``\help{n}'' refers to panel ``{\it n}'' in part 3
+of this module's {\it Special Assistance Supplement}.
+Problems 15 and 16 are also on this module's {\it Model Exam}.\smallskip
+
+\icap{Skill 1a (Problem-Solving):}
+\begin{two-digit-list}
+\item [1.] Forces of 65\,N north and \m{5.0\times10^1}\,N east are applied to a
+2.0\,kg can of soup.
+Determine the acceleration of the can. \help{12}
+
+\item [2.]  An \m{8.0\times10^1}\,kg parachutist is ``falling'' with a downward
+acceleration of 1.5\,m/s\m{^2}.
+What is the magnitude of the upward force on the parachutist due to the
+parachute?
+\help{3}
+
+\item [3.]  A modern small car having a weight of \m{3.0\times10^3}\,pounds is
+accelerating at 5.0\,ft/s\m{^2}.
+What is the magnitude of the total force acting on it? \help{4}
+\end{two-digit-list}
+
+\icap{Skill 1b (Problem-Solving):}
+\begin{two-digit-list}
+\item [4.]  An \m{8.0\times10^3}\,kg meteorite slashes through the sky, slams into
+the earth at \m{4.0\times10^2}\,m/s and comes to a stop 16\,m below ground level.
+Assuming the meteorite was decelerating uniformly while burrowing through the
+ground, what was the magnitude of the net force on it during those times?
+\help{5}
+
+\item [5.]  An irate college student on a bicycle is bearing down on a
+panic-stricken pedestrian.
+At a distance of 6.0\,m from the pedestrian, she slams on her brakes and
+slides uniformly to a stop in 1.5\,seconds.
+What was magnitude of the average stopping force?
+Is the pedestrian bicycle-struck?
+The total mass of the bicycle and operator is 55\,kg; her initial velocity
+was 8.8\,m/s.
+\help{6}
+
+\item [6.] A 1,950 pound Volkswagon accelerates from 0 to \m{6.0\times10^1} miles
+per hour (88\,ft/s) in 45 sec.
+What is the magnitude of the average force on it? \help{14}
+
+\item [7.] A ``souped-up'' Volkswagon, weighing 2020\,lb., reaches a speed of
+45 miles per hour (66\,ft/s) in a distance of 1320 feet after starting from
+rest.
+What is the magnitude of the average force on the car? \help{14}
+
+\item [8.]  Three forces;
+
+%
+\eqnline{\vec{F}_1 = (3.0 \uvex{x} + 4.0 \uvex{y} - 5.0 \uvex{z})\unit{N}}
+\eqnline{\vec{F}_2 = (6.0 \uvex{x} + 6.0 \uvex{y} + 6.0 \uvex{z})\unit{N}}
+%
+\eqnline{\vec{F}_3 = (21.0 \uvex{x} - 16.0 \uvex{y} + 17.0 \uvex{z})\unit{N}}
+are applied to a 6.0\,kg object.
+Find its acceleration. \help{7}
+
+\item [9.] Rod Carew hits a baseball from a practice tee.
+The bat exerts a force of 55\,N on the ball and the ball accelerates with
+%
+\eqn{}{\vec{a} = (350 \uvex{x} + 150 \uvex{y})\unit{m/s}^2.}
+%
+Find the mass of the ball. \help{13}
+
+\item [10.] A large athletically inclined student applies two forces,
+
+%
+\eqnline{\vec{F}_1 = (3.0 \uvex{x} + 15.0 \uvex{y})\unit{N}}
+\eqnline{\vec{F}_2 = (16.0 \uvex{x} - 25.0 \uvex{y})\unit{N}}
+to a 44.0\,kg (98 pound) lab instructor.
+What is the magnitude of the acceleration of the instructor?
+\end{two-digit-list}
+
+\icap{Skill 1c (Problem-Solving):}
+
+\begin{two-digit-list}
+\item [11.]  An electron, mass 9.1\,\m{\times}\,10\m{^{-31}}\,kg, has an initial
+velocity of:
+
+%
+\eqnline{\vec{v}_1 = (3.0\times10^6 \uvex{x} + 2.0\times10^6 \uvex{y} +
+0 \uvex{z})\unit{m/s}.}
+After it has undergone 5.0 seconds of constant acceleration, its velocity is:
+
+%
+\eqnline{\vec{v}_f = (0 \uvex{x} + 5.0\times10^6 \uvex{y} +
+1.0\times10^7 \uvex{z})\unit{m/s}.}
+Find the magnitude of the force applied to it.  \help{8}
+
+\item [12.] A 5.0\,kg mass has an initial velocity of
+\m{(3.0 \uvex{x} + 6.0 \uvex{y})\unit{m/s}}.
+Sixteen seconds later it has a velocity of
+\m{(9.0 \uvex{x} - 9.0 \uvex{y})\unit{m/s}}.
+Assuming the acceleration was constant, what were the \m{x} and \m{y} components
+of the force?
+\end{two-digit-list}
+
+\icap{Skill 2 (Problem-Solving):}
+
+\begin{two-digit-list}
+\item [13.]  A bag of corn is placed on a spring scale in an elevator.
+When the elevator is at rest, the scale reads \m{8.0\times10^1}\,lb.
+What does the scale read when:
+\begin{one-digit-list}
+\item [a.] the elevator accelerates upward at 8.0\,ft/s\m{^2}?
+\item [b.] the elevator moves upward with a constant velocity of 10.0\,ft/s?
+\item [c.] the elevator accelerates downward at 5.0\,ft/s\m{^2}? \help{9}
+\end{one-digit-list}
+
+\item [14.] A 5.0\,kg light fixture is hung from the ceiling of an elevator by
+a cord having a breaking strength of 65\,N.
+What is the maximum upward acceleration the elevator can have without the
+cord breaking?
+\end{two-digit-list}
+
+\icap{At Large:}
+
+\begin{two-digit-list}
+\item [15.] A 5.0\,kg ham is hanging from a spring scale attached to the ceiling
+of an elevator that is accelerating upward at 3.0\,m/s\m{^2}.
+What does the scale read as the apparent weight of the ham?
+
+\item [16.] The components of the \emph{net} force on a 25\,kg dog are shown.
+Sketch the direction of the acceleration of the dog and calculate the
+magnitude of the acceleration.
+
+\UnframedEpsFigure{m14gr09}
+
+\end{two-digit-list}
+
+\newpage
+
+\BriefAns
+
+\begin{two-digit-list}
+\item [1.] 32.5\,m/\m{s^2} north, 25\,m/\m{s^2} east, or
+           \m{|\vec{a}|} = 41\,m/s\m{^2} at \m{\theta = 52^\circ} north of east.
+           \help{12}
+\item [2.] \m{6.6\times10^2}\,N.
+\item [3.] \m{4.7\times10^2}\,lb.
+\item [4.] \m{4.0\times10^7}\,N.
+\item [5.] \m{3.2\times10^2}\,N; The pedestrian will be struck.
+\item [6.] \m{1.2\times10^2}\,lb.
+\item [7.] \m{1.0\times10^2}\,lb. \help{14}
+\item [8.] \m{\vec{a} = (5.0 \uvex{x} - 1.0 \uvex{y} + 3.0 \uvex{z})}\,m/s\m{^2};
+\m{|\vec{a}|} = 5.9\,m/s\m{^2}.
+\item [9.] 144\,grams.  \help{13}
+\item [10.] \m{|\vec{a}|} = 0.49\,m/s\m{^2}.
+\item [11.] \m{|\vec{F}| = 2.0\times10^{-24}}\,N.
+\item [12.] \m{x: 1.9}\,N, \m{y: - 4.7}\,N.
+\item [13.] (a) 100\,lb. \help{9}; (b) 80\,lb. \help{9}; (c) 68\,lb. \help{9}
+\item [14.] 3.2\,m/s\m{^2}.
+\item [15.] 64\,N.
+\item [16.] \m{|\vec{a}|} = 2.0\,m/\m{s^2}; Sketch shows \m{a_x\uvex{x}}, \m{a_y\uvex{y}}, and \m{\vec{a}}.
+
+\UnframedEpsFigure{m14gr10}
+\end{two-digit-list}
+\PsEnd

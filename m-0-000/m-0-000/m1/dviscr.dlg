@@ -1,0 +1,167 @@
+% dviscr 1.5j  10-Feb-1998  11:03
+%
+% Invocation: dviscr @lj.cnf /al0.553in /at0.09in /o3 /h8.5in /w5.5in /hy0pt
+ /fl=-1 /ocr=1 m1 -pj:c:\tmp\dv1.mfj
+% Input file: m1.dvi
+%
+/b:*
+/e:*
+/d:-
+/k:0
+/n:65535
+/z-
+/l:0in
+/t:0in
+/h:8.5in
+/w:5.5in
+/tr:0
+/aw:8.5in
+/ah:11in
+/al:0.553in
+/at:0.09in
+/ax:0in
+/ay:0in
+/ac:1
+/ar:1
+/an:0
+/az:0
+/ae-
+/af-
+/as:0in
+/ab:0
+/fb
+/fj+
+/fl:-1
+/fm:laserjet
+/fo-
+/fs:1
+/fd:2
+/ft:0.2
+/fu-
+/fz::0,:h,:1,:2,:3,:4,:5,:6,:7,:8,:9
+/m:
+/r:300
+/rf:300
+/rg:0
+/pd:{,$DVIDRVINPUT:}@i
+/pf:$DVIDRVFONTS:pixel.lj\@Rrdpi\@f{.pk,.pxl}
+/pg:{,$DVIDRVGRAPH:}{@Rrdpi\,}@PBf{@Ef,.msp,.pcx,.bmp}
+/pj:c:\tmp\dv1.mfj
+/pl:$DVIDRVFONTS:lj_{base,more}
+/pp:
+/pr:{,$EMTEX:data\}@f
+/ps:
+/pt:@d.dlg
+/pv:
+/pw:
+/v:2
+/u:in
+/xe+
+/xx+
+/hx:1in
+/hy:0pt
+/o:3
+/oa:0
+/ocp:2 /ocr:1 /ocs:2
+/oi-
+/or-
+/os+
+/ou:pt
+/s:1
+@
+
+' TeX output 1998.02.10:1102'
+Loading font cmti8 scaled 1000
+Warning 1206: +batch-mode: font cmti8<300> replaced by cmti8<300> /r
+  (c:\emtex\tfm\CM\cmti8.tfm)
+Loading font cmsy6 scaled 1000
+Warning 1206: +batch-mode: font cmsy6<300> replaced by cmsy6<300> /r
+  (c:\emtex\tfm\CM\cmsy6.tfm)
+Loading font cmsy8 scaled 1000
+Warning 1206: +batch-mode: font cmsy8<300> replaced by cmsy8<300> /r
+  (c:\emtex\tfm\CM\cmsy8.tfm)
+Loading font cmmi6 scaled 1000
+Warning 1206: +batch-mode: font cmmi6<300> replaced by cmmi6<300> /r
+  (c:\emtex\tfm\CM\cmmi6.tfm)
+Loading font cmmi8 scaled 1000
+Warning 1206: +batch-mode: font cmmi8<300> replaced by cmmi8<300> /r
+  (c:\emtex\tfm\CM\cmmi8.tfm)
+Loading font cmr6 scaled 1000
+Warning 1206: +batch-mode: font cmr6<300> replaced by cmr6<300> /r
+  (c:\emtex\tfm\CM\cmr6.tfm)
+Loading font cmr8 scaled 1000
+Warning 1206: +batch-mode: font cmr8<300> replaced by cmr8<300> /r
+  (c:\emtex\tfm\CM\cmr8.tfm)
+Loading font cmbx12 scaled 1000
+Warning 1206: +batch-mode: font cmbx12<300> replaced by cmbx12<300> /r
+  (c:\emtex\tfm\CM\cmbx12.tfm)
+Loading font cmbx12 scaled 1200
+Warning 1206: +batch-mode: font cmbx12<360> replaced by cmbx12<360> /r
+  (c:\emtex\tfm\CM\cmbx12.tfm)
+Loading font cmti10 scaled 1000
+Warning 1206: +batch-mode: font cmti10<300> replaced by cmti10<300> /r
+  (c:\emtex\tfm\CM\cmti10.tfm)
+Loading font cmbx10 scaled 1000
+Warning 1206: +batch-mode: font cmbx10<300> replaced by cmbx10<300> /r
+  (c:\emtex\tfm\CM\cmbx10.tfm)
+Loading font lasy10 scaled 1000
+Warning 1206: +batch-mode: font lasy10<300> replaced by lasy10<300> /r
+  (c:\emtex\tfm\LATEX\lasy10.tfm)
+Loading font cmr17 scaled 1000
+Warning 1206: +batch-mode: font cmr17<300> replaced by cmr17<300> /r
+  (c:\emtex\tfm\CM\cmr17.tfm)
+Loading font cmsy10 scaled 1000
+Warning 1206: +batch-mode: font cmsy10<300> replaced by cmsy10<300> /r
+  (c:\emtex\tfm\CM\cmsy10.tfm)
+Loading font cmsy7 scaled 1000
+Warning 1206: +batch-mode: font cmsy7<300> replaced by cmsy7<300> /r
+  (c:\emtex\tfm\CM\cmsy7.tfm)
+Loading font cmmi10 scaled 1000
+Warning 1206: +batch-mode: font cmmi10<300> replaced by cmmi10<300> /r
+  (c:\emtex\tfm\CM\cmmi10.tfm)
+Loading font cmmi7 scaled 1000
+Warning 1206: +batch-mode: font cmmi7<300> replaced by cmmi7<300> /r
+  (c:\emtex\tfm\CM\cmmi7.tfm)
+Loading font cmr10 scaled 1000
+Warning 1206: +batch-mode: font cmr10<300> replaced by cmr10<300> /r
+  (c:\emtex\tfm\CM\cmr10.tfm)
+Loading font cmr7 scaled 1000
+Warning 1206: +batch-mode: font cmr7<300> replaced by cmr7<300> /r
+  (c:\emtex\tfm\CM\cmr7.tfm)
+Loading font cmr5 scaled 1000
+Warning 1206: +batch-mode: font cmr5<300> replaced by cmr5<300> /r
+  (c:\emtex\tfm\CM\cmr5.tfm)
+Loading font cmex10 scaled 1000
+Warning 1206: +batch-mode: font cmex10<300> replaced by cmex10<300> /r
+  (c:\emtex\tfm\CM\cmex10.tfm)
+Warning 1209: do you want to call MFjob to generate 21 missing fonts now?
+Type Y, N or ?: y
+If this isn't done automatically, call
+  mfjob c:\tmp\dv1.mfj
+to generate the missing fonts.
+
+Memory usage:
+Strings                          43       1024
+Page buffers                      0          0
+Sorted page buffers               0          0
+Sorted page index              2565      20520
+Position stack                   21        588
+Font table                       21       1512
+Font indices                     21        126
+Page table                       32          0
+Characters                        0          0
+Raster data                       0          0
+VF characters                     0          0
+VF macros                         0          0
+Graphics                          0          0
+Lines                             0          0
+Font library directories          0          0
+Band buffer                       0          0
+TOTAL                                    23770
+
+Number of deallocations:      0
+Temporary file size:          0
+EMS bytes used:               0
+XMS bytes used:               0
+External memory reads:        0
+External memory writes:       0

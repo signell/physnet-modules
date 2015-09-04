@@ -1,0 +1,619 @@
+\revhist{7/16/85; mpm; 10/4/89, pss; 8/5/91, pss; 9/29/94, pss; 11/13/97, pss; 7/25/99, abs;
+         11/13/2000, pss; 12/15/2000, pss; 3/29/01, kag}
+%
+\Sect{1}{Introduction}{\SectType{TextMultiPara}}{
+
+\pcap{1}{a}{The Laws of Motion}
+This module provides a detailed introduction to Newton's three laws of
+motion\Index{Newton's laws of motion}\Index{laws of motion, Newton's}.
+Newton's laws are rules that tell how an object's velocity and hence its
+energy and momentum can be changed.
+They tell under what circumstances an object's velocity is constant, when it
+will change, and what happens to whatever is causing it to change.
+
+\pcap{1}{b}{How the Laws are Presented}
+Each law is stated and then illustrated with a simple idealized experiment.
+Such experiments are included to give you an intuitive feeling for the
+meaning of the laws.
+The use of each law is illustrated with an example.
+Further applications of the laws are given in the last section of the text.
+
+\pcap{1}{c}{Why We Believe the Laws of Motion}
+It is important to realize that the laws of motion are not \Quote{proved} in the
+usual sense of the word and that they are most certainly not proved by the
+examples given in this module.
+We believe in the laws of motion---that is, we are willing to keep using
+them---because of the fact that all of the laws and definitions taken
+together make up a system that enables one to predict correctly what will
+happen in an experiment.
+Literally millions of such experiments have been done, both very simple ones
+and exceedingly complex ones, and within their range of applicability, these
+laws have always given the answers produced by the experiments.
+
+}% /Sect
+%
+\Sect{2}{Newton's First Law of Motion}{\SectType{TextMultiPara}}{
+
+\pcap{2}{a}{Introduction}
+It is common knowledge that a sliding object tends to slow down and
+eventually stop.
+The ancient Greeks felt this was easy to understand since they believed that
+the natural state of most objects was at rest; and in fact, they devoted
+considerable effort in attempting to explain how an object could keep moving
+when it was not being pushed.
+Since Newton's time, scientists have realized that the thing to explain is
+the cause of the acceleration, not the cause of the motion.
+Newton's first law of motion \Index{Newton's first law of motion}\Index{first law of motion, Newton's}emphasizes this change in attitude by stating
+that there must be a cause for an object's acceleration, while no cause is
+needed for constant velocity.
+
+\pcap{2}{b}{Newton's First Law of Motion}
+Newton's first law \Index{Newton's first law of motion}is:
+%
+\textbox{A completely isolated object, that is, one subject to no external
+influences, has a constant vector velocity (\m{\vec{a} = 0}).}
+%
+Thus an isolated object has no acceleration; if it is moving, it simply
+keeps on moving.
+No explanation is needed for motion; rather, an explanation is needed for
+acceleration, for a {\it change} in velocity.
+Of course, being at rest is a special case of moving with a constant
+velocity - a velocity of zero.
+Here is another way of stating the first law of motion\Index{first law of motion, Newton's}: If an object is
+accelerating, then it is being acted on by an external influence.
+The following two paragraphs show that this law is not really contrary to
+common experience.
+
+\pcap{2}{c}{Friction Causes Acceleration}
+A series of simple experiments shows that friction \Index{friction}is one reason why many
+objects slow down.
+Consider a block sliding across a table.
+It is certainly true that unless you keep pushing it, it slows down and
+eventually stops.
+However, if you polish the surfaces, you will find that the block slides
+farther before it comes to a stop.
+If you oil or grease the surface lightly, you find that the block slides
+even farther before it comes to rest.
+If you use a very smooth surface and an object that \Quote{floats} on a cushion
+of air (such as a hovercraft), so that almost all friction is
+eliminated, you can get the object to slide incredible distances before it
+comes to rest.
+If the object is taken into space where there is essentially no friction
+and is given an initial velocity, as nearly as we can tell, it simply does
+not slow down, ever.
+Thus friction is one cause of acceleration (actually, deceleration).
+
+\pcap{2}{d}{Other Causes of Accelerations}
+There are cases where an object undergoes an acceleration that is not caused
+by friction; however, in these cases it is possible to devise experiments to
+show that the acceleration is due to some other external influence acting on
+the object.
+One common example concerns the fact that objects fall; that is, they
+accelerate toward the earth.
+We interpret this as being due to the gravitational attraction \Index{acceleration| due to gravity}that the earth
+exerts on the object.
+%
+\Footnote{See \Quote{The Law of Universal Gravitation} (MISN-0-101).}
+%
+Today we do experiments in space which show that this attraction gets weaker
+as an object gets farther from earth.
+From this we conclude that, far from the earth, an object would not fall
+toward the earth.
+(Newton was able to deduce this from considerations of data on the solar
+system.)
+Thus we conclude that objects fall because of the influence of the earth.
+In a similar manner, it is possible to show that in every case in which an
+object undergoes an acceleration, the acceleration is due to some external
+influence acting on the object.
+This is just the first law of motion.
+
+\pcap{2}{e}{The Use of the First Law of Motion}
+It is often stated that Newton's first law is just a special case of his
+second law, but this is not true.
+All kinematic and dynamic measurements must be made with respect to some
+system of reference.
+Only in certain systems of reference \Index{system of reference}(nonaccelerated ones) will our laws of
+particle dynamics \Index{particle dynamics}be found to hold.
+%
+\Footnote{See \Quote{Centripetal and '\m{g}' Forces in Circular Motion}
+(MISN-0-17), \Quote{Classical Mechanics in Rotating Frames of Reference}
+(MISN-0-18), and \Quote{The Equivalence Principle} (MISN-0-110).}
+%
+Newton's first law gives a test to apply to a measuring system to verify
+that it is a suitable system in which to use our laws of particle dynamics\Index{dynamics| particle}.
+Observe an isolated object from your own reference system\Index{reference system}; if the object has
+a constant vector velocity, then you will find that all of particle dynamics
+holds in your reference system.
+
+}% /Sect
+%
+\Sect{3}{Newton's Second Law of Motion}{\SectType{TextMultiPara}}{
+
+\pcap{3}{a}{The Second Law of Motion}
+Newton's first law of motion states that an isolated object has no
+acceleration.
+His second law of motion \Index{Newton's second law of motion}gives the relationship between the acceleration
+of an object and the forces acting on it.
+The second law of motion \Index{second law of motion, Newton's}is:
+%
+\textbox{The (vector) acceleration \Index{acceleration| related to force}of an object is proportional to the
+(vector) force \Index{force| related to acceleration}acting on it.}
+%
+As an equation this is:
+%
+\eqn{1}{\vec{F} = m\,\vec{a}\,,}
+%
+where \m{m} is the mass of the object.
+Thus, in the case of a single force applied to an object, if you know any
+two of the three quantities \m{\vec{F}}, \m{m}, or \m{\vec{a}} you can immediately
+solve Eq.\,(\eqnno{1}) for the third.
+Here is an illustrative exercise:
+
+\tryit {\it Exercise 1}: The wind exerts a force of 100 newtons in a
+northward direction on a sailboat having a mass of 250 kilograms.
+What is the acceleration of the boat?
+(Don't worry about the units of force and mass at this time; they will be
+discussed in Sect.\,5.)
+The acceleration will come out in m/s\m{^2} for these units. \help{1}
+%
+\Footnote{The answers and detailed solutions to the exercises are given in
+this module's {\it Special Assistance Supplement} if you need help.}
+%
+
+\pcap{3}{b}{Mass}
+The mass \Index{mass}of an object is an intrinsic property of the object.
+It is a scalar and is always positive.
+The usual way to find the mass of an object is to weigh \Index{weight}it and calculate the
+mass from:
+%
+\TwoEqns{2}{{\rm Weight} & = & {\rm mass}\,\times\,{\rm constant}}
+           {w & = & m\,g\,.}
+%
+The value of \m{g} for Eq.\,(\eqnno{2}) is given in the table below for several
+combinations of units.
+Mass and weight are discussed at length elsewhere.
+%
+\Footnote{See \Quote{Mass and Weight} (MISN-0-64) which provides a careful
+discussion of the definitions of weight and mass and of the differences
+between the two.}
+%
+\begin{center}\begin{tabular}{| l | l | l |}\hline
+Units of Weight &  Units of Mass  &  Value of \m{g}\Index{g, value of} \\ \hline
+      newtons\Index{newton}   &   kilograms\Index{kilogram}     &   9.81\,newtons/kilogram \\
+      pounds\Index{pound}    &   kilograms     &   2.21\,pounds/kilogram \\
+      pounds    &     slugs\Index{slug}       &  32.2\,pounds/slug \\
+      dynes\Index{dyne}     &     grams       &  981\,dynes/gram \\ \hline
+\end{tabular}\end{center}
+
+\pcap{3}{c}{Experimental Verification of Newton's Second Law}
+A number of simple experiments demonstrate that Newton's second law is
+consistent with both your intuitive notions and with nature.
+You know that if you push an object its velocity changes.
+By doing a simple experiment involving a block sliding on a more or less
+frictionless surface and using a spring scale, you can establish that the
+block accelerates in the direction of the force and that the acceleration is
+proportional to the force (see Fig.\,1).
+You can easily devise a number of similar experiments involving pushes,
+pulls, and simple measuring devices.
+In all cases, you will find that the acceleration is proportional to the
+magnitude of the force as determined by the measuring device and that this
+magnitude corresponds roughly to your own physiological impression of
+\Quote{how hard} you have pushed or pulled the object.
+This is just what the second law says.
+
+\CaptionAfterFullFramedFigure{Fig.\,1. (a) An experimental arrangement for
+measuring the relationship between force and acceleration.
+(b) A typical result---the second law.}{m14gr01}
+
+\pcap{3}{d}{A Statement of the Superposition Principle}
+If you do an experiment to investigate what happens when two or more forces
+are simultaneously applied to the same object, you will find that the
+acceleration of the object is the same as that caused by a single force
+equal to the vector sum of the individual forces being applied to the object.
+The experimental result is often called the \Quote{superposition principle} for
+forces\Index{superposition principle, for forces}\Index{forces| superposition principle for}.
+A somewhat formal statement of it is:
+%
+\textbox{Two or more forces applied simultaneously to a particle have the
+same effect as a single force equal to the vector sum of the individual
+forces.}
+%
+An example of this is illustrated in Fig.\,2.
+
+\pcap{3}{e}{A Restatement of the Second Law of Motion}
+Using the superposition principle, the second law of motion\Index{Newton's second law of motion}\Index{second law of motion, Newton's} can be stated
+as:
+%
+\textbox{The acceleration of an object is proportional to the total vector
+force acting upon it.}
+%
+As an equation:
+%
+\eqn{3}{\sum\,\vec{F} = m\,\vec{a}\,.}
+%
+The summation \m{\sum},\Index{summation sign} pronounced \Quote{sigma\Index{sigma},} reminds you to take the vector
+sum of all the forces applied to the object.
+Here is an exercise that will give you a little practice in using this law:
+
+\enlargethispage{1pc}
+\tryit {\it Exercise 2}. Forces of 25 newtons north, 15 newtons east, and
+40.0 newtons south are applied to a 5.0\,kg object.
+Show that the object has an acceleration of 4.24\,m/s\m{^2} in a direction 45
+degrees south of east. \help{2}\,
+%
+\Footnote{Additional help on the second law is given in Sect.\,1a of this module's
+{\it Special Assistance Supplement}.}
+
+\CaptionAfterFullFramedFigure{Fig.\,2. An example of the superposition of forces.
+The acceleration of the object acted upon by the three forces shown on the
+left is the same as the acceleration caused by \m{\vec{R}}, the vector sum of the
+three forces.}{m14gr02}
+
+}% /Sect
+%
+\Sect{4}{Newton's Third Law of Motion}{\SectType{TextMultiPara}}{
+
+\pcap{4}{a}{The Third Law of Motion}
+When two objects interact, such as when two billiard balls collide, each one
+of them exerts a force on the other.
+Newton's third law of motion\Index{Newton's third law of motion}\Index{third law of motion, Newton's} relates the force the first object exerts on
+the second to the force the second exerts on the first.
+The law is:
+%
+\textbox{To every action\Index{action} there is always opposed an equal reaction\Index{reaction}: or, the
+mutual actions of two bodies upon each other are always equal and in
+opposite directions.}
+%
+Putting this in other words:
+%
+\textbox{If object \m{A} exerts a force on object \m{B}, then object \m{B}
+exerts an equal but oppositely directed force on object \m{A}.
+Further, these forces both lie along the line joining the two bodies.}
+%
+This law is sometimes casually quoted as \Quote{action equals reaction.}
+
+\CaptionAfterFullFramedFigure{Fig.\,3. A demonstration of the third law of motion.}{m14gr03}
+
+\pcap{4}{b}{A Demonstration of the Third Law}
+Figure 3 shows an experimental arrangement that is frequently used to
+demonstrate the third law of motion.
+Two identical blocks (or carts) are tied together by a string with a light
+spring compressed between them.
+The surfaces are very smooth, so the blocks slide very freely.
+The blocks are initially at rest, so according to the first law they remain
+at rest as long as the string is intact.
+Now, if the string is very carefully broken - it is traditional to burn it
+with a laser beam---the objects spring apart.
+BIG DEAL!!!
+However, careful measurements reveal two surprising (?) facts for two
+identical objects:
+%
+\textbox{(a) The objects always move apart in the precisely opposite
+directions.}
+\textbox{(b) The magnitudes of the two accelerations are always precisely the
+same.}
+%
+Hence, when the acceleration is over, the velocities of the two identical
+objects are equal but opposite: \m{\vec{v}_1 = - \vec{v}_2}.
+This same result occurs for big objects and for small ones, for cases when
+the spring is lightly compressed and when it is strongly compressed, and for
+cases where the spring is set up to pull as well as to push, as long as the
+two objects are truly identical and are isolated from all other
+influences.
+%
+\Footnote{The case where the two objects are not identical is treated in
+\Quote{Momentum: Conservation and Transfer} (MISN-0-15).}
+%
+Since our two objects have the same mass and equal but opposite
+accelerations, then, according to the second law, the force the first block
+exerts on the second (via the spring) must be equal and opposite to the
+force the second block exerts on the first.
+This is the third law of motion.
+
+\pcap{4}{c}{A Comment About the Third Law}
+It is very important to realize that although the third law says that forces
+always occur in pairs, each member of a pair always acts on a different
+object from that acted on by the other member of the pair.
+(If they were to act on the same body, then it would be impossible ever to
+accelerate a body, since the resultant force would always be zero!)
+
+\pcap{4}{d}{Two Simple Examples of the Third Law}
+As a simple example, imagine that you are hitting a tennis ball.
+Your racket exerts a force on the ball, causing it to accelerate.
+At the same time, the ball exerts an equal but opposite force on the racket,
+causing it to accelerate in the opposite direction (slowing it down a bit).
+Thus the action and reaction act on different bodies and cause each body to
+be accelerated (but oppositely).
+
+When you throw an object, such as a ball, you must exert a force on it to
+accelerate it.
+In return, the ball exerts an equal force on you in the opposite direction.
+As a result you \Quote{recoil}\Index{recoil} in the opposite direction from which you threw the
+ball.
+This recoil is particularly noticeable when you throw a very heavy object,
+or when you are standing on a slippery surface---such as a sheet of ice.
+Also, see Fig.\,4.
+
+\CaptionAfterFullFramedFigure{Fig.\,4. A novel way to propel a skateboard.}{m14gr04}
+
+}% /Sect
+%
+\Sect{5}{Systems of Units}{\SectType{TextMultiPara}}{
+
+\pcap{5}{a}{Introduction}
+In order to use the laws discussed in this module, it is necessary to have
+all relevant quantities, (distance, time, mass and force) in a consistent
+set of units.\Index{units| of force}
+The set of consistent units that is in use throughout most of the world is
+the SI\Index{force| SI units of} (\textit{International System}) of the ISO (\textit{International
+Organization for Standardization}).
+The U.S. Government has put the SI units on the Web at the NIST (National Institute for
+Standards and Technology) site for \textit{Constants,
+Units, and Uncertainty}: \print{\PrintUrl{http://physics.nist.gov/cuu/}}\web{\url{http://physics.nist.gov/cuu/}}.
+The so-called \textit{English system}, based on pounds, feet, etc., is in partial use in
+the U.S. and a few other countries.  An older \Quote{cgs} system, based on the centimeter,
+gram, and second, is still used occasionally.
+
+\pcap{5}{b}{SI Units}
+Using the second law of motion, you can see that the dimensions of force are
+%
+\begin{center}
+mass \m{\times} length \m{\times} time\m{^{-2}}\,.
+\end{center}
+%
+In the SI system of units\Index{force| SI units of}\Index{units| SI system of}, length is measured in meters, mass in
+kilograms, and time in seconds.
+Thus force has units of
+%
+\begin{center}
+kilogram meter second\m{^{-2}}\,.
+\end{center}
+%
+This quantity occurs so often that it has been given the name \Quote{newton.}\Index{newton}
+Thus:
+%
+\TwoEqns{}{{\rm newton} & = & {\rm kilogram\;meter\;second}^{-2}}
+          {             & = & {\rm kg\,m\,s}^{-2}\,.}
+%
+The abbreviation for both newton and newtons is N.
+To get a rough idea of how large one newton of force is, just remember that
+a quart of milk has a weight of roughly ten newtons.
+
+\pcap{5}{c}{The CGS System}
+In the old cgs\Index{cgs system of units} (centimeter-gram-second) system,\Index{force| cgs units of} length is measured in
+centimeters, mass in grams, and time in seconds.\Index{units| cgs system of}
+The unit of force is the dyne, defined as:
+%
+\TwoEqns{}{{\rm dyne} & = & {\rm gram\;centimeter\;second}^{-2}}
+          {           & = & {\rm 1\,g\,cm\,s}^{-2}\,.}
+%
+A dyne\Index{dyne} is a very small unit of force.
+The weight of a nickel is roughly 5,000 dynes, so a one-dyne force
+is a very, very weak force.
+
+\pcap{5}{d}{The English System}
+In the English system of units\Index{English system of units}, mass is measured in slugs, length in feet,
+and time in seconds.\Index{force| English units of}\Index{units| English system of}
+The unit of force is the pound \Index{pound}and it is defined as:
+%
+\begin{center}
+pound = slug foot second\m{^{-2}}.
+\end{center}
+%
+You are already aware of how strong a one-pound force is, but you are
+probably unacquainted with the slug.\Index{slug}
+An object having a {\it mass} of one slug has a {\it weight} of roughly
+32 pounds.
+
+\pcap{5}{e}{A Table of Names of Units}
+The table below gives you a brief summary of these units and their
+abbreviations (\Quote{abb}).\Index{table| of units}\Index{units| table of}
+%
+\begin{center}
+\begin{tabular}{|l | l | c | l | c | l | c|} \hline
+          & \multicolumn{2}{c|}{SI units} & \multicolumn{2}{c|}{cgs system} &
+\multicolumn{2}{c|}{English system} \\ \cline{2-7}
+ Quantity & Unit     & abb & Unit       & abb & Unit   & abb  \\ \hline
+ length   & meter    &  m  & centimeter & cm  & foot   &   f  \\
+ time     & second   &  s  & second     & s   & second &   s  \\
+ mass     & kilogram & kg  & gram       & gm* & slug   & (none) \\
+ force    & newton   & N   & dyne       & dyn & pound  & lb   \\ \hline
+\end{tabular}\end{center}
+* Note that in SI units the gram is a derived quantity and its abbreviation is \Quote{g} (use
+context to tell when \Quote{g} means \Quote{gram} and when it means the gravitational constant.)
+
+%
+You can find the definitions of these systems and many useful conversion
+factors in any standard reference on physical quantities.
+%
+\Footnote{See the {\em CRC Handbook of Physics and Chemistry},
+Chemical Rubber Publishing Co., Cleveland, Ohio.}
+%
+
+}% /Sect
+%
+\Sect{6}{More Applications}{\SectType{TextMultiPara}}{
+
+\pcap{6}{a}{Introduction}
+This section contains several more applications of the laws of motion to
+practical situations.
+Additional applications will be found in this module's Problem Supplement.
+Applications of the laws of motion to more complex situations and to
+situations involving two or more objects are found
+elsewhere.
+%
+\Footnote{To see the full power of the laws of motion you must apply them in
+practical situations.
+Many interesting situations are treated in \Quote{Applications of Newton's Second
+Law, Frictional Forces} (MISN-0-16).
+Why is it so hard to put a large space station into orbit around the earth?
+This problem is treated in \Quote{Mass Changing With Time: Rockets and Other
+Examples} (MISN-0-19).}
+%
+
+\pcap{6}{b}{An Object at Rest}
+The net force\Index{net force} acting on an object at rest\Index{object| at rest} must be zero.
+As an example, consider a motionless ball sitting on a table.
+Since we have said that the ball remains at rest\Index{rest, object at}, it has no acceleration.
+According to the second law, this means that the total (net) force acting
+on it is zero.
+This does not mean that there are no forces acting on the ball; it does
+mean that the vector sum of all the forces acting on it is zero.
+In fact, for the ball resting on a table we know there are at least two
+forces acting on it: its weight is acting downward and the table is exerting
+an upward force on the ball (these forces are shown in Fig.\,5).
+If these are the only two forces acting on the ball, we have, successively:
+%
+\TwoEqns{}{\vec{F}_t + \vec{F}_w & = & 0\,,}
+          {\vec{F}_t & = & -\,\vec{F}_w\,.}
+%
+\textbox{In general, for any object at rest, you immediately know
+that the vector sum of all the forces acting on it is zero.}
+%
+In any specific case, you will have to work out how many and what forces
+are acting on an object of interest that is at rest.
+Then knowledge of all but one force will enable you to calculate that last
+force.
+
+\CaptionAfterFullFramedFigure{Fig.\,5. The forces acting on a ball at rest.}{m14gr05}
+
+\pcap{6}{c}{An Object Moving at a Constant Velocity}
+When an object is moving at a constant (vector) velocity,\Index{object| moving at constant velocity} the net force
+acting on it must be zero, just as for an object at rest.
+An airplane moving at a constant velocity has no acceleration, hence we
+must get zero for the vector sum of all the forces acting on the plane: the
+weight of the plane, plus the lift due to the wings, plus the push due to
+the engine, plus the air drag---see Fig.\,6.
+In the notation defined in Fig.\,6, this result is:
+%
+\eqn{}{\vec{F}_D + \vec{F}_P + \vec{F}_L + \vec{F}_W = 0\,.}
+%
+\CaptionAfterFullFramedFigure{Fig.\,6. The forces acting on an airplane.}%
+{m14gr06}
+%
+Since being at rest is just a special case of moving at a constant
+velocity---here with a constant velocity of zero, it should be no surprise
+that you know the same amount about the forces acting on the object as you
+do in the ball-at-rest situation, except that in the case of the airplane
+the forces may appear to be more readily identifiable.
+
+\pcap{6}{d}{\Quote{Person in Elevator} Problem}
+A very common type of problem involves an object (a person, a light bulb, a
+monkey, etc.) that is hung by a string from the ceiling of an elevator\Index{elevator problems}
+(Fig.\,7).
+The problem is to calculate the tension in the string and find how it depends
+on the acceleration of the elevator.
+
+\CaptionAfterFullFramedFigure{Fig.\,7. A hammer hung from an elevator ceiling.}{m14gr07}
+
+\noindent\textit{A Qualitative Discussion:}\newline
+This problem can be solved by a straightforward application of the second
+law of motion.
+There are only two forces acting on the object: its weight acting downward
+and the upward pull of the string; these forces are shown in Fig.\,8.
+
+The object accelerates with the elevator.
+Thus if the elevator accelerates upward, so does the object.
+But if the object is accelerating upward, then according to the second law
+the net force on the object must be upward.
+This means that the upward pull must be greater than the downward weight.\Index{weight, in accelerating elevator}
+%
+\eqn{}{F_p > F_w; \hs {\rm accelerating\;upward}\,.}
+%
+If the elevator is not accelerating, neither is the object and there is no
+net force on the object.
+Thus the pull must be equal to the weight.
+%
+\eqn{}{F_p = F_w; \hs {\rm no\;acceleration}\,.}
+%
+If the elevator is accelerating downward,\Index{weight, in accelerating elevator} then so is the object.
+This means that the net force on the object must be downward, so the weight
+must be greater than the upward pull.
+%
+\eqn{}{F_p < F_w; \hs {\rm accelerating\;downward}\,.}
+%
+(The problem becomes more complicated if the elevator accelerates downward
+faster than the acceleration of free fall, 9.8\,m/\m{s^2}, but we will assume that
+this does not happen here.
+
+\CaptionAfterFullFramedFigure{Fig.\,8. Forces acting on an object hung in an
+elevator.}{m14gr08}
+
+\noindent{\it The Qualitative Solution:}\newline
+The expression for the pull of the string can be found by picking a
+coordinate system and using the second law of motion.
+We pick a coordinate system with the x axis downward as shown in Fig.\,8.
+Thus a downward acceleration is positive and an upward acceleration is
+negative.
+The second law of motion is:
+%
+\eqn{}{\sum\,\vec{F} = m\,\vec{a}\,.}
+%
+The \m{x} component of the weight is \m{+F_w} while the \m{x} component of the pull
+is \m{-F_p} (it is upward).
+Hence the \m{x} component equation is:
+%
+\eqn{}{F_w - F_p = m\,a.}
+%
+Solving for F\m{_p} we obtain.
+%
+\eqn{}{F_p = F_w - m\,a; \hs (\uvex{x}\;{\rm taken\;downward})\,.}
+%
+Check over the sign conventions.
+Then see if you agree that, if the positive \m{x} direction were upward, you
+would obtain:
+%
+\eqn{}{F_p = F_w + m\,a; \hs (\uvex{x}\;{\rm taken\;upward})\,.}
+%
+\noindent{\it Variations on This Problem:}\newline
+In one variation on the problem, the string is replaced by a spring scale,
+which then reads the apparent \Quote{weight} of the object as the elevator
+accelerates.
+If the acceleration of the elevator happens to be 9.8\,m/s\m{^2} downward, in
+\Quote{free fall,} then the object appears to be weightless.
+In other variations, the object is placed on the floor; this is essentially
+the same problem, only the pull of the string is replaced by the upward push
+of the floor, etc.
+
+\pcap{6}{e}{The Horse}
+The third law of motion says that if you push on the wall, the wall pushes
+on you with an equal push in the opposite direction.
+Thus there are two equal and opposite forces here, but only one of them is
+on you.
+Be sure you understand this point.
+Discuss it with others if you are unsure about it.
+Any confusion here will surely result in incorrect problem solutions later.
+Try your understanding on this problem:
+
+There is a famous tale often used to illustrate the third law.
+There was an iceman's horse who read Newton's writings (in Latin, yet) while
+his master was making deliveries.
+One day, when the iceman returned, the horse refused to try to move since he
+knew it would do no good.
+He reasoned as follows:
+%
+\begin{itemize}
+\item [  ] \Quote{The second law says
+%
+\eqn{}{\sum\,\vec{F} = m\,\vec{a}\,.}
+%
+The third law says that for every action there is an equal and opposite
+reaction.
+Thus if I pull on the wagon, the wagon pulls equally hard on me in the
+opposite direction.
+Hence the vector sum of these two forces is zero and there is no
+acceleration.
+Hence I cannot get the wagon to start moving.}
+\end{itemize}
+%
+The horse was adamant; no amount of beating would make it go.
+Finally Newton was called in and he quickly persuaded the horse to move on,
+pulling its wagon.
+How?
+Can you convince the horse?
+\help{10}
+
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}{\NsfAcknowledgment}% /Sect
+

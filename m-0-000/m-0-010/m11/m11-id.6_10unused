@@ -1,0 +1,48 @@
+\revhist{3/16/88, pss; 4/1/91, pss; 9/9/91, pss; 5/7/92, pss; 9/29/94, pss;
+         10/12/94, pss; 11/30/94, pss; 9/15/95, pss; 2/28/96, pss; 4/7/97, pss;
+		 2/22/99, pss; 3/30/99, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+
+\IdTitle{Relative Linear Motion and Frames~of~Reference}
+
+\IdAuthor{Peter Signell and William C. Lane, Department of Physics}
+
+\IdVersEval{2/1/2000}{1}
+
+%\begin{Hours/Pages} \HR{1} \TX{5} \PS{6} \AS{1} \ME{2} \end{Hours/Pages}
+\begin{Hours/Pages} \HR{1} \TX{6} \PS{6} \AS{2} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  Add and subtract vectors using their Cartesian components \prrqone{0-2}.
+\item [2.]  Given a vector described either in terms of Cartesian components or
+magnitude and direction, determine the other vector description \prrqone{0-2}.
+\item [3.]  Given an object's position as a function of time, find its velocity and
+acceleration as functions of time \prrqone{0-8}.
+\item [4.]  Detect errors in symbolic equations by checking dimensions \prrqone{0-8}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Vocabulary: frame of reference, observer.
+\end{KnowledgeSkills}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] Given the position vectors of both an object and an observer as seen by
+a second observer, find the position, velocity and acceleration vectors of
+the object as seen by the first observer.
+Use suitable notation for labelling observers and observed.
+Sketch any of the vectors with respect to any frame of reference, as
+requested.
+\item [S2.] Given a kinematical equation containing both symbols and numbers plus a
+word description of the units involved, properly insert the units into the
+equation and carry out any appropriate units algebra.
+\item [S3.] In any given kinematical problem, determine whether \m{a = dv/dt}
+is valid.
+\end{ProblemSolvingSkills}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

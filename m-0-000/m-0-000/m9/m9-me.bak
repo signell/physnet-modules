@@ -1,0 +1,37 @@
+\revhist{12/16/90, pss; 12/8/92, pss; 3/11/93, pss; 9/15/94, pss}
+
+\Sect{}{}{\SectType{ModelExam}}{
+
+\begin{one-digit-list}
+\item [1.] See Output Skill K1 in this module's \textit{ID Sheet}, just inside
+the cover.
+\item [2.] A particle moves CCW on a circle of radius \m{r = 4.0\unit{m}}.
+Its trajectory position \m{s} along the circular arc is given by:
+%
+\Eqn{}{s(t) = (8.0\unit{m/s}) t - (1.00\unit{m/s\up{2}}) t^2\,.}
+%
+\begin{one-digit-list}
+\item [a.] Determine the particle's position \vect{r}, velocity \vect{v},
+and acceleration \vect{a} at \m{t = 2.0\unit{s}}, in terms of the Cartesian
+unit vectors \m{\uvec{x}} and \m{\uvec{y}}.
+Sketch \vect{r}, \vect{v}, and \vect{a} at this time.
+\item [b.] Determine if the motion of the particle is clockwise or 
+counterclockwise at \m{t = 2.0\unit{s}}, and whether the particle's speed is
+increasing or decreasing at that time.
+\end{one-digit-list}
+
+\item [3.] Calculate the speed and acceleration of a person on the equator 
+resulting from the earth's spinning about its axis through the poles.
+The earth's mean radius is \m{6.37 \times 10^6\unit{m}}.
+\end{one-digit-list}
+
+\BriefAns
+\begin{one-digit-list}
+\item [1.] See this module's \textit{text}.
+
+\item [2.] See this module's \textit{Problem Supplement}, problem~7.
+
+\item [3.] See this module's \textit{Problem Supplement}, problem~2.
+\end{one-digit-list}
+
+}% /Sect

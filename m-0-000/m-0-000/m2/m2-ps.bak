@@ -1,0 +1,265 @@
+% 12/29/87, pss; 7/2/91, pss; 9/17/93, pss; 9/29/94, pss; 8/16/95, pss;
+% 10/12/96, pss; 11/13/97, pss
+\PsStart
+
+Note: problems 13 (part), 21, and 22 (part) also occur in this module's
+{\it Model Exam}.
+
+\begin{one-digit-list}
+\item [1.] \UnframedEpsFigure{m2gr08}{Three vectors, $\vec{A}$, $\vec{B}$, and $\vec{C}$,
+all in a plane, are shown sketched below:
+By arranging the vectors in head-to-tail fashion, sketch:}
+
+\begin{one-digit-list}
+\item [a.] $\vec{A} + \vec{B}$, to which then add $\vec{C}$;
+\item [b.] $\vec{A} + \vec{C}$, to which then add $\vec{B}$;
+\item [c.] $\vec{B} + \vec{C}$, to which then add $\vec{A}$;
+\item [d.] $\vec{A} - \vec{B}$.
+\end{one-digit-list}
+
+\item [2.] Write down the ordered triad of numbers which represents a vector
+of length 6 units and that lies along the $y$-axis of a fixed coordinate
+system.
+
+\item [3.] Write down the ordered triad of numbers which represents a vector
+of length 6 units that lies in the $xy$-plane, making an angle of 30$\degrees$
+with the $x$-axis.
+
+\item [4.] Express the vectors in problems 2 and 3 above in terms of the
+fixed unit vectors along the Cartesian axes.
+
+\item [5.] A particular vector is given as a zero or null vector.
+Write down the triad that represents this vector.
+
+\item [6.] \UnframedEpsFigure{m2gr09}
+$|\vec{A}|$ = 4 units, $|\vec{B}|$ = 5 units, directions as in the sketch.
+\begin{one-digit-list}
+\item [a.] Graphically add $\vec{A}$ and $\vec{B}$.
+\item [b.] Compute the magnitude of the resultant.
+\item [c.] Determine the direction of the resultant, expressed as:
+%\end{one-digit-list}}
+%
+%\begin{one-digit-list}
+\begin{itemize}
+\item [(i)] The angle between the vector and the positive $x$-axis, measured
+counter-clockwise from the  positive $x$-axis; this is the standard
+representation of a vector's direction.
+\item [(ii)] The angle between the vector and the positive $y$-axis, measured
+clockwise from the positive $y$-axis; this is a compass bearing if the positive
+$y$-axis represents due north and the positive $x$-axis represents due east.
+\end{itemize}
+\end{one-digit-list}
+
+\item [7.] \UnframedEpsFigure{m2gr10}{$|\vec{A}|$ = 4 units, $|\vec{B}|$ = 3 units, $\theta$ = 30$\degrees$,
+$|\vec{C}|$ = 5 units, $\phi$ = 60$\degrees$ (see sketch).
+\begin{one-digit-list}
+\item [a.] Express $\vec{A}$, $\vec{B}$, and $\vec{C}$ in component form. \help{15}
+\item [b.] Using these components, evaluate $\vec{A} + \vec{B} + \vec{C}$.
+\item [c.] Similarly, evaluate $\vec{A} + \vec{B} - \vec{C}$.
+\end{one-digit-list}}
+
+\item [8.] A vector of unit length, $\hat{x}$, is parallel to the $x$-axis of a
+Cartesian coordinate system while another vector of unit length, $\hat{y}$, is
+along the $y$-axis.
+Evaluate the scalar products $\hat{x} \cdot \hat{x}$, $\hat{x} \cdot \hat{y}$,
+and $\hat{y} \cdot \hat{y}$.
+
+\item [9.] Expressing two vectors in terms of unit vectors along the coordinate
+axes, $\vec{A} = A_x\hat{x} + A_y\hat{y} + A_z\hat{z}$ and $\vec{B} =
+B_x\hat{x} + B_y\hat{y} + B_z\hat{z}$, show that the \index{scalar product}{scalar product, in terms of components} may be
+written as $A_x B_x + A_y B_y + A_z B_z$ (use results that you got in
+problem~8, above.)
+
+\item [10.] Consider two vectors, $\vec{A} = 4\hat{x} + 3\hat{y}$ and
+$\vec{B} = 5\hat{x} - 12\hat{y}$.
+Find (a) the length of $\vec{A}$ starting from the definition of the scalar
+product and the results of problem 9; (b) the length of $\vec{B}$; and (c) the
+angle between $\vec{A}$ and $\vec{B}$.
+
+\item [11.] \UnframedEpsFigure{m2gr11}{Assuming magnitudes (see sketch) $|\vec{A}| =
+|\vec{B}| = |\vec{C}| = R$, evaluate the following in terms of $R$:
+\begin{one-digit-list}
+\item [a.] $(\vec{A} \times \vec{B}) \times \vec{C}$
+\item [b.] $(\vec{B} \times \vec{A}) \times \vec{C}$
+\item [c.] $\vec{A} \times (\vec{B} \times \vec{C})$
+\item [d.] $\vec{C} \times (\vec{A} \times \vec{B})$
+\end{one-digit-list}}
+
+\item [12.] \UnframedEpsFigure{m2gr12}{Given the vectors $\vec{A}$ and $\vec{B}$:
+\begin{one-digit-list}
+\item [a.] Sketch the graphical representation of the vector sum of $\vec{A}$
+and $\vec{B}$ using the head-to-tail  addition method.
+\item [b.] Using the geometrical definition of the scalar product, prove the
+\index{Law of Cosines}{law of cosines} for the triangle formed by the above vector sum,
+\end{one-digit-list}}
+\begin{one-digit-list}
+\item [  ] i.e.;
+%
+\eqn{}{C^2 = A^2 + B^2 - 2\,A\,B \cos\gamma\,,}
+%
+where $C$ is the magnitude of $\vec{C}$, the sum
+$\vec{A} + \vec{B}$, $\gamma$ is the angle opposite side $C$ in the triangle
+$ABC$, and $A$ and $B$ are the magnitudes of $\vec{A}$ and $\vec{B}$,
+respectively. \help{14}
+\item [c.] Use the definition of the magnitude of the vector product to prove
+the Law of Sines for the same triangle, i.e.;
+%
+\eqn{}{\fract{\sin\alpha}{A}=\fract{\sin\beta}{B}=\fract{\sin\gamma}{C}}
+%
+where $\alpha$, $\beta$ and $\gamma$ are the angles of the triangle that are
+opposite sides $A$, $B$ and $C$.
+\end{one-digit-list}
+
+\item [13.] A vector $\vec{R}$ has its tail at the origin and its head at the
+point (2,\,5,\,-3).
+Another vector $\vec{S}$ has its tail also at the origin, while its head is at
+the point (2,\,-5,\,0).
+\begin{one-digit-list}
+\item [a.] How long is the $y$-component of $\vec{R}$? [H]
+%
+\Footnote{See answer H in the Answers section of this Supplement.}
+%
+(b) How long is the $y$-component of $\vec{S}$? [N]
+\item [c.] What are the coordinates of the head of the vector (-$\vec{R}$)? [B]
+\item [d.] What are the coordinates of the head of the vector (or, stated more
+simply, the coordinates of the vector) $\vec{R}$ + $\vec{S}$? [K]
+\item [e.] What are the coordinates of the vector $\vec{R}$ - $\vec{S}$? [A]
+\item [f.] What is the length of the vector $\vec{R}$ + $\vec{S}$? [G]
+\item [g.] What is the length of the vector $\vec{S}$ - $\vec{R}$? [D]
+\item [h.] What is the length of the vector $\vec{R}$? [L]
+\end{one-digit-list}
+
+\item [14.] Express vector $\vec{R}$ (of problem 13 above) as a single sum of
+components along the coordinate axes in  terms of the unit vectors along
+those axes.[E]
+%
+\Footnote{Authors use various notations for Cartesian unit vectors.
+We use $\uvex{x}$, $\uvex{y}$ and $\uvex{z}$ for unit vectors along the
+$x$-, $y$-, and $z$-axes, which is a commonly used notation.
+Some authors have used: $\uvex{i}$, $\uvex{j}$,
+$\uvex{k}$; $\uvex{e}_1$, $\uvex{e}_2$, $\uvex{e}_3$; and $\uvex{u}_x$,
+$\uvex{u}_y$, $\uvex{u}_z$.
+All such sets are equivalent.}
+
+\item [15.] Similarly express the vector 3$\vec{S}$. [M]
+
+\item [16.] Do the same for the vector 3$\vec{R} - 2\vec{S}$. [F]
+
+\item [17.] What angle does the vector $\vec{R} + \vec{S}$ make with the
+$z$-axis? [J]
+
+\item [18.] What angle does the vector $\vec{R} - \vec{S}$ make with the
+$x$-axis? [C]
+
+\item [19.] What is the cosine of the angle between the vector $\vec{R}$ and
+the $y$-axis? [I]
+
+\item [20.] Vector $\vec{R}$ has its tail at the origin of the coordinate
+system, while its head is at the point $(2,\,5,\,-3)$.
+Vector $\vec{S}$\, likewise has its tail at the origin of the coordinate
+ system, while its head is at point $(2,\,-5,\,0)$.
+\begin{one-digit-list}
+\item [a.] What is the value of $\vec{R} \cdot \vec{S}$? [V]
+\item [b.] Using the result of (a), find the angle between the vectors
+$\vec{R}$ and $\vec{S}$. [T]
+\item [c.] Evaluate the magnitude of the vector $\vec{R} \times \vec{S}$,
+using the result of (b). [Z]
+\end{one-digit-list}
+
+\item [21.] Vector $\vec{T}$ is 4 units long and directed along the $x$-axis.
+Vector $\vec{V}$ is 6 units long and is directed along the $z$-axis.
+\begin{one-digit-list}
+\item [a.] What is the direction of the vector $\vec{T} \times \vec{V}$? [R]
+\item [b.] What is the magnitude of the vector $\vec{T} \times \vec{V}$? [W]
+\item [c.] Express $\vec{T} \times \vec{V}$ in terms of the unit vectors along
+the coordinate axes. [S]
+\end{one-digit-list}
+
+\item [22.] Evaluate:
+\begin{one-digit-list}
+\item [a.] $\uvex{x} \times \uvex{z}$ [P]
+\item [b.] $\uvex{y} \cdot  \uvex{z}$ [U]
+\item [c.] $\uvex{z} \times \uvex{z}$ [O]
+\item [d.] $\uvex{y} \times \uvex{z}$ [Y]
+\item [e.] $\uvex{x} \cdot  \uvex{x}$ [Q]
+\item [f.] $\uvex{x} \times \uvex{y}$ [X]
+\end{one-digit-list}
+\end{one-digit-list}
+
+\newpage
+\BriefAns
+
+\begin{one-digit-list}
+\item [1.] \ \UnframedEpsFigure{m2gr13}
+
+\item [2.] $(0,\,6,\,0)$
+
+\item [3.] $(3\sqrt{3},3,0)$
+
+\item [4.] $\vec{A} = 6\uvex{y}$, $\vec{B} = 3\sqrt{3}\uvex{x} + 3\uvex{y}$
+
+\item [5.] $(0,\,0,\,0)$
+
+\pagebreak[4]
+\item [6.] \NullItem
+\begin{one-digit-list}
+\item [a.] $\vec{C}$ = resultant:
+
+           \UnframedEpsFigure{m2gr14}
+\item [b.] $|\vec{C}| = 6.4$\,units
+\item [c.] (i) 51$\degrees$ or 0.90\,rad
+\item [  ] (ii) 39$\degrees$ or 0.67\,rad
+\end{one-digit-list}
+
+\item [7.] \NullItem
+\begin{one-digit-list}
+\item [a.] $\vec{A} = 4\uvex{x}$, $\vec{B} = 2.60\uvex{x} + 1.5\uvex{y})$,
+$\vec{C} = 2.5\uvex{x} + 4.3\uvex{y})$
+\item [b.] $\vec{S} = \vec{A} + \vec{B} + \vec{C} = 9.1 \uvex{x} + 5.8 \uvex{y}$
+\item [c.] $\vec{D} = \vec{A} + \vec{B} - \vec{C} = 4.1 \uvex{x} - 2.8 \uvex{y}$
+\end{one-digit-list}
+
+\item [8.] $\uvex{x} \cdot \uvex{x} = 1$,
+$\uvex{x} \cdot \uvex{y} = 0$, $\uvex{y} \cdot \uvex{y} = 1$
+
+\item [10.] $|\vec{A}| = 5$, $|\vec{B}| = 13$, $\theta = 104\degrees$
+
+\item [11.] \NullItem
+\begin{one-digit-list}
+\item [a.] $(\vec{A} \times \vec{B}) \times \vec{C} = R^3 \uvex{x}$
+\item [b.] $(\vec{B} \times \vec{A}) \times \vec{C} = - R^3 \uvex{x}$
+\item [c.] $\vec{A} \times (\vec{B} \times \vec{C}) = 0$
+\item [d.] $\vec{C} \times (\vec{A} \times \vec{B}) = - R^3 \uvex{x}$
+\end{one-digit-list}
+
+\item [12.] a. \UnframedEpsFigure{m2gr15}
+
+\item [A.] $(0,\,10,\,-3)$
+\item [B.] $(-2,\,-5,\,3)$
+\item [C.] $\pi$/2
+\item [D.] $\sqrt{109} = 10.44$\,units
+\item [E.] $2\uvex{x} + 5\uvex{y} - 3\uvex{z}$
+\item [F.] $2\uvex{x} + 25\uvex{y} - 9\uvex{z}$
+\item [G.] 5 units
+\item [H.] 5 units
+\item [I.] 0.811
+\item [J.] 127$\degrees$
+\item [K.] $(4,\,0\,-3)$
+\item [L.] $\sqrt{38} = 6.16$\,units
+\item [M.] $6\uvex{x} - 15\uvex{y}$
+\item [N.] 5 units
+\item [O.] 0
+\item [P.] $-\uvex{y}$
+\item [Q.] 1
+\item [R.] along negative $y$-axis
+\item [S.] $-24\uvex{y}$
+\item [T.] 129.2$\degrees$
+\item [U.] 0
+\item [V.] $-21$ units
+\item [W.] 24 units
+\item [X.] $\uvex{z}$
+\item [Y.] $\uvex{x}$
+\item [Z.] 25.71 units
+\end{one-digit-list}
+
+%\PsEnd

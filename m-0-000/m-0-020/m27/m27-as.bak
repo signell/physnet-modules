@@ -1,0 +1,23 @@
+% 2/28/85 mpm; 1/22/92, pss; 10/11/94, pss
+\AsStart
+
+\AsItem{1}{}
+{Either a sine or a cosine function can be use to represent the displacement
+ of the harmonic oscillator, with an appropriate initial phase for each case,
+ i.e.
+ %
+ \eqn{}{x = A\,\sin(\omega t + \alpha)}%
+ %
+ or
+ %
+ \eqn{}{x = A\,\cos(\omega t + \alpha')}%
+ %
+ where
+ %
+ \eqn{}{\alpha' = \alpha + \fract{\pi}{2}.}%
+ %
+ How does this choice of a harmonic function determine which axis
+ (the positive $x$-axis or the negative $y$-axis) is chosen as the reference
+ for the phase angle?
+}
+%\AsEnd

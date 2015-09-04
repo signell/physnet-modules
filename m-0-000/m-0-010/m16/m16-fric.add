@@ -1,0 +1,183 @@
+.* saved on side B, T2
+
+1. INTRODUCTION
+
+1a. Definition of Friction
+
+     The phenomenon of "friction" is the resistance of one surface to sliding
+over another surface with which it is in contact.
+As an example, consider the situation shown in Fig. 1.
+In the figure, there is a hard rubber block that is at rest (not moving) on a
+large hard rubber plane.
+Person A is standing still on top of the rubber block.
+Person B stands on the large rubber plane and pushes against the side of the
+rubber block, attempting to move it (and person A with it) along the plane.
+Since person B can't make the block move, we say "there is a lot of friction
+between the surface of the block and the plane."
+Now suppose we put ice skate runners under the block and we cover the plane
+with ice, as in Fig. 2.
+Now person B can easily move the block (and person A with it) along the plane,
+so we say "there is now low friction between the two surfaces that are in
+contact."
+
+1b. What Causes Friction?
+
+When two surfaces resist sliding over each other, there are three main
+contributors to that resistance: (1) ...(2)...(3)...
+The most prevelant of these is the attraction between the molecules of the two
+surfaces.
+Specifically, molecules of one surface form bonds with molecules of the other
+surface and these bonds resist being broken by any relative movement of the
+two surfaces.
+Thus the resisting force of friction is just the resistance of those molecular
+bonds to being broken by one surface moving with respect to the other.
+
+2. IMPLICATIONS OF THE MOLECULAR BOND MODEL
+
+2a. A Maximum Friction Force
+
+     On the molecular bond model of friction, there is a maximum possible
+value to the force of friction between two surfaces.
+Consider the situation shown in Fig. 3, where you are pulling to the right on
+the rope.
+Suppose you pull with a force that is insufficient to break the molecular
+bonds: the block does not move.
+Since the block's acceleration is zero, the resultant force on it must be zero.
+This means that the bonds must be pulling on the block with a force that is
+equal but opposite to the force of your pull.
+Now suppose that you gradually increase the force of your pull.
+The bonds will increase their ``equal but opposite'' pull so there is zero
+resultant force and hence zero acceleration of the block.
+Finally, however, you reach pull so hard that is too much for the bonds: they
+break and the block starts to accelerate in the direction of your pull.
+Nevertheless, the bonds are still being formed and broken continuously as the
+block continues to move, so there is still a frictional force during the motion.
+
+2b. Normal Force
+When talking about friction, we frequently refer to the "normal" force that
+holds the two surfaces in contact.
+This force is important because without it the surfaces would not be held in
+contact and there would be no friction.
+Such a force that holds two surfaces together is called a "normal" force
+because it is the component of force "normal" ( perpendicular) to the surfaces
+(see Fig. 1).
+
+2c. Normal Force and Maximum Friction Force
+The molecular bond model of friction predicts that the maximum friction force
+between two surfaces depends on the normal force holding the surfaces together.
+Specifically, the model says that the harder the surfaces are pressed
+together, the more molecules from the surfaces will be brought sufficiently
+close so that they will form bonds.
+Since more bonds means a larger maximum resistive force, we conclude that a
+larger normal force produces a larger maximum friction force.
+If that dependence is linear, then:
+
+           f(max) = mu * N ,        (1)
+
+where N is the normal force and mu is some constant which depends on the
+nature of the surfaces.
+The model predicts this because it assumes that, as the normal force is
+increased, more and more molecules are forced sufficiently close so that they
+form bonds.
+Although it might have turned out differently, in real life the maximum
+friction force is remarkably linear in the normal force.
+
+2d. An Example
+Since sliding surfaces are at the maximum friction force, this means that
+if you press two sliding surfaces together harder, there will be greater
+friction between the surfaces.
+For example, if you rub your hands back and forth against each other very
+lightly, it takes little force and they will not get warm.
+However, if you push them together with as much force as you can, then it
+takes some force to rub them back and forth and this causes them to get warm.
+
+
+2e. Dependence on Area of Overlap
+The molecular bond model of friction predicts that if the normal force is
+held fixed, then increasing the overlap of the two surfaces does not increase
+the number of bonds.
+This is because although the area available to form bonds goes up, the normal
+force per unit area, the pressure, goes down and the two effects cancel.
+In most practical cases in which area is changing, the normal force is
+constant (it is usually some component of the force of gravity).
+Then since the number of bonds does not change in such cases, we do not
+normally think of the maximum friction force as changing if the area of
+overlap changes.
+
+2f. Summary
+The molecular bond model predicts:
+(1) that for the static case the resistive force of friction is equal but
+opposite to the force that would otherwise cause one surface to slide over the
+other;
+(2) there is a maximum friction force, determined by: (i) the nature of the
+two surfaces; and by (ii) the normal force which determines the degree of
+contact of the surfaces; and
+(3) when the driving force exceeds the maximum friction force, one surface
+starts to slide over the other and during this sliding the frictional force
+stays at its maximum value.
+
+2g. How Accurate is Eq. (1)?
+
+
+3. A FRICTIONLESS WORLD
+
+3a. Why Worry About a Frictionless World?
+Physicists frequently use the concept of a world without friction in order to
+help them solve real-life problems.
+At first glance this seems counter-intuitive since, in the world of
+real objects, friction seems as though it can never be eliminated completely.
+However, this is another example of the physicist's usual technique of breaking
+down a problem into managable components and trying to gain an understanding of
+each each of the components before recombining them to find the realistic
+solution.
+It is also true that, in the atomic world, zero friction occurs frequently: if
+it wasn't, the atoms in our bodies would collapse with the emission of a flash
+of light in a millionth of a millionth of a second.
+
+3b. Why Analyze the Environment?
+Much of the power of physics to explain what happens in the physical and
+technological worlds results from its general approach of analysis and
+synthesis.
+By this we mean that physicists always seek to analyze the environment of an
+object being studied and thereby identify each of the other objects that might
+be exerting forces on that object.
+We then combine these forces and use Newton's second law to compute the
+object's future motion.
+At times we combine less than all of the forces and compute the motion if that
+helps us check the exact calculation, or if it is a sufficiently good
+approximation, or if it gives us some other insight.
+
+3b. What Question Are We Asking?
+The question we are asking in this section is: What is the motion of our
+object if friction is absent and then we add in the forces one by one.
+We sometimes add in friction last because it may be small or it may make the
+problem difficult to solve or it may be useful to avoid while checking part of
+the complete calculation.
+
+3c. Extrapolation to the Frictionless State and Newton's First Law
+In order to see what a frictionless world is like, we extrapolate from our own.
+We will use the example of a book thrown onto the floor in such a way that it
+slides along the floor and comes to a stop due to friction.
+If the book is covered with Velcro on its lower side, the side toward the
+floor, anbd if the floor is covered with the other Velcro surface, then the
+book will not slide but will immediately come to a halt as the Velcro surfaces
+attach themselves to each other.
+We say that there is very high friction between the two surfaces.
+Now suppose we cover the two surfaces with fine sandpaper: there will be less
+friction but still quite a lot: when we throw the book onto the floor it will
+only go a short ways before coming to a halt.
+Now suppose we cover the surfaces with smooth paper and again throw the book
+onto the floor: the book will go further than before.
+Now we put a highly waxed finish on the two surfaces and the book slides
+further.
+Then we put ices skate runners under the book and ice on the floor and the
+book goes a great distance indeed before coming to a stop.
+Finally, we imagine removing all frictoion between the two surfaces: how far
+will the book go before coming to a stop?
+The answer: an infinite distance; it will go on forever at a constant speed
+because there is no force to slow it down, speed it up, or change its
+direction.
+... remove the Velcro 
+
+3d. Examples of Motion, With and Without Friction.
+4. READINGS ON FRICTION

@@ -1,0 +1,40 @@
+\revhist{9/7/90, pss; 4/1/91, pss; 8/5/92, mcr; 2/5/93, pss; 9/27/93, pss;
+         10/4/94, pss; 9/18/95, lae; 11/7/95, pss; 11/13/97, pss; 2/22/99, pss;
+         9/21/99, pss; 11/16/99, pss; 2/28/00, pss; 12/11/00, pss; 4/16/02, pss;
+         10/10/02, pss; 12/17/02, pss}
+%
+\defModTitle{\ph{Kinematics In} \ph{One Dimension}}
+\defCtAuthor{Leon \inits{F.}Graves}
+\defIdAuthor{Leon F.\,Graves, Dept.\,of Physics, Univ. of Houston, Houston, TX}
+%
+\defIdItems{
+    \IdVersEval{12/17/2002}{1}
+    \IdHours{1}
+    \begin{InputSkills}
+    \item [1.]  Express physical quantities in the proper units with the appropriate
+    number of significant digits \prrqone{0-403}.
+    \item [2.]  Manipulate units of physical measurement by means of algebra \prrqone{0-403}.
+    \item [3.]  Differentiate and integrate polynomials, sines and cosines \prrqone{0-1}.
+    \item [4.]  Express a vector in terms of its magnitude and direction \prrqone{0-2}.
+    \item [5.]  Draw and measure simple graphs \prrqone{0-401}.
+    \end{InputSkills}
+    %
+    \begin{KnowledgeSkills}
+    \item [K1.] Vocabulary: average velocity, instantaneous velocity, speed, average
+    acceleration, instantaneous acceleration.
+    \end{KnowledgeSkills}
+    %
+    \begin{ProblemSolvingSkills}
+    \item [S1.] Given a particle's position function as a table, graph or mathematical
+    function of time, determine its average velocity during a specified time
+    interval and its instantaneous velocity at a specified time.
+    Estimate its acceleration during a specified time interval and its
+    instantaneous acceleration at a specified time.
+    \item [S2.] Given a particle's acceleration function and its velocity and position
+    at specified times, determine its velocity and position at other times.
+    \end{ProblemSolvingSkills}
+    %
+    \begin{PostOptions}
+    \item [1.]  \Quote{Kinematics of Motion in Two Dimensions} (MISN-0-8).
+    \end{PostOptions}
+}

@@ -1,0 +1,270 @@
+% 10/10/83 ljw; 10/14/91, pss; 12/8/92, pss; 4/28/93, pss; 9/29/94, pss
+\TxStart
+
+\mTitle{SPECIAL RELATIVITY: \\ THE LORENTZ TRANSFORMATION, \\ THE VELOCITY
+                                                               ADDITION LAW}
+
+\mAuthor{P.\,Signell, J.\,Borysowicz, M.\,Brandl}
+
+\scap{1}{THE GALILEAN TRANSFORMATION}
+
+\pcap{1}{a}{Applicable Situations}
+The Galilean transformation applies to the physics of ``everyday'' life, where
+objects move at ``normal'' speeds.
+It follows from the ``ordinary'' velocity addition law.
+
+\pcap{1}{b}{Velocity Addition Law}
+Consider an object $O$ with (one-dimensional) velocity $v_{OA}(t)$ as
+determined by (``relative to'') observer $A$ and velocity $v_{OB}(t)$,
+relative to observer $B$.
+The ordinary velocity addition law states that:
+%
+\eqn{1}{v_{OB}(t) = v_{OA}(t) - v_{BA}\,,}
+%
+where $v_{BA}$ is the velocity of observer $B$ relative to observer $A$.
+%
+\Footnote{In one-dimensional problems all vectors can be arranged to point
+along a single axis.
+Then in vector equations the same unit vector is common to all terms so it
+can be factored out and dropped.
+That leaves the vector components along that single axis, for which the axis
+subscript can also be dropped.
+These quantities, such as $v_{OB}$, $v_{OA}$, and $v_{BA}$ in
+Eq.\,(\eqnno{1}) are not vector {\it magnitudes}, which would always be
+positive; instead they are vector {\it components} which can have negative
+as well as positive numerical values.
+
+The double subscript notation is developed in more detail in ``Relative
+Linear Motion, Frames of Reference'' (MISN-0-11).}
+%
+Velocity $v_{BA}$ is restricted to being independent of time for the
+purposes of this unit.
+
+\pcap{1}{c}{Transformation Derivation}
+In order to obtain the Galilean transformation, we must get $x$'s into the
+equation.
+This is easy since
+%
+\eqn{}{v_{OB}(t_B) \equiv dx_{OB}(t_B)/dt_B\,,}
+%
+and
+%
+\eqn{2}{v_{OA}(t_A) \equiv dx_{OA}(t_A)/dt_A\,,}
+%
+where $t_A$ is the time as measured on $A$'s clock, while $t_B$ is the time
+as measured on $B$'s clock.
+Then $v_{OB}(t_B)$ is the velocity of $O$ as seen by $B$ at the time $t_B$.
+
+In words, Eqn.\,(\eqnno{2}) shows that the velocity of $O$ as observed by
+$A$ is the time rate of change of the position of the object, as observed by
+$A$ with $A$'s measuring devices (clocks and rulers).
+Substituting Eq.\,(\eqnno{2}) into Eq.\,(\eqnno{1}), and integrating with
+respect to $t_A$:
+%
+\eqn{}{\int_{t_0}^{t} \fract{dx_{OB}(t_B)}{dt_B} dt_A =
+                  \int_{t_0}^{t} \fract{dx_{OA} (t_A)}{dt_A}dt_A-
+                                           \int_{t_0}^{t} v_{BA} dt_A\,,}
+%
+where the left-hand-side (LHS) is not integrable until we put in the Galilean
+time transformation, $t_B = t_A$.
+This is meant to be obvious, in the sense that ``everyone knows'' that $A$'s
+clocks can all be synchronized with $B$'s.
+For convenience, we replace $t_B$ and $t_A$ by the single symbol
+$t$.
+Integrating, we get
+%
+\eqn{}{x_{OB}(t) - x_{OB} (t_0) = x_{OA}(t) - x_{OA}(t_0) -
+                                              v_{BA}(t - t_0)\,.}
+%
+Again in the interest of simplicity we set $t_0 = 0$ and set up $A$'s and $B$'s
+$x$-axis origins at such places that they coincide at time zero.
+Then the two observers' measured positions of the object will agree at that
+time and so:
+%
+\eqn{3}{x_{OB}(t) = x_{OA}(t) - v_{BA}t\,.}
+%
+This equation, along with $t_B = t_A \equiv t$ is the Galilean
+transformation.
+
+\pcap{1}{d}{Invariance Under Label Interchange}
+To show that Eq.\,(\eqnno{3}) is invariant under interchange of observer
+labels, simply replace $A$ by $B$ and $B$ by $A$ everywhere in the equation
+and show that by a little manipulation you can get Eq.\,(\eqnno{3}) back
+again.
+One intuitively feels that the laws of nature should be independent of which
+label one gives to which observer.
+
+\pcap{1}{e}{Predicted Light Speed Varies}
+The velocity addition law associated with the Galilean transformation is, of
+course, the same one we started with: $v_{OB} = v_{OA} - v_{BA}$.
+We now apply this addition law to the case where the object $O$ is the front
+end of a beam of light (L).
+Hence $v_{OB} = v_{\rm LB}$ is the velocity of light measured by observer
+$B$, $v_{OA} = v_{\rm LA}$ is the velocity measured by observer $A$ and the
+two velocities are related by:
+%
+\eqn{}{v_{\rm LB} = v_{\rm LA} - v_{BA}\,.}
+%
+Notice that, if $A$ and $B$ are moving relative to each other
+($v_{BA} \neq 0$), then each sees a different speed of light.
+This is, of course, the ``common sense'' result.
+
+\scap{2}{THE LORENTZ TRANSFORMATION}
+
+\pcap{2}{a}{Observed Constancy of Light Speed}
+Toward the end of the nineteenth century, this aspect of the Galilean
+transformation---the non-constancy of the speed of light---came into conflict
+with Maxwell's formulation of the theory of electricity and magnetism and
+with the experimental tests of that formulation.
+The theoretical and experimental results pointed toward one conclusion - that
+the velocity of light must be the same for all observers, regardless of their
+motion relative to each other, that is,
+$v_{\rm LB} = v_{\rm LA} = c$, a constant.
+
+The Galilean transformation cannot give this result; the one that does is
+the Lorentz transformation.
+
+\pcap{2}{b}{The Transformation}
+The Lorentz transformation is given by:
+%
+\eqn{4}{x_{OB} = k \left( x_{OA} - v_{BA} t_A \right)\,,}
+%
+\eqn{5}{t_B = k \left( t_A - v_{BA} x_{OA}/c^2 \right)\,,}
+%
+\eqn{6}{k \equiv \left( 1 - v_{BA}^2/c^2 \right)^{-1/2}\,.}
+%
+The Lorentz transformation has the peculiar features that the length of an
+object such as a meter stick is contracted and the rate of a clock is slowed
+when observed from a moving reference frame.
+%
+\Footnote{See ``The Length Contraction and Time Dilation Effects of Special
+Relativity'' (MISN-0-13).
+This unit culminates in an examination of the ``twin paradox``: The Lorentz
+transformation predicts that, if twin $A$ is moving, A will age more slowly
+than will stationary twin $B$.
+However, twin $A$ could equally well say that it is twin $B$ who is moving,
+albeit in the opposite direction ($v_{BA} = - v_{AB}$), and therefore
+it is $B$ who should age more slowly.}
+%
+
+Note, that, in the limit that $v_{BA} << c$, the Lorentz transformation
+reduces to the Galilean transformation.
+
+\scap{3}{THE VELOCITY ADDITION LAW}
+
+\pcap{3}{a}{Derivation}
+The relativistic velocity addition law can be easily derived from the
+Lorentz transformation.
+First,
+%
+\eqn{7}{v_{OB} = \fract{dx_{OB}}{dt_B} = \fract{dx_{OB}}{dt_A} \cdot
+                  \fract{dt_A}{dt_B} = \fract{dx_{OB}}{dt_A} \cdot
+                             \left( \fract{dt_B}{dt_A} \right)^{-1}\,.}
+%
+Differentiating Eq.\,(\eqnno{4}) with respect to t$_{OA}$ gives:
+%
+\eqn{}{\fract{dx_{OB}}{dt_A} = k \left( \fract{dx_{OA}}{dt_A} -
+             v_{BA}\fract{dt_A}{dt_A} \right) = k(v_{OA} - v_{BA})\,.}
+%
+And differentiating Eq.\,(\eqnno{5}) with respect to $t_A$ gives:
+%
+\eqn{}{\fract{dt_B}{dt_A} = k \left( \fract{dt_A}{dt_A} -
+ v_{BA}\fract{dx_{OA}}{dt_A}/c^2 \right) = k (1 - v_{BA} v_{OA}/c^2)\,.}
+%
+So substituting these into Eq.\,(\eqnno{7}) gives:
+%
+\eqn{}{ v_{OB} = k (v_{OA} - v_{BA}) \left[k (1 - v{BA}
+                                     v{OA}/c^2) \right]^{-1}\,,}
+%
+so:
+%
+\eqn{8}{v_{OB} = \fract{v_{OA} - v_{BA}}{1 - v_{BA} v_{OA}/c^2}\,,}
+%
+which is the relativistic velocity addition law.
+
+\pcap{3}{b}{Velocity Much Less Than the Speed of Light}
+Note that here, too, in the limit that $v_{BA} << c$, our result reduces
+to the ``ordinary'' velocity addition law.
+
+\pcap{3}{c}{Predicting Constant Light Speed}
+We can verify that the speed of light is the same for all observers.
+If we put $v_{OA} = v_{\rm LA} = c$ into Eq.\,(\eqnno{8}) then
+%
+\eqn{}{v_{\rm LB} = \fract{c - v_{BA}}{1 - v_{BA}c/c^2} =
+                         \fract{c - v_{BA}}{1 - v_{BA}/c} = c\,.}
+%
+So, both $A$ and $B$ see light as having the same speed.
+
+\pcap{3}{d}{Reduction to Galilean Law}
+We have pointed out that, in the limit that $v_{BA}$ is much less than the
+speed of light, the relativistic velocity addition law reduces to the ordinary
+velocity addition law.
+This can be demonstrated by putting ``everyday'' speeds into the velocity
+addition laws and comparing the results.
+
+\pcap{3}{e}{A Numerical Example}
+\begin{center}
+\linefill{0.50in} \raisebox{-2pt}{$\stackrel{A}{.}$} \linefill{0.75in}
+                  \raisebox{-2pt}{$\stackrel{B}{.}$} \linefill{0.75in}
+                  \raisebox{-2pt}{$\stackrel{O}{.}$} \linefill{0.75in}
+\end{center}
+%
+Consider, for instance, the following situation.
+Observer $A$ sees object $O$ moving in the $-x$-direction, toward him/her,
+at a speed of 1000\,m/s (2237\,mi/hr), and $A$ also sees observer $B$
+moving in the $+x$-direction, away
+
+\newpage\noindent
+from her/him, at 1000\,m/s.
+According to the ordinary velocity addition law, observer $B$ will therefore
+see object $O$ having velocity:
+%
+\eqn{}{v_{OB} = v_{OA} - v_{BA} =
+(-1000\unit{m/s}) - 1000\unit{m/s} = - 2000\unit{m/s}\,.}
+%
+That is, $O$ is seen by $B$ as approaching him/her at 2000\,m/s.
+Using the relativistic velocity addition law, $B$ sees $O$ having velocity
+%
+\jot=10pt
+\FourEqns{}{v_{OB} & = & \fract{v_{OA} - v_{BA}}
+                                            {1 - v_{BA} v_{OA}/c^2}}
+           { & = & \fract{(-1000\unit{m/s}) - 1000\unit{m/s}}
+                          {1-(1000\unit{m/s})(-1000\unit{m/s})/
+                                      (3 \times 10^8\unit{m/s})^2}}
+           { & = & \fract{-2000\unit{m/s}}
+                       {1 + \fract{10^6\unit{ms}}
+                                  {9 \times 10^{16}\unit{m/s}}}
+                      \simeq \fract{-2000\unit{m/s}}
+                                          {1 + 1.1 \times 10^{-11}}}
+           { & = & \fract{-2000\unit{m/s}}{1.000000000011} =
+                                       - 1999.9999978\unit{m/s}\,.}
+%
+The difference between the two results is of the order of one part in a
+billion.
+So, obviously, the difference between the results of the ordinary velocity
+addition law and the relativistic velocity addition law are too small to be
+measurable in the everyday world.
+
+\tryit A spaceship is approaching the earth at a speed of 0.9000\,c.
+A cyclotron mounted on the spaceship sends out a beam of protons with speed
+0.9000\,c relative to the spaceship.
+Show that an observer on the earth sees the beam of protons approaching
+her or him with a speed of 0.9945\,c
+
+\Acknowledgments\NsfAcknowledgment
+
+\begin{GlossaryList}
+\GlossaryItem{Galilean transformation} the transformation between frames of
+         reference that applies when the relative linear velocity of one
+         reference frame with respect to the other is much less than the speed
+         of light.
+
+\GlossaryItem{Lorentz transformation} the transformation between frames of reference
+         that applies when the relative linear velocity of one reference frame
+         with respect to the other is comparable to the speed of light.
+
+\GlossaryItem{relativistic velocity addition law} a statement of the way in which
+velocities transform from one Lorentz frame to another.
+\end{GlossaryList}
+
+\TxEnd

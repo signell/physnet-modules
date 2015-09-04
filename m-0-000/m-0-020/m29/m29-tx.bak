@@ -1,0 +1,300 @@
+\revhist{4/1/91, pss; 10/11/94, pss; 2/5/99 bds; 10/3/02, pss}
+%
+\Sect{1}{Introduction}{\SectType{TextMultiPara}}{
+%
+\CaptionedFullFramedFigure{1}{A simple damped oscillator.}{m29gr01}
+%
+\pcap{1}{a}{Damping is Universal}
+In this module we add damping, or kinetic energy dissipation, to the case of
+simple harmonic motion.
+This is important because such dissipation is always present in real mechanical
+systems.
+In addition, we often wish to design the rate of dissipation in order to damp
+out unwanted oscillatory motions.
+An example of this is the up and down motion of a car wheel after it goes
+over a bump; without damping the wheel would continue to oscillate up and
+down indefinitely.
+
+\pcap{1}{b}{An Example}
+In \Figref{1} we show a simple damped oscillatory system consisting of a spring,
+a mass, and a damping device (a device that dissipates the kinetic energy of the
+oscillator).
+Without the damping device, the mass will oscillate indefinitely.
+With the device, its motion gradually dies out.
+
+Inside the cylindrical damping device there is a piston immersed in a fluid.
+This fluid resists the motion of the piston through it.
+This resistance can be controlled by varying the viscosity of the fluid or by
+otherwise varying its ability to bypass the piston.
+
+\TextAndFigurePage{%
+\pcap{1}{c}{Varying the Resistance to Motion}
+If we gradually increase the ability of the damping device in \Figref{1} to resist
+motion, we get the series of curves shown in \Figref{2}.
+Each curve shows the displacement of the oscillator from its position of static
+equilibrium as a function of time.
+
+The first curve is with no damping.
+Succeeding curves are for increasing resistance of the damping device to
+motion, such as by making the fluid go from water to light oil to heavy oil to
+thick molasses (the quantity \m{\gamma} is a measure of this increasing
+resistance).
+Note that a point is reached beyond which there are {\em no} oscillations.
+This transition point, called the {\em critical damping} point, occurs at
+\m{\gamma = 2 \pi f_0}.
+
+\pcap{1}{d}{Prospectus}
+In the rest of this module we will first treat each forces acting on the
+mass separately, then combine the forces.
+This means we will review the restoring force that produces simple harmonic
+motion, then introduce the damping force and see what it does to the motion.
+In the process we will make quantitative the ideas we have discussed.
+This will provide an understanding of a wide variety of cases and devices.
+It will also lay the ground work for considering damped {\em driven} oscillatory
+motion, wherein energy is continually fed into the system as well as being
+dissipated from it.
+%
+The addition of the driving force is treated elsewhere.%
+%
+\Footnote[1]{See \Quote{Damped Driven Oscillatory Motion,} (MISN-0-30).}%
+}{2}{\Figref{2}. (see text).}{m29gr02}%
+%
+}% /Sect
+%
+\Sect{2}{The Forces}{\SectType{TextMultiPara}}{
+%
+\pcap{2}{a}{The Restoring Force}
+The restoring force is the force that, at all times, accelerates the oscillator
+back toward the position of static equilibrium.
+If the displacement is sufficiently small for the case at hand, the restoring
+force will be linear to a good approximation so we write it:
+%
+\Eqn{1}{F = -\,kx\,.}
+%
+A force that obeys \Eqnref{1}, with an interpretation of \m{k} appropriate for that
+force, is called a \Quote{Hooke's law force.}
+If it is the only force acting on a mass, the mass will undergo Simple Harmonic
+Motion (hereafter referred to as \Quote{SHM}):
+%
+\Eqn{2}{x(t) = x(0)\,\cos{(\omega_0 t + \alpha)}\,.}
+%
+\tryit Substitute \Eqnsref{2} and \Eqnssref{1} into
+\m{F=ma} and show that the equation is satisfied if the constant \m{\omega_0}
+is equal to the correct combination of \m{m} and \m{k}.
+\help{1}\,
+%
+\Footnote[2]{If you need help in this, see sequence [S-1] in this module's
+\textit{Special Assistance Supplement}.}
+
+\pcap{2}{b}{The Damping Force}
+A \Quote{damping force} is one that, acting by itself, (smoothly) stops motion.
+For example, friction acting on a horizontally coasting bicycle or car is a
+damping force because it gradually brings the vehicle to a halt.
+
+A damping force must oppose the velocity in order that the resultant
+acceleration is a deceleration.
+This means that, mathematically, the damping force has the opposite sign
+to the velocity.
+The damping force cannot be a constant since that would decrease the velocity
+through zero and then cause it to increase in the direction of the force,
+whereas the damping force (by itself) is to make the motion stop and then
+stay stopped.
+If the damping is sufficiently small for the case at hand, it is likely to
+be linear to a good approximation:
+%
+\Eqn{3}{F = -\lambda v\,.}
+%
+If this is the only force acting on a mass, the velocity will decrease
+to zero exponentially in time:
+%
+\Eqn{7}{v(t) = v(0)\,\exp{(-\gamma t)}\,.}
+%
+
+\tryit Substitute \Eqnsref{7} and \Eqnssref{3} into
+\m{F=ma} and show that the equation is satisfied if the constant \m{\gamma}
+is equal to the correct combination of \m{\lambda} and \m{m}. \help{2}
+Since the differential equation is second order and homogeneous, this
+solution is the unique solution (apart from transformations to mathematically
+equivalent functions).
+
+\tryit Visualize \Eqnref{7} as a graph and think of how the
+curve on it changes as the damping constant \m{\lambda} and mass \m{m} are
+increased and decreased. \help{3}
+
+\tryit Integrate \Eqnref{3} to give:
+\m{x(t) = x(0) - [v(0)/\gamma]\,\exp{(-\gamma t)}}.
+
+\pcap{2}{c}{The Two Forces Together}
+A linearly-damped linearly-restored oscillator is one in which the force
+acting on the mass is the sum of \Eqnsref{1} and \Eqnssref{2}:
+%
+\Eqn{5}{F = -\,kx\,-\lambda v\,.}
+%
+In this case we will write the solution differently depending on whether
+\m{\lambda} is smaller, equal to, or larger than the combination \m{2\sqrt{mk}}.
+These three cases are referred to as \Quote{underdamped,} \Quote{critically damped,}
+and \Quote{overdamped.}
+We could write a single solution for all three cases but it would involve
+complex variables.
+To avoid that, we separate the three cases:
+\renewcommand{\tabcolsep}{2pt}
+\begin{center}\begin{tabular}{r c c l}
+underdamped:       \hspace{4pt} & \m{\lambda} & \m{<} & \m{2\sqrt{mk}} \\
+critically damped: \hspace{4pt} & \m{\lambda} & \m{=} & \m{2\sqrt{mk}} \\
+overdamped:        \hspace{4pt} & \m{\lambda} & \m{>} & \m{2\sqrt{mk}} \\
+\end{tabular}\end{center}
+
+\tryit Note that the progression in the names matches the progression in the
+size of the damping constant \m{\lambda}.
+}% /Sect
+%
+\Sect{3}{The Damped Oscillator Solutions}{\SectType{TextMultiPara}}{
+%
+\pcap{3}{a}{The Underdamped Solution}
+For the underdamped case, the solution to \m{F=ma} can be written in the form:
+%
+\Eqn{6}{x(t) = A\,e^{-\gamma t}\,\cos{(\omega t + \alpha)}\,.}
+%
+\noindent Here \m{A} and \m{\alpha} must be fixed by two known values of \m{x}, or
+its derivatives, at one or two specific times.
+For example, \m{A} and \m{\alpha} could be fixed by knowing \m{x} at two different
+times or by knowing \m{x} at a specific time and the velocity \m{v} at a specific
+time.
+
+\tryit Substitute \Eqnref{6} and \Eqnref{5} into
+\m{F=ma} and show that the equation is satisfied if the constants \m{\gamma}
+and \m{\omega} are equal to the correct combinations of \m{k}, \m{\lambda}, and \m{m}:
+\help{4}
+%
+\Eqn{8}{\gamma = \lambda/(2 m)\,,}
+%
+\Eqn{9}{\omega = \sqrt{\omega_0^2 - \gamma^2}\,,}
+%
+where we define the undamped frequency, \m{\omega_0}, as usual:
+%
+\Eqn{10}{\omega_0 = \sqrt{k/m}\,.}
+%
+Note that the condition for the underdamped case can be written:
+\m{\lambda < \omega_0}.
+
+\tryit Sketch a graph of \Eqnref{6}.
+Note that the frequency of the oscillations, \m{\omega}, remains constant in time
+but that the amplitude of the oscillations dies out exponentially.
+To make the sketch, first construct positive and negative decreasing
+exponential functions on the graph using dashed lines.
+The result should be a graph that is symmetric under reflections about the time
+axis.
+Now draw the constant-frequency exponentially-dying oscillations inside the
+dashed-lines \Quote{envelope.} \help{5}
+
+\pcap{3}{b}{The Overdamped Solution}
+
+For the overdamped case, \m{\gamma > \omega_0}, the solution can be written in
+the form:
+%
+\Eqn{11}{x(t) = A'\,e^{-(\gamma + \omega ')t} + B'\,e^{-(\gamma - \omega ')t}\,.}
+%
+where \m{\gamma} and \m{\omega_0} are as before and:
+%
+\Eqn{19}{\omega ' = \sqrt{\gamma^2-\,\omega_0^2}\,.}
+%
+As in the underdamped case, \m{A'} and \m{B'} must be fixed by two known values of
+\m{x(t)} and/or its derivatives.
+\Eqnref{11} can be shown to be mathematically equivalent to
+%
+\Eqnref{6}.
+%
+\Footnote[3]{If you are interested, see this module's \textit{Appendix}.}
+
+\tryit  Sketch a graph of \Eqnref{11}.
+Note that the curve is just the sum of two decaying exponentials.
+To the inexperienced eye, the sketch will look more or less like a single
+decaying exponential.
+
+\tryit Make sketches of what happens to the curve as you increase the damping
+constant to make it farther and farther from \Quote{critical} damping.
+
+\pcap{3}{c}{The Critically Damped Solution}
+
+For the critically damped case, \m{\omega = \omega ' = 0}.
+Using this, we can create a simpler form of \Eqnref{6} or
+\Eqnref{11} by letting \m{\omega} or \m{\omega '} approach zero in either
+%
+of those equations.
+%
+\Footnote[4]{If you are interested in the details, see this module's
+\textit{Appendix}.}
+%
+This gives:
+%
+\Eqn{12}{x(t) = (A'' + B'' t)\,e^{-\gamma t}\,.}
+%
+Again, \m{A''} and \m{B''} must be fixed by two known values of \m{x(t)} and/or its
+derivatives.
+
+\tryit  Sketch a graph of \Eqnref{12}.
+
+\pcap{3}{d}{The Transition}
+In \Figref{2} we have plotted \m{x(t)}, \Eqnsref{6} and \Eqnssref{11}, for increasing
+values of the damping constant \m{\lambda}.
+The critically damped case is not shown but corresponds to:
+\m{\gamma = \omega_0 = 2 \pi f_0}.
+We have chosen the constants such that \m{\alpha = 0}.
+
+Think of the system shown in the figure as the wheel of a car that
+has just gone over a sharp bump.
+If the shock absorber is worn out and hence inoperative, the damping is zero
+and the wheel oscillates up and down as in the first figure.
+If the shock absorber is almost worn out, so the damping is small, the wheel
+responds as in the next figure.
+If the shock absorber produces too much damping, the wheel takes a long time
+to come back to the equilibrium position, as shown in the last figure.
+Obviously, critical damping is close to what one wants.
+It is also obvious that the shock absorbers must be matched to the weight of
+the car and to the stiffness of its springs.
+}% /Sect
+%
+\Sect{}{Acknowledgment}{\SectType{Acknowledgments}}{
+%
+The author wishes to thank Jules Kovacs and Julie Junttila for helping to
+put together a study guide for a previous version of this module.
+Production was supported in part by grants from the National Science
+Foundation and from IBM.
+}% /Sect
+%
+\Sect{A}{Notes for Those Interested}{\SectType{AppendixMultiPara}}{
+%
+\xpcap{}{a}{The Equivalence of \Eqnsref{11} and \Eqnssref{6}}
+To see that the two equations are equivalent, note that \m{\omega^2=-\omega^2}
+so \m{\omega ' = i \omega} where \m{i = \sqrt{-1}}.
+Make this substitution and finish the conversion using
+\m{e^{ix} = \cos{x} + i \sin{x}}. \help{6}
+
+\xpcap{}{b}{Derivation of \Eqnref{12}}
+To show that \Eqnref{12} is the limit of
+\Eqnref{6} as \m{\omega} approaches zero, use the
+approximation: \m{e^x \approx 1 + x} for small \m{x}. \help{7}
+
+\xpcap{}{c}{Uniqueness of the solution}
+A fundamental existence theorem in mathematics guarantees that there is only
+one solution to \m{F=ma} for a force that is linear in \m{x}, \m{v}, and/or \m{a},
+providing that force contains no higher derivatives and providing the solution
+contains two independently adjustable constants.
+Thus any solution we find that satisfies \m{F=ma}, with the restrictions noted,
+is the only solution.
+That is why we we can show that the three forms are equivalent.
+
+Although the solution is unique in a mathematical sense, it can also be thought
+of as a two-parameter family of solutions, the two parameters being the two
+adjustable constants.
+For example, consider the plotted curve for an underdamped case, showing
+oscillations inside a decaying-exponential envelope.
+Assume the value zero for the phase \m{\alpha} so the curve is at its highest
+value at the origin.
+Now start continuously increasing \m{\alpha} and watch as the curve changes
+shape, going through complete oscillational cycles down and up the vertical
+axis at the origin as \m{\alpha} continues to increase.
+Of course the constant \m{A} can also be varied and together the two variations
+produce the two-parameter family of solutions for fixed \m{\lambda}, \m{k}, and
+\m{m}.
+}% /Sect

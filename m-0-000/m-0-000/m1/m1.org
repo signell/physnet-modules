@@ -1,0 +1,20 @@
+% 3/23/94, pss; 3/16/95, pss; 8/21/97, abs
+\input nphmods.sty
+
+%\includeonly{m1-me}
+
+%\psdraft
+
+\begin{document}
+
+\mNumber{1}
+
+\ChapterStart
+\include{m1-ct}
+\include{m1-id}
+\include{m1-tx}
+\include{m1-ps}
+\include{m1-as}
+\include{m1-me}
+\ChapterEnd
+\end{document}

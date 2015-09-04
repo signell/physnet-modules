@@ -1,0 +1,37 @@
+\revhist{11/14/86 mpm; 4/1/91, pss; 10/7/91, pss; 9/15/94, pss; 11/7/95, pss; 2/22/99, pss;
+         12/20/01, pss; 4/16/02, pss}
+%
+\defModTitle{\ph{Taylor's Polynomial} \ph{Approximation for Functions}}
+\defCtAuthor{Peter Signell}
+\defIdAuthor{P.\,Signell, Dept.\,of Physics, Mich.\,State Univ}
+%
+\defIdItems{
+    \IdVersEval{4/16/2002}{0}
+    \IdHours{1}
+    \begin{InputSkills}
+    \item [1.]  Formally differentiate polynomial, transcendental, and
+    exponential functions \prrqone{0-1}.
+    \end{InputSkills}
+    %
+    \begin{KnowledgeSkills}
+    \item [K1.] Use the Taylor Series to derive the formal expressions for
+    the finite difference approximations to the first and second derivatives.
+    \end{KnowledgeSkills}
+    %
+    \begin{RuleApplicationSkills}
+    \item [R1.] Use the Taylor Series to expand any given common function in a power series about any given point.
+    \item [R2.] Evaluate the first and second derivatives of any given function by numerical techniques.
+    \end{RuleApplicationSkills}
+    %
+    \begin{PostOptions}
+    \item [1.]  \Quote{Relativistic Energy: Thresholds for Particle Reactions,
+    Binding Energies} (MISN-0-23).
+    \item [2.]  \Quote{Small Oscillation Techniques} (MISN-0-28).
+    \item [3.]  \Quote{Numerov Computer Algorithm for the Damped Oscillator}
+    (MISN-0-39).
+    \item [4.]  \Quote{Numerov Computer Algorithm in Two Dimensions for Satellite
+    Orbits} (MISN-0-104).
+    \item [5.]  \Quote{The Runge-Kutta Computer Algorithm in Two Dimensions for
+    Trajectories in Magnetic Fields} (MISN-0-128).
+    \end{PostOptions}
+}

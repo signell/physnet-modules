@@ -1,0 +1,44 @@
+\revhist{4/1/91, pss; 8/30/91, pss; 11/25/92, pss; 2/26/93, pss; 4/20/94, pss;
+         10/12/94, pss; 11/8/94, pss; 9/18/95, lae; 12/7/95, pss; 8/23/96, pss;
+         11/13/97, pss; 2/4/99, bds; 2/22/99, pss; 11/8/99, pss; 12/18/2000, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{Energy Graphs, Motion, Turning Points}
+
+\IdAuthor{J.\,S.\,Kovacs, Physics Dept., Mich.\,State Univ., E.\,Lansing, MI}
+
+\IdVersEval{12/18/2000}{1}
+
+\begin{Hours/Pages} \HR{1} \TX{8} \PS{4} \AS{2} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  State the relationship between the line integral of a conservative force
+between specified limits and the potential energy difference between those
+limits \prrqone{0-21}.
+\item [2.]  Given the graph of a simple function, such as f\,=\,x\,exp(-\,a\,x), demonstrate
+the relationship between slope and derivative at any given point \prrqone{0-1}.
+\item [3.]  State the law of conservation of energy for mechanical systems, defining
+kinetic and potential energy \prrqone{0-21}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Vocabulary: potential energy curve, energy diagram, turning point.
+\end{KnowledgeSkills}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] Given the potential energy of a particle as a function of position
+(in one dimension or radially with spherical symmetry) determine (for a given
+position) the force acting on that particle and its acceleration, velocity,
+and turning points (if any).
+\item [S2.] Given the graph of a one-dimensional potential energy function and the
+total energy of a particle, give a qualitative description of the motion of
+this particle and locate its turning points and regions of acceleration and
+deceleration.
+\end{ProblemSolvingSkills}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

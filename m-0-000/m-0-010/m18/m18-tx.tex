@@ -1,0 +1,284 @@
+\revhist{9/3/86 mpm; 4/17/91, pss; 10/3/94, pss; 9/27/95, pss; 11/13/97, pss}
+%
+\Sect{1}{Observing Time-Dependent Vectors}{\SectType{TextMultiPara}}{
+%
+\CaptionedLeftFramedFigure{1}{The symbol \m{R} labels a rotating frame,
+\m{NR} a non-rotating one (see text).}{m18gr01}
+
+\pcap{1}{a}{Rotating, Non-Rotating Observers}
+We are going to compare observations of a vector \vect{r}'s change with
+time, as observed by a rotating (R) and a non-rotating (NR) observer.
+Imagine a large horizontal turntable rotating with angular velocity
+%
+\Footnote{1}{The vector angular velocity of a rigidly rotating object is
+defined by the direction that right-hand threads along the axis would move
+the object or, mathematically, by: \m{\vect{\omega}=\vect{v}\times\vect{r}/r^2},
+where \vect{v} and \vect{r} are for any point on the rigidly-rotating
+object (for example, the turntable in \Figref{1}).}
+%
+\vect{\omega}, as shown in \Figref{1}, with a radius vector \m{\vect{r}_o} from
+the center of the turntable to an object (labeled \Quote{o}) traveling with
+velocity \m{\vect{v}_o}.
+We will suppose that this velocity is being measured by an observer R who is
+stationary in the turntable's rotating frame, and also by an observer NR who
+is stationary in the non-rotating frame.
+What is the relation between the two velocity vectors of the object,
+the \m{\vect{v}_\text{o,R}} seen by the rotating observer and the
+\m{\vect{v}_\text{o,NR}} seen by the non-rotating observer?
+
+\pcap{1}{b}{Observing Velocities}
+First, recall that the velocities of an object seen by two observers
+are related by:
+%
+\Footnote{2}{See \Quote{Relative Linear Motion, Frames of Reference}
+(MISN-0-11).}
+%
+\Eqn{}{\vect{v}_\text{o,A} = \vect{v}_\text{o,B} = \vect{v}_\text{B,A}\,,}
+%
+where \m{\vect{v}_\text{o,A}} is the velocity of the object as seen by observer
+\m{A}, \m{\vect{v}_\text{o,B}} is the velocity of the object as seen by observer
+B, and \m{\vect{v}_\text{B,A}} is the velocity of B as seen by A.
+For our case this becomes:
+%
+\Eqn{}{\vect{v}_\text{o,NR} = \vect{v}_\text{o,R} + \vect{v}_\text{R,NR}\,.}
+
+The velocity of the rotating observer's frame, \m{\vect{v}_\text{R,NR}}\,, must
+be measured at the position of the object and is therefore given by
+%
+\Footnote{3}{See \Quote{Kinematics: Circular Motion} (MISN-0-9).}
+%
+\Eqn{1}{\vect{v}_\text{R,NR} = \vect{\omega}\times\vect{r}_\text{o}\,,}
+%
+hence the velocities of the object measured by the two observers are related
+by:
+%
+\Eqn{2}{\vect{v}_\text{o,NR} =
+                 \vect{v}_\text{o,R} + \vect{\omega}\times\vect{r}_\text{o}\,.}
+
+\pcap{1}{c}{Observing Arbitrary Vectors}
+We can use \Eqnref{2}, just derived, to find the differing time
+rates-of-change seen by the two observers for arbitrary vectors.
+To do this we first note that \vect{v} is equal to
+\m{d\vect{r}_\text{o}/dt}, and then make use of the theorem that any general
+relation valid for one vector is valid for all vectors.
+%
+\Footnote{4}{See \Quote{Mathematical Skills: Addition, Subtraction, and Products of
+Vectors} (MISN-0-2).}
+%
+Substituting \m{d\vect{r}_\text{o}/dt} into \Eqnref{2}, we get:
+%
+\Eqn{}{\left(\dfrac{d\vect{r}_\text{o}}{dt}\right)_\text{NR} =
+              \left(\dfrac{d\vect{r}_\text{o}}{dt}\right)_\text{R} +
+                                          \vect{\omega}\times\vect{r}.}
+%
+Then, making use of the general theorem quoted above, we can replace the
+radius vector to the object by an arbitrary vector which we will call
+\vect{G}:
+%
+\Eqn{3}{\left(\dfrac{d\vect{G}_\text{o}}{dt}\right)_\text{NR} =
+              \left(\dfrac{d\vect{G}_\text{o}}{dt}\right)_\text{R}
+                                      + \vect{\omega}\times\vect{G}.}
+%
+Any vector can be substituted for \vect{G} in this equation.
+}% /Sect
+%
+\Sect{2}{Coriolis and Centrifugal Effects}{\SectType{TextMultiPara}}{
+%
+\pcap{2}{a}{Acceleration}
+In order to modify Newton's Second Law for use in a rotating frame of
+reference, we will first determine the acceleration in that frame relative
+to its value in the non-rotating frame where Newton's laws are valid.
+That is easily accomplished by substituting the velocity of an object,
+as seen from the non-rotating frame, into \Eqnref{3}:
+%
+\Eqn{}{\left(\dfrac{d\vect{v}_\text{o,NR}}{dt}\right)_\text{NR} =
+            \left(\dfrac{d\vect{v}_\text{o,NR}}{dt}\right)_\text{R}
+                              + \vect{\omega}\times\vect{v}_\text{o,NR}.}
+%
+Then substitute for \m{\vect{v}_\text{o,NR}}\,, \Eqnref{2}, on the right
+side to obtain the relation between the observed accelerations:
+%
+\Eqn{}{\vect{a}_\text{o,NR} = \vect{a}_\text{o,R} +
+                2\vect{\omega}\times\vect{v}_\text{o,R} +
+        \vect{\omega}\times\left(\vect{\omega}\times\vect{r}_o\right)\,.}
+%
+We can now solve for the acceleration of the object as seen by the rotating
+observer:
+%
+\Eqn{4}{\vect{a}_\text{o,R} = \vect{a}_\text{o,NR} -
+                  2\vect{\omega}\times\vect{v}_\text{o,R} -
+     \vect{\omega}\times\left(\vect{\omega}\times\vect{r}_\text{o}\right).}
+%
+It is interesting to evaluate this equation for \m{\vect{a}_\text{o,R}} when
+\m{\vect{a}_\text{o,NR}} is zero, when \vect{\omega} is zero, when
+\m{\vect{v}_\text{o,R}} is zero, when \m{\vect{v}_\text{o,R}} is parallel to
+\vect{\omega}, etc., in order to make sure that they agree with what
+one would expect.
+
+The two \Quote{correction} terms in \Eqnref{4} are called the Coriolis and
+Centrifugal terms, respectively.
+Note that they both disappear as the angular velocity of the rotating
+observer goes to zero.
+If the object is motionless in the rotating frame then the Coriolis term
+goes away.
+If the object is crossing the axis of rotation the centrifugal term is zero.
+
+\pcap{2}{b}{The Forces}
+The apparent forces acting on an object, as seen from a rotating frame, can
+be determined by simply multiplying \Eqnref{4} by the object's mass
+\m{m_o} and applying Newton's Second Law in the non-rotating frame where it is
+valid:
+%
+\Eqn{5}{\vect{F}_\text{o,R} = \vect{F}_{true} + \vect{F}_\text{Coriolis} +
+                                            \vect{F}_\text{centrifugal}\,,}
+where
+%
+\Eqn{6}{\vect{F}_\text{Coriolis} = -2m \vect{\omega}\times\vect{v}_\text{o,R}\,,}
+%
+\Eqn{7}{\vect{F}_\text{centrifugal} =
+     -m \vect{\omega}\times\left(\vect{\omega}\times\vect{r}_\text{o}\right).}
+%
+The latter two forces are fictitious: they only seem to be there because one
+is observing from a rotating frame and thinking of it as stationary.
+
+The fictitious Coriolis and centrifugal forces are often perceived by an
+observer in a rotating frame as forces which must be \Quote{canceled out} by
+real restraining forces in order to make an object follow a desired path.
+In reality it is only the restraining forces that are real: they produce the
+required non-rotating-frame accelerations necessary to keep the object on
+its prescribed path.
+%
+\Footnote{5}{See \Quote{Relativistic Gravitation I: The Equivalence Principle}
+(MISN-0-110) for a discussion of the equivalence of gravity and
+acceleration; necessary for attempts to answer the question: How does one
+explain the observed Coriolis force if one believes that one can equally
+well describe the earth as non-rotating and the rest of the universe as
+rotating about it?}
+}% /Sect
+%
+\Sect{3}{The Foucault Pendulum}{\SectType{TextMultiPara}}{
+%
+\pcap{3}{a}{Introduction}
+One almost always finds a Foucault
+%
+\Footnote{6}{pronounced \Quote{foo c\={o}\m{\prime}} in English.}
+%
+pendulum hanging in a science museum, and frequently the pendulum is several
+stories high.
+The principal aim of showing one remains as it was with Foucault; namely, to
+demonstrate that the earth rotates on its axis with a period of one day.
+This is meant to be in contrast to a picture in which the earth is taken as
+non-rotating and the sun is taken as following a daily circular traversal of
+the earth.
+
+The suspension system of a Foucault pendulum is constructed in such a way as
+to allow it to swing as freely as possible.
+As a first approximation, we can consider it to be allowed to swing freely
+in any plane, even a rotating one.
+
+\pcap{3}{b}{A Function of Latitude}
+Think of transporting the pendulum to the North pole of the Earth, where it
+is suspended vertically, as usual, and set to swinging back and forth over
+the pole.
+As seen from the inertial (non-rotating) frame of reference, the pendulum's
+swings lie in a non-rotating plane.
+As seen by an observer at rest on the rotating earth, the plane of swinging
+would appear to rotate with an angular velocity which is just the negative
+of the angular velocity of the earth:
+%
+\Eqn{}{\vect{\omega}_p = -\vect{\omega}_e\,,}
+%
+where \m{\vect{\omega}_p} is called the (apparent) precessional angular
+velocity of the pendulum.
+
+Now think of moving the same pendulum to the equator.
+There it would be forced to go around with the earth while swinging, and the
+precession would be absent.
+
+It is not hard to convince oneself that the precessional rate is determined
+by the component of the earth's angular velocity along the pendulum's
+\Quote{vertical,} and earth radial:
+%
+\Eqn{8}{\omega_p = \omega_e \sin{\theta_e}\,,}
+%
+
+where \m{\theta_e} is the latitude of the suspension point ({0\degrees} at the
+equator, {90\degrees} at the north pole).
+\Equationref{8} can be derived exactly from the requirements:
+%
+\begin{itemize}
+\item [(i)] \m{\omega_p = \omega_e}  at the north pole;
+\item [(ii)] \m{\omega_p = 0}   at the equator;
+\item [(iii)] the Coriolis force, which is causing the precession, depends
+on the sine of the angle between \vect{\omega} and \vect{v}, and this
+can be directly shown to be equal to the angle of latitude, \m{\theta_e}.
+\end{itemize}
+%
+It is quite apparent that the precessional rate of a Foucault pendulum can
+be combined with the latitude angle of its position to give the absolute
+rotational rate of the earth.
+}% /Sect
+%
+\Sect{4}{Air Currents near Pressure Centers}{\SectType{TextOnePara}}{
+%
+\CaptionedFullFramedFigure{2}{Appearance of the air currents near a low
+pressure center in the northern hemisphere, as seen from a weather
+satellite.}{m18gr02}
+
+The spiral appearance of cyclonic cloud formations seen in weather satellite
+photographs is due to the Coriolis force: it constitutes dramatic evidence
+of the rotation of the earth.
+The common spiral satellite photographs shown in texts and on TV weather
+reports are of low-pressure centers.
+The air currents in the vicinity of such a center move over the face of the
+earth toward it and then rise from the surface and thereby produce the
+lowered pressure.
+From traveling over the surface these currents are warm and moisture-laden,
+bringing storms and being made visible by their clouds.
+These routinely-seen patterns are called extratropical cyclones.
+on the other hand, high pressure centers are produced by air descending from
+the upper atmosphere and then spreading out away from the center.
+Such air is typically cold and clear and does not show up in satellite
+photographs.
+
+As air moves toward or away from a pressure center, the Coriolis force
+produces a sideways deflection: the result is a spiral trajectory as in
+\Figref{2}.
+It is obviously quite easy to obtain the direction of rotation of these
+spirals in each hemisphere, for each type of pressure.
+}% /Sect
+%
+\Sect{5}{Prevailing Wind Directions}{\SectType{TextOnePara}}{
+%
+As one proceeds along a meridian
+%
+\Footnote{7}{A meridian is a north-south line on a map.}
+%
+on the face of the earth, the prevailing wind directions alternate.
+This fact was all-important in the days of square-rigged clipper ships that
+could only sail in the direction the winds were blowing.
+For example, they sailed the Atlantic from America to Europe following the
+prevailing west wind along {30\degrees} north latitude and then returned using
+the prevailing east wind along {45\degrees} north latitude.
+These prevailing-wind patterns are due to the Coriolis force, as is the
+direction of the prevailing wind in our vicinity.
+
+The alternation of prevailing wind directions is due to a combination of
+differential air heating and the Coriolis force.
+Begin by imagining an air mass covering a portion of the earth's surface
+in the northern hemisphere.
+The part nearer the equator is heated more than the rest and therefore tends
+to rise.
+It is easy to see that the Coriolis force deflects it to the west, resulting
+in rising \Quote{east winds.}
+Continuing motion results in a deflection northward and then the cooled air
+moves downward and is deflected easterly, resulting in descending \Quote{west
+winds.}
+The whole constitutes a large air cell.
+The direction of circulation of such air cells in the southern hemisphere
+can be easily determined and these patterns confirm the rotation of the
+earth.
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}{\NsfAcknowledgment}% /Sect
+

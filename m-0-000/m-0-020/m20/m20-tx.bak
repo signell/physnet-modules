@@ -1,0 +1,755 @@
+\revhist{12/20/88, ejdk; 8/10/91, pss; 5/6/92, pss; 3/8/93, pss; 9/7/94, pss; 3/27/95, pss;
+         11/14/96, pss; 11/7/97, pss; 11/7/97, lae; 12/13/2000, pss; 3/22/01, pss; 3/29/01, kag;
+         4/23/02, pss; 10/3/02, pss}
+
+\begin{center}\Quote{It's love that makes the world go round.}\\
+                            \hspace*{2in}  - Ancient Ditty \end{center}
+
+\begin{center}\Quote{Energy makes the world go round. \\
+   ENERGY explains EVERYTHING.}\\
+            \hspace*{2.4in} \parbox[t]{2in}{- Modern Ditty to be\newline
+                                          found in science books}\end{center}
+%
+\Sect{1}{Introduction}{\SectType{TextOnePara}}{
+%
+The fundamental problem of particle dynamics is to determine the external
+forces that act on an object, then use them to find the position of the
+object as a function of time.
+In more detail, once we know the forces we add them to get the resultant
+force \m{\vect{F}_R}, which we put into Newton's second law in order to get the
+acceleration \vect{a}.
+We can then find the final velocity by integrating the time-varying vector
+equation, inserting the initial velocity as an integration constant.
+We can repeat the integration to find the time-varying position.
+If the resultant force is constant in time these integrations produce
+\m{\vect{v} = \vect{v}_0 + \vect{a}\,t} and \m{\vect{s} = \vect{v}_0\,t + (1/2)
+           \vect{a}\,t^2}.
+However, there is an important class of problems in physics in which the force
+is not constant but varies as a function of the position of the particle.
+The gravitational force and the force exerted by a stretched spring are
+examples.
+
+With the introduction of work, power, and energy, we have alternative
+methods for the solution of dynamics problems, methods that involve
+scalar equations rather than the vector equations required in the direct
+application of Newton's laws.
+
+More important than the alternative methods themselves is the
+concept of energy\Index{energy} and the conservation law associated with it.
+The principle of conservation of energy is universal: it holds in
+all cases if all energy is carefully accounted for.
+It is true even for areas of physics where Newton's laws are not valid,
+as in the atomic-molecular-nuclear world.
+It is of major interest in an energy-conscious world.
+}% /Sect
+%
+\Sect{2}{Work}{\SectType{TextMultiPara}}
+{
+%
+\pcap{2}{a}{Meanings Associated with Work}
+Ever since your childhood you have heard and used the term \Quote{work.}
+Family members went to work.
+You were encouraged to work hard in school.
+You worked on your car, or it was difficult work riding a bike up the hill.
+All of us have an intuitive feeling about what is meant by work.
+However, it is necessary for the scientist/technologist to have a precise
+definition for meaningful communication with other professionals.
+
+Technically, \Quote{work}\Index{work} is the amount of energy transferred into or out
+of a definite mechanical system through the action of a mechanical force acting
+on that system along a finite trajectory.
+By conservation of energy, work done on a system enhances its energy while
+work done by a system depletes it.
+If we can calculate this energy, we can often use it to then calculate
+what happens to various properties of the system.
+
+\pcap{2}{b}{Definition for Constant Effective Force}
+We start with the special case where the effective force acting on an object is
+constant:
+%
+\textbox{{\bf Work} (for a constant effective force): the product of the
+\textit{effective} force acting on an object times the path-wise displacement of
+the point of application of the force.}
+%
+By \Quote{effective force}\Index{effective force}\Index{force| effective} we mean
+the component of the force in the direction of
+the displacement: it is that portion of the force that is effective in doing
+work on the object.
+The \Quote{pathwise displacement} is the distance along its path that the point of
+application of the force moves while the force is being applied.
+
+In Fig.\,1, \m{\theta} is the angle between the actual applied force \vect{F}
+and the horizontal displacement vector \vect{s} (not shown).
+The effective force is \m{|\vect{F}| \cos\theta = F \cos\theta}.
+This implies that in order for work to be done: (a) a force must
+act upon an object: (b) the point of application of the force must move through
+a displacement; and (c) the force must not be perpendicular to the displacement.
+Unless these conditions are fulfilled, no \Emph{technical} work has been done.
+Just thinking about this definition, or holding this page to read it, is not
+scientific \Quote{work.}
+However, if you take your pencil and copy the definition, you will be doing
+\Quote{work} in the technical sense of the word.
+
+\CaptionedFullFramedFigure{1}{The \textit{effective force} for horizontal displacement.}{m20gr01}
+
+\pcap{2}{c}{Work Done by a Constant Force}
+By our definition, the work done by a constant force\Index{constant force, work done by}\Index{work| done by constant force} \vect{F} that makes a
+constant angle \m{\theta} with the direction of the displacement \vect{s} (see
+Fig.\,1) is:
+%
+\Footnote[1]{See \Quote{Vectors I: Products of Vectors} (MISN-0-2).}
+%
+\Eqn{1}{W = |\vect{F}|\; \cos\theta\; |\vect{s}| = F\,s\,\cos\theta\,.}
+%
+We recognize that the right hand side of this equation has the same form as
+the scalar (or dot) product of the two vectors \vect{F} and \vect{s}, so we
+can express the work done as:
+%
+\Eqn{2}{W = |\vect{F}|\,|\vect{s}|\,\cos\theta = \vect{F}\,\cdot\,\vect{s}\,.}
+%
+Work is a scalar quantity, although the force and displacement involved in
+its definition are vector quantities.
+
+Notice that we can write \Eqnref{1} either as
+(\m{F \cos\theta) \times s} or as \m{F \times (s \cos\theta)}.
+This suggests that the work can be calculated in two different ways: either
+we multiply the magnitude of the displacement by the component of the force
+in the direction of the displacement or we multiply the magnitude of the
+force by the component of the displacement in the direction of the force.
+These two ways are entirely equivalent.
+
+Work\Index{work| sign of} can be positive or negative since \m{\cos\theta} can take on
+positive or negative values (\m{-1 \leq \cos\theta \leq + 1}).
+If the force acts in the displacement direction, the work is positive.
+If the force acts in the opposite direction to the displacement, the work is
+negative.
+For example, consider a person lowering an object to the floor.
+In this case \vect{F} points up and \vect{s} points down.
+While lowering the object, negative work is done by the upward
+force of the person's hand.
+
+\pcap{2}{d}{Units of Work}
+The units of work\Index{SI units| of work}\Index{units| of work}\Index{work| units of}
+are products of units of force and units of distance.
+In SI units, work is expressed in joules\Index{joule}, abbreviated J.
+A joule is a newton-meter: one joule is the work done by a force of one newton
+when it moves a particle one\,\unit{meter} in the same direction as the force.
+Recalling that \m{\unit{N} = \unit{kg\,m/s\up{2}}} we have that:
+%
+\Eqn{}{\unit{J} = \unit{N\,m} = \unit{kg\,m\up{2}/s\up{2}}\,.}
+%
+The name joule was chosen to honor James Joule (1816-1889), a British
+scientist famous for his research on the concepts of heat and energy.
+
+\CaptionedFullFramedFigure{2}{One-body force diagram for a pulled
+car (see text).}{m20gr02}
+
+\pcap{2}{e}{Illustration of the Work Concept} An Example/Problem:
+A Toyota (mass equal to \m{1.0 \times 10^3\unit{kg}}) that had run out of gas was
+pulled down a level street by 3 people, each exerting \m{7.0 \times 10^2\unit{N}} of
+force on a rope inclined at {30.0\degrees} to the horizontal.
+The motion was at constant velocity because of friction, mostly between the
+tires and the street.
+The people pulled the car for one block (150\,\unit{meters}) before becoming tired
+and quitting.
+%
+\begin{itemize}
+\item How much work was done by the people?
+\begin{eqnarray*}
+F_\text{people} & = & \sum_{i=1}^3 F_i = 3(700\unit{N}) = 2100\unit{N} \\
+W_\text{people} & = & \vect{F} \cdot \vect{s} = F (\cos\theta)\,s =
+                      (2100\unit{N})(\cos30\degrees) (150\unit{m}) \\
+                & = & 2.7 \times 10^5\unit{J}. \quad \text{(2 digits of accuracy)}
+\end{eqnarray*}
+\item How much work was done by the normal force \vect{N}?
+
+Since \m{\sum \vect{F}_\text{vertical} = 0}, then \m{\vect{N} = (mg - F \sin\theta)\,\uvec{y}}.
+
+\item[] \m{W_\text{normal} = \vect{N} \cdot \vect{s} = 0}, since \m{\vect{N} \perp \vect{s}}.
+\end{itemize}
+\begin{itemize}
+\item How much work was done by the gravitational force, \m{\vect{F}_g}?\newline
+The answer:
+\m{W_\text{gravity} = \vect{F} \cdot \vect{s}} which is also zero, since \m{\vect{F}_g \perp \vect{s}}.
+
+These last two cases emphasize that, whenever \m{\theta = 90\degrees}, the work done will be zero.
+
+\item Where did the energy go?
+We found that \m{2.7 \times 10^5\unit{joules}} of work were performed, by the people,
+on the car-earth system.
+This means that the people lost, and the car-earth system gained,
+\m{2.7 \times 10^5\unit{joules}} of energy.
+What happened to that energy?
+Some might have gone into energy of motion, kinetic energy of the car, but
+the car wound up not having any motion.
+In fact, the energy went into heating the pavement, the tires, the axles,
+the wheel bearings, the wheel bearing grease, and eventually the air
+surrounding these items as they cooled off.
+Finally, the atmosphere radiated some of the energy out into space and it
+became lost to the earth.
+\end{itemize}
+
+\pcap{2}{f}{Graphical Interpretation of Work}
+For a graphical interpretation of the work\Index{work| graphical interpretation of}
+concept we plot the effective
+force (\m{F \cos\theta}) versus the displacement during the interval from the
+initial position \m{s_i} to the final position \m{s_f}.
+The work done is \m{(F \cos\theta)(s)}, the area under the curve shown in
+Fig.\,3.
+
+\CaptionedFullFramedFigure{3}{The effective force versus the displacement.}{m20gr03}
+}% /Sect
+%
+\Sect{3}{Work Done by Variable Forces}{\SectType{TextMultiPara}}{
+%
+\pcap{3}{a}{Work During Infinitesimal Displacement}
+Let us now consider the more usual case where the work is done by a force whose
+value will depend on the position of the point of application.
+For a force that is changing only in magnitude, we can represent the
+situation graphically as in Fig.\,4.
+
+In order to find the work done for some displacement, we imagine dividing the
+displacement into a very large number of infinitesimal intervals.
+The work done by a force \m{\vect{F}(s)} during any one infinitesimal
+displacement \m{d\vect{s}} is given by:
+%
+\Eqn{4}{dW = \vect{F}(s) \cdot d\vect{s}\,.}
+%
+\CaptionedLeftFramedFigure{4}{A variable force versus displacement.}{m20gr04}
+
+In order to obtain the total work done, which is a finite measurable
+parameter, we must sum up (integrate) those (infinitesimal) increments of
+work.
+
+\pcap{3}{b}{One Dimensional Motion: An Integral}
+As a first stab at integrating \Eqnref{4}, let us investigate the
+situation where the force and the displacement are along the same line of
+action (say the \m{x}-axis) and the force is a known function of the position
+\m{x}.
+That is, \m{\vect{F} = F(x) \uvec{x}} where \m{F(x)} is known.
+During a small displacement \m{dx}, so \m{d\vect{s} = dx \uvec{x}}, the force
+does an amount of work \m{dW} given by:
+%
+\Eqn{}{dW = \vect{F} \cdot d\vect{s} = F(x)\,dx\,.}
+%
+\CaptionedLeftFramedFigure{5}{The area under the curve represents Work.}{m20gr05}
+
+To obtain the work over a finite interval we sum these infinitesimal
+contributions by integrating.
+As the force moves the particle from \m{a} to \m{b} the work varies from zero to
+its final value:
+%
+\Eqn{}{\int_0^W dW = \int_a^b F(x)\,dx}
+%
+or
+%
+\Eqn{5}{W_{a\rightarrow b} = \int_a^b F(x)\,dx\,.}
+%
+Graphically, the work is the area under the curve of \m{F(x)} versus \m{x} (see Fig.\,5).
+In order to calculate it we did not need to know the actual details of the
+motion, such as velocity as a function of time.
+Note that the graphical representation illustrates that work requires a
+displacement (if we are to have an area under the curve) and the notation
+\m{W_{a\rightarrow b}} also serves to remind us of this fact.
+Work is not%
+
+\CaptionedFullFramedFigure{6}{Force characteristics of a
+spring.
+(a) The spring force \m{F} as a function of its displacement \m{x}.
+(b) The spring in its equilibrium state.
+(c) The spring stretched by a displacement \m{x} to the right and with a
+spring force \m{F} to the left.
+(d) The spring compressed with a displacement \m{x} to the spring force \m{F} to
+the right.}{m20gr06}
+
+\CaptionedLeftFramedFigure{7}{The work done by a force compressing a
+spring from 0 to \m{x} is the area \m{(1/2) k x^2} under the \Quote{force versus
+displacement} curve.}{m20gr07}
+
+\noindent
+a function of a single position in space like \m{F(x)}.
+Work at a point has no meaning; only over a displacement is it meaningful.
+
+\pcap{3}{c}{Example: a Stretched Spring}
+As a helical spring is stretched or compressed, away from its equilibrium
+position, the spring resists with a force that is fairly
+accurately linear (unless it is poorly made or becomes deformed).
+That is, if a \Quote{linear} spring is stretched or compressed a distance \m{x},
+it resists with a force \m{F = -k x}.
+Here the (\m{-}) sign indicates that the spring's force is
+opposite to the direction of the displacement from equilibrium.
+We call this a \Quote{restoring} force since it tends to restore the spring
+to its equilibrium position.
+The quantity \m{k} is called the \Quote{spring constant}: it is a measure of the
+\Quote{stiffness} of the spring.
+By the way, saying the spring is in its \Quote{equilibrium position} merely
+means that it is neither compressed nor stretched.
+
+Suppose one finds that a 36\unit{N} force compressed a particular spring by
+6.0\unit{cm}.
+How much work is done by the force if it compresses the spring by 5.0\unit{cm}?
+First, note that the value of the spring constant is:
+%
+\Eqn{}{k = -\dfrac{F}{x} = \dfrac{-36\unit{N}}{-6.0 \times 10^{-2}\unit{m}} =
+           6.0 \times 10^2\unit{N/m}\,.}
+%
+Then the work done by the compressing force is:
+%
+\Eqn{}{W = \int \vect{F}_R \cdot d\vect{s} = \int_{-x}^0 (-k x)\,dx\,,}
+%
+since \vect{F} is parallel to \m{d\vect{s}} and is in the same direction.
+Thus:
+%
+\Eqn{}{W = - k \int_{-x}^0 x\,dx = \dfrac{k x^2}{2} = 0.75\unit{J}\,.}
+%
+This transfer of energy depleted the energy of the system applying the force
+and increased the (internal) energy of the spring.
+
+\CaptionedLeftFramedFigure{8}{A force whose point of application
+follows a curved path.}{m20gr08}
+
+We can arrive at the same result graphically by calculating the area under
+the \Quote{\m{F} versus \m{x}} curve.
+Since the area of a triangle is half its height times its base, we have:
+%
+\Eqn{}{\dfrac{1}{2}(-k x)(-x) = \dfrac{1}{2}k x^2\,.}
+%
+
+\pcap{3}{d}{General Motion: A Line Integral}
+\Index{integral| line}\Index{line integral}The force \vect{F} doing work may
+vary in direction as well as in
+magnitude, and the point of application may move along a curved path.
+To compute the work done in this general case we again divide the path up
+into a large number of small displacements \m{d\vect{s}}, each pointing along
+the path in the direction of motion.
+At each point, \m{d\vect{s}} is in the direction of motion.
+
+The amount of work done during a displacement \m{d\vect{s}} is:
+%
+\Eqn{}{dW = \vect{F}(s) \cdot d\vect{s} = F(s) (\cos\theta)\,ds\,,}
+%
+where \m{F(s) \cos\theta} is the component of the force along the tangent to
+the trajectory at \m{d\vect{s}}.
+The total work done in moving from point \m{s_i} to point \m{s_f} is the
+sum of all the work done during successive infinitesimal displacements:
+%
+\Eqn{}{W = \vect{F}_1 \cdot d\vect{s}_1 + \vect{F}_2 \cdot d\vect{s}_2 +
+\vect{F}_3 \cdot d\vect{s}_3 + \ldots}
+%
+Replacing the sum over the line segments by an integral, the work\Index{work| done by variable force}
+is found to be:
+%
+\Eqn{6}{W_{A\rightarrow B} = \int_A^B \vect{F}(s) \cdot d\vect{s} =
+\int_A^B F(s) (\cos\theta)\,ds\,,}
+%
+where \m{\theta} is a function of \m{s}, the position along the trajectory.
+This is the most general definition of the work done by a force \m{\vect{F}(s)}.
+We cannot evaluate this integral until we know how both \m{F} and \m{\theta}
+vary from point to point along the path.
+
+\CaptionedLeftFramedFigure{9}{The total work is the sum over successive
+infinitesimal displacements.}{m20gr09}
+
+For any vector \vect{V} which is a function of position, an integral of the
+form
+%
+\Eqn{}{\int_i^f \vect{V} \cdot d\vect{s}\,,}
+%
+along some path joining points \m{i} and \m{f}, is called \Quote{the line integral of
+\vect{V}.}
+\Equationref{6} is of this nature because it is evaluated along the
+actual path in space followed by the particle as it moves from \m{i} to \m{f}.
+
+\Equationref{6} is the \Quote{line integral definition of work.}\Index{work| line integral definition of}
+For each increment of displacement \m{d\vect{s}} along the path, the
+corresponding increment of work \m{dW = \vect{F} \cdot d\vect{s}} is calculated
+and then these scalar quantities are simply summed to give the work along
+the total path.
+
+We can obtain an equivalent general expression for \Eqnref{6} by
+expressing \vect{F} and \m{d\vect{s}} in scalar component form.
+With \m{\vect{F} = F_x \uvec{x} + F_y \uvec{y} + F_z \uvec{z}} and
+\m{d\vect{s} = dx \uvec{x} + dy \uvec{y} + dz \uvec{z}}, the resulting work done in
+going from position \m{A = (x_A, y_A, z_A)} to position \m{B = (x_B, y_B, z_B)} can
+be expressed as:
+%
+\Eqn{7}{W_{i\rightarrow f} =
+ \int_{x_i}^{x_f} F_x\,dx + \int_{y_i}^{y_f} F_y\,dy +
+\int_{z_i}^{z_f} F_z\,dz\,,}
+%
+where each integral must be evaluated along a projection of the path.
+%
+\SubSubSect{}{Example:}{
+At Space Mountain in Disney World the space rocket ride is simulated by a
+cart which slides along a roller coaster track (see cover) which we will
+consider to be frictionless.
+Starting at an initial position \#1 at height \m{H} above the ground, find the
+work done on this rocket when you ride it to the final position \m{f} at the
+bottom of the track (see Fig.\,10).
+
+The forces that act on this \Quote{rocket} are: the force of gravity,
+\m{\vect{F}_g = - m g \uvec{y}} and the \Quote{normal} surface reaction force
+\vect{N}.
+The total work done by the resultant force \m{\vect{F}_R = \vect{F}_g + \vect{N}}
+on the rocket between the two end points is:
+%
+\Eqn{}{W_{i\rightarrow f} = \int_i^f \vect{F}_R \cdot d\vect{s} =
+                            \int(\vect{F}_g + \vect{N}) \cdot d\vect{s} =
+                            \int\vect{F}_g \cdot d\vect{s} + \int \vect{N} \cdot d\vect{s}.}
+%
+
+\CaptionedFullFramedFigure{10}{Force diagram for rocket cart.}{m20gr10}
+
+Since the surface force is always perpendicular to the path, it does no
+work.
+That is, \m{\int \vect{N} \cdot d\vect{s} = \int N \cos\phi\,ds = 0}, since
+the angle between \vect{N} and \m{d\vect{s}} is always {90\degrees}.
+This is true despite the fact that the angle between \m{\vect{F}_g} and
+\m{d\vect{s}} changes continuously as the rocket goes down the track.
+
+Now we can write \m{d\vect{s} = dx \,\uvec{x} + dy \,\uvec{y}} so that:
+\begin{eqnarray*}
+W_{i\rightarrow f} & = & \int \vect{F}_g \cdot d\vect{s} =
+\int (-m g \uvec{y}) \cdot (dx \uvec{x} + dy \uvec{y}) \\
+                   & = & - \int_H^0 m g\,dy = - m g \int_H^0\,dy = m g H
+\end{eqnarray*}
+Here we see that the line integral reduces to a simple summation of the
+elements \m{dy}, which are the projections of \m{d\vect{s}} on the constant
+direction \m{\vect{F}_g}.
+The answer, \m{m g H}, is an important one to remember.
+It is the energy of the earth-plus-rocket system that was transferred from
+gravitational energy to mechanical energy.
+That answer holds for any earth-plus-object system.
+}% /SubSubSect
+}% /Sect
+%
+\Sect{4}{Power}{\SectType{TextMultiPara}}{
+%
+\pcap{4}{a}{Definition of Power}
+\Index{power}Let us now consider the time involved in doing work.
+The same amount of work is done in raising a given body through a given
+height whether it takes one second or one year to do so.
+However, the rate at which work is done is often as interesting to us as is
+the total work performed.
+When an engineer designs a machine it is usually the time rate at which the
+machine can do work that matters.
+
+Instantaneous power\Index{power| instantaneous} is defined as the time rate at which work is being done
+at some instant of time.
+That is, it is the limit, as the time interval approaches zero, of the amount
+of work done during the interval divided by the interval.
+Since this is the definition of the time derivative, we have:
+%
+\Eqn{14}{P=\dfrac{dW}{dt}\,.}
+%
+For constant force or velocity, using \Eqnref{4} and \m{\vect{v} =
+d\vect{s}/dt} we get:
+%
+\Eqn{15}{P = \vect{F}_\text{const}\, \cdot \vect{v}             \qquad ; \qquad
+         P = \vect{F}               \cdot \vect{v}_\text{const} \,.}
+%
+The average power\Index{power| average} \m{P_{av}} during a time interval \m{\Delta t} is:
+%
+\Eqn{}{P_{av} =\dfrac{W}{\Delta t}\,.}
+%
+If the power is constant in time, then \m{P_\text{const} = P_{av}} and
+%
+\Eqn{16}{W = P_\text{const}\,\Delta t\,.}
+%
+
+\pcap{4}{b}{Units of Power}
+\Index{units| of power}According to the definition of power, its units are units of work divided by
+units of time.
+In the MKS system, the unit of power\Index{power| units of} is called a watt\Index{watt},
+abbreviated W, which is equivalent to a joule per second.
+One watt is the power of a machine that does work at the rate of one joule
+every second.
+Recalling that \m{\unit{J} = \unit{m\up{2}\,kg/s\up{2}}}, we have that:
+%
+\Eqn{}{\unit{W} = \unit{J/s} = \unit{m\up{2}\,kg/s\up{3}}\,.}
+%
+The name watt was chosen in honor of the British engineer James Watt
+(1736-1819) who improved the steam engine with his inventions.
+
+Work can be expressed in units of \m{\text{power } \times \text{ time}}.
+This is the origin of the term kilowatt-hour (kWh).
+One kilowatt-hour is the work done in 1\,\unit{hour} by an agent working at a
+constant rate of 1\unit{kW} (1000\unit{W}).
+Electricity is sold \Quote{per \unit{kWh}.}
+%
+\SubSubSect{}{Example:}{
+Under very intense physical activity the total power output of the heart
+may be 15\,unit{watts}.
+How much work does the heart do in one minute at this rate?
+%
+\Eqn{}{W = P_\text{const} \, \Delta t = (15\unit{W})\,(60\unit{s}) =
+900\unit{J}\,.}
+%
+}% /SubSubSect
+%
+}% /Sect
+%
+\Sect{5}{Kinetic Energy}{\SectType{TextMultiPara}}{
+%
+\pcap{5}{a}{Definition of Kinetic Energy}
+A particle's kinetic energy is defined as the amount of energy a particle
+has, due solely to its velocity.
+Using Newton's second law and the definition of total work, one can show that
+the kinetic energy, \m{E_k}, of a particle of mass \m{m} traveling at velocity
+\m{v} is:
+%
+\Eqn{9}{\text{KINETIC ENERGY } = E_k =\dfrac{1}{2}m v^2\,.}
+%
+This is valid whenever Newtonian mechanics is valid.
+We can easily illustrate this derivation for the special case of a resultant
+force, \m{\vect{F}_R}, that acts on a particle of mass \m{m} along the direction
+of its displacement.
+For this case the total work done on the particle is:
+%
+\Eqn{10}{W_{T,i\rightarrow f} = \int_{s_i}^{s_f} \vect{F}_R \cdot \,d\vect{s} =
+                              \int_{x_i}^{x_f} F_R \,dx\,.}
+%
+Since the force, hence the acceleration, is along the direction of
+displacement, we can use \Eqnref{10} and Newton's second law
+%
+\Footnote[2]{See \Quote{Free-Body Force Diagrams, Frictional Forces, Newton's Second
+Law} (MISN-0-15).}
+%
+to write:
+%
+\TwoEqns{11}{W_{i\rightarrow f} & = \int_{x_i}^{x_f}  \,m \,a \,dx =
+                                    \int_{x_i}^{x_f}  \,m\,\dfrac{dv}{dt}dx =
+                                    \int_{x_i}^{x_f}  \,m\,dv\,\dfrac{dx}{dt}}
+            {                   & = \int_{x_i}^{x_f}  \,m\,v\,dv =
+                                    m \int_{x_i}^{x_f} \,v\,dv =
+                                    \dfrac{m v_f^2}{2}-\dfrac{m v_i^2}{2}\,.}
+%
+Thus the work that went into accelerating the particle, from \m{v_i} to \m{v_f},
+is exactly equal to the change in the kinetic energy for that particle.
+Note that kinetic energy is a scalar quantity.
+It is, as we shall see, just as significant as the vector quantity, momentum,
+that is also a quantity used to describe a particle in motion.
+
+\Index{kinetic energy| units of}From its definition, kinetic energy has dimensions
+\m{M L^2/T^2}, either mass
+multiplied by the square of speed, or, since it is equivalent to work [as
+shown in \Eqnref{11}], force multiplied by distance.
+Thus, the kinetic energy of a particle may be expressed in \textit{joules}.
+It follows that a 2\unit{kg} particle moving at 1\unit{m/s} has a kinetic energy of
+1\unit{J}.
+
+The kinetic energy of a particle can be expressed in terms of the
+magnitude of its linear momentum, \m{m \vect{v} = \vect{p}}:
+%
+\Eqn{12}{E_k=\dfrac{1}{2}mv^2=\dfrac{(mv)^2}{2m}=\dfrac{p^2}{2m}=
+                \dfrac{|\vect{p}|^2}{2m}\,}
+%
+\SubSubSect{}{Example:}{
+A particle of mass \m{m} starts from rest and falls a vertical distance \m{h}.
+What is the work done on this particle and what is its final kinetic energy?
+
+The particle experiences only a single constant force,
+\m{\vect{F} = - m g\,\uvec{y}}, in the downward direction.
+The displacement, \m{d\vect{s} = -\,dy\,\uvec{y}}, is also downward for a
+distance \m{h}.
+Therefore the work done by the gravitational force is:
+%
+\Eqn{}{W = \int\,\vect{F} \cdot d\vect{s} =
+   \int_0^h (-m g\,\uvec{y})\cdot(-dy\,\uvec{y}) =
+   \int_0^h \,m\,g\,dy = m\,g\,h\,.}
+%
+Since this is the only work done on the particle, it is equal to the final
+kinetic energy:
+%
+\Eqn{}{m g h = \dfrac{1}{2}m v^2\,.}
+%
+Solving for velocity:
+%
+\Eqn{}{v = \sqrt{2\,g\,h\,}\,,}
+%
+which is the same result we obtain from kinematics for an object falling
+with constant acceleration \m{g} (a \Quote{freely-falling} object).
+}% /SubSubSect
+%
+\SubSubSect{}{Example:}{
+It is possible for a person with a mass of \m{7.0 \times 10^1\unit{kg}} to fall to
+the ground from a height of 10.0\,\unit{meters} without sustaining an injury.
+What is the kinetic energy of such a person just before hitting the ground?
+The velocity of the person is:
+%
+\Eqn{}{v = \sqrt{2\,g\,h} = \sqrt{2(9.8\unit{m/s\up{2}})(10\unit{m})} = 14\unit{m/s}\,.}
+%
+Then the kinetic energy of the person is:
+%
+\Eqn{}{E_k = \dfrac{1}{2}m v^2 =
+             \dfrac{1}{2}(70\unit{kg})(14\unit{m/s})^2 = 6.9 \times 10^3\unit{J}\,.}
+
+\pcap{5}{b}{The Energy Concept}
+Of all the concepts of physics, that of energy is perhaps the most
+far-reaching.
+Everyone, whether a scientist or not, has an awareness of energy and what it
+means.
+Energy\Index{energy} is what we have to pay for in order to get things done.
+The work itself may remain in the background, but we recognize that each
+gallon of gasoline, each Btu of heating gas, each kilowatt-hour of
+electricity, each calorie of food value, represents, in
+one way or another, the wherewithal for doing something.
+We do not think in terms of paying for force, or acceleration, or momentum.
+Energy is the universal currency that exists in apparently countless
+denominations, and physical processes represent a conversion from one
+denomination to another.
+
+The above remarks do not really define energy.
+No matter.
+It is worth recalling the opinion of H.\,A.\,Kramers:
+\Quote{The most important and most fruitful concepts are those to which it is
+impossible to attach a well-defined meaning.}
+The clue to the immense value of energy as a concept lies in its
+transformation.
+We often find energy defined in general as the ability to do work.
+A system possesses energy; it can do work.
+At any instant a system has a certain energy content.
+Part or all of this energy can be transformed into the activity of work.
+Work is only an active measure of energy and not a form of energy itself.
+Work is best regarded as a mode of transfer of energy from one form to
+another.
+It is a medium of exchange.
+In this unit we are dealing with only one category of energy--the kinetic
+energy associated with the motion of an object.
+If energy should be transferred from this form into chemical energy,
+radiation, or the random molecular and atomic motion we call heat, then from
+the standpoint of mechanics it is gone.
+This is a very important feature, because it means that, if we restrict our
+attention purely to mechanics, conservation of energy does not hold.
+Nevertheless, as we shall see, there are many physical situations in which
+total mechanical energy is conserved, and in such contexts it is of
+enormous value in the analysis of real problems.
+}% /Sect
+%
+\Sect{6}{The Work-Kinetic Energy Relation}{\SectType{TextMultiPara}}{
+%
+\pcap{6}{a}{Derivation of the Relation}
+\Index{work-energy relation}Equationref{11} shows that the work done on a particle, when the
+resultant force acting on the particle is in the direction of the
+displacement, is equal to the change in the particle's kinetic energy.
+For the more general case of a force that is not in the direction of motion,
+we can still derive this valuable relation between the work done and the
+change in kinetic energy.
+
+Write \m{\vect{F}_R} for the resultant force acting upon a particle of mass \m{m},
+moving along a path between the two positions \m{s_i} and \m{s_f}, then:
+\begin{eqnarray*}
+\sum W_{i\rightarrow f} & = &
+        \int_{s_i}^{s_f} \vect{F}_R \cdot \,d\vect{s} =
+        \int m \vect{a}\,\cdot\,d\vect{s} =
+        m \int \dfrac{d\vect{v}}{dt}\,\cdot\,d\vect{s} \\
+                        & = &
+        m \int \,d\vect{v} \cdot \dfrac{d\vect{s}}{dt} =
+        m \int\,d\vect{v}\cdot \vect{v}\,. \\
+\end{eqnarray*}
+\noindent
+Thus:
+%
+\Eqn{}{\sum W_{i\rightarrow f} = m \int_{v_i}^{v_f}\,d\vect{v} \cdot \vect{v} =
+   \dfrac{mv_f^2}{2}-\dfrac{mv_i^2}{2} = E_{k,f} - E_{k,i} =\Delta E_k\,.}
+%
+The evaluation of the integral in this last step can be easily seen if you
+write \vect{v} and \m{d\vect{v}} in scalar component notation.
+%
+\Footnote[3]{For additional discussion of the mathematical steps presented in
+this derivation see \Emph{Newtonian Mechanics}, A.\,P.\,French, W.\,W.\,Norton
+\& Co. (1971), pp.\,368-72, or \Emph{Physics for Scientists and Engineers,
+Volume 1}, Melissinos and Lobkowicz, W.\,B.\,Saunders Company (1975),
+p.\,170.}
+%
+In summary,
+%
+\Eqn{13}{W_{i\rightarrow f} = \int_i^f \,\vect{F}_R\,\cdot\,d\vect{s} =
+                    \Delta E_k\,.}
+%
+Equationref{13} is known as the Work-Kinetic Energy Relation and it
+is valid no matter what the nature of the force:
+\begin{itemize}
+\item [] \textit{The total work done on a particle (by the resultant force
+acting on it), between some starting point \m{s_i} and ending point \m{s_f},
+is the change in the particle's kinetic energy between those two end points.}
+\end{itemize}
+
+\noindent
+This relation applies quite apart from the particular path followed, so long
+as the total work done on the particle is properly computed from the
+resultant force.
+
+\pcap{6}{b}{Significance of the Relation}
+The work-kinetic energy relation is not a new independent relationship of
+classical physics.
+We have derived it directly from Newton's second law, utilizing the
+definitions of work and kinetic energy.
+This relation is helpful in solving problems where the work done by the
+resultant force is easily computed, or where we are interested in finding the
+speed of a particle at a particular position.
+However, we should recognize that the work-kinetic energy principle is the
+starting point for formulating some sweeping generalizations in physics.
+We have stressed that this principle can be applied when \m{\Sigma W} is
+interpreted as the work done by the resultant force acting on a particle.
+In many cases however, it is more useful to compute separately the work done
+by each of certain types of forces which may be acting and to give these
+special designations.
+This leads us to the identification of different types of energy, and the
+principle of the conservation of energy.
+%
+\Footnote[4]{See \Quote{Potential Energy, Conservative Forces, the Law of
+Conservation of Energy} (MISN-0-21).}
+%
+}% /SubSubSect
+%
+\SubSubSect{}{Example:}{
+\noindent
+(a) How much work is required to stop a \m{1.0 \times 10^3\unit{kg}} car that is
+moving at a speed of 20.0\unit{m/s}?
+\begin{eqnarray*}
+W_{T,i\rightarrow f} & = & E_{k,f} - E_{k,i} = 0 -\dfrac{1}{2}m v_i^2 =
+                           0 - \dfrac{1}{2}(100\,0\unit{kg})(20\unit{m/s})^2 \\
+                     & = & - 2.0 \times 10^5\unit{J}. \\
+\end{eqnarray*}
+The negative (\m{-}) sign indicates that there was a decrease in the kinetic energy of
+the car; that is, work was done on the car by a braking force opposing
+its motion.
+
+\noindent
+(b) If this car requires 100 meters to come to rest, what is the total
+resultant braking force acting on the car?
+%
+\Eqn{}{W_{i\rightarrow f} = \int_i^f\vect{F}_R \,\cdot\, d\vect{s} = -f \int_{s_i}^{s_f} \,ds\,,}
+%
+since the total resultant force can be represented by a single constant
+braking force f which directly opposes the motion.
+Thus:
+%
+\Eqn{}{-2 \times 10^5\unit{J} = - f(100\unit{m}) \qquad \text{ or } \qquad f = 2 \times 10^3\unit{N}\,.}
+%
+}% /SubSubSect
+%
+\SubSubSect{}{Example:}{
+In a previous example we found that a stretched spring did an amount of work
+\m{k x^2/2} on an object when the spring returned to its equilibrium position
+from a displacement \m{x}.
+
+We can now use the Work-Kinetic Energy relation to easily find the velocity
+of the block as it passes the equilibrium position:
+%
+\Eqn{}{W_{i\rightarrow f} = \Delta E_k}
+%
+\Eqn{}{\dfrac{k x^2}{2} = \dfrac{m v_f^2}{2} - \dfrac{m v_i^2}{2}\,.}
+%
+Since it initially started from rest we find:
+%
+\Eqn{}{v_f = x \, \sqrt{k/m}\,.}
+}% /SubSubSect
+%
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}%
+{Professor James Linneman made several helpful suggestions. \NsfAcknowledgment
+}% /Sect
+

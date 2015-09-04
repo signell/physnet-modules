@@ -1,0 +1,126 @@
+\revhist{12/14/90, pss; 12/8/92, pss; 2/12/93, pss; 3/11/93, pss; 9/2/94, pss;
+         9/15/94, pss; 10/14/94, pss; 11/7/97, lae; 1/1/20/03, pss}
+
+\Sect{}{}{\SectType{ProblemSet}}{
+
+\ProbSet{Exercises}{
+\begin{one-digit-list}
+\item [1.] Show that, for uniform circular motion:
+           \m{a_r = 4 \pi^2 r / T^2 = 4 \pi^2 \nu^2 r}.  \help{6}
+\item [2.] Show that, for uniform circular motion:
+\begin{one-digit-list}
+\item [a.] \m{\omega = 2 \pi \nu}
+\item [b.] \m{a_r = \omega^2 r}   \help{7}
+\end{one-digit-list}
+\item [3.] \NullItem
+\begin{one-digit-list}
+\item [a.] Explain why \m{v = | ds/dt |}, \m{v \neq ds/dt}.
+\item [b.] If \m{s} is graphed versus time, how can \m{v} be determined from this graph?   \help{3}
+\end{one-digit-list}
+\end{one-digit-list}
+}% /ProbSet
+%
+\ProbSet{Problems}{
+\noindent Note:  Remember to set your calculator to the proper angular
+measure, radians or degrees, for the equations you are using! \help{12}
+\begin{one-digit-list}
+\item[1.] The moon orbits the earth in an approximately circular path (mean
+radius\,\m{ = 3.84 \times 10^5\unit{km}}) every 27.3\unit{days}.  Calculate the moon's
+speed and radial acceleration in this orbit. \help{25}
+\item [2.] Calculate the speed and acceleration of a person on the equator 
+resulting from the earth's spinning about its axis through the poles.
+The earth's mean radius is \m{6.37 \times 10^6\unit{m}}. \help{10}
+\item [3.] At a particular instant of time a car on a circular track
+(radius\,\m{ = 8.0 \times 10^2\unit{ft}}) is traveling at 50.0\unit{miles per hour}
+and is increasing its speed at a rate of 5.0\unit{miles per hour per second}.
+Determine the magnitude of its acceleration, at this particular instant of
+time, in \unit{ft/s\up{2}}. \help{11}
+\item [4.] Calculate the acceleration of a pilot at the bottom of a dive in
+a plane  traveling at a constant \m{5.0 \times 10^2\unit{miles per hour}} along a
+circular path of radius 2.0\unit{miles}.
+
+\item [5.] \TextAndFigure{The particle at point \m{A} is traveling
+clockwise with an increasing speed.
+Draw its velocity and acceleration vectors.}{m9gr09}
+
+\item [6.] \TextAndFigure{The position, velocity, and acceleration
+vectors for a particle executing circular motion are shown.
+Is the particle traveling CW (clockwise) or CCW (counterclockwise)?
+Is its speed increasing, decreasing, or constant?}{m9gr10}
+
+\item [7.] \TextAndFigure{\textit{Note: If you have trouble with any part of this problem:
+(1) make sure you have thoroughly understood each and every paragraph of this
+module's text; (2) work all of the other problems successfully before tackling
+this one; (3) if necessary, review the prerequisite material on derivatives
+in MISN-0-1 and unit vectors in MISN-0-2; and (4) use the references,
+labeled \help{\ }, that refer to this module's Special Assistance Supplement.}}{m9gr11}
+%
+An object moves around the circle shown such in the sketch, with:
+%
+\Eqn{}{s(t) = (8.0\unit{m/s}) t - (1.00\unit{m/s\up{2}}) t^2\,.}
+%
+The problem is to determine the object's kinematic variables at several
+different times.
+
+\begin{one-digit-list}
+\item [a.] To start out with, write: \m{s(t) = b t + c t^2}.
+\item [  ] Determine \vect{r} in terms of \m{r}, \m{\theta}, \m{\uvec{r}}, \m{\uvec{\theta}}, \m{b}, \m{c}, and \m{t}.
+\item [b.] Determine \vect{v} in terms of \m{r}, \m{\theta}, \m{\uvec{r}}, \m{\uvec{\theta}}, \m{b}, \m{c}, and \m{t}.
+\help{19}
+\item [c.] Determine \vect{a} in terms of \m{r}, \m{\theta}, \m{\uvec{r}}, \m{\uvec{\theta}}, \m{b}, \m{c}, and \m{t}.
+\help{20}
+\item [d.] Substitute the numerical values for \m{r}, \m{b}, and \m{c} and determine the object's position
+vectors, \m{\vect{r}(t)}, at \m{t = 2.0\unit{sec}}, \m{4.0\unit{sec}}, and \m{6.0\unit{sec}}.
+\item [e.] Same as in part (d) but for the object's velocity.
+\item [f.] Same as in part (d) but for the object's acceleration.
+\item [g.] Determine the speed and direction of travel (CW or CCW) at \m{t = 2.0\unit{sec}},
+           \m{4.0\unit{sec}}, and \m{6.0\unit{sec}}. \help{22}
+\item [h.] Determine the magnitude and direction of the acceleration (CW/CCW and inward/outward) at \m{t = 2.0\unit{sec}},
+           \m{4.0\unit{sec}}, and \m{6.0\unit{sec}}. \help{22}
+\item [j.] Sketch \vect{r}, \vect{v}, and \vect{a} for each of the times
+           of part (d).
+\item [k.] Determine whether the speed is increasing, decreasing, or not
+           changing at each of the times of part (d).
+\item [l.] What is happening to the direction of motion at \m{t = 4\unit{s}}?
+\end{one-digit-list}
+\end{one-digit-list}
+
+\BriefAns
+
+\begin{one-digit-list}
+\item [1.] \m{1.02 \times 10^3\unit{m/s}}, \m{2.72 \times 10^{-3}\unit{m/s\up{2}}} inward.
+\item [2.] 463\unit{m/s}, 0.0337\unit{m/s\up{2}} (toward the center of the earth).
+\item [3.] 9.9\unit{ft/s\up{2}}.
+\item [4.] 51\unit{ft/s\up{2}} (toward the center of the circle).
+\item [5.] \CharacterUnframedFigure{m9gr12}
+\item [6.] CCW, decreasing.
+\item [7.] \NullItem
+\begin{one-digit-list}
+\item [a.] \m{\vect{r} = r \, \uvec{r}(\theta)}, where \m{\theta = \dfrac{s}{r} = \dfrac{bt + ct^2}{r}}\,.
+\item [b.] \m{\vect{v} = (b + 2ct)\,\uvec{\theta}(\theta)}\,.
+\item [c.] \m{\vect{a} = 2c\,\uvec{\theta}(\theta) - \dfrac{(b + 2ct)^2}{r}\,\uvec{r}(\theta)}\,.
+\item [d.] \m{\vect{r}(2.0\unit{s}) = 4.0\unit{m}\,\uvec{r}(\theta_2)}; \m{\theta_2 = 3.00\unit{rad} = 171.9\degrees \,\rightarrow\, 1.7 \times 10^2\unit{degrees}}.
+\item [  ] \m{\vect{r}(4.0\unit{s}) = 4.0\unit{m}\,\uvec{r}(\theta_4)}; \m{\theta_4 = 4.00\unit{rad} = 229.2\degrees \,\rightarrow\, 2.3 \times 10^2\unit{degrees}}.
+\item [  ] \m{\vect{r}(6.0\unit{s}) = 4.0\unit{m}\,\uvec{r}(\theta_6)}; \m{\theta_6 = 3.00\unit{rad} = 171.9\degrees \,\rightarrow\, 1.7 \times 10^2\unit{degrees}}.
+\item [e.] \m{\vect{v}(2.0\unit{s}) = 4.0\unit{m/s}\;\uvec{\theta}(\theta_2)}.
+\item [  ] \m{\vect{v}(4.0\unit{s}) = 0.0}.
+\item [  ] \m{\vect{v}(6.0\unit{s}) = -4.0\unit{m/s}\;\uvec{\theta}(\theta_6)}.
+\item [f.] \m{\vect{a}(2.0\unit{s}) = [-2.0\;\uvec{\theta}(\theta_2)-4.0\,\uvec{r}(\theta_2)]\unit{m/s\up{2}}},
+\item [  ] \m{\vect{a}(4.0\unit{s}) = [-2.0\;\uvec{\theta}(\theta_4)]\unit{m/s\up{2}}},
+\item [  ] \m{\vect{a}(6.0\unit{s}) = [-2.0\;\uvec{\theta}(\theta_6)-4.0\,\uvec{r}(\theta_6)]\unit{m/s\up{2}}},
+\item [g.] \m{v(2.0\unit{s}) = 4.0\unit{m/s}}, CCW.
+\item [  ] \m{v(4.0\unit{s}) = 0.0\unit{m/s}}, (stationary).
+\item [  ] \m{v(6.0\unit{s}) = 4.0\unit{m/s}}, CW.
+\item [h.] \m{a(2.0\unit{s}) = 4.5\unit{m/s\up{2}}}, CW and inward.
+\item [  ] \m{a(4.0\unit{s}) = 2.0\unit{m/s\up{2}}}, CW.
+\item [  ] \m{a(6.0\unit{s}) = 4.5\unit{m/s\up{2}}}, CW and inward.
+\item [i.] \TextAndFigure{The sketch is for \m{t = 2} sec.
+For the other times, check that the vectors agree with the values you
+computed above and with common sense.}{m9gr13}
+\item [j.] For 2, 4, 6\unit{sec}: decreasing, not changing, increasing.
+\item [k.] It is reversing.
+\end{one-digit-list}
+\end{one-digit-list}
+}% /ProbSet
+
+}% /Sect

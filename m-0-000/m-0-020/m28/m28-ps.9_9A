@@ -1,0 +1,454 @@
+% 11/29/89, pss; 1/11/89, pss; 3/18/92, pss; 10/11/94, pss; 9/15/95, pss
+% 8/25/97, pss; 11/7/97, lae
+\PsStart
+
+\xpcap{}{}{HOW TO WORK THESE PROBLEMS}
+Each problem involves the exercise of eight skills.
+We suggest you practice the first skill across the first few problems,
+one after the other, until you get the hang of it.
+Then come back to the first problem and move on to the next skill.
+The answers are arranged to match that procedure.
+When you have mastered all eight skills, try working the rest of the problems
+straight through.
+Here are the skills:
+\begin{one-digit-list}
+\item[a.] Differentiate \m{E_p} and use that derivative to get the force
+function \m{F}.
+\item[b.] Solve for the symbolic \m{r_0}, a zero of \m{F}.
+\item[c.] Substitute numbers to find the numerical value of \m{r_0}.
+\item[d.] Plot \m{F} around \m{r_0}; check value of \m{r_0} and check descending linearity.
+\item[e.] Differentiate \m{F} to get the symbolic \m{F'(r_0)}.
+\item[f.] Substitute numbers to get \m{k = - F'(r_0)}.
+\item[g.] Determine the appropriate mass for the frequency formula.
+\item[h.] Calculate \m{\nu _0}, the \Quote{frequency of small oscillations.}
+\end{one-digit-list}
+
+\xpcap{}{}{NOTE} The introductory paragraphs and the units that are used
+need not be understood to work these problems!
+Just plunge in and apply each of the eight skills, one after the other.
+Work problems 1-6 for practice in using the formal method for skills b-c.
+Work problems 7-9 for practice in using the numerical-graphical method for
+skills b-c.
+
+\begin{one-digit-list}
+\item [1.] {\bf The Gravity-Body Segment Interaction and Stepping Frequency
+[General Interest, Biomechanics, Simple Pendula]}
+
+Let us see if the stepping frequency in normal human walking can be related
+to the pendulum-swing frequencies of the arm and the lower leg.
+First, we can calculate the arm and leg swing frequencies using body-segment
+mass distribution data.
+The computed frequencies can then be directly compared to the normal stepping
+frequency, or can be combined with observed distance-covered-per-step data
+to compare to normal walking speed.
+
+The model outlined above treats the arm or lower leg as a pendulum that
+swings freely from its point of suspension.
+Of course each of them is, in reality, driven to some extent, but they should
+swing fairly freely in relaxed walking where the individual does not wish to
+exert much effort.
+Thus our results should be most valid for relaxed walking.
+Nevertheless, we will also be able to gain some insight into the way arm
+positions and motions change for running.
+
+The arm and the lower leg are not simple pendula, but may be reasonably
+treated as such in a first approximation.
+We will denote the pendulum parameters by the symbols shown in Fig.\,2
+in the text.
+
+In terms of the pendulum mass's arc-displacement s and the effective
+pendulum length \m{\ell}, its potential energy function can be written (see
+Fig.\,2):  \help{2}
+%
+\eqn{}{E_p = mg\ell \,[1 - cos(s/\ell )] = 2 mg \ell \,sin^2(s/2 \ell)\,.}
+%
+
+To treat the arm-plus-hand system as a simple pendulum, we take data from
+Hanavan's computer model of the adult male and Fischer's estimate of
+radius-of-gyration ratios for body segments.
+%
+\Footnote{See D.\,I.\,Miller and R.\,C.\,Nelson, {\em Biomechanics of Sport:
+A Research Approach}, Lea \& Febiger, Philadelphia (1973), esp. p.\,85, 98.
+For other details of stepping see \Quote{The Control of Walking,} Keir Pearson,
+{\em Scientific American 235}, p.\,72 (1976).}
+%
+The arm-plus-hand numbers we get for a 5\,ft,\,10\,in, 150\,lb person are:
+\m{\ell = 0.77\unit{ft}}, wt.\m{ = 9.0}\,lb.
+Thus: \m{m = 9.0\unit{lb}/g} where \m{g = 32\unit{ft/s}^2}.
+
+Note that Figures 1\,-\,4 in the text illustrate this arm-gravity
+problem.
+
+Carry out the eight steps to find the frequency of small oscillations of the
+arm-hand system about the equilibrium position.
+
+{\bf After you have completed the eight skills, carry out these steps
+to see how this problem relates to real life}:
+\begin{itemize}
+\item Check the arm-swing frequency you just computed against your
+own stepping frequency (the frequency at which you take steps when you allow
+your arms to swing like pendulums).
+\item Use the arm-swing frequency you just calculated and 5 or 6 feet as the
+distance covered per step, or your own measured stepping distance,
+to compute your walking speed (ft/s or mi/hr).
+\item Demonstrate how runners shorten their arm-plus-hand value of \m{\ell} as they
+pick up speed, and explain why they must shorten \m{\ell}.
+\item Use the dependence of \m{\nu} on \m{\ell} to explain why a tall person has to exert
+a significant effort to keep in synchronous step with a short person who is
+walking normally.
+\end{itemize}
+
+\item [2.] {\bf The Earth-Sun Interaction, Orbital Eccentricity
+[General Interest, Astrophysics, Meteorology, Geology].}
+The cycle of the earth-orbit's eccentricity, or \Quote{out of roundness,} governs
+the time between the earth's short bursts of warm temperature between
+glacial periods, while the two shorter Milankovic cycles participate in
+determining the height and width of these pulses.
+%
+\Footnote{J.\,D.\,Hays, John Imbrie, and N.\,J.\,Shackelton, \Quote{Variations in the Earth's
+Orbit:  Pacemaker of the Ice Ages,}  {\em Science}, 194, 1121 (Dec.\,10, 1976),
+esp. Fig.\,9B, center, and {\em Science News}, 110, 356 (Dec.\,4, 1975).
+For the 25,800 yr. cycle see \Quote{Vector Angular Momentum and Torque: Precession
+of the Equinoxes} (MISN-0-77).
+Also: Nigel Calder, {\em The Weather Machine}, Viking Press, NY
+(1976, Viking Compass Edition).}
+%
+The earth-orbit eccentricity oscillates on a (roughly) 93,000 year cycle, so
+it will be about that amount of time before the earth has another \Quote{high}
+like the just-ending one during which our present civilization developed.
+The period of ice and drought now starting may well provide an interesting
+test of mankind's ability to fashion artificial climates.\m{^3}
+
+The present eccentric motion of the earth can be graphically illustrated by
+plotting the current orbit parameters on a potential energy curve.
+Including both the centrifugal and gravitational potentials, we find for the
+earth-sun potential energy function:
+%
+\eqn{}{E_p(r) = a (r^{-2} - b r^{-1})}
+%
+where:
+%
+\eqn{}{a = 2.65649 \times 10^{33}\,{\rm J}\,{\rm (AU)}^2}
+%
+\eqn{}{b = 2\,{\rm (AU)}^{-1}}
+%
+\eqn{}{{\rm AU} \equiv {\rm one\ \Quote{Astronomical\ Unit} \ of\ distance} =
+1.49647\,\times 10^{11}\,{\rm m}}
+%
+\eqn{}{{\rm earth\ mass} = 1.345\,\times 10^{32}\,{\rm J\,(AU)}^{-2}\,{\rm yr}^2}
+%
+and \m{r} is the earth-sun separation.
+
+Carry out the eight steps to find the frequency of small oscillations of the
+earth about its equilibrium distance from the sun.
+
+\item [3.] {\bf The 8n-8p Interaction in \m{^{16}}O  [Nuclear Physics].}
+The giant resonances are considered some of the most spectacular phenomena in
+nuclear physics, for several reasons.
+First, their coherent group-motions of nuclear particles are very different
+from the individual-particle motions implied by the hallowed shell model.
+Second, they are spectacular simply for their sheer size, sometimes
+comprising 90\% or more of all the observed scattering for a given projectile
+and target excitation.
+Finally, they convey information about the nuclear force: for example,
+neutron excitation of the giant isovector dipole state could not occur if
+the two-body nuclear force was isospin independent.
+
+The giant dipole state in \m{^{16}}O is due to a separation of the center-of-mass
+(CM) of the eight protons (8p) from that of the eight neutrons (8n).
+If we denote the distance between the two CM's by \m{x}, the separation
+potential energy can be written
+%
+\Footnote{G.\,Bertsch and K.\,Stricker, \Quote{On the Macroscopic Theory of the Giant Dipole
+State,} {\em Phys. Rev. C} {\bf 13}, 1312 (1976) and private communication from
+G.\,Bertsch.}
+%
+\eqn{}{E_p(x) = -\,(a + bx^2 + cx^4)e^{-dx^2}}
+%
+\eqn{}{a = 277.21\,MeV}
+%
+\eqn{}{b = 17.329\,MeV\,{\rm fm}^{-2}}
+%
+\eqn{}{c = 0.7825\,MeV\,{\rm fm}^{-4}}
+%
+\eqn{}{d = 0.16215\,{\rm fm}^{-^2}.}
+%
+\eqn{}{m_{\rm 8p} = 8.34\,\times 10^{-44}\,{\rm MeV}\,{\rm s}^2\,{\rm fm}^{-2}}
+%
+\eqn{}{m_{\rm 8n} = 8.35\,\times 10^{-44}\,{\rm MeV}\,{\rm s}^2\,{\rm fm}^{-2}}
+
+Carry out the eight steps to find the frequency of small oscillations of the
+(8p) CM and the (8n) CM about their positions of equilibrium separation.
+
+\item [4.] {\bf The Argon-Argon \Quote{6-12} Interaction
+[Solid State, Low Temperature Physics; Materials Science].}
+Solid argon has recently been studied as a model solid, one whose properties
+are theoretically tractable.
+It is a simple solid to study because each atom's electrons are tightly
+bound to it, resulting in each lattice site being occupied by an identical
+neutral argon atom.
+In contrast to ionic crystals, such a neutral-atom solid has no inter-atomic
+Coulombic interactions.
+The remaining interaction is thus weak and of short range, with the result
+that only nearest neighbors can interact significantly.
+This produces a tremendous simplification in deducing the properties of the
+solid from the pair-wise interatomic forces.
+
+The interaction potential energy for two argon (Ar) atoms a distance r apart
+can be well-represented by the Lennard-Jones function:
+%
+\Footnote{G.\,L.\,Pollack, \Quote{The Solid State of Rare Gases,} {\em Rev. Mod. Phys.}
+{\bf 36}, 748 (1964).}
+%
+\eqn{}{E_p(r) = -ar^{-6} + br^{-12}}
+%
+\eqn{}{a = 17.33\,{\rm eV\,\AA}^6}
+%
+\eqn{}{b = 2.923\,\times 10^4\,{\rm eV\,\AA}^{12}.}
+%
+\eqn{}{m_{Ar} = 4.135\,\times 10^{-27}\,{\rm eV\,\AA}^{-2}\,{\rm s}^2}
+
+Carry out the eight steps to find the frequency of small oscillations of
+two Ar atoms their positions of equilibrium separation.
+
+\item [5.] {\it The He-He \Quote{6-12} Interaction
+[Solid State, Liquid State, Quantum Crystal Physics].}
+Helium crystals have aroused interest recently because they are truly
+quantum crystals; the helium atoms of which the crystals are composed cannot
+be treated as classical particles.
+In fact, direct application of classical dynamics produces an erroneous
+unstable equilibrium point exactly at the observed lattice site of an atom,
+along with erroneous stable equilibrium points elsewhere.
+Thus the classical lattice treatment says that the observed stable lattice
+should be unstable, and it erroneously says that other lattice arrangements
+should be stable.
+In the correct quantum treatment, one begins with a potential energy
+function for pairs of atoms, treated as classical point-particle force
+centers, then obtains the potential energy function at any particular
+lattice site by summing over nearby quantum densities.
+
+The two-body potential energy function for two helium atoms a distance r
+apart is well approximated by
+%
+\Footnote{L.\,H.\,Nosanow, \Quote{Theory of Quantum Crystals,} {\em Phys. Rev.} {\bf 146}, 120
+(1966).}
+%
+\eqn{}{E_p(r) = a\, \left[ \left( \fract{\sigma}{r} \right)^{12} - \left( \fract{\sigma}{r} \right)^6 \right]}
+%
+where
+%
+\eqn{}{a = 40.88\,\degrees{\rm{K}\,k}_{\rm Boltzmann}}
+%
+\eqn{}{\sigma = 2.556\,{\rm \AA}.}
+%
+\eqn{}{m_{He} = 4.808 \times 10^{-24}\,{\rm k}_{\rm B}
+\,\degrees{\rm{K}\,\AA}^{-2}\,{\rm s}^2}
+
+Carry out the eight steps to find the frequency of small oscillations of
+two He atoms about their positions of equilibrium separation.
+
+\item [6.] {\bf The Electron-Proton Interaction (\m{\ell=}1)
+[Atomic Physics].}
+The hydrogen atom is the simplest of all atoms and the only one for which
+the correct quantum equation can be solved formally.
+The input for the quantum Schr\"{o}dinger equation is the classical
+electron-proton potential energy function.
+
+For any \m{\ell = 1} state of atomic hydrogen, the electron(e)-proton(p) potential
+energy function is:
+%
+\eqn{}{E_p(r) = ar^{-2} - br^{-1}}
+%
+where:
+%
+\eqn{}{a = 0.0763\,{\rm eV\,nm}^2}
+%
+\eqn{}{b = 1.440\,{\rm eV\,nm}}
+%
+\eqn{}{m_p = 1.043\,\times 10^{-26}\,{\rm eV\,nm}^{-2}\,{\rm s}^2}
+%
+\eqn{}{m_e = 5.678\,\times 10^{-30}\,{\rm eV\,nm}^{-2}\,{\rm s}^2}
+%
+The first term is the \Quote{centrifugal repulsion} and the
+second term is the Coulombic e-p attraction.
+
+Carry out the eight steps to find the frequency of small oscillations of the
+electron and the proton in the \m{\ell = 1} state of the hydrogen atom.
+
+\item [7.] {\bf The Reid Nucleon-Nucleon Potential [Nuclear Physics].}
+The \Quote{Reid soft-core potential} is an interaction sometimes used in nuclear
+calculations to describe the force between each pair of nucleons in a nucleus.
+Here is Reid's potential for the \m{^1S_0} part of the force between a
+neutron (n) and a proton (p):
+%
+\Footnote{R.\,V.\,Reid,\,Jr., \Quote{Local Phenomenological Nucleon-Nucleon Potentials,}
+{\em Annals of Physics} (NY) {\bf 50}, 411 (1968).}
+%
+\eqn{}{E_p(r) = (-he^{-x} - Ae^{-4x} + Be^{-7x})/x}
+%
+where
+%
+\eqn{}{x = 0.7\,{\rm fm}^{-1}\,r}
+%
+\eqn{}{A = 1650.6\,{\rm MeV}}
+%
+\eqn{}{B = 6484.2\,{\rm MeV}}
+%
+\eqn{}{h = 10.463\,{\rm MeV}.}
+%
+\eqn{}{m_p = 1.043\,\times 10^{-44}\,{\rm MeV\,fm}^{-2}\,{\rm s}^2}
+%
+\eqn{}{m_n = 1.044\,\times 10^{-44}\,{\rm MeV\,fm}^{-2}\,{\rm s}^2}
+
+Carry out the eight steps to find the frequency of small oscillations of a
+neutron and a proton about their positions of equilibrium separation.
+
+\item [8.] {\bf Ba-Ti-O \Quote{1-6-9} Interactions (Solid State Physics,
+Materials Science).}
+Barium titanate crystals (BaTiO\m{_3}) are of considerable commercial interest
+because they exhibit a region of ferroelectricity, with a relative dielectric
+constant of the order of ten thousand!
+
+Our picture of normal barium titanate is that of an ionic crystal in which
+the Ba, Ti, and O ions are regarded as point force centers.
+For any two of the Ba, Ti, or O ions, with charges e\m{_1} and e\m{_2} and a
+distance \m{r} apart, the interaction produces a potential energy represented by
+%
+\Footnote{A.\,F.\,Devonshire, \Quote{Theory of Barium Titanate\Quote{, {\em Phil. Mag.}
+{\bf 40}, 1040 (1949).}
+%
+\eqn{}{E_p(r)\,=\,e_1\,e_2\,r^{-1} - \mu\,r^{-6} + \lambda\,r^{-9}.}
+%
+The first term is the Coulombic interaction, the second is the Van der Waals
+attraction, and the third is a short range repulsion due mainly to the
+exclusion principle.
+The charges on the Ba, Ti, and O ions are \m{2e}, \m{4e}, and \m{ - 2e} respectively,
+with \m{-e} being the charge on the electron.
+
+For an interacting oxygen-ion-barium-ion pair,
+%
+\eqn{}{\lambda_{\rm O\,-\,Ba} = 6180\,{\rm eV\,\AA}^9}
+%
+\eqn{}{\mu_{\rm O\,-\,Ba} = 101\,{\rm eV\,\AA}^6}
+%
+\eqn{}{e_1\,e_2 = - 4 e^2 = - 57.6\,{\rm eV\,\AA}}
+%
+\eqn{}{m_{\rm O}  = 1.656\times 10^{-27}\,{\rm eV\,\AA}^{-2}\,{\rm s}^2}
+%
+\eqn{}{m_{\rm Ba} = 1.421\times 10^{-26}\,{\rm eV\,\AA}^{-2}\,{\rm s}^2}
+
+Carry out the eight steps to find the frequency of small oscillations of a
+barium ion and an oxygen ion about their equilibrium separation in BaTiO\m{_3}.
+
+\item [9.] {\bf The Quark-Antiquark \Quote{Gluon-Bag} Interaction (\m{\ell = 1})
+[Elementary Particle, High Energy Physics].}
+Perhaps the most exciting experimental discovery in recent elementary
+particle physics is that of the \m{\psi} particles, each apparently
+consisting of a charmed quark (\m{q}) and a charmed antiquark (\m{\bar{q}}) held
+together in their bag by gluons.
+(The charm of the quark and antiquark add to zero, so the \m{\psi} has
+no charm.)
+
+A typical P-state potential energy function assumed for the \m{q} and
+\m{\bar{q}} pair, separated by a distance \m{r} is
+%
+\Footnote{E.\,Eichten, K.\,Gottfried, T.\,Kinoshita, J.\,Kogut, K.\,D.\,Lane, and
+T.-M.\,Yan, {\em Phys. Rev. Lett.} {\bf 34}, 369 (1975).}
+%
+\eqn{}{E_p(r) = a\,r^{-2} - b\,r^{-1} + c\,r}
+%
+where
+%
+\eqn{}{a = 0.097\,{\rm GeV\,fm}^2}
+%
+\eqn{}{b = 0.20\,{\rm GeV\,fm}}
+%
+\eqn{}{c = 5.0\,{\rm GeV\,fm}^{-1}}
+%
+and:
+%
+\eqn{}{m_q = m_{\bar{q}} = 1.78\times 10^{-47}\,{\rm GeV}\,{\rm fm}^{-2}\,{\rm s}^2.}
+
+Carry out the eight steps to find the frequency of small oscillations of the
+\m{q\bar{q}} pair about their positions of equilibrium separation.
+\end{one-digit-list}
+
+\newpage
+
+\BriefAns
+\begin{itemize}
+\item[1a.] \m{F=-(W)\sin(s/\ell)}, where \m{W} is the weight
+\item[2a.] \m{F=2ar^{-3}-abr^{-2}}
+\item[3a.] \m{F=[x(-2ad+2b)+x^3(4c-2bd)+x^5(-2cd)]e^{-dx^2}}
+\item[4a.] \m{F=-6ar^{-7}+12br^{-13}}
+\item[5a.] \m{F=a(-12\sigma^{12}r^{-13}+6\sigma^6r^{-7})}
+\item[6a.] \m{F=2ar^{-3}-br^{-2}}
+\item[7a.] \m{F=-(1/r)(he^{-ar}+4Ae^{-4ar}-7Be^{-7ar})}
+\item[\ ]  \m{\,\ \ \ \ \ \ -(1/ar^2)(he^{-ar}+Ae^{-4ar}-Be^{-7ar})};
+           \m{a \equiv x/r}
+\item[8a.] \m{F=e_1e_2r^{-2}-6\mu r^{-7}+9\lambda r^{-10}}
+\item[9a.] \m{F=2ar^{-3}-br^{-2}-c}
+\item[1b.] \m{s_0=0}
+\item[2b.] \m{r_0=2/b}
+\item[3b.] \m{x_0=0}
+\item[4b.] \m{r_0=(2b/a)^{1/6}}
+\item[5b.] \m{r_0=\sigma (2)^{1/6}}
+\item[6b.] \m{r_0=2a/b}
+\item[7b.] graphical or numerical
+\item[8b.] graphical or numerical
+\item[9b.] graphical or numerical or solve cubic equation to get:
+\item[\ ] \m{r_0=\fract{\textstyle (-3)2^{2/3}b+[54ac^{1/2}+(2916a^2c+108b^3)^{1/2}]^{2/3}}%
+{\textstyle (3)2^{1/3}c^{1/2}[54ac^{1/2}+(2916a^2c+108b^3)^{1/2}]^{1/3}}}
+\item[1c.] \m{s_0=0}
+\item[2c.] \m{r_0=1}\,AU
+\item[3c.] \m{x_0=0}
+\item[4c.] \m{r_0=3.872666}\,\AA\,\m{\approx}\,3.87\,\AA
+\item[5c.] \m{r_0=2.86901}\,\AA\,\m{\approx}\,2.87\,\AA
+\item[6c.] \m{r_0=0.10597222}\,nm\,\m{\approx}\,0.106\,nm
+\item[7c.] \m{r_0=0.844818}\,fm\,\m{\approx}\,0.845\,fm
+\item[8c.] \m{r_0=2.31836}\,\AA\,\m{\approx}\,2.32\,\AA
+\item[9c.] \m{r_0=0.299353627}\,fm\,\m{\approx}\,0.299\,fm
+\item [1d.] \CharacterFigure{m28gr07} 2d. \CharacterFigure{m28gr08}
+\item [3d.] \CharacterFigure{m28gr09} 4d. \CharacterFigure{m28gr10}
+\item [5d.] \CharacterFigure{m28gr11} 6d. \CharacterFigure{m28gr12}
+\item [7d.] \CharacterFigure{m28gr13} 8d. \CharacterFigure{m28gr14}
+\item [9d.] \CharacterFigure{m28gr15}
+\item[1e.] \m{F'(s_0)=-W/\ell }
+\item[2e.] \m{F'(r_0)=-ab^4/8}
+\item[3e.] \m{F'(x_0)=2(b-ad)}
+\item[4e.] \m{F'(r_0)=-18(a^2/b)(a/2b)^{1/3}}
+\item[5e.] \m{F'(r_0)=-(a/\sigma^2)(18)2^{-1/3}}
+\item[6e.] \m{F'(r_0)=-b^4/(8a^3)}
+\item[7e.] advice: do it numerically or graphically
+\item[8e.] \m{F'(r_0)=-2e_1e_2r_0^{-3}+42\mu r_0^{-8}-90\lambda r_0^{-11}}
+\item[9e.] \m{F'(r_0)=-6ar_0^{-4}+2br_0{-3}}
+\item[1f.] \m{k=11.688}\,lb/ft
+\item[2f.] \m{k=5.31\times 10^{33}}\,J/(AU)\m{^2}
+\item[3f.] \m{k=55.2}\,MeV/fm\m{^2}
+\item[4f.] \m{k=0.01233}\,eV/\AA\m{^2}
+\item[5f.] \m{k=89.4}\,k\m{_{\rm B}\,^\circ}K/\AA\m{^2}
+\item[6f.] \m{k=1210}\,eV/nm\m{^2}
+\item[7f.] \m{k=2130}\,MeV/fm\m{^2}
+\item[8f.] \m{k=39.1}\,eV/\AA\m{^2}
+\item[9f.] \m{k=57.6}\,GeV/fm\m{^2}
+\item[1g.] \m{m=0.28125}\,lb\,ft\m{^{-1}}\,s\m{^2}
+\item[2g.] \m{m=1.339\times 10^{47}}\,J\,(AU)\m{^{-2}}\,s\m{^2}
+\item[3g.] \m{m=}reduced mass\m{=4.172\times 10^{-44}}\,MeV\,fm\m{^{-2}}\,s\m{^2}
+\item[4g.] \m{m=}reduced mass\m{=20.625\times 10^{-28}}\,eV\,\AA\m{^{-2}}\,s\m{^2}
+\item[5g.] \m{m=}reduced mass\m{=2.404\times 10^{-24}}\,k\m{_{\rm B}}\,\AA\m{^{-2}}\,s\m{^2}
+\item[6g.] \m{m=}reduced mass\m{=5.675\times 10^{-32}}\,eV\,\AA\m{^{-2}}\,s\m{^2}
+\item[7g.] \m{m=}reduced mass\m{=52.17\times 10^{-46}}\,MeV\,fm\m{^{-2}}\,s\m{^2}
+\item[8g.] \m{m=}reduced mass\m{=14.83\times 10^{-28}}\,eV\,\AA\m{^{-2}}\,s\m{^2}
+\item[9g.] \m{m=}reduced mass\m{=8.90\times 10^{-48}}\,GeV\,fm\m{^{-2}}\,s\m{^2}
+\item[1h.] \m{\nu_0=1.03}\,Hz
+\item[2h.] \m{\nu_0=3.17\times 10^{-8}}\,Hz
+\item[3h.] \m{\nu_0=5.79\times 10^{21}}\,Hz
+\item[4h.] \m{\nu_0=3.89\times 10^{11}}\,Hz
+\item[5h.] \m{\nu_0=9.71\times 10^{11}}\,Hz
+\item[6h.] \m{\nu_0=2.32\times 10^{15}}\,Hz
+\item[7h.] \m{\nu_0=1.02\times 10^{23}}\,Hz
+\item[8h.] \m{\nu_0=2.58\times 10^{13}}\,Hz
+\item[9h.] \m{\nu_0=4.05\times 10^{23}}\,Hz
+\end{itemize}
+
+%\PsEnd

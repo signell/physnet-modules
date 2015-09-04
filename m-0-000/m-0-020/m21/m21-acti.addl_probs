@@ -1,0 +1,174 @@
+
+=============================================================================
+The following items appear to be Activities: they could be added to the PS
+=============================================================================
+
+\AsItem{10}{}
+{Consider a playground slide as shown:
+\fullwidthfigure{102pt}{}Assuming a frictionless boy on the slide
+(all sorts of miracles are possible in physics problems!)
+find his potential energy at point C.
+A good answer is: ``E\m{_p}(C) = m\,g\,\m{h_3} relative to the playground surface.''
+\help{11}.
+}
+
+\AsItem{11}{\help{10}}
+{For the problem in [S-10], show that the boy's potential energy at point C
+relative to point A is: E\m{_p}(C,A) = mg(\m{h_3} - \m{h_1}).
+Note that no further reference point need be delineated.
+Note that the answer will be negative, since the system has less potential
+energy at point C than at point A.
+[Sect.\,2d], \help{6}.
+}
+
+\AsItem{12}{}
+{It is important to recognize that F\m{_c}(r) as used in Eq.\,(3) is really a vector
+component; i.e., it can be either positive or negative.
+Thus in Eq.\,(4) F\m{_c} was negative since weight is a downward vector and z was
+defined to be positive upward.
+Keeping track of minus signs in calculating E\m{_p} can be tricky, so it is always
+wise to check the reasonableness of your answer.
+A positive E\m{_p} at point B means that the system can do work on some outside
+agent while moving back to the reference point A.
+A negative E\m{_p} at point B means that some outside agent will have to do work
+on the system to get it back to point A.
+}
+
+\AsItem{13}{}
+{You should see that Eq.\,(10) is simply a rearrangement of the work energy
+principle with some new symbolic definitions: Working backwards from it,
+recall that
+\begin{displaymath}
+W_nc \equiv \int^^B__A  \vec{F}_nc\,\cdot\,d\vec{s}
+\end{displaymath}
+
+(from the definition of work%
+) and
+\footnote{See ``Work, Power, Kinetic Energy, Work-Energy Principle'' (MISN-0-20).}
+\begin{displaymath}
+\Delta E_p \equiv - \int^^B__A  \vec{F}_c\,\cdot\,d\vec{s}
+\end{displaymath}
+
+[from text Eq.\,(1)].
+So Eq.\,(10) becomes
+\begin{displaymath}
+\Sigma\,\int^^B__A  \vec{F}_nc\,\cdot\,d\vec{s} = \Delta E_k + \Sigma\Delta E_p = \Delta E_k - \Sigma\,\int^^B__A  \vec{F}_c\,\cdot\,d\vec{s}.
+\end{displaymath}
+But \m{\Sigma \vec{F}_nc} + \m{\Sigma \vec{F}_c} = \m{\Sigma \vec{F}} = the sum of the forces acting on the particle.
+\footnote{See ``Work, Power, Kinetic Energy, Work-Energy Principle'' (MISN-0-20).}
+So
+\begin{displaymath}
+\Sigma\,\int^^B__A \,\vec{F}\,\cdot\,d\vec{s} = \Delta E_k
+\end{displaymath}
+
+which is just the work energy principle as developed elsewhere.\m{^3}
+}
+
+\AsItem{16}{}
+{It is very important for you to understand the concept of conservation of
+energy in general form, since it stands today as probably the most
+fundamental cornerstone of our understanding of the physical universe.
+
+Completely describe the first term in text Eq.\,(11).
+The total energy in a system, at time t, is \m{\Sigma}\,E\m{_k} + \m{\Sigma}\,E\m{_p} at time t.
+In this expression, \m{\Sigma}\,E\m{_k} is the scalar sum of the kinetic energies of each
+particle of the system.
+\m{\Sigma}\,E\m{_p} is the scalar sum of all potential energies in the system.
+Note that this is really a double sum.
+First there can be the sum of several different kinds of E\m{_p} for each
+particle; indeed there will be a potential energy term for each conservative
+force acting on it.
+Then there is the sum over all particles.
+Fortunately, the order of summation is not important.
+Even more fortunate is the possibility of generalization to macroscopic
+objects rather than individual particles.
+It can be shown that the total energy can be written as the macroscopic
+kinetic energy of the object (i.e., the translational kinetic energy of its
+center of mass plus its rotational kinetic energy about the center of mass)
+plus the sum of the potential energies due to external conservative forces
+acting on the object plus the internal energy of the object.
+\Footnote{See [S-30] for an indication of the proof.}
+Elsewhere we see that this last term is related to the temperature
+of the object.%
+%
+\footnote{See ``Temperature and Pressure of an Ideal Gas: The Equation of State,''
+(MISN-0-157).}
+One further simplification occurs when we note that we need consider only
+those terms which change; e.g., if the temperature of the object remains
+constant during \m{\Delta}t (and no phase change%
+\footnote{See any elementary college Chemistry textbook.}
+occurs) then we can ignore the internal kinetic energy in both total energy
+terms.
+}
+
+\AsItem{17}{}
+{Second term in Eq.\,(11):
+The energy entering the system, during time \m{\Delta}t, =\,the positive work done on
+the system by non-conservative forces during the time \m{\Delta}t plus any energy
+associated with particles entering the system during time \m{\Delta}t.
+}
+
+\AsItem{18}{}
+{Fourth term in Eq.\,(11):
+The energy leaving the system during time \m{\Delta}t = the positive work done by the
+system against non-conservative forces, plus any energy associated with
+particles leaving the system, during time \m{\Delta}t.
+}
+
+\AsItem{19}{}
+{Third term in Eq.\,(11):
+The total energy in the system at time t + \m{\Delta}t is the same as the first term,
+but evaluated at the end of the time interval \m{\Delta}t.
+Briefly, it is the sum of the kinetic and potential energies of all objects
+in the system.
+}
+
+\AsItem{21}{}
+{Let us re-do the example in [S-15] using Eq.\,(11).
+We had a box of mass 60.0\,kg sliding \m{L = 3.0}\,m down an incline of
+height \m{h = 1.0}\,m at constant speed due to a force \m{F = }? retarding its
+motion.
+Find \m{F}.
+The work done by the box against \m{F} is \m{F L}.
+Using Eq.\,(11) or Eq.\,(S7):
+
+\m{ 0 + m g h + 0 = 0 + 0 + F L.}
+
+So \m{F = m g h/L} as before.
+}
+
+\AsItem{22}{}
+{Consider two particles, \m{A} and \m{B}.
+Here are some of their properties:
+
+\begin{tabular}
+{\em Property}                       {\em Time}      A_____    B_____
+kinetic energy                  \,0    \,\,7.0\,J    0
+kinetic energy                  \,t     2.0\,J  4.0\,J
+potential energy due to F\m{_c1}     \,0     3.0\,J    0
+potential energy due to F\m{_c1}     \,t     1.0\,J  11.0\,J
+potential energy due to F\m{_c2}     \,0      \,0    5.0\,J
+potential energy due to F\m{_c2}     \,t      \,0    8.0\,J
+Work done ON:(\,) by F\m{_nc1}       (0,t)   6.0\,J    0
+Work done ON:(\,) by F\m{_nc2}       (0,t)   9.0\,J  10.0\,J
+Work done BY:(\,) against F\m{_nc3}  (0,t)   \, 0      X
+-----> Find X.
+\end{tabular}
+Using Eq.\,(11) or Eq.\,(S7),
+
+7 + 0 + 3+0+0+5 + 6+0+9+10 = 2+4 + 1+11+0+8 + 0+X,
+
+X = 14\,J; i.e., particle B did 14\,J of work against F\m{_nc3} during
+the time from 0 to t.
+}
+
+\AsItem{30}{}
+{As an indication of the direction of this proof, consider writing the
+velocity \m{\vec{v}_i} of the i'th particle as \m{\vec{v}_cm} + \m{\vec{v}_i}' where \m{\vec{v}_cm} is the velocity of the
+center of mass and \m{\vec{v}_i}' is the velocity of the i'th particle relative to the
+center of mass.
+Then v\m{_i^2} = v\m{_cm^2} + v\m{_i}'\m{^2} + 2\,\m{\vec{v}_cm \cdot \vec{v}_i}'.
+Assuming no rotation, \m{\vec{v}_i}' is random so when added over all particles, the
+last term adds to 0.
+So Ek\,total^ = E\m{_k\,cm} + Ek\,internal^.
+}

@@ -1,0 +1,469 @@
+\revhist{12/28/87, pss; 12/29/88, pss; 9/12/89, pss; 12/9/89, pss; 5/9/91, pss; 4/27/94, pss;
+         9/7/94, pss; 9/12/95, pss; 11/7/97, lae; 10/25/99, pss; 12/15/00, pss; 3/29/01, pss;
+         5/17/02, pss; 6/13/02, pss; 10/4/02, pss}
+%
+\Sect{1}{Introduction}{\SectType{TextMultiPara}}{
+%
+\CaptionedLeftFramedFigure{1}{Some forces acting on a pulled block.
+Reactive forces acting on the block are not shown.}{m16gr01}
+
+\pcap{1}{a}{Friction Needs Normal and Tangential Forces}
+In this module we introduce some effects of friction into some simple cases in
+mechanics.
+%
+\Footnote{1}{See \Quote{Frictionless Applications ...} (MISN-0-10).}
+%
+All such cases occur when there are two objects in contact and there are two
+force components that act on the objects:
+(1) a \Quote{normal force} which is perpendicular to the surfaces
+and whose fuction is to keep the surfaces in contact; and
+(2) a \Quote{tangential or lateral force} which is parallel to the surfaces
+and which would cause one surface to slide over the other if there was no friction.
+These two forces are at right angles to each other: one is normal to the two
+surfaces that are in contact and the other is tangential to those surfaces
+(see \Figref{1}).
+The normal force acting on one of the objects in contact is generally equal to,
+and in the opposite direction from, the normal force acting on the other object
+in contact with the first: in this way contact is
+maintained between the surfaces of the two objects and there is no motion in the
+direction perpendicular to the surfaces (vertically in \Figref{1}).
+Similarly, the tangential or lateral force on one object is generally in the opposite
+direction to the lateral force (horizontally in \Figref{1}) acting on the other object
+and this means that one object would slide over the other if there was no friction.
+
+\pcap{1}{b}{Non-Sliding and Sliding Friction}
+There are many different kinds of friction, but the major ones are non-sliding fricxtion
+and sliding friction.
+An example of \textit{sliding} friction is the force between the wheel of a
+stuck car and the icy surface that the wheel is spinning on, a force that may
+cause smoke to be generated but no motion of the car.
+Another example is the car sliding across an icy patch on a road, where the brakes
+have stopped the tires from turning but the tires, and hence the car, are still moving across
+the ice.
+An example of \textit{non-sliding} friction is the force between the tires of
+the same car and a bare part of the pavement or between the tires and the icy surface
+after sand has been applied to the ice so the car can \Quote{get a grip} and cause the car
+to be controllable again.
+Two sub-categories of sliding friction are \Emph{rolling} friction and \Emph{lubricated-surface}
+friction, but we will not deal with these specifically in this module.
+
+\pcap{1}{c}{Example: Hand Rubbing}
+Think of pressing your hands tightly together, exerting a strong \Quote{normal}
+force (so named because it is mathematically \Quote{normal} to the plane of the
+surfaces that are in contact).
+If you are exerting enough normal force, then exerting a small tangential
+force will not cause motion; one hand will not start rubbing over the other.
+This is because the force of non-sliding friction is resisting the relative
+motion.
+In fact, the force of non-sliding friction is exactly equal but opposite to
+your applied tangential force, resulting in zero net force on your hand and
+hence zero acceleration of the hand.
+
+If you now exert enough tangential force, it will \Quote{break} the non-sliding
+friction and allow relative motion (called \Quote{rubbing} in the case of
+hands).
+If the normal force is strong enough and the rubbing is fast enough and
+lasts long enough, you will perceive heat at the interface between the
+hands.
+
+If you make the normal force smaller by pressing your hands together
+less tightly, you will find that a lower normal force results in a lower
+tangential force needed to break the force of non-sliding friction and allow
+motion.
+
+}% /Sect
+%
+\Sect{2}{Origin and Laws}{\SectType{TextMultiPara}}{
+
+\pcap{2}{a}{The Molecular Origin of Friction}
+When normal forces hold two surfaces together and tangential forces tend to
+make one surface slide over the other, the tangential force is opposed by
+a \Quote{frictional}\Index{force| frictional}\Index{frictional force} force.
+This frictional force is due to chains of molecules that have settled
+out of the environment (dust, fingerprints, water vapor, etc.) onto each of the
+surfaces before they were in contact.
+Each clean surface had regular hills and valleys on the molecular level before
+the \Quote{dirt} arrived but the molecular chains of dirt are somewat irregular
+and can be caused to move on the surfaces.
+When the two surfaces are brought together, the dirt chains \Quote{lock} the
+surfaces together until enough sideways force is applied to cause a slipping from one
+surface valley to the next.
+%
+\Footnote{22}{See \Quote{Surface Grime Explains Friction,} \textit{Physical Review Focus},
+\url{http://focus.aps.org/v7/st6.html}, and references contained therein.
+There is a later preprint dated 4/30/02: \textit{Statistical Mechanics of Static and
+Low-velocity Kinetic Friction}, by Martin H.\,M\"user, Michael Urbakh, and
+Mark O.\,Robbins, Dept.\,of Physics and Astronomy, The Johns Hopkins University.}
+%
+Thus if enough lateral force is applied there will be a sliding of one surface over the other
+but, if the force is then removed, the motion will slow down and stop.
+If an applied force is insufficient to overcome the \Quote{locking} effect of the dirt,
+the surfaces will stay \Quote{stuck} and one surface will not move over the other.
+The fact that there is no lateral motion in this locked case means that the lateral speed stays zero
+so the lateral acceleration stays zero so the net lateral force on each object is zero.
+Since we are applying a lateral force to each object, the fact that the net force on each
+object is zero means that the surface friction must be resisting motion with
+an exactly equal and opposite lateral resisting force on each onject.
+If we apply a zero lateral force and gradually increase it, friction will produce
+an exactly equal and opposite force that prevents any acceleration and hence any motion.
+However, when a large enough lateral force is applied, the \Quote{locking} of the
+surfaces is overcome and the surfaces start to slide over each other in a motion that appears
+smooth on the macroscopic level but that is a sort of \Quote{up and down}, \Quote{slip and lock}
+motion on the molecular level.
+
+\pcap{2}{b}{Amontons's Laws}
+This is the explanation of the widely-used Amontons's Laws for the force of friction between
+two surfaces
+%
+\Footnote{24}{The description of a force as being \Quote{between two surfaces} means
+that each of the objects whose surfaces are in contact experiences a force having the same
+physical origin.  The two forces have equal magnitude but are opposite in direction.}
+%
+that are in contact.
+%
+\Footnote{23}{Guillaume Amontons, \textit{Histoire de l'Acad\'emie Royale des Sciences avec les
+M\'emoires de Math\'ematique ey de Physique}, page 206 (1699).}
+%
+which state that the (lateral) force of static friction between the two surfaces is:
+(1) proportional to the normal force holding the objects' surfaces together; and
+(2) independent of the surface area in contact. 
+
+\pcap{2}{c}{\Quote{Static} and \Quote{Kinetic} Friction}
+In technical documents, the friction in the case where a car is static, not
+moving because the wheel is slipping, is called \Quote{kinetic} friction,
+\Index{force| of kinetic friction} while
+the friction in the case where a car is moving without slipping, and hence
+has kinetic energy, is called the \Quote{static}\Index{force| of static friction} case.
+To make clear which case is appropriate in particular circumstances, we will
+here use the terms \Quote{non-sliding} and \Quote{sliding} rather than \Quote{static}
+and \Quote{kinetic.}
+However, you must usually use \Quote{static} and \Quote{kinetic} when finding friction characteristics
+in the literature.
+
+\CaptionedLeftFramedFigure{2}{Response of a non-sliding frictional
+force to an applied force.}{m16gr02}
+
+\pcap{2}{d}{General Characteristics}
+The force of non-sliding friction is tangential to two surfaces that are in
+contact and it increases as necessary in order to prevent relative motion of
+the two surfaces (see \Figref{2}).
+It can increase in this fashion only up to some maximum that is determined:
+(1) by the nature of the two surfaces; and (2) by the magnitude of the
+normal force that is pressing the two surfaces together.
+
+Note that the force of non-sliding friction itself depends only on the
+applied tangential force: it is only its maximum value which depends on the
+surface character and on the size of the normal force.
+
+If an applied tangential force exceeds the capacity of non-sliding friction
+to resist it, then one surface starts to move over the other and the force
+of friction becomes a \Quote{sliding} one.
+The magnitude of this sliding force depends on: (1) the nature of
+the surfaces; (2) the magnitude of the normal force pressing the surfaces
+together; and (3) the relative speed of the surfaces (the speed
+of either surface with respect to the other).
+
+Sliding friction increases only very slowly with increasing speed, while non-sliding friction
+decreases with decreasing applied tangential force.
+
+\CaptionedLeftFramedFigure{3}{A horizontal force is applied to a block.}{m16gr03}%
+
+\CaptionedLeftFramedFigure{4}{The force diagram for \Figref{3}.}{m16gr04}
+
+\pcap{2}{e}{Example: A Block Pulled Horizontally}
+An object rests on a horizontal surface and a force \vect{P}
+is applied to the block parallel to the surface (\Figref{3}).
+From experience we know that if the force \vect{P} is not too large the
+block will not move.
+Therefore the surface must be exerting a tangential force on the block that
+is equal but opposite to \vect{P}.
+
+In the one-body diagram, \Figref{4}, the force of the surface on the block has
+been decomposed into its \Quote{frictional} and \Quote{normal} components,
+labeled \m{\vect{r}_{ns}}.
+If the pull, \vect{P}, is increased, \vect{f} will increase as long as
+its limit is not exceeded.
+If \vect{P} is reversed (applied in the opposite direction) \vect{f} will
+respond by reversing its direction.
+In a similar fashion, \vect{N} is exactly equal but opposite to the
+non-contact gravitational pull of the earth on the object, \m{m \vect{g}}.
+Thus both the normal and frictional components of the force of the surface
+on the block act so as to maintain the block's state of equilibrium
+(keeping the resultant force zero: \m{F_{R,x} = 0, F_{R,y} = 0}).
+
+When \m{|\vect{P}|} exceeds the maximum sustainable force of non-sliding
+friction for the current value of the normal force, the block accelerates to
+the right.
+Now the force of sliding friction takes over and it increases slightly as speed
+increases.
+If \vect{P} is removed completely, while the block is in motion, the force
+of sliding friction will continue to resist the motion until it brings the
+block to rest.
+}% /Sect
+%
+\Sect{3}{The Coefficients of Friction}{\SectType{TextMultiPara}}{
+%
+\pcap{3}{a}{The Non-Sliding Case}
+\Index{static friction| coefficient of}\Index{coefficient of static friction}
+It has been found experimentally that the maximum (tangential) force of
+non-sliding friction, \m{\vect{f}_{ns}}(max), which any particular surface can
+exert on another particular surface, is directly proportional to the normal
+force \vect{N} that is pressing the two surfaces together:
+%
+\Eqn{}{f_{ns}(\text{max}) = \mu_{ns}\,N\,.}
+%
+The constant of proportionality, \m{\mu_{ns}}, is called the \Quote{coefficient
+of non-sliding friction.}
+%
+\Footnote{2}{In scientific documents it is called the \Quote{coefficient of static
+friction} and is labeled \m{\mu_\text{s}}.}
+%
+The coefficient of non-sliding friction, \m{\mu_{ns}}, depends on the nature
+of the two surfaces involved.
+It is a number without units (because it is a ratio of forces).
+It is very large for rough rubber on rough rubber and very small for ice
+skates on ice.
+
+\pcap{3}{b}{The Sliding Case}
+\Index{coefficient of kinetic friction}\Index{kinetic friction| coefficient of}
+If one surface is moving at speed \m{v} with respect to another surface, to
+which it is being pressed with normal force \m{N}, then the tangential force
+of friction is found to be proportional to \m{N}:
+%
+\Eqn{}{f_{sl} = \mu_{sl}\,N\,.}
+%
+where \m{\mu_{sl}} is called the \Quote{coefficient of sliding friction.}
+%
+\Footnote{3}{in scientific documents it is called the \Quote{coefficient of kinetic
+friction} and is labeled \m{\mu_\text{k}}.}
+%
+Experimentally, the coefficient of sliding friction is generally a very slowly
+increasing function of velocity; we shall assume that it is a constant,
+independent of velocity (for further details, see the Appendix).
+
+\pcap{3}{c}{The Transition}
+The transition from the non-sliding case to the sliding case is continuous,
+as are all processes in nature.
+To see this we plot, in \Figref{6}, the frictional force versus time as the
+applied force \m{P} is increased at a constant rate.
+Note that on the left side of the graph the frictional force is of the
+non-sliding type, while on the right side it is of the sliding type.
+The abrupt change in the transition has been likened to a phase change in
+the material.\FnRef{22}
+
+\CaptionedLeftFramedFigure{6}{Frictional response as \m{P} of \Figref{3}
+increases linearly with time.}{m16gr06}
+
+\pcap{3}{d}{The Speed-Independent Approximation}
+Although the coefficient of sliding friction is a slowly-varying function of the relative
+speed of the two surfaces, it makes life easier and it is usually a good approximation
+to represent \m{\mu_{sl}} by a single value, independent of relative speed:
+%
+\Eqn{}{f_{sl} = \mu_{sl}\,N\,. \qquad \text{(constant)}\,.}
+%
+This makes the sliding force and the maximum non-sliding force seem somewhat
+similar:
+%
+%\TwoEqns{}{f_{ns}(\text{max}) & = \mu_{ns}\,N\,,}
+%          {f_{sl}             & = \mu_{sl}\,N\,.}
+%
+}% /Sect
+%
+\Sect{4}{A Numerical Example}{\SectType{TextMultiPara}}{
+%
+\pcap{4}{a}{Applied Force \m{P} on Block on Inclined Plane}
+As an example of friction consider a 10\unit{lb} block placed on a {37\degrees}
+incline.
+A force \vect{P} is applied to the block as shown in \Figref{8}.
+For the block and surface assume: \m{\mu_{ns} = 0.30}, \m{\mu_{sl} = 0.20}.
+The block is initially at rest and \vect{P} is 5.0\unit{lb}.
+The value of \vect{P} is then increased in steps.
+Determine the frictional force acting on the block for these values of \m{P}:
+(a) 5.0\unit{lb}, (b) 6.0\unit{lb}, (c) 8.0\unit{lb}, (d) 10.0\unit{lb}, (e) a subsequent drop
+to 7.6\unit{lb}.
+
+The one-body diagram is also shown in \Figref{8} where the force of the surface
+on the block has been decomposed into its frictional and normal components
+and the other forces have been resolved into components parallel and
+perpendicular to the incline.
+
+\noindent For all cases, \m{F_{R,y} = m a_y = 0}:
+%
+\Eqn{}{N - W \cos 37\degrees = 0\,; \qquad N = 10\unit{lb}\,(0.8) =
+                    8\unit{lb}\,.}
+%
+Then:
+%
+\Eqn{}{f_{ns}(\text{max}) = \mu_{ns}\,N = 2.4\unit{lb}\,.}
+
+\pcap{4}{b}{For \m{P = 5\unit{lb}}}
+\m{f_{ns}} will assume a value such that \m{F_{R,x} = 0}.
+Then:
+%
+\Eqn{}{P - W \sin 37\degrees - f_{ns} = 0\,, \qquad
+      f_{ns} = 5.0\unit{lb} - (10\unit{lb} \times 0.60) = - 1.0\unit{lb}\,.}
+%
+Since 1.0\unit{lb} is less than \m{f_{ns}(\text{max})}, the frictional force is 1.0\unit{lb}
+and directed up the incline (as indicated by the negative sign).
+That is, \vect{P} and \m{\vect{f}_{ns}} together balance the component of
+weight that is along the incline.
+
+\pcap{4}{c}{For \m{P = 6.0\unit{lb}}} \m{F_{R,x} = 0}.
+Then:
+%
+\Eqn{}{P - W \sin 37\degrees - f_{ns} = 0\,; \qquad
+        f_{ns} = 6.0\unit{lb} - 6.0\unit{lb} = 0\,.}
+%
+No frictional force is needed to maintain equilibrium so the frictional
+force is zero!
+The gravitational force component along the incline is just matched by the
+applied force \vect{P}.
+
+\pcap{4}{d}{For \m{P = 8.0\unit{lb}}}
+\m{F_{R,x} = 0}.
+Then:
+%
+\Eqn{}{P - W \sin 37\degrees - f_{ns} = 0\,; \qquad
+      f_{ns} = 8.0\unit{lb} - 6.0\unit{lb} = 2.0\unit{lb}\,,}
+%
+and \m{\vect{f}_{ns}} is directed along the incline downward.
+Now \vect{P} has become so large that \m{\vect{f}_{ns}} must be in the
+opposite direction so as to prevent motion.
+
+\pcap{4}{e}{For \m{P = 10.0\unit{lb}}}
+%
+\Eqn{}{P - W \sin 37\degrees - f_{ns} = 0;\;\;\;
+f_{ns} = 10.0\unit{lb} - 6.0\unit{lb} = 4.0\unit{lb}\,,}
+%
+and \m{\vect{f}_{ns}} is directed down the incline downward.
+However, since 4.0\unit{lb} exceeds \m{f_{ns}(\text{max}), f_{ns}} is unable
+to assume the value 4.0\unit{lb} and \vect{P} is too much for gravity plus
+non-sliding friction.
+There is a net force and the block will start to accelerate up the incline.
+Since the block is now sliding, the force of friction is that of sliding
+friction:
+%
+\Eqn{}{f_{sl} = \mu_{sl}N = (0.20)\,(8\unit{lb}) = 1.6\unit{lb}\,.}
+%
+The net force resisting the acceleration is now 7.6\unit{lb}, so the resultant
+force on the block is 2.4\unit{lb}.
+
+\CaptionedFullFramedFigure{8}{A block on an inclined plane and its
+one-body force diagram.}{m16gr08}
+
+\pcap{4}{f}{A Subsequent Drop to \m{P = 7.6\unit{lb}}}
+As a result of the 10.0\unit{lb} applied force, the block is accelerating
+up the incline.
+Now the value of \m{P} is dropped to 7.6\unit{lb} as stated in the problem.
+That value just balances the force of sliding friction and the component of
+weight down the incline, so the resultant force along the incline drops to
+zero.
+That means the acceleration drops to zero and the block subsequently moves
+up the incline with constant velocity (which is zero acceleration).
+}% /Sect
+%
+
+\newpage
+
+\Sect{5}{People, Animals, Vehicles}{\SectType{TextMultiPara}}{
+%
+\pcap{5}{a}{Positive Acceleration}
+\Index{acceleration}If you are standing still, you must start to accelerate in order to get up
+to normal walking speed.
+Your acceleration is in your direction of motion, the direction of
+increasing velocity, so by Newton's second law another object must be
+exerting a force on you in that direction.
+Your acceleration is equal to the net forward force, exerted on you by other
+objects, divided by your mass.
+
+The earth is what exerts the \Quote{forward} force on you, the force in the
+direction in which you start moving.
+You initiate the process by exerting a \Emph{backward} force on the earth.
+In accordance with Newton's third law, the earth exerts an equal but
+oppositely directed \Emph{forward} force on you and that is the forward force
+which accelerates you!
+
+The same holds true for cars, animals, and bicycles (along with their
+riders).
+Take a car, for example: the engine and drive-train components cause the
+tires to produce a backward force against the earth.
+The earth exerts the equal-but-opposite reactive force on the car.
+Of course that is the force \Emph{on the car} that accelerates the car in
+accordance with Newton's second law.
+The accelerating force is that of non-sliding friction since there is
+generally little slipping.
+Sliding friction comes into play only if, say, the operator of the vehicle
+applies so much force to the vehicle-earth interface that the wheels begin
+to slip and spin in place.
+
+\pcap{5}{b}{Negative and Zero Acceleration}
+Car and bicycle brakes cause deceleration through the frictional force
+generated by one surface in the brake sliding over another with which it is
+held in tight contact.
+Thus the force causing deceleration while braking in such vehicles is that
+of purely sliding friction.
+Note, however, that if a vehicle is being kept stationary (not moving at all) by
+brake force, then that force is a non-sliding one.
+
+\pcap{5}{c}{Jets and Rockets}
+No external force accelerates a jet or rocket operating in a vacuum.
+The air in the upper atmosphere is sufficiently thin so as to make this
+a reasonable approximation for jet planes operating there.
+With zero external force, Newton's second law says that the craft (together with its
+contents) must have zero acceleration and so it cannot speed up or slow down.
+However, we know from experience that such craft do speed up and slow down
+while in the upper atmosphere.
+The apparent discrepancy disappears if we watch the entire contents of the plane, not just
+the passengers and the plane's outer shell.
+During acceleration the fuel inside the plane is being burned and is thereby caused to
+exit rearward at an extremely high speed.
+Thus part of the \Quote{craft plus contents} moves to a higher speed forward but another part
+of it acquires a high speed in the opposite direction.
+This is similar to the way one can throw beanbags rearward in order to gain forward speed
+while on ice skates or on an air sled.
+In cases like the jet plane, where there is no external force on the total object
+so its total mass must travel at constant speed, a special construct called the object's \Quote{center
+of mass}
+%
+\Footnote{4}{For a rigorous discussion of the \Quote{center of mass} concept,
+see \Quote{Tools for Static Equilibrium,} MISN-0-5, or \Quote{Derivation of the Constants of the
+Motion for Central Forces,} MISN-0-58.  For a discussion of rocket propulsion, see \Quote{Mass
+Changing with Time: The Vertical Rocket, etc.,} MISN-0-19}
+%
+is helpful for the discussion.
+For the present purpose, consider an object's center-of-mass to be a mathematical point
+located at the \Quote{average} position of the object's mass components (which is usually not very
+far from the object's geometrical center).
+The point here is that the center of mass of the totality of parts travels at constant speed
+regardless of accelerations and decelerations of individual parts.
+In our present case, the center of mass of the plane-plus-fuel moves along at a constant speed
+regardless of accelerations and decelerations of the plane alone.
+When the plane moves to a higher speed the center of mass remains at the old speed because
+fuel mass was shot rearward in the process of acceleration.
+The force that produces the plane's acceleration is exerted on the plane by the burning
+fuel in the firing chambers of the plane's engines.
+This force is exerted only on the forward parts of the chambers because the backward parts
+are open to the outside vacuum.
+For a deceleration, the jet of burned fuel must be sent out in the forward direction.
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}{\NsfAcknowledgment}% /Sect
+%
+\Sect{A}{Velocity Dependence of Sliding Friction}{\SectType{AppendixOnePara}}{
+%
+\xpcap{}{}{Only for Those Interested}
+For a wide variety of surface combinations, the velocity dependence of
+the coefficient of sliding friction\Index{kinetic friction| coefficient of}
+\Index{coefficient of kinetic friction} is a very slowly rising logarithmic function
+of velocity:
+%
+\Eqn{}{\mu_{sl}(v) = \mu_{sl}(v_0) + a\,\ln(v/v_0) \qquad \text{(for } v \geq v_0\text{)}\,,}
+%
+where \m{v_0}, \m{\mu_{sl}(v_0)}, and \m{a} are constants that depend only on the nature of the surfaces.
+If there is sliding friction at a particular speed and then the speed is increased or decreased,
+there is a very strong but short-lived upward or downward spike in the coefficient of sliding friction,
+followed by the new value of \m{\mu_{sl}(v)}.
+There are interesting graphs showing this effect in the preprint: \textit{Statistical
+Mechanics of Static and Low-velocity Kinetic Friction}, by Martin H.\,M\"user, Michael Urbakh, and
+Mark O.\,Robbins, Dept.\,of Physics and Astronomy, The Johns Hopkins University (4/30/2002).
+}% /Sect

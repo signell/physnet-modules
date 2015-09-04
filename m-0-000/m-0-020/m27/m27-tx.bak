@@ -1,0 +1,58 @@
+% 2/26/85 mpm; 4/9/91, pss; 10/11/94, pss
+\TxStart
+
+\mTitle{PHASORS}
+
+\mAuthor{Peter Signell}
+
+\scap{1}{STUDY PROCEDURES}
+
+\pcap{1}{a}{Readings}
+Read Section 9.2 in AF
+%
+\Footnote{M.\,Alonso and E.\,J.\,Finn, {\em Physics}, Addison-Wesley (1970),
+on reserve for you in the Physics Library as ``Readings for Unit 27.''}
+%
+and examine Fig.\,1.
+This figure shows the phase relationships among various quantities associated
+with a harmonic oscillator whose displacement is given by
+%
+\Footnote{The sine function could be used just as well; that substitution
+would have exactly the same effect as subtracting a constant ninety degrees
+from the cosine phase. \help{1}}
+%
+$x(t)\,=\,A\,\cos{(\omega t\,+\,\alpha)}$, where $\alpha$ is the ``initial
+phase.''
+The rotating vectors are called ``phasors'' and do not, as vectors, correspond
+to any real quantity.
+That is why they are marked with asterisks.
+The $y*$-axis is an artificial construct and is not to be confused with an
+axis in a physical space.
+Here the $x$-axis is the real line of motion of the oscillator.
+
+\CaptionAfterFullFigure{Fig.\,1. Phasor diagram showing the displacement,
+velocity, acceleration, and force phasors for a harmonic oscillator at time
+zero.
+Each phasor has a different horizontal and vertical scale (length units for
+$\vec{x}*$, length-per-unit-time units for $\vec{v}*$, etc.).
+Note that the lengths of the phasors are written on them.}{m27gr01}
+
+\pcap{1}{b}{Answer these questions}
+From the readings, determine:
+\begin{itemize}
+\item [1.] Which are real, the phasors or their projections along the $x$-axis?
+\item [2.] What do the lengths of the phasors signify?
+\item [3.] What do the directions of the phasors signify?
+\item [4.] Which way do the phasors rotate, clockwise or counter-clockwise?
+\item [5.] Why is the velocity phasor drawn ninety degrees ``ahead'' of the
+displacement phasor rather than ninety degrees ``behind'' it?
+\item [6.] Are the phasors all locked together, or do some rotate faster than others?
+\item [7.] At what angular velocity do the phasors rotate?
+\item [8.] How can you tell from the form of $x(t)$ that the phase angle should
+be measured counter-clockwise, from the positive $x$-axis to the
+$\vec{x}*$-phasor?
+\end{itemize}
+
+\pcap{1}{c}{Work problems}
+Work the problems in the Problem Supplement.
+%\TxEnd

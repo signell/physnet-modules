@@ -1,0 +1,49 @@
+\revhist{5/29/85 mpm; 4/30/87, pss; 4/1/91, pss; 12/19/91, pss; 2/14/92, pss;
+         6/29/93, pss; 10/11/94, pss; 3/27/97, pss; 2/22/99, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{Relativistic Momentum: Particle Decays}
+
+\IdAuthor{P.\,Signell, Dept.\,of Physics, Mich.\,State Univ}
+
+\IdVersEval{2/1/2000}{B1}
+
+\begin{Hours/Pages} \HR{1} \TX{4} \LG{1} \RD{4} \PS{2} \ME{1} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  Work simple conservation of momentum problems \prrqone{0-14}.
+\item [2.]  Use the relativistic form for total energy in conservation of energy
+problems \prrqone{0-23}.
+\item [3.]  Expand the square root function in a Taylor series about a given point
+\prrqone{0-4}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Reduce the expression for relativistic momentum to its non-relativistic
+form, using the general expression for Taylor's Series for the expansion of a
+function about a point.
+\item [K2.] Show that \m{\vec{F}\,=\,m\vec{a}} is generally valid only for
+\m{v^2\,\ll\,c^2}.
+\end{KnowledgeSkills}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] Given a particle's rest mass and velocity, calculate its relativistic
+momentum and energy.
+\item [S2.] Use conservation of energy and momentum to work decay problems,
+1 particle \m{\Rightarrow} 2 particles, in the center of mass frame.
+\end{ProblemSolvingSkills}
+
+\begin{RequiredResources}
+\item [1.]  M.\,Alonso and E.\,J.\,Finn, {\it Physics}, Addison-Wesley (1970),
+or R.\,Resnick, {\it Basic Concepts in Relativity and Early Quantum Theory},
+John Wiley \& Sons (1972), or R.\,T.\,Weidner and R.\,L.\,Sells,
+{\it Elementary Modern Physics}, Allyn and Bacon (1980).
+For availability, see this module's {\it Local Guide}.
+\end{RequiredResources}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

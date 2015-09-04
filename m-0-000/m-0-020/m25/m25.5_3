@@ -1,0 +1,21 @@
+% 11/17/93, pss; 8/30/95, pss
+\input nphmods.sty
+
+%\includeonly{m25-ct}
+
+%\psdraft  %(activate only for hp mode; percent-out for ps mode)
+
+\begin{document}
+
+\mNumber{25}
+
+\ChapterStart
+\include{m25-ct}
+\include{m25-id}
+\include{m25-tx}
+\include{m25-ps}
+\include{m25-as}
+\include{m25-me}
+\ChapterEnd
+
+\end{document}

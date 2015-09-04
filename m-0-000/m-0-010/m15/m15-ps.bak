@@ -1,0 +1,607 @@
+% 12/17/90, pss; 8/9/91, pss; 3/12/93, pss; 5/9/94, pss; 0/25/96, pss
+\PsStart
+
+\newcommand{\fl}{\linefill{1in}}
+
+This supplement has two distinct parts.
+
+Part I contains four problems, each with a problem statement followed by
+a set of questions about the problem.
+Each set of questions is followed by a set of answers.
+Work through the set of questions for a problem, then compare your answers
+to the ones given.
+If they agree, great!
+If they don't, make sure that you reconcile them.
+
+Part II of this supplement contains problems with less detailed
+questions and answers.
+
+{\bf PART I}\newline
+A. One-dimensional Collision-Force Calculation \dotfill PS1 \newline
+B. Two-dimensional Collision-Force Calculation \dotfill PS2 \newline
+C. One-dimensional Conservation of Momentum Problem \dotfill PS3 \newline
+D. Two-dimensional Conservation of Momentum Problem \dotfill PS5 \newline
+
+{\bf PART II}\newline
+Problems 1-12 \dotfill PS8 \newline
+
+\xscap{}{PART I}
+
+\xpcap{}{A}{One-dimensional Collision-Force Calculation}\newline
+Problem: Estimate the average resultant force on a paratrooper (mass = 79\,kg)
+who hits the ground falling vertically at a speed of 11\,m/s (25\,mi/hr).
+Assume that he is a super-trooper and does not fall when he lands, but just
+lets his knees bend to increase the collision time.
+
+\begin{one-digit-list}
+\item [1.] The average resultant force on the trooper is
+           $\Delta\vec{p}/\Delta t$, where $\Delta\vec{p}$ is his
+           change in momentum while stopping and $\Delta t$ is \fl .
+
+\item [2.] $\Delta \vec{p}$ = \fl .
+
+\item [3.] Give a rough estimate for $\Delta t$.
+           $\Delta t\,\simeq$\,\fl .
+
+\item [4.] $\vec{F}_{R,av}$ \fl .
+
+\item [5.] How does this force compare to his weight?
+           $F/mg$ = \fl .
+\end{one-digit-list}
+
+\newpage
+
+\xpcap{}{}{Answers}
+\begin{one-digit-list}
+\item [1.] The time elapsing between the instant of contact with the ground and
+the instant his downward motion stops.
+
+\item [2.] $m(\vec{v}_{\rm final} - \vec{v}_{\rm initial}) =
+           (79\,{\rm kg}) \cdot (0 - 11\,{\rm m/s,\;down}) =
+           869\,{\rm kg\,m/s,\;up}$.
+
+\item [3.] His average speed while stopping will be approximately one-half
+           his initial speed; i.e., $v_{av} \simeq 5.5\,$m/s.
+           Hence his stopping time will be approximately
+           $\Delta t \simeq x/v_{av}$, where $x$ is the distance his ``body''
+           travels during the deceleration.
+           In a full-knee bend, a body might fall approximately 0.8\,m, so
+           $\Delta t \simeq (0.8\,{\rm m})/(5.5\,{\rm m/s}) \simeq 0.1$\,s.
+
+\item [4.] $\Delta \vec{p} /\Delta t \simeq
+           (869\,{\rm kg\,m/s,\;up})/(0.1\,{\rm s}) =
+           9 \times 10^3$\,N, up.
+
+\item [5.] $9000\unit{N}/(79\unit{kg} \times 9.8\unit{m/s}^2) \simeq 10$
+\end{one-digit-list}
+
+\xpcap{}{B}{Two-dimensional Collision-Force Calculation}\newline
+\TextAndFigure{Problem: A 3200\,lb car sliding on ice at 41\,mi/hr 
+(60.1\,ft/s) hits a concrete wall and bounces off as shown, with a speed of 
+22\,mi/hr (32.3\,ft/s).  If the collision time is measured from high speed 
+movies to be 0.50\,s, determine the average force (magnitude and direction) 
+on the car by the wall.}{m15gr06}
+
+\begin{one-digit-list}
+\item [1.] Since $\sum \vec{F}_{av} = \Delta \vec{p} / \Delta t$, you must
+           determine $\Delta\vec{p}$.
+           To do so, draw a vector triangle showing the car's initial momentum,
+           final momentum, and change in momentum.
+
+\item [2.] Determine the magnitude of the momentum change.
+           Hint: Pay close attention to the vector triangle just constructed.
+           $|\Delta\vec{p}|$ = \fl .
+
+\item [3.] Determine the angle between $\Delta\vec{p}$ and the normal to the
+           wall.
+           Angle = \fl .
+
+\item [4.] Determine the magnitude of the average force on the car by the wall.
+           $|\sum\vec{F}_{av}|$ = \fl .
+
+\newpage
+
+\item [5.] Show the average force on the wall by the car on the diagram.
+           Indicate its magnitude and direction.
+\end{one-digit-list}
+
+\BriefAns
+\begin{one-digit-list}
+\item [1.] \ItemFigure{$m = w/g = 100$\,slugs
+
+           $p_i = mv_i = 6010$\,lb\,s
+
+           $p_f = mv_f = 3230$\,lb\,s}{m15gr07}
+
+\item [2.] Since the angle between $\vec{p}_i$ and $\vec{p}_f$ is 90$^\circ$,
+           the Pythagorean theorem gives
+
+           $|\Delta \vec{p}| = \sqrt{p_i^2 + p_f^2 } = 6820$\,lbs
+
+\item [3.] \ItemFigure{$\alpha = 60^\circ - \theta$
+
+           $\tan\theta = p_f/p_i = 0.537$
+
+           $\theta = 28^\circ$
+
+           $\alpha = 32^\circ$}{m15gr08}
+
+\item [4.] $\frac{\ds |\Delta \vec{p}|}{\ds \Delta t} =
+           6820\,{\rm lbs}/0.50\,{\rm s} = 1.4\times10^4$\,lb
+
+\item [5.] \noindent\UnframedEpsFigure{m15gr09}
+\end{one-digit-list}
+
+\xpcap{}{C}{One-dimensional Conservation of Momentum Problem}\newline
+Problem: A mass $m$ moving with a speed $w$ to the right collides head-on with
+a mass $M$ moving with a speed $V$ to the left.
+After the collision, the two masses remain together.
+Determine the velocity $u$ of the composite mass in terms of $m$, $M$, $w$,
+$V$, and $\hat{x}$, a unit vector to the right.
+
+\begin{one-digit-list}
+\item [1.] Read the problem carefully.
+           Draw before and after sketches that depict the problem.
+           Label the various masses and velocities with appropriate symbols.
+
+\item [2.] Is it appropriate to assume the momentum of the two-particle system
+           to be conserved during the collision?
+           What assumptions, if any, must be made so that you can use momentum
+           conservation?
+
+\item [3.] Assuming momentum to be conserved, write a vector expression which
+           relates $m$, $M$, $w$, $V$, $\hat{x}$, and $\vec{u}$.
+
+\item [4.] Solve for $\vec{u}$.
+           What can you say about the direction for $\vec{u}$?
+           $\vec{u}$ = \fl .
+
+\item [5.] If the magnitude of the momentum of $m$ before the collision is \fl
+           than that of $M$, the composite particle moves to the right.
+           If the two initial momenta are \fl, the composite particle remains
+           at rest; and if the initial momentum of $m$ is \fl that of $M$, the
+           final motion is to the left.
+
+\item [6.] Consider the special case for $M$ initially at rest; i.e., $V$ = 0.
+           Show how a measurement of the initial and final speeds (w,u) could
+           be used to determine the ratio of the two masses.
+
+\item [7.] For the mass determination just discussed, suppose the data shows
+           that $u \ll w$.
+           Which inequality is appropriate: $M \ll m$ or $M \gg m$?
+
+\item [8.] If you did not do so already, write a brief discussion explaining
+           these results by considering the known results of collisions
+           between small and large objects.
+\end{one-digit-list}
+
+\newpage
+
+\xpcap{}{}{Answers}
+\begin{one-digit-list}
+\item [1.] \LeftEpsFigure{6.3cm}{2.0cm}{}{m15gr10}
+           Notice that in the sketch we have presumed the composite particle to
+           be moving to the right after the collision.
+           Can you, in fact, determine the final direction of motion from what
+           you are given?
+           You will see shortly.
+
+\item [2.] Since the stated problem makes no comment as to whether the
+           two-particle system is isolated, you have no assurance that the
+           system momentum is not changing.
+           However, if we assume the time of the collision to be sufficiently
+           short, then any momentum change by external forces will be
+           negligible; and momentum conservation can then be used to relate
+           momenta immediately before and after the collision.
+           In any laboratory situation, the validity of such an assumption
+           must always be considered carefully.
+
+\item [3.] $m w \hat{x} - M V \hat{x} = (m + M) \vec{u}$.
+
+           Did you miss the sign on the $MV$ term?
+
+           Don't forget it's moving in the negative $\hat{x}$ direction.
+
+\item [4.] $\left(m w - M V/ m + M\right) \hat{x}$.
+
+           If $m w > M V$, $\vec{u}$ is in the $\hat{x}$ direction.
+
+           If $m w = M V$, $\vec{u}$ is zero.
+
+           If $m w < M V$, $\vec{u}$ is in the negative $\hat{x}$ direction.
+
+\item [5.] greater than, equal in magnitude, less than.
+
+\item [6.] If $V = 0$, $m w = (m + M) u$; or $m(w - u) = M u$ and
+           $M/m = (w - u)/u$.
+
+\item [7.] $\frac{\ds M}{\ds m} =
+           \frac{\ds w - u}{\ds u} \simeq \frac{\ds w}{\ds u} \gg 1$;
+           or $M \gg m$?
+
+\item [8.] If the two move off very slowly after the collision ($U \ll w$),
+           then $m$ must have collided with a much larger mass; e.g., a ping
+           pong ball colliding with a locomotive at rest imparts verrrry little
+           speed to the locomotive $\ldots$ even on frictionless tracks!
+           On the other hand, if an at-rest mass M were much smaller than an
+           incoming mass $m$, the collision would have little effect on the
+           speed of $m$.
+           (Now you give the appropriate ping pong ball-locomotive analogy).
+\end{one-digit-list}
+
+\xpcap{}{D}{Two-dimensional Conservation of Momentum Principle}\newline
+\TextAndFigure{Problem: A mass $m$ moving with a speed $u$ collides with a mass
+$M$ at rest.
+After the collision, each moves as shown.
+Determine the speeds after the collision, if $m$ = 0.15\,kg, $M$ = 0.20\,kg,
+$\theta = 39^\circ$, $\phi = 74^\circ$, $u$ = 20.0\,m/s.}{m15gr11}
+
+\begin{two-digit-list}
+\item [1.]  Read the problem carefully.
+            Consider the two particle system consisting of $m$ and $M$.
+            Is this an isolated system?
+            Why?
+
+\item [2.]  If you see momentum conservation to relate the known and unknown
+            quantities, what assumptions about the system are you making?
+
+\item [3.]  Under what condition is this assumption valid, even if the system
+            is not isolated?
+
+\item [4.]  Construct a vector diagram illustrating the momentum conservation
+            equation: $m \vec{u} = m \vec{w} + M \vec{V}$.
+
+\item [5.]  \ItemFigure{The task now is to use this vector diagram to solve
+            for $w$ and $V$ in terms of the known quantities $m$, $M$, $u$,
+            $\theta$, $\phi$.
+            Solutions are easily obtained by using the law of sines.
+            Write out this relationship for the triangle shown.}{m15gr12}
+
+\item [6.]  Now use this result to solve for $w$.
+            Hint: Recall that $\sin(\pi - \alpha) = \sin\alpha$ for any value
+            of $\alpha$.
+
+\item [7.]  Solve for $V$.
+
+\item [8.]  \ItemFigure{You could have solved for $w$ and $V$ by writing
+            down conservation of momentum equations.
+            Using the momentum conservation triangle, write out the two
+            corresponding scalar equations:}{m15gr13}
+
+            components parallel to initial momentum:\,$m u$ = ?
+
+            components perpendicular to initial momentum:\,0 = ?
+
+\item [9.]  Use the second equation to solve for MV in terms of m, w, $\theta$,
+            $\phi$.
+            Substitute this into the first, and solve the resulting equation
+            for $w$.
+            Your answer will simplify if you use the trig identity:
+
+            $\sin(\theta + \phi) = \sin\theta\,\cos\phi + \cos\theta\,\sin\phi$.
+
+\item [10.] Now complete the solution by substituting the expression for $w$
+            into the equation for $V$.
+
+\item [11.] Note that the expressions for $w$ and $V$ obtained by two alternate
+            means agrees.
+            Now determine the values for $w$ and $V$.
+
+\item [12.] \ItemFigure{Notice that the vector triangle drawn to display
+            conservation of momentum graphically was very important in solving
+            this problem.
+            In these types of problems, you will often find that the law of
+            sines or law of cosines from trigonometry is a time-saver over the
+            component method.}{m15gr14}
+
+            These trigonometric relations are summarized in the figure and
+            the following equations.
+            The laws are applied to each vertex in turn.
+
+\begin{center}\begin{tabular}{c p{0.4in} c}
+{\bf Law of Sines} & & {\bf Law of Cosines} \\
+$\frac{\ds A}{\ds \sin\alpha} = \frac{\ds B}{\ds \sin\beta} =
+\frac{\ds C}{\ds \sin\gamma}$ & & $C^2 = A^2 + B^2 - 2 A B \cos\gamma$ \\
+ & & $B^2 = A^2 + C^2 - 2 A C \cos\beta$ \\
+ & & $A^2 = B^2 + C^2 - 2 B C \cos\alpha$ \\
+\end{tabular}\end{center}
+\end{two-digit-list}
+
+\xpcap{}{}{Brief Answers}
+\begin{two-digit-list}
+\item [1.] You cannot tell from the statement of the problem.
+
+\item [2.] The system is isolated; i.e., the only force on $m$ is that by $M$,
+           and vice versa.
+
+\item [3.] If the collision time is sufficiently short, then external forces
+           will not cause a measurable change in the system momentum during the
+           collision.
+
+\item [4.] \noindent\UnframedEpsFigure{m15gr15}\newline
+
+\item [5.] \ItemFigure{$\frac{\ds A}{\ds \sin\alpha} = \frac{\ds B}{\ds \sin\beta} =
+           \frac{C}{\sin\gamma}$}{m15gr16}
+
+\item [6.] $\frac{\ds mw}{\ds \sin\phi} = \frac{\ds mu}{\ds \sin\gamma}$
+
+           $w = \frac{\ds \sin\phi}{\ds \sin\gamma} u$
+
+           But $\gamma = \pi - (\theta + \phi)$
+
+           and $\sin(\pi - \theta - \phi) = \sin(\theta + \phi)$,
+
+           so $w = \frac{\ds \sin\phi}{\ds \sin(\theta + \phi)} u$.
+
+\item [7.] $V = \frac{\ds m u \sin\theta}{\ds M \sin(\theta + \phi)}$
+
+\item [8.] $m u = m w \cos\theta + M V \cos\phi$
+
+           $0 = m w \sin\theta - M V \sin\phi$
+
+\item [9.] $M V = \frac{\ds m w \sin\theta}{\ds \sin\phi}$
+
+           $m u = m w \left[\cos\theta + \frac{\ds \cos\phi\,\sin\theta}
+           {\ds\sin\phi}\right] =
+           m w \left[\frac{\ds \sin\phi\,\cos\theta + \cos\phi\,\sin\theta}
+           {\ds \sin\phi}\right]$
+
+           $m u = m w \frac{\ds \sin(\phi + \theta)}{\ds \sin\phi}$
+
+           $w = \frac{\ds \sin\phi}{\ds \sin(\phi + \theta)}\,u$
+
+\item [10.] $M V = \frac{\ds m \sin\theta}{\ds \sin\phi}
+            \frac{\ds u \sin\phi}{\ds \sin(\theta + \phi)} =
+            \frac{\ds m u\sin\theta}{\ds \sin(\theta + \phi)}$
+
+            $V = \frac{\ds m u \sin\theta}{\ds M\sin(\theta + \phi)}$
+
+\item [11.] $w = 21$\,m/s; $V = 1.0\times10^1$\,m/s.
+\end{two-digit-list}
+
+\xspcap{}{PART II}
+
+\newlength{\tempval}
+\setlength{\tempval}{\textwidth}
+\addtolength{\tempval}{-1.0cm}
+\begin{center}\fbox{\parbox{\tempval}{\bf If you get stuck on any problem in
+this part, you must go back and work the problems in Part I of this
+Supplement successfully before continuing.}}\end{center}
+
+Note: Items 13-15 also occur in this module's {\it Model Exam}.
+
+\begin{two-digit-list}
+\item [1.] a. Define the momentum of a system of particles.
+\begin{one-digit-list}
+\item [b.] Give the SI and English units of momentum.
+\item [c.] Express momentum units in terms of force and time units (SI and
+           English).
+\end{one-digit-list}
+
+\item [2.] a. Consider an isolated three-particle system.
+           Use Newton's laws to show that the total momentum for this system
+           does not change with time.
+\begin{one-digit-list}
+\item [b.] Extend the argument of part (a) to an isolated $N$-particle
+           system. \help{1}
+\end{one-digit-list}
+
+\item [3.] The only external forces on a two-particle system act in the
+           $y$-direction.
+           Show that although this system is not isolated, the $\hat{x}$ and
+           $\hat{z}$ components of the system momentum are constant in time.
+
+\item [4.] Explain why a baseball player often moves his gloved hand in the
+           direction of motion of the ball as he catches it.
+
+\item [5.] \ItemFigure{A spinning rubber ball (weight = 0.64\,lb) bounces
+           from the floor as shown.
+           The collision time is measured to be 0.010\,s.
+           Let $\hat{x}$ and $\hat{y}$ be horizontal and vertical unit vectors
+           as shown.}{m15gr17}
+
+\begin{one-digit-list}
+\item [a.] Calculate the ball's change in momentum during the collision, in
+           terms of $\hat{x}$ and $\hat{y}$. \help{2}
+\item [b.] Determine the average resultant force on the ball during the
+           collision.
+           Express in terms of $\hat{x}$ and $\hat{y}$. \help{13}
+\item [c.] What objects exert force on the ball during the collision?
+\item [d.] What is the average force on the floor during the collision?
+           Express in terms of $\hat{x}$ and $\hat{y}$. \help{14}
+\item [e.] Is the floor frictionless?
+           Explain.
+\end{one-digit-list}
+
+\item [6.] Explain why a collision can be analyzed using momentum conservation
+           even though the colliding objects do not constitute an isolated
+           system.
+
+\item [7.] \ItemFigure{Two masses which repel each other are released at
+           $t = 0$ from rest on a horizontal frictionless surface.
+           When the two are sufficiently separated, their interaction is
+           negligible, and each is observed to move with a constant velocity.
+           Let $\vec{w}$ be this constant velocity observed for $m$, and
+           $\vec{V}$ the corresponding velocity for $M$.}{m15gr18}
+
+\begin{one-digit-list}
+\item [a.] What is the total momentum for this two mass system at $t$ = 0?
+\item [b.] Does this total momentum change for $t > 0$?
+           Why?
+\item [c.] Express the total momentum in terms of $m$, $M$, $\vec{w}$, and
+           $\vec{V}$.
+\item [d.] What can you deduce about the direction of $\vec{w}$ and $\vec{V}$?
+           Explain.
+\item [e.] Suppose the mass $m$ is known and the velocities $\vec{w}$ and
+           $\vec{V}$ are measured.
+           Express $M$ in terms of $m$, $w$, and $V$.
+\end{one-digit-list}
+
+\item [8.] \ItemFigure{Showboat Steve is walking at 5.0\,ft/s while
+           Winsome Wylene's speed as she approaches him is 4.0\,ft/s.
+           Just before Showboat would have accelerated to pass in front of
+           Winsome, they reach an icy (frictionless) patch on the walkway and
+           suffer their inevitable collision.
+           Holding desperately onto each other, they slide off together,
+           hopefully to happier times.}{m15gr19}
+
+           If Showboat weighs 150\,lb and Winsome 100.0\,lb, determine their
+           blissful velocity (magnitude and direction) after the collision.
+           \help{3}
+
+\item [9.] A child (mass = 40.0\,kg) standing at rest on a smooth frozen lake
+           throws a 0.60\,kg ball toward a friend directly to the east.
+           The initial speed of the ball is 10.0\,m/s.
+\begin{one-digit-list}
+\item [a.] Neglecting air resistance, what external forces act on the
+           child-ball system during and after the throw?
+\item [b.] If the ball is moving horizontally just after release, determine the
+           child's velocity (magnitude and direction) after release.
+\item [c.] If the ball's velocity immediately after release is 36.87$^\circ$
+           above horizontal, calculate the child's speed after release.
+\end{one-digit-list}
+
+\item [10.] A $2.0$\,kg mass moving with a velocity of $15$\,m/s, east,
+            collides with a 1.0\,kg mass initially at rest.
+            After the collision, the larger mass has a speed of 10.0\,m/s and
+            the smaller is observed to be moving with a speed of 20.0\,m/s.
+            Calculate the scattering angle for the larger mass; i.e., the angle between
+            its final and initial velocities. \help{4}
+
+\item [11.] A mass $M$ moving with a speed $V$ collides with a larger object,
+            of mass $3.0\,M$, that is initially at rest.
+            After the collision the smaller mass is observed to be scattered
+            through an angle of 120$^\circ$, moving with a speed $V$/(2.0).
+            Determine the speed and direction of motion of the larger mass
+            after the collision. \help{5}
+
+\item [12.] A 5.0\,kg mass moving with a velocity of
+            $(3.2 \hat{x} - 2.4 \hat{y})$\,m/s at $t$ = 0 is acted upon by a
+            force $\hat{x} F_x(t) + \hat{y} F_y(t)$ where $F_x(t)$ and $F_y(t)$
+            are shown in the graphs below.
+            Determine the object's velocity at $t = 0.030$\,s.
+
+            Hint: Recall that $\Delta\vec{p} = \vec{F}_{R,av} \Delta t =
+            \int_0^{\Delta t} \vec{F}_R(t)\,dt$.
+
+            \UnframedEpsFigure{m15gr20}\newline
+            \help{7}
+
+\item [13.] At an instant when a 0.20\,kg particle has position, velocity, and
+            acceleration given by ($2.1 \hat{x} - 4.8 \hat{y}$)\,m,
+            ($1.2 \hat{x} + 1.6 \hat{z}$)\,m/s, and
+            ($-2.0 \hat{y} + 1.5 \hat{z}$)\,m/s$^2$:
+\begin{one-digit-list}
+\item [a.] Calculate its momentum.
+\item [b.] Calculate the rate at which its momentum is changing.
+\end{one-digit-list}
+
+\item [14.] \ItemFigure{A diving competitor (weight = 160\,lb) has a
+            downward velocity of 11\,ft/s just before hitting the board.
+            When contact with the board ceases, 0.40\,s later, the diver's
+            velocity is 23\,ft/s at an angle of 34$^\circ$ with the vertical.
+
+            Calculate the magnitude of the average resultant force on the diver
+            while in contact with the board. \help{20}}{m15gr21}
+
+\item [15.] \ItemFigure{A mass $M$ moving with a speed $v$ collides with
+            a mass $2 M$ initially at rest.
+            After the collision the two move as shown.
+            Determine $\theta$. \help{10}}{m15gr22}
+           
+\end{two-digit-list}
+
+\newpage
+
+\xpcap{}{}{Answers}
+\begin{two-digit-list}
+\item [1.] a. $\vec{P} = \sum_k m_k \vec{v}_k$ where
+\begin{one-digit-list}
+\item [  ] $\vec{P}$ = momentum of system
+
+           $m_k$ = mass of particle $k$\newline
+
+           $\vec{v}_k$ = velocity of particle $k$
+\item [b.] kg\,m/s; slug ft/s
+\item [c.] N\,s ; lb\,s
+\end{one-digit-list}
+
+\item [2.] a. $\vec{P} \equiv \vec{p}_1 + \vec{p}_2 + \vec{p}_3$
+\begin{one-digit-list}
+\item [] $d\vec{P}/dt = d\vec{p}_1/dt + d\vec{p}_2/dt + d\vec{p}_3/dt$
+
+         $\phantom{d\vec{P}/dt} = \vec{F}_{R1} + \vec{F}_{R2} + \vec{F}_R3$
+
+         $\phantom{d\vec{P}/dt} = \vec{F}_{2,1} + \vec{F}_{3,1} +
+         \vec{F}_{1,2} + \vec{F}_{3,2} + \vec{F}_{1,3} + \vec{F}_{2,3}$
+
+         $\phantom{d\vec{P}/dt} = (\vec{F}_{2,1} + \vec{F}_{1,2}) +
+         (\vec{F}_{3,1} + \vec{F}_{1,3}) + (\vec{F}_{3,2} + \vec{F}_{2,3})$
+
+         $\phantom{d\vec{P}/dt}= 0$.
+\item [b.] See this module's {\it Special Assistance Supplement}, [S-1].
+\end{one-digit-list}
+
+\item [3.] $\vec{F} = d\vec{P}/dt$ may be written in scalar form as:
+
+           $F_x = dP_x/dt$, \hs $F_y = dP_y/dt$, \hs $F_z = dP_z/dr$.
+
+           Given $F_x = F_z = 0$, then $dP_x/dt = dP_z/dt = 0$ so
+           $P_x$ and $P_z$ remain constant.
+
+\item [4.] By letting the gloved hand move with the ball, he increases the
+           ``collision time'' required to change the ball's momentum to zero,
+           thereby reducing the average force on the ball, and hence (by
+           Newton's third law) reducing the average force on his hand.
+
+\item [5.] a. $(-0.078 \hat{x} + 0.62 \hat{y})$\,lb\,s.
+\begin{one-digit-list}
+\item [b.] $(-7.8 \hat{x} + 62 \hat{y})$\,lb.
+\item [c.] floor, earth (weight).
+\item [d.] $(7.8 \hat{x} - 62 \hat{y})$\,lb.
+\item [e.] No.
+           It exerts a horizontal force on the ball.
+           A frictionless surface can exert normal forces only.
+\end{one-digit-list}
+
+\item [6.] For most collisions the collision time is so small and consequently
+           the collision forces so large, that the effect of external forces
+           can be neglected.
+
+\item [7.] a. Zero.
+\begin{one-digit-list}
+\item [b.] No, the resultant force on the system is zero.
+\item [c.] $m \vec{w} + M \vec{V} = 0$.
+\item [d.] In opposite directions since $\vec{V} = - (m/M) \vec{w}$.
+\item [e.] $M = (w/V)\,m$.
+\end{one-digit-list}
+
+\item [8.] \ItemFigure{$V = 3.4$\,ft/s.
+
+           $\theta = \tan^{-1}\left(\frac{\ds 1.6}{\ds 3.0}\right) = 28^\circ$.}{m15gr23}
+
+\item [9.] a. Weight (by earth) down on child and ball.
+\begin{one-digit-list}
+\item [  ] Upward force on child by ice.
+\item [b.] 0.15\,m/s, west.
+\item [c.] 0.12\,m/s, west.
+\end{one-digit-list}
+
+\item [10.] $\cos^{-1}(0.75) = 41^\circ$.
+
+\item [11.] speed = $\frac{\ds \sqrt{7.0}}{\ds 6.0} V = 0.44 V$.
+
+            $\theta = \tan^{-1}\frac{\ds \sqrt{3.0}}{\ds 5.0} = -19^\circ$.
+
+\item [12.] $(4.8 \hat{x} - 1.2 \hat{y})$\,m/s.
+
+\item [13.] a. ($0.24 \hat{x} + 0.32 \hat{z}$)\,kg\,m/s.
+\begin{one-digit-list}
+\item [b.] ($-0.40 \hat{y} + 0.30 \hat{z}$)\,kg\,m/s$^2$.
+\end{one-digit-list}
+
+\item [14.] $4.1\times10^2$\,lb.
+
+\item [15.] $5\times10^1$\,degrees.
+\end{two-digit-list}
+\PsEnd

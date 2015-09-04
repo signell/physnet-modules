@@ -1,0 +1,231 @@
+% 8/6/84 wcl; 3/16/88, pss; 9/7/91, pss; 9/29/94, pss; 11/30/94, pss
+\PsStart
+
+\noindent Problems 6 and 7 also occur in this module's {\it Model Exam}.
+
+\begin{one-digit-list}
+\item [1.] Two cars on a straight section of road are traveling parallel to
+each other.
+Car 1 has a speed of 60.0\,mi/hr and is traveling eastward, while Car 2 has a
+speed of 45\,mi/hr.
+Calculate the relative velocity of Car 2 with respect to Car 1 when:
+\begin{one-digit-list}
+\item [a.] the two cars are traveling the same direction;
+\item [b.] the two cars are traveling in opposite directions.
+\end{one-digit-list}
+
+\item [2.] A speed boat capable of traveling 35\,m/s in still water attempts
+to cross a river 1500\,m wide with a current moving at a speed of 28\,m/s.
+Determine the direction the boat must travel relative to the current if the
+resultant path of the boat is to be straight across the river, perpendicular
+to the banks.
+How long will the trip take?
+
+\item [3.] A particle $Q$ has a position, measured with respect to coordinate
+system $O$, of:
+%
+\eqn{}{\vec{r} = (6 t^2 - 4 t) \uvex{x} - 3 t^3 \uvex{y} + 3 \uvex{z}\,.}
+%
+With respect to another coordinate system O', this same particle's position
+is:
+%
+\eqn{}{\vec{r} = (6 t^2 + 3t)\uvex{x} - 3 t^3\,\uvex{y} + 3 \uvex{z}\,.}
+%
+(Note: all distances are in meters, all times are in seconds.)
+\begin{one-digit-list}
+\item [a.] Rewrite the two position vector equations with double subscripts and
+proper units.
+\item [b.] Find the time at which the two observers' coordinate axes coincide.
+\item [c.] Find the velocity of $O'$ with respect to $O$. \help{5}
+\item [d.] Find the distance between $O$ and $O'$ at time $t = 3$\,s.
+\item [e.] Find the distance between $Q$ and $O$ at time $t = 3$\,s.
+\item [f.] Find the distance between $Q$ and $O'$ at time $t = 3$\,s.
+\item [g.] Find the angle between $\vec{r}_{QO}$ and $\vec{r}_{QO'}$ at
+$t = 3$\,s.
+\item [h.] Find the angle between $\vec{r}_{QO}$ and $\vec{r}_{QO'}$, as seen
+looking along the $z$-axis, at $t = 3$\,s.
+\item [i.] Draw a rough sketch showing $\vec{r}_{QO}$, $\vec{r}_{QO'}$,
+and $\vec{r}_{OO'}$, as they appear if you are looking along the z-axis toward
+the origin.
+Label the positions of $Q$, $O$, and $O'$.
+\end{one-digit-list}
+
+\item [4.] An air traffic controller is tracking, via radar, two planes
+cruising at the same altitude.
+At a particular time Plane $A$ is 12\,miles away, bearing $60\degrees$ (measured
+clockwise from north) and is traveling due north at 250\,mi/hr.
+Plane $B$ is 10\,miles out, bearing $37\degrees$ and is traveling due east at
+550\,mi/hr.
+\begin{one-digit-list}
+\item [a.] Draw a sketch of the position and velocity vectors of each plane
+with respect to the controller's position.
+\item [b.] Express the position vector of each plane, and the position of plane B
+relative to plane $A$, as functions of time.
+\item [c.] Will the two planes collide if each plane holds its course?
+If so, how long after the time of the above initial conditions will the
+collision take place?
+Would you recommend this calculation be made by hand calculator, slide rule,
+or computer?
+\item [d.] What is the velocity of plane $B$ relative to plane $A$?
+\end{one-digit-list}
+
+\item [5.] In 1821 H.\,M.\,S.\,Clorinda, a British frigate, attempted to
+capture the Estrella del Sur, a Spanish schooner.
+At a particular point of the chase the schooner, well out of range, changed
+course to cross Clorinda's bow and head for San Juan, Puerto Rico on a NW
+course (N\,45$\degrees$\,W) at a speed of 8 knots.
+Clorinda, heading N\,11.25$\degrees$W at 6 knots, saw the schooner 3 points
+off the starboard bow (i.e. at a bearing of 33.75$\degrees$ measured
+clockwise from dead ahead) at a range of 0.25 miles (nautical miles).
+Maximum cannon shot range was 2 cable lengths (0.20 nautical miles).
+\begin{one-digit-list}
+\item [a.] Sketch the situation at the time of the schooner's course change.
+Include the velocities of each ship and the position of the Estrella
+del Sur relative to Clorinda.
+\item [b.] Calculate the velocity of the schooner relative to the frigate.
+\item [c.] Express the position of the schooner relative to the frigate as a
+function of time.
+\item [d.] Express the distance of the schooner relative to the frigate as a
+function of time.
+\item [e.] What is the distance of closest approach of the two ships?
+Will the schooner ever be in range?
+\item [  ] \begin{tabular}{r c l}
+Note: nautical mile & = & $ 1.0 \times10^1$ cable lengths \\
+               knot & = & nautical mile/hr.
+\end{tabular}
+\end{one-digit-list}
+
+\item [6.] You are a small-craft airplane pilot.
+You have pointed your plane due west and maintained a speed of 120\,mi/hr
+as registered on your air-speed indicator (speed with respect to the air)
+for two hours.
+However, there is a wind blowing out of the north-east at
+$4.0\times10^1$\,mi/hr.
+Calculate the distance you are off your desired due-west course at the
+end of the two hours.
+
+\item [7.] Relative to the origin of a laboratory reference frame $L$, an
+object $A$'s position varies with time according to
+%
+\eqn{}{\vec{r}_A = 5 t^2 \uvex{x} + 8 \uvex{y}\,,}
+%
+while an observer $O$ sees
+%
+\eqn{}{\vec{r}_A = 7 t^2 \uvex{x} - 3 t^{-1} \uvex{z}\,.}
+%
+\begin{one-digit-list}
+\item [a.] Rewrite the above vector equations, putting in double subscripts
+and proper units.
+Assume that all distance quantities are in meters, all time quantities in
+hours.
+\item [b.] Find the speed (magnitude of the velocity) of $O$ relative to $L$
+at time $t$.
+\item [c.] Find the magnitude of the acceleration of $O$ relative to $L$ at
+time $t$.
+\item [d.] Draw a rough sketch of the position and velocity vectors of $O$,
+as seen by $L$ at $t = 90$\,min, as they would appear looking down the
+$z$-axis toward the origin.
+\end{one-digit-list}
+\end{one-digit-list}
+
+\BriefAns
+
+\begin{one-digit-list}
+\item [1.] \NullItem
+\begin{one-digit-list}
+\item [a.] 15 mi/hr, westward
+\item [b.] 105 mi/hr, westward
+\end{one-digit-list}
+
+\item [2.] 143$\degrees$ from the direction of the current.
+The trip will take 71 seconds.
+
+\item [3.] \NullItem
+\begin{one-digit-list}
+\item [a.] $\vec{r}_{QO} = \left[ (6\unit{m/s}^2) t^2 -
+(4\unit{m/s}) t \right] \uvex{x} +
+(-3\unit{m/s}^3) t^3 \uvex{y} + (3\unit{m})\uvex{z}$
+\item [  ] $\vec{r}_{QO'} = \left[ (6\unit{m/s}^2) t^2 +
+(3\unit{m/s}) t\right] x + (-3\unit{m/s}^3) t^3 \uvex{y} +
+(3\unit{m}) \uvex{z}$
+\item [b.] $t = 0$
+\item [c.] $\vec{v}_{O'O} = (- 7\unit{m/s}) \uvex{x}$
+\item [d.] $r_{OO'} = 21$\,m
+\item [e.] $r_{QO} = 91.29$\,m
+\item [f.] $r_{QO'} = 102.66$\,m
+\item [g.] $10.46\degrees$  \help{1}
+\item [h.] $10.46\degrees$  \help{2}
+\item [i.] \UnframedEpsFigure{m11gr03}
+\item [j.] In this problem, $v_{O'O} = - 7$\,m/s, so $v$ is not zero at any
+time.
+\end{one-digit-list}
+
+\item [4.] \NullItem
+\begin{one-digit-list}
+\item [a.] \UnframedEpsFigure{m11gr04}
+\item [b.] $\vec{r}_A = (10.4\unit{mi})\uvex{x} + \left[ 6\unit{mi} +
+(250\unit{mi/hr}) t\right] \uvex{y}$
+\item [  ]   $\vec{r}_B = \left[ 6\unit{mi} + (550\unit{mi/hr}) t\right]
+\uvex{x} + (8\unit{mi}) \uvex{y}$
+\item [  ]   $\vec{r}_{BA} = \vec{r}_B - \vec{r}_A =
+\left[ (550\unit{mi/hr}) t - 4.4\unit{mi}\right] \uvex{x} +
+\left[2\unit{mi} - (250\unit{mi/hr}) t\right] \uvex{y}$
+\item [c.] The planes will collide in 29 seconds.
+A computer would be advisable.
+\item [d.] $\vec{v}_{BA} = 604$\,mi/hr, bearing $114\degrees$.
+\end{one-digit-list}
+
+\newpage
+\item [5.] \NullItem
+\begin{one-digit-list}
+\item [a.]
+\item [  ]
+\item [  ]
+\item [  ]
+\item [  ] \CposTableEpsFigure{m11gr05}
+\item [  ]
+\item [  ]
+\item [  ] \hspace{5cm} \CposTableEpsFigure{m11gr06}
+\item [  ] frigate:
+\item [  ] $v_1 = 6$\,knots
+\item [  ] schooner:
+\item [  ] $\vec{v}_2 = 8$\,knots
+\item [  ] $\vec{r}_{21} = 0.25$\,mi \vspace*{1cm}
+%\item [a.] \PsFig{1.25in}
+%\item [  ] frigate:
+%\item [  ] $v_1 = 6$\,knots
+%\item [  ] schooner:
+%\item [  ] $\vec{v}_2 = 8$\,knots
+%\item [  ] $\vec{r}_{21} = 0.25$\,mi\vspace*{1.3in}
+\item [b.] $\vec{v}_{21} =
+(- 4.48\unit{knots}) \uvex{x} + (- 0.228\unit{knots}) \uvex{y}$
+\item [c.] $\vec{r}_{21} =
+\left[ 0.096\unit{mi} + (- 4.48\unit{knots}) t\right] \uvex{x} +
+\left[ 0.231\unit{mi} + (- 0.228\unit{knots}) t \right] \uvex{y}$
+\item [d.] $r_{21} =\newline
+\left( \left[0.096\unit{mi} + (- 4.48\unit{knots}) t\right]^2
++ \left[ 0.231\unit{mi} + (- 0.228\unit{knots}) t\right]^2\right)^{1/2}$
+\item [e.] The minimum value of $r_{21}$ is 0.226\,miles.
+This is greater than 0.2\,mi, so the schooner will never be in range.
+\end{one-digit-list}
+
+\item [6.] 56.6\,mi
+
+\item [7.] \NullItem
+\begin{one-digit-list}
+\item [a.] $\vec{r}_{AL} = (5\unit{m/hr}^2) t^2 \uvex{x} +
+(8\unit{m}) \uvex{y}$
+\item [  ] $\vec{r}_{AO} = (7\unit{m/hr}^2) t^2 \uvex{x} +
+                         (-3\unit{m\,hr})t^{-1} \uvex{z}$
+\item [b.] $v_{OL} = \left( 16\unit{m}^2/{\rm hr}^4 t^2 +
+                          9\unit{m}^2\unit{hr}^2 t^{-4} \right)^{1/2}$
+\item [c.] $a_{OL} = \left( 16\unit{m}^2/{\rm hr}^4 +
+                            36\unit{m}^2\unit{hr}^2 t^{-6} \right)^{1/2}$
+%\item [d.] $x, y$ in meters: \UnframedEpsFigure{m11gr07}
+\newpage
+\item [d.] $x, y$ in meters:
+\item [  ] \LeftUnframedEpsFigure{}{m11gr07}
+\end{one-digit-list}
+\end{one-digit-list}
+
+\PsEnd

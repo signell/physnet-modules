@@ -1,0 +1,336 @@
+\revhist{10/11/91, pss; 9/16/94, pss; 11/12/97, pss; 1/12/00, pss; 5/13/02, pss}
+%
+\Sect{1}{Introduction}{\SectType{TextMultiPara}}{
+%
+\pcap{1}{a}{Conditions for Motionlessness}
+An important question, with widespread application in physics and
+engineering, is:  Under what conditions will a motionless system not tend to
+start moving in any direction or rotating about any axis; that is, what are
+the conditions for \Quote{\Index{equilibrium, static}\Index{static equilibrium}static equilibrium?}
+The answer is:  When the resultants of the forces and the torques acting on
+the system are zero.
+
+\pcap{1}{b}{Dealing With Extended Objects}
+The objects considered in this unit are \Index{object, extendeds}extended objects; that is, they have
+finite size in contrast to mathematically idealized point objects.
+The study of extended objects, acted upon by gravity and able to rotate,
+brings to mind this question:
+How do we take into account the weight of each infinitesimable part of the object?
+We certainly do not want to draw a vector force diagram for each infinitesimal element and then compute
+the torque on each such element.
+The answer is to use the rather simple concept of the object's \Quote{Center of Gravity,} which,
+for objects small compared to the earth, is just the object's Center of Mass.
+We will explore these concepts at some length and develop their use in solving static equilibrium
+problems.
+
+\CaptionedLeftFramedFigure{1}{Two equal but opposite forces that tend to rotate an object.}{m6gr01}
+%
+}% /Sect
+%
+\Sect{2}{Application to Extended Objects}{\SectType{TextMultiPara}}{
+%
+\pcap{2}{a}{Zero Resultant Force and Torque}
+For static equilibrium to occur it is not enough that the sum of all of the
+forces on an object be zero.
+This can be seen by referring to the object shown in \Figref{1}.
+The object is not in equilibrium in spite of the fact that the net force is zero.
+Two forces act on the object.
+They are equal in magnitude and oppositely directed so the resultant force is zero.
+Because the forces are not along the same line, their effect is to tend to rotate the
+object (clockwise for the forces shown in \Figref{1}).
+
+The system in \Figref{1} is not in static equilibrium because
+the forces produce a net \Index{torque, on extended object}torque which will be accompanied by
+rotational acceleration.
+Complete equilibrium will occur only when the net force and the resultant torque,
+relative to any point whatever, are both zero.
+Hence, with forces \m{\vect{F}_1}, \m{\vect{F}_2}, \m{\ldots}, \m{\vect{F}_n} producing
+torques \m{\vect{\tau}_1}, \m{\vect{\tau}_2}, \m{\ldots}, \m{\vect{\tau}_n} relative to
+some arbitrary fixed point, the conditions for equilibrium are that the resultant force,
+\m{\vect{F}_R}, and the resultant torque, \m{\vect{\tau}_R}, are both zero:
+%
+\Eqn{1}{\vect{F}_R \equiv \sum^n_{i=1} \vect{F}_i \equiv \vect{F}_1 + \vect{F}_2 + \dots +
+         \vect{F}_n = 0\,,}
+%
+\Eqn{2}{\vect{\tau}_R \equiv \sum^n_{i=1} \vect{\tau}_i =
+          \vect{\tau}_1 + \vect{\tau}_2 + \ldots + \vect{\tau}_n = 0\,.}
+%
+
+\pcap{2}{b}{Using Vector Components}
+In finding solutions to problems, component equations are often found to be more useful
+than vector equations such as \Eqnsref{1} and \Eqnssref{2}.
+To find the Cartesian \m{x}-component equations equivalent to \Eqnsref{1} and \Eqnssref{2}, we simply
+multiply each of those equations by the \m{x}-coordinate unit vector, \uvec{x}, and obtain the
+\m{x}-components of the resultant force and torque vectors:
+%
+\Eqn{3}{F_{Rx} = \vect{F}_R \cdot \uvec{x} = \sum^N_{i=1}(\vect{F}_i \cdot \uvec{x}) = \sum^N_{i=1}F_{ix} = 0\,,}
+%
+\Eqn{4}{\tau_{Rx} = \vect{\tau}_R \cdot \uvec{x} = \sum^N_{i=1}(\vect{\tau}_i \cdot \uvec{x}) = \sum^N_{i=1}\tau_{ix} = 0\,,}
+%
+where \m{F_{ix}} indicates the \m{x}-component of the \nth{i} force.
+There are similar equations for the \m{y}- and \m{z}-components, obtained
+through multiplying by the unit vectors \uvec{y} and \uvec{z} rather than by \uvec{x}.
+Note that a force or torque \Emph{component} may be either positive or negative depending upon the
+direction of the force in relation to the direction of the corresponding coordinate axis.
+}% /Sect
+%
+\Sect{3}{The Center of Gravity}{\SectType{TextMultiPara}}{
+%
+\pcap{3}{a}{When Gravity is the Force}
+%
+The \Index{weight}weight of an object is a force due to the gravitational attraction
+between the matter in the object and the matter in the earth.
+This gravitational pull should not be thought of as a single force between
+the earth and the body as whole.
+Each submicroscopic particle that makes up the body experiences a gravitational
+force due to the presence of the large amount of matter comprising the earth.
+It is the sum of all these nearly parallel forces that make up the resultant
+force we call the weight of the object.
+The point at which this single force, equal to the resultant force, must act
+to have the same effect as all of the forces between the constituent particles
+and the earth is called the \Quote{center of gravity} (hereafter \m{CG}).
+
+\pcap{3}{b}{The Center of Gravity}
+When no forces other than gravity are acting on an object, we can always find
+a point called the object's \Quote{Center of Gravity} where, for purposes of
+static equilibrium, the object's mass may be considered to be concentrated.
+By this we mean that we can replace the actual object by a weightless rigid structure which
+has the same shape as the object but whose weight occurs entirely at the object's
+Center of Gravity.
+An object's Center of Gravity is a single point whose position can be calculated from the distribution
+of weight within the actual object.
+Once the position of the Center of Gravity, \vect{r}\dn{CG}, has been determined, the resultant gravitational torque on the object
+is given by (see this module's Appendix A):
+%
+\Eqn{5}{\vect{\tau}_R = \vect{r}_{CG} \times W\uvec{g}\,,}
+%
+where \uvec{g} is a unit vector pointing downward, toward the center of the earth, and \m{W} is
+the weight of the object (the weight of the object is the magnitude of the gravitational
+force on the object).
+If the object is to be in static equilibrium, the resultant torque must be zero.
+Solving a static equilibrium problem for an extended object usually begins with
+determining the location of the object's Center of Gravity.
+Note that we have not specified any particular origin for computing the vector to the Center of Gravity,
+so that origin could be anywhere and the equation would still be valid.
+In general, the origin is chosen as a point about which the system would naturally rotate,
+such as the point of suspension of the system or a point at which the system is in contact with
+the ground or with a road.
+
+\CaptionedFullFramedFigure{2}{Locating the Center of Gravity of an object by drawing vertical lines
+from several different points of suspension.}{m6gr28}
+
+\pcap{3}{c}{Locating the Center of Gravity Experimentally}
+To experimentally determine the center of gravity of an object we suspend it from any point on
+its surface and draw a vertical line through the object from that point downward, as in \Figref{2}a.
+We then pick some different point on the surface of the object and repeat the procedure, as
+in \Figref{2}b.
+The point where the two lines cross is the Center of Gravity.
+If we repeat the procedure again, as in \Figref{2}c, all three lines will cross at the Center of Gravity.
+Any number of such lines can be drawn and the lines will all cross each other at the Center of Gravity
+\Derivation{(derived in Appendix C; Appendices A and B are prerequisites)}{Appendix A}.
+
+\tryit Cut out an oblong piece of cardboard or wood and suspend it from an edge using a thread or
+string as appropriate for its weight.
+Then: (1) carry out the above-outlined procedure and see for yourself that all of the lines you draw on
+the object, as you suspend it from diffent points on its edge, really do cross each other at the
+same point; and (2) suspend the object from your newly found center of gravity by poking a needle
+or pencil through the point of intersection and show that the object has no preferred rotational
+orientation about this point.
+
+\pcap{3}{d}{Locating the Center of Gravity by Calculation}
+The vector to the Center of Gravity of a system of \m{N} particles, for cases where the system is small
+compared to the size of the earth, can be calculated to high accuracy from this equation for the
+system's Center of Mass \Derivation{(derived in Appendix A)}{Appendix A}:
+%
+\Eqn{6}{\vect{r}_{CG} = \vect{r}_{CM} =
+        \dfrac{1}{M}\sum^N_{i=1} m_i\,\vect{r}_i \qquad \text{(system small compared to earth)}\,,}
+%
+where the \nth{i} particle has mass \m{m_i} and position vector \m{\vect{r}_i}.
+For an extended object we have a similar equation \Derivation{(derived in Appendix B; Appendix A is
+prerequisite)}{Appendix B}:
+%
+\Eqn{7}{\vect{r}_{CG} = \vect{r}_{CM} = \dfrac{1}{M}\int \vect{r}\,dm(\vect{r}) \qquad \text{(object small compared to earth)}\,,}
+%
+where the integral is over the volume of the extended object.
+%
+}% /Sect
+
+\CaptionedLeftFramedFigure{4}{Determining the equilibrium point of suspension of a
+tringular sign.}{m6gr04}
+
+\Sect{4}{A Calculational Example}{\SectType{TextOnePara}}{
+The owner of the Triangle Bar wishes to erect a sign (of triangular shape,
+naturally) from a single point, as shown in \Figref{4}.
+The owner needs to find the distance \m{x_R} at which the sign will balance.
+The sign is exceedingly small compared to the size of the earth and it is an extended object so we use
+\Eqnref{7}.
+
+\CaptionedLeftFramedFigure{7}{An element of area with constant \m{x} for determining \m{x_{CM}}
+for the sign in \Figref{4}.}{m6gr25}
+%
+\CaptionedLeftFramedFigure{8}{An element of area with constant \m{y} for determining \m{y_{CM}}
+for the sign in \Figref{4}.}{m6gr26}
+
+We start by taking the \m{x}-component of \Eqnref{7}:
+%
+\Eqn{8}{x_{CG} = x_{CM} = \dfrac{1}{M} \int x\,dM\,.}
+%
+To convert to an integral over space, we define the surface density of the sign, its mass per
+unit area, as \m{\sigma} so that \m{M = \sigma\,A} and \m{dM = \sigma\,dA}.
+Here \m{A} is the area of the sign.
+Then we can rewrite \Eqnref{8} as:
+%
+\Eqn{9}{x_{CM} = \dfrac{1}{A} \int x\,dA\,.}
+%
+We now interpret \m{dA} to be all parts of the area that have the same value for \m{x}.
+An example is shown as the shaded area in \Figref{7}.
+The size of the area is \m{dA = y\,dx} and all parts of it have the same value for \m{x}.
+Therefore the integral over all area becomes:
+%
+\Eqn{10}{x_{CM} = \dfrac{1}{A} \int_0^b x\,y(x)\,dx\,.}
+%
+We interpret this integral as: \Quote{We weight each element of area, \m{dA = y(x)\,dx}, with its
+value of \m{x}, and integrate over the whole area.}
+Now \m{y(x) = hx/b} and \m{A = bh/2} so we get:
+%
+\Eqn{11}{x_{CM} = \dfrac{2}{bh} \int_0^b x\,\dfrac{hx}{b}\,dx = \dfrac{2}{b^2} \int_0^b\,x^2\,dx =
+\dfrac{2}{3}\,b\,,}
+%
+hence:
+%
+\Eqn{}{x_{CG} = \dfrac{2}{3}\,b\,.}
+
+\tryit Show that the \m{y}-position of the Center of Gravity is at \m{h/3}. \help{2}
+
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}{\NsfAcknowledgment
+Jules Kovacs made useful suggestions.
+}% /Sect
+%
+\Sect{A}{Centers of Gravity and Mass for a Particle System}{\SectType{AppendixOnePara}}{
+%
+We treat the case of a system of point particles near the surface of the earth and we assume that
+gravity is the only force acting on the particles in the system.
+This means that the force on each particle in the system is just the force of gravity, the particle's
+weight.
+We write the weight of the \nth{i} particle as \vect{w}\dn{i}, whereupon the gravitational
+torque on the \nth{i} particle becomes:
+%
+\Eqn{A1}{\vect{\tau}_i = \vect{r}_i \times \vect{F}_i = \vect{r}_i \times \vect{w}_i\,.}
+%
+Then \Eqnref{4} for the resultant torque on the system is:
+%
+\Eqn{A4}{\vect{\tau}_R = \sum^N_{i=1} \vect{\tau}_i =  \sum^N_{i=1} \vect{r}_i \times \vect{w}_i\,.}
+%
+The weights are all forces in the downward direction, toward the center of the earth.
+We denote that direction with the unit vector \uvec{g} so \m{\vect{w}_i = w_i \uvec{g}} and we have:
+%
+\Eqn{A8}{\vect{\tau}_R = \sum^N_{i=1} \vect{r}_i \times \vect{w}_i =
+                        \sum^N_{i=1} \vect{r}_i \times w_i \uvec{g} =
+                        \left(\sum^N_{i=1} \vect{r}_i w_i\right) \times \uvec{g}\,,}
+%
+where we have factored out the cross product with \uvec{g} because it is common to all terms in the sum.
+The vector sum in the parenthesis in \Eqnref{A8} is just the sum of the position vectors
+to the individual particles but with each position vector weighted by the weight of the particle.
+This vector sum, divided by the weight of the system, is the \Quote{Center of Gravity}
+of the system:
+%
+\Eqn{A7}{\vect{r}_{CG} = \dfrac{1}{W}\,\sum^N_{i=1} w_i\,\vect{r}_i\,.}
+%
+Finally, we rewrite \Eqnref{A7} to emphasize that each particle's position vector is weighted
+by the particle's fraction of the system's weight:
+%
+\Eqn{A9}{\vect{r}_{CG} = \sum^N_{i=1} \dfrac{w_i}{W}\,\vect{r}_i\,.}
+%
+Using \Eqnref{A9}, \Eqnref{A8} can be written:
+%
+\Eqn{A10}{\vect{\tau}_R = \vect{r}_{CG} \times W\uvec{g}\,.}
+%
+This demonstrates that the resultant gravitational torque on a system of particles is exactly
+the same as what would be produced by a single point particle weighing \m{W}, located at the
+system's Center of Gravity.
+
+We can write the weight of each contributing particle as its mass times the acceleration of gravity,
+\m{g}, and the total weight of the system, \m{W}, as \m{g} times the total mass of the system, \m{M}.
+Then \Eqnref{A9} becomes:
+%
+\Eqn{A11}{\vect{r}_{CG} = \dfrac{1}{M} \sum^N_{i=1} m_i\,\vect{r}_i \qquad \text{(system small compared to earth)}\,.}
+%
+For an ordinary-size system near the surface of the earth, this equation for the Center of Gravity,
+\Eqnref{A11}, no longer contains any reference to gravity.
+In fact, it is the equation that defines the position vector to the \Quote{Center of Mass} of the system,
+defined by giving each particle's position vector a weight equal to its fraction of the mass
+of the system of particles:
+%
+\Footnote[3]{Note that in this sentence the word \Quote{weight} is used in the mathematical or statistical
+sense, not in the gravitational sense.}
+%
+\Eqn{A12}{\vect{r}_{CM} \equiv \dfrac{1}{M} \sum^N_{i=1} m_i\,\vect{r}_i\,.}
+%
+Then one can write:
+%
+\Eqn{A13}{\vect{r}_{CG} = \vect{r}_{CM} \qquad \text{(system small compared to earth)}\,,}
+%
+}% /Sect
+%
+\Sect{B}{Centers of Gravity and Mass for an Object}{\SectType{AppendixOnePara}}{
+Any extended object can be treated as if it is composed of many infinitesimal objects,
+each having an infinitesimal mass \m{dm} that contributes to \Eqnref{A9}.
+Then the sum in \Eqnref{A9} becomes an integral over the entire object:
+%
+\Footnote[4]{The conversion of a sum over discrete objects to an integral over infinitesimal
+parts of an extended object is developed in \Modref{1}{Simple Differentiation and Integration}.}
+%
+\Eqn{B1}{\vect{r}_{CG} = \dfrac{1}{M}\int \vect{r}\,dm(\vect{r}) \qquad \text{(object small compared to earth)}\,,}
+%
+Here the integral is over the mass of each infinitesimal element of the extended object.
+The infinitesimal mass of the infinitesimal element at position \vect{r} has been written as
+\m{dm(\vect{r})}.
+\Equationref{B1} is actually the definition of an extended object's Center of Mass:
+%
+\Eqn{B4}{\vect{r}_{CM} \equiv \dfrac{1}{M}\int \vect{r}\,dm(\vect{r})\,,}
+%
+so one can write:
+%
+\Eqn{B2}{\vect{r}_{CG} = \vect{r}_{CM} \qquad \text{(object small compared to earth)}\,,}
+
+Note that \Eqnref{A10} is the same as \Eqnref{B2} so the same equation is valid for both extended
+systems and discrete ones.
+
+One can multiply \Eqnref{B1} by the unit vector in the \m{x}-direction and get the \m{x}-component
+of the vector to the Center of Gravity:
+%
+\Eqn{B3}{x_{CG} = \dfrac{1}{M}\int x\,dm\,. \qquad \text{(object small compared to earth)}\,,}
+%
+and there are similar equations for the \m{y}- and \m{z}-components, obtained by using \uvec{y} and
+\uvec{z} in place of \uvec{x}.
+}% /Sect
+%
+\CaptionedLeftFramedFigure{9}{The object will experience a torque about the suspension point,
+due to gravity, unless \m{\theta = 0}.}{m6gr27}
+%
+\Sect{C}{The Center of Gravity is Below a Suspension Point}{\SectType{AppendixOnePara}}{
+The reason why a vertical line drawn downward from any point of suspension point passes through
+the suspended object's the Center of Gravity can be easily seen in \Figref{9}.
+The figure shows an object suspended from a point on its edge, but rotated so it is unbalanced.
+By this we mean that if we let it go it will start swinging downward, rotating about the point of
+suspension.
+The reason it starts rotating is because there is a torque on the object equal to the vector
+product of the Center of Gravity position vector and the weight vector of the object.
+%
+\Footnote[5]{See Sect.\,3 for the reason this is correct.}
+%
+In terms of magnitude:
+%
+\Eqn{}{\tau_R = \left| \vect{r}_{CG} \times W\,\uvec{g} \right| = r_{CG}\,W\,\sin\theta\,.}
+%
+where \m{\theta} is the angle between the direction of the Center of Gravity position vector and the
+downward direction of the force of gravity (see \Figref{9}), \m{W} is the weight of the object,
+\m{\vect{r}_{CG}} is the distance from the poi.
+There is no torque on the object only if \m{\theta = 0} and that is the case if we just let the
+object hang downward without rotation.
+In such a case, a vertical line drawn downward from the point of suspension will certainly pass
+through the Center of Gravity, no matter what suspension point is used.
+}% /Sect
+%

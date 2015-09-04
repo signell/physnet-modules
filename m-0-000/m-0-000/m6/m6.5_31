@@ -1,0 +1,21 @@
+
+\input nphmods.sty
+
+\begin{document}
+
+\Module{6}{Stnd}{
+    \ModData{
+        \Section{m6-dat}%
+    }%
+    \ModText{
+        \Section{m6-tx}%
+    }%
+    \ModSupp{
+        \Section{m6-ps}%
+        \Section{m6-as}%
+        \Section{m6-me}%
+\ChapterEnd
+
+\end{document}
+
+\revhist{9/16/94, pss}

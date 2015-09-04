@@ -1,0 +1,175 @@
+% 7/10/85; mpm; 9/9/91, pss
+\PsStart
+
+Problem 8 also occurs in this module's {\it Model Exam}.
+
+{\bf Note:} Wherever appropriate, take the direction of {\bf stretching} the
+spring as the direction of positive displacement.
+
+\begin{one-digit-list}
+\item [1.] One end of a horizontal spring is fixed, the other end is found to
+be moved 8.0\,cm from its equilibrium position by a force of 20.0\,N.
+A mass of 4.0\,kg is then attached to that end of the spring and is pulled
+along a frictionless surface to a point 6.0\,cm from the equilibrium position.
+The mass is then released at time $t = 0$ and it executes simple harmonic
+motion.
+\begin{one-digit-list}
+\item [a.] Find the force constant of the spring.
+\item [b.] What is the force exerted by the spring on the mass just before it
+is released?
+\item [c.] Write the equation for the displacement of the mass as a function
+of time after it is released.
+\item [d.] Calculate the period and frequency of the oscillations.
+\end{one-digit-list}
+
+\item [2.] A 3.0\,kg mass hangs from a spring.
+A 0.50\,kg body hung below the mass stretches the spring 5.0\,cm farther.
+The body is then removed and the mass starts oscillating.
+Find the frequency of the motion.
+
+\item [3.] A particle with mass 200.0\,gm experiences a force whose associated
+potential energy function is $E_p = $(4.0\,J/m$^2$)$ \cdot $($x - 0.20$\,m)$^2$.
+Find the angular frequency of the motion.
+
+\item [4.] A 50.0\,kg woman standing on the end of a diving board caused it to
+be lowered by 30.0\,cm and it then oscillated up and down with her on it.
+Assuming the restoring force of the board was linear, calculate the number of
+times she went up and down in 2.2\,s.
+
+\item [5.] A car can be considered to be mounted on a vertical spring for
+purposes of describing its up and down motion.
+If the springs of a $1.5 \times 10^3$\,kg car are adjusted so that the
+vibrations have a frequency of 3.0\,Hz, what is the spring's force constant?
+Find the vibrational frequency if four passengers, averaging 75\,kg each, ride
+in the car.
+
+\item [6.] An object hung on a vertical spring stretches it 15\,cm.
+The object is then pulled down another 20.0\,cm and released.
+\begin{one-digit-list}
+\item [a.] Find the displacement equation for the object.
+\item [b.] Find the velocity and acceleration as functions of time.
+\end{one-digit-list}
+
+\item [7.] A vertically hanging spring has a force constant of 150.0\,N/m.
+A 5.0\,kg mass is now hung from the end of the spring and the mass settles
+down to a new equilibrium position $x_0$.
+Finally, the mass is displaced 0.20\,m below its equilibrium position and
+given an initial velocity of 2.0\,m/s downward.
+\begin{one-digit-list}
+\item [a.] Write Hooke's law for the mass-spring system and calculate the
+displacement when the force is 30.0\,N.
+\item [b.] Find the displacement equation.
+\item [c.] Calculate the period.
+\end{one-digit-list}
+
+\item [8.] An object undergoing SHM has a mass of 2.0\,kg and force constant
+60.0\,N/m.
+Its equilibrium position is at $x_0 = 0.30$\,m.
+\begin{one-digit-list}
+\item [a.] Write Hooke's law and find the position of the object when the
+force on it is 25\,N.
+\item [b.] Find the displacement equation if the object has zero velocity at
+the point $x = 0.80$\,m and is at equilibrium at time zero.
+Then find $x$ at $t = 1.0$\,s.
+\item [c.] Calculate the period of the oscillations.
+\end{one-digit-list}
+\end{one-digit-list}
+
+\BriefAns
+
+\begin{one-digit-list}
+\item [1.] a. $k = \frac{\ds -F}{\ds x - x_0} =
+-\frac{\ds (-20\,{\rm N})}{\ds 0.08\,{\rm m}} = 250$\,N/m
+\begin{one-digit-list}
+\item [b.] $F = - k (x - x_0) = - (250\,{\rm N/m})(0.06\,{\rm m}) = - 15$\,N
+\item [c.] $\omega =
+\left( \frac{\ds 250\,{\rm N/m}}{\ds 4.0\,{\rm kg}}\right)^{1/2} =
+7.9$\,rad/s
+\item []   $x(t) = 0.060$\,m $\cos\left( \frac{\ds 7.9}{\ds \rm s} t \right)$
+\item [d.] $T = \frac{\ds 2 \pi}{\ds \omega} =
+\frac{\ds 2 \pi}{\ds 7.9/{\rm s}} = 0.80$\,s;
+$\nu = \frac{\ds 1}{\ds T} = 1.3$\,Hz
+\end{one-digit-list}
+
+\item [2.] $k = \frac{\ds -F}{\ds x - x_0} = \frac{\ds m g}{\ds x - x_0} =
+\frac{\ds (0.50\,{\rm kg})(9.8\,{\rm m/s}^2)}{\ds 0.05\,{\rm m}} = 98$\,N/m
+\item []   $\nu =
+\frac{\ds 1}{\ds 2 \pi} \left( \frac{\ds 98\,{\rm N/m}}{\ds 3.0\,{\rm kg}}
+\right)^{1/2} = 0.91$\,Hz
+
+\item [3.] $E_p = \frac{\ds k}{\ds 2} \left( x-x_0 \right)^2 =
+4.0\,{\rm J/m}^2 \left( x - x_0 \right)^2$
+\item []   $\frac{\ds k}{\ds 2} = 4.0$\,J/m$^2$ $\Rightarrow$ $k = 8.0$\,N/m
+\item []   $\omega =
+\left( \frac{\ds 8.0\,{\rm N/m}}{\ds 0.20\,{\rm kg}} \right)^{1/2} =
+6.3$\,rad/s
+
+\item [4.] $k = \frac{\ds -F}{\ds x - x_0} =
+\frac{\ds mg}{\ds x - x_0} = \frac{\ds (50\,{\rm kg})(9.8\,{\rm m/s}^2)}{\ds 0.30\,{\rm m}} =
+1600$\,N/m
+\item []   $T = 2 \pi \left( \frac{\ds 50\,{\rm kg}}{\ds 1600\,{\rm N/m}}
+\right)^{1/2} = 1.1$\,s
+
+\item []   $\# = \frac{\ds 2.2\,{\rm s}}{\ds T} =
+\frac{\ds 2.2\,{\rm s}}{\ds 1.1\,{\rm s}} = 2$\,times
+
+\item [5.] $k = m (2 \pi \nu)^2 =
+(1500\,{\rm kg}) \left[ 2 \pi (3.0\,{\rm Hz}) \right]^2 =
+5.3 \times 10^5$\,N/m
+\item []   $\nu = \frac{\ds 1}{\ds 2 \pi}
+\left( \frac{\ds k}{\ds m_{\rm total}} \right)^{1/2} =
+\frac{\ds 1}{\ds 2 \pi} \left(
+\frac{\ds 5.3 \times 10^5\,{\rm N/m}}{\ds 1800\,{\rm kg}} \right)^{1/2} =
+2.7$\,Hz
+
+\item [6.] $x_0 = \frac{\ds mg}{\ds k}$ $\Rightarrow$
+$\frac{\ds k}{\ds m} = \frac{\ds g}{\ds x_0} =
+\frac{\ds 9.8\,{\rm m/s}^2}{\ds 0.15\,{\rm m}}$
+\item []   $\omega =
+\left( \frac{\ds 9.8\,{\rm m/s}^2}{\ds 0.15\,{\rm m}} \right)^{1/2} = 8.1$\,rad/s
+\begin{one-digit-list}
+\item [a.] $x - 0.15\,{\rm m} =
+0.20\,{\rm m} \cos\left( \frac{\ds 8.1}{\ds {\rm s}} t \right)$
+\item [b.] $v = \frac{\ds dx}{\ds dt} =
+(0.20\,{\rm m})(8.1/{\rm s})
+\left[ -\sin\left( \frac{\ds 8.1}{\rm \ds s} t \right) \right]$
+\item []   $a = \frac{\ds dv}{\ds dt} =
+(-1.6\,{\rm m/s}) \left( \frac{\ds 8.1}{\rm \ds s} \right) \cos\left( \frac{\ds 8.1}{\rm \ds s}
+t \right) = - 13\,{\rm m/s}^2 \cos\left( \frac{\ds 8.1}{\rm \ds s} t \right).$
+\end{one-digit-list}
+
+\item [7.] $x_0 = \frac{\ds mg}{\ds k} =
+\frac{\ds (5.0\,{\rm kg})(9.8\,{\rm m/s}^2)}{\ds 150\,{\rm N/m}} = 0.33$\,m
+\begin{one-digit-list}
+\item [a.] $F = (-150\,{\rm N/m})(x - 0.33\,{\rm m})$
+\item []   displacement$ = (x - 0.33\,{\rm m}) =
+\frac{\ds -30\,{\rm N}}{\ds -150\,{\rm N/m}} = 0.20$\,m
+\item [b.] $\omega = \left( \frac{\ds 150\,{\rm N/m}}{\ds 5.0\,{\rm kg}} \right)^{1/2} =
+5.5$\,rad/s
+\item []   $x - 0.33\,{\rm m} =
+A \cos\left( \frac{\ds 5.5}{\ds{\ds s}} t + \delta_0 \right)$
+\item []   $v = \frac{\ds dx}{\ds dt} =
+-A(\frac{\ds 5.5}{\rm \ds s})\sin\left( \frac{\ds 5.5}{\rm \ds s} t + \delta_0 \right)$
+\item []   at $t = 0$: $0.20\,{\rm m} = A \cos\delta_0$
+\item []   $2 {\rm m/s} = - A \left( \frac{\ds 5.5}{\rm \ds s} \right) (\sin \delta_0)$
+\item []   $(0.20\,{\rm m})^2 + \left( \frac{\ds 2\,{\rm m/s}}{\ds 5.5/{\rm s}} \right)^2 =
+A^2 (\cos^2\delta_0 + \sin^2\delta_0) = A^2$
+\item []   $A = 0.42$\,m
+\item []   $\delta_0 = \cos^{-1} \left( \frac{\ds 0.20\,{\rm m}}{\ds 0.42\,{\rm m}} \right) =
+62^\circ = 1.1$\,rad
+\item []   $x - 0.33\,{\rm m} =
+0.42\,{\rm m} \cos\left( \frac{\ds 5.5}{\rm \ds s} t + 1.1\,{\rm rad} \right)$
+\item [c.] $T = \frac{\ds 2 \pi}{\ds \omega} = \frac{\ds 2\pi}{\ds 5.5/{\rm s}} =
+1.1$\,s
+\end{one-digit-list}
+
+\item [8.] a. $F = $($ - 60$\,N/m) ($x - 0.30$\,m)
+\begin{one-digit-list}
+\item []   $F = 25$\,N; $x = - 0.12$\,m
+\item [b.] $x - 0.30\,{\rm m} =
+0.50\,{\rm m} \cos\left( \frac{\ds 5.5}{\rm \ds s} t \right) $;
+$x(1.0\unit{s} = 0.65$\,m
+\item [c.] $T = 1.1$\,s
+\end{one-digit-list}
+\end{one-digit-list}
+\PsEnd

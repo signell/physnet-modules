@@ -1,0 +1,21 @@
+% 3/11/93, pss; 9/14/94, pss
+\input nphmods.sty
+
+%\includeonly{m9-me}
+
+%\psdraft
+
+\begin{document}
+
+\mNumber{9}
+
+\ChapterStart
+\include{m9-ct}
+\include{m9-id}
+\include{m9-tx}
+\include{m9-ps}
+\include{m9-as}
+\include{m9-me}
+\ChapterEnd
+
+\end{document}

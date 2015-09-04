@@ -1,0 +1,369 @@
+% 7/18/85, mpm; 12/29/87, pss; 2/18/91, pss
+\input modules1.tex
+
+\begin{document}
+
+\input modules2.tex
+
+\mnumber{MISN-0-17}
+\mtitle{ACCELERATION AND FORCE IN CIRCULAR MOTION}
+\mauthor{Peter Signell}
+
+\scap{1. INTRODUCTION}
+
+Here are some questions of the types we can answer from a study of
+acceleration and forces in uniform circular motion:
+
+In the film, {\em 2001: A Space Odyssey}, the space station rotates so as to
+simulate the force of gravity as we know it at the earth's surface (see this
+module's cover).
+The space station is in the shape of two large wheels connected by an axle.
+How does it simulate the gravitational force and at what rate must it turn?
+Is it necessary to vary the rate according to the weight of each space-person?
+
+Suppose you tie a rock on the end of a long string and then whirl it around
+your head.
+What governs the angle of the string from the horizontal when the rock is
+whirling around in a circle at a constant rate?
+
+Airplane pilots talk about ``g'' forces.
+What are they, and why are they important to pilots?
+How are they measured and what are their (obviously important) physiological
+effects?
+
+Why are highway curves banked, and what characteristics of vehicles and
+terrain determine the design angle?
+What happens if a car or truck does not match the values that were assumed in
+the design of the banking angle for a particular curve?
+
+How do centrifuges work?
+What speed and/or radius do you need for a particular job?
+How do you calculate the stresses on materials in machinery that incorporates
+high rotational speeds?
+
+%\scap{2. A ROCK ON A STRING}
+
+%\pcap{2a. 
+
+
+
+
+\scap{2. CENTRIPETAL FORCE}
+
+\pcap{2a. Acceleration in Circular Motion. }
+The acceleration of a particle in circular motion can be resolved into radial
+and tangential components.$^1$\ 
+\footnotetext[1]{See Kinematics: Circular Motion'' (MISN-0-9).}
+For uniform circular motion the tangential component is zero and a$^$\rightarrow is
+directed radially inward.
+It is given by:$^1$
+\begin{equation}\setcounter{equation}{1}
+\end{equation}
+
+This acceleration is called the centripetal acceleration.
+Other useful equations for uniform circular motion are:
+\begin{equation}\setcounter{equation}{2}
+\end{equation}
+\begin{equation}\setcounter{equation}{3}
+\end{equation}
+
+where $\omega$, $\nu$ and T are the angular velocity, the frequency, and the period,
+respectively (see Fig.\,1).
+
+\nfig{7}{108pt}{186pt}{Fig.\,1. Centripetal acceleration for particle in UCM.}
+
+\pcap{2b. Force in Circular Motion. }
+The force which accelerates a particle to produce uniform circular motion
+can be found using Newton's 2nd law and Eq.\,(1):
+\begin{equation}\setcounter{equation}{4}
+\end{equation}
+
+This is the normal or centripetal force and, like the
+centripetal acceleration, it is directed radially inward.
+In the case of non-uniform circular motion (i.e. circular motion
+with non-constant angular velocity) the tangential component of the
+acceleration is non-zero.
+Then a tangential force,
+\begin{displaymath}
+\end{displaymath}
+
+is present in addition to the centripetal force.
+F$_t$ is responsible for the change in the magnitude of the velocity.
+If the tangential force is zero, uniform circular motion results; if the
+centripetal force is zero, straight-line motion results.
+
+\pcap{2c. One-Body Force Diagram. }
+.MR Z 25
+.BC
+Fig.\,2. Centripetal force is directed toward center of circle.
+.EC
+For a body in uniform circular motion, the one-body force diagram
+is shown in Fig.\,2.
+Note that even though the particle remains at a constant distance from the
+center, the centripetal force must always be present to keep the body moving
+in a circle.
+Thus the total force on a particle in uniform circular motion cannot be zero.
+
+
+
+
+\scap{3. CENTRIFUGAL ``FORCE``}
+
+\pcap{3a. Introduction. }
+
+There are a number of situations in circular motion where the true
+inward-directed centripetal force that keeps the object in its circular path
+is actually perceived as an outward-directed force!
+This perceived fictitious force, equal and opposite to the centripetal force, is
+called a ``centrifugal force.''
+
+Do you remember riding in a car around a corner that was not banked
+sufficiently for the car's speed, and you felt as though a force was pressing
+you toward the side of the car on the outside of the curve?
+If you were sitting on the side of the car toward the outside of the curve,
+you felt as though a force was throwing you outward against the inside of
+the car door.
+
+Do you remember riding on a merry-go-round and feeling as though a force was
+trying to pull you off, outward, and that this force appeared to increase
+with the speed of rotation of the merry-go-round?
+
+Have you seen a centrifuge, where test tubes are positioned along the radii
+of a circle, and the circle of test tubes is then set to rotating?
+As the rotor picks up speed, each test tube naturally rotates until its
+lengthwise-direction is along a radius.
+As speed is increased further, the contents of the test tubes, usually
+liquids and suspensions, separate as though there was an ultra-strong
+outward-directed gravitational force acting on them, causing the heavier
+components to quickly sink outward, ``below'' the lighter components.
+
+In all of these cases the true forces on the objects are inward, causing
+continual inward acceleration, but the force is perceived as being in the
+opposite direction, radially outward.
+This is the fictitious centrifugal force.
+We will approach the explanation for this phenomenon cautiously, first
+dealing with its similar appearance in linear (straight-line) acceleration,
+next with how the gravitational force is perceived, and finally with the
+rotating frame of reference.
+
+\pcap{3b. How is Gravitational Force Perceived?. }
+When do you normally perceive the gravitational force?
+Certainly not every time gravity exerts its force on you.
+Most of us have had enough experience in fast, downward moving elevators and
+in diving from swimming pool diving boards to realize that in free unimpeded
+fall (where one has an acceleration due to gravity of 9.8\,m/s$^2$ or one ``g''),
+we do not ``feel'' the gravitational force.
+In this free fall the earth is exerting a gravitational force on us and we
+are exerting an equal but opposite force on the earth.
+
+If we do not feel the gravitational force when it is the only force being
+exerted on us, when do we feel it?
+Whenever we are not in free fall, when there is another force on us that
+cancels the gravitational force and prevents the free fall; namely when a
+chair or a floor or the earth exerts a gravity-opposing force on us that
+keeps us from accelerating downward in free fall right through the chair
+or floor or earth.
+Of course whenever one of those objects exerts an upward force on us, we
+also exert a downward force on it.
+From long experience, then, a physically detected upward force on us which
+does not produce visible acceleration is automatically converted and
+perceived as a downward force.
+This force is perceived as being due to gravity if that is appropriate in the
+situation.
+
+\nfig{120pt}{228pt}{Fig.\,3. Forces on a person undergoing a one-g acceleration ``upward'' in
+{2}gravity-less space.}
+
+\pcap{3c. Gravity and Linear Acceleration. }
+Let us examine a case where the perceived force is the negative of the actual
+force acting on the person.
+Suppose we observe a person undergoing a one-g linear acceleration in
+gravity-less space, in a room without windows, as in Fig.\,3.
+This person will feel a one-g force on the feet, the force being the one that
+is causing the person to be accelerated, but the person will interpret the
+situation as there being a downward (for the person) normal gravitational
+force.
+Now suppose the person carefully releases a ball and no external reference
+points are visible.
+\nfig{168pt}{264pt}{Fig.\,4. Forces on a person acted on by the normal force of gravity, plus an
+opposing floor-force.
+Zero net force means zero acceleration.
+.EC
+We know that the ball will not be accelerated until the accelerating floor
+hits it, because we are in gravity-less space.
+However, the person will see an apparent one-g ``downward'' acceleration of the
+ball and will assume that it is accelerating in free fall due to the
+``gravitational force.``\ 
+As far as the person is concerned, the situation is indistinguishable from
+the real-gravity case shown in Fig.\,4.
+However, we know that the person is really being accelerated in gravity-less
+space, and the ``gravitational force'' the person perceives is a fictitious
+one.
+Of course we could turn up the acceleration and the person would think that
+the gravitational force had suddenly increased!
+If we turned up the acceleration sufficiently, it would have dire
+physiological effects on the person.
+
+\pcap{3d. Gravity and Radial Acceleration. }
+Although linear acceleration can be used to simulate gravity, it is usually
+more practical to use radial acceleration as in the centrifuge.
+There the long distance needed to bring the object up to the desired
+acceleration is ``folded'' around to make a circular path.
+As another example, consider the rotating space station shown in Fig.\,5.
+The two persons shown in the sketch are upside-down with respect
+to each other, yet each feels upright in a fictitious gravitational field.
+Each remains in uniform circular motion at constant radius and speed so
+each undergoes a continual net acceleration which is directed inward,
+but each perceives the net force exerted on her or him by the floor as being
+due to a normal downward (outward, here) gravitational force.
+.RS
+.NL 31
+\fullwidthfigure{162pt}{}
+.LN -2
+.IN 2
+.MS 2
+.SI 2
+Fig.\,5. Cross-sectional sketch of a possible space station.
+Rotation causes simulation of gravity for each person along outer rim.
+.LN +2
+.IN -2
+.MS #S
+
+
+\scap{4. BANKING OF CURVES}
+
+\pcap{4a. Why are Curves Banked?. }
+Curves in roads are banked, as shown in Fig.\,6, to prevent dangerous
+skidding.
+In order to see how this works, we analyze the forces involved and
+their origins.
+
+A vehicle moving along a curve in the road requires a sideways force to
+produce the centripetal acceleration required to keep the vehicle turning
+with the road.
+In the case of a flat (non-banked) curve, this force is provided by a 
+sidewise frictional force exerted by the road on the tires.
+
+The amount of force the roadbed can exert on the tires is limited by the
+relevant coefficient of friction, and it varies drastically with the type
+of road surface, the tire tread, and weather conditions.
+If the maximum sustainable frictional force is lower than the needed
+centripetal force, then when that value is reached the vehicle can no
+longer ``hold the curve'' and an unstoppable skid commences.
+
+Proper banking of the curve causes the force of the roadbed on the vehicle
+to be perpendicular to the road's surface (N$^$\rightarrow in Fig.\,6), so the
+entire force of the road on the tires is compressive, with no sideways
+frictional force.
+Since there is zero net force parallel to the road's surface, there is no
+tendency to skid.
+
+\nfig{180pt}{396pt}{Fig.\,6. The gravitational and road forces on a truck traversing a curve with
+{1}the ideal banking angle $\alpha$.}
+
+\pcap{4b. The Ideal Banking Angle. }
+The ideal banking angle for a curve is that angle such that the centripetal
+force acting on the vehicle is due solely to the normal force of the road
+on the vehicle plus its weight.
+This is shown in Fig.\,6 for a truck where N$^$\rightarrow is the normal force and W$^$\rightarrow\,=\,m\,g$^$\rightarrow is
+the weight of the truck.
+Thus one can write the centripetal force as:
+\begin{displaymath}
+\end{displaymath}
+
+The centripetal force has no vertical (y) component so:
+\begin{displaymath}
+\end{displaymath}
+
+while the weight has no horizontal (x) component:
+\begin{equation}\setcounter{equation}{6}
+\end{equation}
+or:
+\begin{equation}\setcounter{equation}{7}
+\end{equation}
+
+m is the mass of the vehicle, v is its velocity, and R is the radius of the
+curve.
+
+Combining Eqs.\,(5) and (7) one gets:
+\begin{displaymath}
+\end{displaymath}
+\begin{displaymath}
+\end{displaymath}
+
+Note that the ideal banking angle, $\alpha$, is independent of the vehicle's mass!
+Therefore the same banking can serve all vehicles provided they move with
+the speed:
+\begin{displaymath}
+\end{displaymath}
+
+For somewhat larger or smaller speeds, the frictional force between tires and
+road will keep the vehicle on the curve if tire tread, road material, and
+weather conditions permit.
+Question: Suppose the road has become icy during a blinding snowstorm and you
+head into a curve, banked for 55\,mph, at 25\,mph (as I once did).
+What do you think happened?
+Draw the one-body diagram!
+
+\scap{5. FICTITIOUS FORCES}
+
+The centrifugal force is said to be ``fictitious'' because it is only perceived
+by a person in a rotating frame of reference, not by another person observing
+the first one from a non-rotating frame.
+For example, in the case of a vehicle rounding a curve on a horizontal
+roadbed, a person standing by the side of the road would observe the inward
+centripetal force causing the turn, while the person in the car would
+experience an outward centrifugal ``force.``\ 
+
+There is another fictitious force that can be perceived in a rotating frame,
+the Coriolis force.$^2$\ 
+\footnotetext[2]{See ``Classical Mechanics in Rotating Frames of Reference: Effects on the
+Surface of the Earth'' (MISN-0-18).}
+This is the force that causes the plane of the Foucault pendulum$^3$
+\footnotetext[3]{This is the pendulum commonly seen in science museums, usually several
+stories tall, consisting of a long wire and a steel ball.}
+to appear to rotate, demonstrating both the rotation of the earth and indicating one's
+latitude.
+The Coriolis force also causes the regularity in the direction of rotation
+of the common extratropical cyclones seen on weather satellite photographs,
+and it is involved in the prevailing wind directions.
+It can be demonstrated on a merry-go-round or on a rotating lab stool.
+
+Both the centrifugal and Coriolis forces can be derived merely by asking
+what is observed by a person in a rotating frame of reference if that person
+makes the assumption that he or she is in a non-rotating frame but that
+mysterious new forces are at work.$^2$
+
+\scap{ACKNOWLEDGMENTS}
+
+Preparation of this module was supported in part by the National
+Science Foundation, Division of Science Education Development
+and Research, through Grant \#SED 74-20088 to Michigan State
+University.
+.CE
+{\em GLOSSARY}
+
+.IN 2
+\item[$\bullet$ banking angle: the angle at which a highway curve is tipped from the
+horizontal.
+.SI -2
+$\bullet$ centrifugal force: a fictitious force, equal and opposite to the
+centripetal force, needed to describe motion in rotating frames of
+reference using physics appropriate to non-rotating frames.
+.SI -2
+$\bullet$ centripetal acceleration: the inwardly directed radial acceleration of a
+particle in circular motion.
+.SI -2
+$\bullet$ centripetal force: the inwardly directed radial force on a particle in
+circular motion; the force that produces the centripetal acceleration.
+.SI -2
+$\bullet$ g: the acceleration due to gravitational force.
+.SI -2
+$\bullet$ ideal banking angle: the banking angle such that, for a particular
+speed, there is no ``sideways'' (parallel to the road surface) force on vehicles.
+This means that the road surface exerts only a normal (perpendicular) force
+on vehicles traveling at the design speed.
+This resultant of the normal force and the force of gravity is the
+centripetal force that causes the vehicle's velocity vector to constantly
+change direction as the vehicle travels through a banked turn.
+\end{document}

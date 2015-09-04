@@ -1,0 +1,22 @@
+% 3/8/93, pss; 9/7/94, pss; 8/30/95, pss
+\input nphmods.sty
+
+%\includeonly{m20-me}
+
+%\psdraft  %(activate only for hp mode; percent-out for ps mode)
+
+\begin{document}
+
+\mNumber{20}
+
+\ChapterStart
+\include{m20-ct}
+\include{m20-id}
+\include{m20-tx}
+\include{m20-ps}
+\include{m20-as}
+\include{m20-me}
+\ChapterEnd
+
+\end{document}
+

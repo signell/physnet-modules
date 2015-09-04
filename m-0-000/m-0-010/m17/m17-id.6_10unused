@@ -1,0 +1,55 @@
+\revhist{4/1/91, pss; 5/9/91, pss; 3/18/92, pss; 12/11/92, pss; 4/2/93, pss;
+         9/8/94, pss; 11/16/94, pss; 3/21/95, pss; 4/26/95, pss; 9/12/95, pss;
+         9/25/95, lae; 9/27/95, pss; 11/8/95, pss; 2/28/96, pss; 11/6/96, pss;
+         11/13/97, pss; 2/22/99, pss; 12/15/2000, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+
+\IdTitle{Acceleration and Force in Circular Motion}
+
+\IdAuthor{Peter Signell, Dept.\,of Physics, Mich.\,State Univ., E.\,Lansing,
+MI}
+
+\IdVersEval{12/15/2000}{1}
+
+\begin{Hours/Pages} \HR{1} \TX{10} \PS{4} \AS{2} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  Draw one-body force diagrams and solve problems involving
+Newton's second law \prrqone{0-16}.
+\item [2.]  Solve problems involving circular kinematics \prrqone{0-9}.
+\item [3.]  Determine the resultant force produced by a given set of forces
+\prrqone{0-14}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Vocabulary: centripetal force, centripetal acceleration,
+centrifugal force, banking angle, ideal banking angle.
+\item [K2.] Derive the expression for the ideal banking angle for uniform
+circular motion.
+\end{KnowledgeSkills}
+
+\begin{RuleApplicationSkills}
+\item [R1.] Produce non-gravitational accelerations as numbers times \m{g}
+(called \Quote{\m{g}'s} or \Quote{gees}).
+\end{RuleApplicationSkills}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] Draw one-body force diagrams for, and solve, problems involving
+forces, velocity, period, frequency, radius, and mass for an object in
+uniform circular motion.
+\item [S2.] Apply the expression for the ideal banking angle to problems
+involving uniform circular motion.
+\end{ProblemSolvingSkills}
+
+\begin{PostOptions}
+\item [1.]  \Quote{Classical Mechanics in Rotating Frames of Reference: Effects
+on the Surface of the Earth} (MISN-0-18).
+\end{PostOptions}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

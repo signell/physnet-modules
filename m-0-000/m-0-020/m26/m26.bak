@@ -1,0 +1,21 @@
+% 11/18/93, pss; 8/30/95, pss
+\input nphmods.sty
+
+%\includeonly{m26-tx}
+
+%\psdraft  %(activate only for hp mode; percent-out for ps mode)
+
+\begin{document}
+
+\mNumber{26}
+
+\ChapterStart
+%\include{m26-ct}
+%\include{m26-id}
+\include{m26-tx}
+\include{m26-ps}
+%\include{m26-as}
+%\include{m26-me}
+\ChapterEnd
+
+\end{document}

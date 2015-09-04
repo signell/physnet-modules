@@ -1,0 +1,119 @@
+% dviscr 1.5j  23-Aug-1996  15:50
+%
+% Invocation: dviscr @lj.cnf /al0.553in /at0.09in /o3 /h8.5in /w5.5in /hy0pt
+ /fl=-1 /ocr=1 m22 -pj:\dv1.mfj
+% Input file: m22.dvi
+%
+/b:*
+/e:*
+/d:-
+/k:0
+/n:65535
+/z-
+/l:0in
+/t:0in
+/h:8.5in
+/w:5.5in
+/tr:0
+/aw:8.5in
+/ah:11in
+/al:0.553in
+/at:0.09in
+/ax:0in
+/ay:0in
+/ac:1
+/ar:1
+/an:0
+/az:0
+/ae-
+/af-
+/as:0in
+/ab:0
+/fb
+/fj+
+/fl:-1
+/fm:laserjet
+/fo-
+/fs:1
+/fd:2
+/ft:0.2
+/fu-
+/fz::0,:h,:1,:2,:3,:4,:5,:6,:7,:8,:9
+/m:
+/r:300
+/rf:300
+/rg:0
+/pd:{,$DVIDRVINPUT:}@i
+/pf:$DVIDRVFONTS:pixel.lj\@Rrdpi\@f{.pk,.pxl}
+/pg:{,$DVIDRVGRAPH:}{@Rrdpi\,}@PBf{@Ef,.msp,.pcx,.bmp}
+/pj:\dv1.mfj
+/pl:$DVIDRVFONTS:lj_{base,more}
+/pp:
+/pr:{,$EMTEX:data\}@f
+/ps:
+/pt:@d.dlg
+/pv:
+/pw:
+/v:2
+/u:in
+/xe+
+/xx+
+/hx:1in
+/hy:0pt
+/o:3
+/oa:0
+/ocp:2 /ocr:1 /ocs:2
+/oi-
+/or-
+/os+
+/ou:pt
+/s:1
+@
+
+' TeX output 1996.08.23:1550'
+Loading font cmti8 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmti8.pk)
+Loading font cmmi12 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmmi12.pk)
+Loading font cmti10 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmti10.pk)
+Loading font cmmi8 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmmi8.pk)
+Loading font cmr6 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmr6.pk)
+Loading font cmr8 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmr8.pk)
+Loading font cmbx10 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmbx10.pk)
+Loading font cmbx12 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmbx12.pk)
+Loading font cmr12 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmr12.pk)
+Loading font cmbx12 scaled 1200  (c:\texfonts\pixel.lj\360dpi\cmbx12.pk)
+Loading font cmsy10 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmsy10.pk)
+Loading font cmsy7 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmsy7.pk)
+Loading font cmmi10 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmmi10.pk)
+Loading font cmmi7 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmmi7.pk)
+Loading font cmr10 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmr10.pk)
+Loading font cmr7 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmr7.pk)
+Loading font cmr5 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmr5.pk)
+Loading font cmex10 scaled 1000  (c:\texfonts\pixel.lj\300dpi\cmex10.pk)
+Loading page pointers... 8 input pages, 8 output sheets.
+ [1] [5] [4] [5]
+
+Memory usage:
+Strings                          37       1024
+Page buffers                      2      20480
+Sorted page buffers               2      20480
+Sorted page index              2565      20520
+Position stack                   13        364
+Font table                       18       1296
+Font indices                     18        108
+Page table                        8          0
+Characters                     2048      65536
+Raster data                      91       5570
+VF characters                     0          0
+VF macros                         0          0
+Graphics                          0          0
+Lines                             0          0
+Font library directories          0          0
+Band buffer                       0          0
+TOTAL                                   135378
+
+Number of deallocations:    120
+Temporary file size:          0
+EMS bytes used:               0
+XMS bytes used:            1536
+External memory reads:        9
+External memory writes:       3

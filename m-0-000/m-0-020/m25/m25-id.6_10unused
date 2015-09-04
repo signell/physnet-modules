@@ -1,0 +1,56 @@
+\revhist{12/8/89, pss; 1/15/90, pss; 10/30/90, pss; 1/19/91, pss; 11/16/93, pss;
+         10/13/94, pss; 4/5/95, pss; 4/7/95, pss; 9/27/95, pss; 4/5/96, pss;
+         11/6/96, pss; 2/22/99, pss; 1/5/01, pss}
+\IdStart
+
+\begin{IdItems}
+\IdTitle{Simple Harmonic Motion}
+
+\IdAuthor{Kirby Morgan, Handi Computing, Charlotte, MI}
+
+\IdVersEval{1/5/2001}{0}
+
+\begin{Hours/Pages} \HR{1} \TX{10} \PS{4} \AS{4} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.] Vocabulary: angular frequency, frequency, uniform circular
+motion \prrqone{0-9}, kinetic energy (0-20), potential energy, total energy (0-21).
+
+\item [2.] Write down the coordinates, as a function of time, of a particle in
+uniform circular motion \prrqone{0-9}.
+
+\item [3.] Relate the one-dimensional position of a particle, as a function of
+time, to the particle's velocity and acceleration, and the force acting on it
+\prrqone{0-15}.
+
+\item [4.] Given the total energy of a particle, plus a graph of its potential
+energy versus its one-dimensional coordinate position, describe its motion
+and the force on it as time progresses \prrqone{0-22}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Vocabulary: oscillatory motion, simple harmonic oscillator, simple
+harmonic motion, displacement, initial time, amplitude, phase, scaled phase
+space, frequency, period.
+
+\item [K2.] Write down a general equation for SHM displacement as a function of
+time, assuming zero initial phase and maximum initial displacement, and
+identify the amplitude, angular frequency, phase, and displacement.
+Derive the corresponding equations for velocity and acceleration.
+\end{KnowledgeSkills}
+
+%\item {\bf Output Skill (Demonstration)}:
+%\begin{id-subitems}
+%\item[D1-3.] For a real SHO, demonstrate: \m{x}, \m{v}, and \m{a} vs. \m{t}; and \m{a}
+%and \m{v} vs. \m{x} as \m{t} increases (see this module's Demonstration Supplement).
+%\end{id-subitems}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] For a specific SHO, use given items in this list to produce
+others, as requested: displacement, time, frequency, period, phase, velocity,
+angular frequency, acceleration, force, kinetic energy, potential energy, total
+energy, and word and graphical descriptions of the motion in real space and
+scaled phase space.
+\end{ProblemSolvingSkills}
+\end{IdItems}
+\IdEnd

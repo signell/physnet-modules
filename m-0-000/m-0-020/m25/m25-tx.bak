@@ -1,0 +1,343 @@
+\revhist{9/10/90, pss; 11/16/93, pss; 4/5/95, pss; 11/7/97, lae; 3/22/01, pss; 3/29/01, kag}
+%
+\Sect{1}{Oscillatory Motion and SHM}{\SectType{TextMultiPara}}{
+%
+\pcap{1}{a}{Oscillatory Motion}
+One of the most important regular motions encountered in science and
+technology is oscillatory motion.\Index{motion| oscillatory}\Index{oscillatory motion}
+Oscillatory (or vibrational)\Index{vibrational motion}\Index{motion| vibrational} motion is any motion that repeats itself
+periodically, i.e. goes back and forth over the same path, making each complete
+trip or cycle in an equal interval of time.
+Some examples include a simple pendulum swinging back and forth and
+a mass moving up and down when suspended from the end of a spring (see Fig.\,1).
+Other examples are a vibrating guitar string, air molecules in a sound wave,
+ionic centers in solids, and many kinds of machines.
+
+\pcap{1}{b}{Simple Harmonic Motion}
+The basic kind of oscillatory motion is Simple Harmonic Motion;\Index{simple harmonic motion}\Index{motion| simple harmonic} it is used
+to analyze most other oscillatory motions for purposes of understanding
+and design.
+A motion is said to be Simple Harmonic if the oscillating object's position,
+\m{x(t)}, can be represented mathematically by a \Quote{harmonic}\Index{motion| harmonic}\Index{harmonic motion} function of time;
+that is, by a sine or cosine function.
+The word \Quote{simple} refers to a need for only one sine or cosine term
+to represent the position of the oscillating object.
+Any object that undergoes simple harmonic motion (abbreviated SHM)\Index{SHM (Simple Harmonic Motion)} is called a
+simple harmonic oscillator\Index{simple harmonic oscillator}\Index{harmonic oscillator, simple} (here abbreviated SHO).\Index{SHO (Simple Harmonic Oscillator)}
+
+\pcap{1}{c}{Uses of SHM}
+The mathematical techniques used in the study of simple harmonic motion form
+the basis for understanding many phenomena: the interactions of elementary
+particles, atoms, and molecules; the sounds of various musical
+instruments, radio and television broadcasting; high-fidelity sound
+reproduction, and the nature of light and color.
+They are used to study the vibrations in car engines, aircraft wings,
+and shock absorbers, and to study brain waves.
+
+\CaptionedLeftFramedFigure{1}{A weight on a spring.}{m25gr01}
+}% /Sect
+%
+\Sect{2}{The Kinematics of SHM}{\SectType{TextMultiPara}}{
+%
+\pcap{2}{a}{The Displacement Equation}
+By definition, a particle is said to be in simple harmonic motion if its
+displacement\Index{displacement| for SHM} \m{x} from the center point of the oscillations can be expressed
+this way:\Index{displacement equation, for SHM}
+%
+\Footnote[1]{For definitions of the symbols used in this equation, see
+\Quote{Uniform Circular Motion,} MISN-0-9.
+A more general form of Eq.\,1, useful when you do not want to restrict
+the initial time, is presented in \Quote{SHM: Boundary Conditions,} MISN-0-26.}
+%
+\Eqn{1}{x(t) = A \cos (2 \pi \nu t)\ ,}
+%
+where \m{\nu} is the frequency of the oscillation and \m{t} is the elapsed time
+since a time when the displacement \m{x} was equal to \m{A}.
+
+\tryit Show that \m{x(0) = A}, regardless of the value of \m{\nu}. \help{1}
+
+\pcap{2}{b}{Example: Mass on Vertical Spring}
+We illustrate Eq.\,1 with the example of an object with mass oscillating
+up and down at the end of a vertical spring, as in Fig.\,1.
+The displacement \m{x} is then the height of the object, measured from the
+center point of the oscillations.
+This height needs to be at its maximum value at time zero since Eq.\,1
+produces \m{x(0) = A}, which is the maximum value the displacement can have.
+We can assure that this is true by measuring \m{t} on a stopwatch which
+we start at a time when the object is precisely at the top point of its motion.
+Alternatively, we can grab the mass and move it up to \m{x = A}, then let
+it go at the exact time we start the stopwatch.
+
+\tryit Show that if we had used a sine function instead of a cosine in Eq.\,1,
+we would have had to start the stopwatch at a time when the object was passing
+through \m{x = 0} headed upward. \help{14}
+
+\newpage
+
+\pcap{2}{c}{Displacement Equation Parameters}
+\Index{displacement| for SHM}The cosine function varies between \m{-1} and \m{+1} so the value of the
+displacement from center, \m{x(t)}, varies between \m{-A} and \m{+A}.
+The maximum displacement, \m{A}, is called the \Quote{amplitude}\Index{amplitude, for SHM} of the motion.
+Typical units are {\em meters}.
+
+Typical units for the frequency\Index{units| of frequency} are {\em cycles per second}, also called
+{\em Hertz}, abbreviated Hz\Index{hertz}\Index{SI units| of frequency}.
+
+The quantity \m{2 \pi \nu t}, the {\em argument} of the cosine, is called
+the motion's \Quote{phase.}\Index{phase, for SHM}
+Typical units are {\em radians} and {\em degrees}.
+Although the phase has the units of an angle, it does not
+usually correspond to a space angle in the problem (look at the system in
+Fig.\,1 where obviously there is no angle involved).
+
+The time-derivative of the phase is called the \Quote{angular frequency}\Index{angular frequency, for SHM} and is
+denoted by the symbol \m{\omega}:
+%
+\Eqn{}{\omega = 2 \pi \nu\,.}
+%
+This enables us to write \Eqnref{1} in a more succinct form:
+%
+\Eqn{2}{x = A \cos (\omega t)\,.}
+%
+Typical units for \m{\omega} are {\em radians per second}.
+
+\tryit Contrast the units of \m{\omega} with those of \m{\nu}. \help{15}
+
+\tryit How would you write the displacement equation for a particle in
+simple harmonic motion with an angular frequency of 4\m{\pi}\,rad/s and an
+amplitude of 5\,cm; and what is the displacement of the particle at
+\m{t\,=\,1.0}\,s? \help{2}
+
+\pcap{2}{d}{The Oscillator's Period}
+The \Quote{period}\Index{period| for SHM} of the oscillation is defined as the amount of time
+it takes for the oscillator to go through one complete oscillation or \Quote{cycle.}
+Since the cosine function repeats itself whenever \m{\omega}t is increased by
+2\m{\pi}, it repeats itself whenever t is increased by 2\m{\pi/\omega}.
+This, then, is the period, \m{T}, of a SHO:
+%
+\Eqn{3}{T = \dfrac{2 \pi}{\omega}\ .}
+%
+The period is the inverse of the frequency; that is,
+%
+\Eqn{4}{T = \dfrac{1}{\nu} = \dfrac{2 \pi}{\omega}\ .}
+%
+
+\tryit Find the period and frequency for an angular frequency of 4\m{\pi}\unit{rad/s}.
+\help{3}
+
+\pcap{2}{e}{Velocity and Acceleration in SHM}
+The velocity\Index{velocity| for SHM} and acceleration\Index{acceleration| for SHM} of an SHO can be easily found
+by differentiating the displacement equation, \Eqnref{2}.
+The velocity is
+%
+\Eqn{5}{v = \dfrac{dx}{dt} = - A \omega \sin (\omega t)}
+%
+and the acceleration is
+%
+\Eqn{6}{a = \dfrac{dv}{dt} = - A \omega^2 \cos (\omega t)}
+%
+so:
+%
+\Eqn{7}{a = -\omega^2 x\ .}
+%
+Equation (7) shows that an SHO's acceleration is proportional and opposite
+to its displacement.
+We have plotted \m{x}, \m{v/\omega}, and \m{a/\omega^2} as functions of time in
+Fig.\,2.
+
+\tryit Make sure that you, yourself, can construct and interpret Fig.\,2!
+\help{6}
+
+%\tryit Use a real SHO to demonstrate Fig.\,2 (see [D-1] in this module's
+%Demonstration Supplement).
+
+\CaptionedFullFramedFigure{2}{Displacement, velocity and acceleration
+versus time for an SHO.
+The velocity has been scaled by (1/\m{\omega}) and the acceleration by
+(1/\m{\omega^2}).
+The quantity T is the SHO's period.}{m25gr02}
+
+\newpage
+
+\CaptionedLeftFramedFigure{3}{\m{v/\omega} vs. \m{x} for the SHO in Fig.\,2.}{m25gr03}
+
+\newpage
+
+\pcap{2}{f}{SHM in a Scaled Phase Space}
+In developing an understanding of the time-development of SHM, it is useful
+to look at a plot of the oscillator's displacement versus its velocity.
+At any specific time, displacement and velocity each have a specific value
+and so determine a point on the plot of displacement vs. velocity.
+As time goes on, the SHO's displacement and velocity change so the
+corresponding point on the plot moves accordingly.
+Since the SHO's displacement and velocity are cyclical, the point on the plot
+traverses the same complete closed path once every cycle.
+
+In order to simplify the SHO's displacement vs. velocity trajectory, we scale
+the velocity-axis by a factor of 1/\m{\omega} (see Fig.\,2).
+Then any SHO's trajectory will be a circle of radius \m{A} (as shown in Fig.\,2).
+In this space, the SHO's point is always at the \Quote{phase} angle, \m{\delta},
+marked off clockwise from the positive \m{x}-axis (see Fig.\,3).
+
+As time increases the point representing the SHO moves around the circle
+of radius \m{A} with constant angular velocity \m{-\,\omega} (the minus sign
+merely means the motion is clockwise).
+Its angular position at any particular time is the phase angle at that time.
+
+\tryit Show that the circle in Fig.\,3 and the clockwise motion around it
+follow from Eqs.\,(2) and (5). \help{8}
+
+\tryit Show that (\m{- \omega}) is the angular velocity of the point that
+simultaneously represents the oscillator's position and velocity in
+Fig.\,3. \help{9}
+
+\tryit For a real SHO, demonstrate \m{v/\omega} vs. \m{x} as \m{t}
+increases, as in Fig.\,3 (see [D-2] in this module's Demonstration Supplement).
+}% /Sect
+%
+\Sect{3}{The Dynamics of SHM}{\SectType{TextMultiPara}}{
+%
+\pcap{3}{a}{Force is Proportional and Opposite to Displacement}
+\Index{dynamics| of SHM}Using Newton's second law, \m{F\,=\,ma}, and \Eqnref{7}, \m{a\,=\,-\omega^2\,x}, it
+is easy to find the force\Index{force| for SHM} necessary for a particle of mass \m{m} to oscillate
+with simple harmonic motion:
+%
+\Eqn{8}{F = - m \omega^2 x\,.}
+%
+Note that the force on an SHO is linearly proportional to its displacement but
+has the opposite sign.
+For a positive displacement the force is negative, pointing back toward the
+origin.
+For a negative displacement, the force is positive, again pointing back
+toward the origin.
+A force which is linear and always points back to the place where F\,=\,0
+is called a \Quote{linear restoring force.}
+For simplicity we write \Eqnref{8} in the form:
+%
+\Eqn{9}{F = - k x\,.}
+%
+where \m{k \equiv m \omega^2} is called the \Quote{force constant} (or \Quote{spring constant}
+or \Quote{spring stiffness}) for the particular oscillator being observed.
+
+\tryit Write down \m{\omega}, \m{T}, and \m{\nu} in terms of \m{k} and \m{m} for SHM.
+For a weight-on-spring SHO, show that as its mass is increased its spring must
+be stiffened in order that its amplitude and frequency remain unchanged.
+\help{7}
+
+\tryit Sketch a plot of \m{F} versus \m{x} for an SHO.
+On your plot, identify \m{k}. \help{10}
+
+\tryit Describe the motion of an SHO's point on a plot of \m{F} vs. \m{x}.
+Contrast the motion of the point on this plot with that of the similar point
+in Fig.\,3. \help{5}
+
+\tryit For a real SHO, demonstrate \m{F} vs. \m{x} as \m{t} increases (see [D-3] in
+this module's Demonstration Supplement).
+
+\pcap{3}{b}{Potential and Kinetic Energy for SHM}
+Knowing the force acting on an SHO, we can calculate its kinetic\Index{kinetic energy| for SHM} and
+potential energy.\Index{potential energy| for SHM}
+
+First, to obtain the potential energy we use \m{F\,=\,- k x} and the definition
+of potential energy:
+%
+\Footnote[2]{See \Quote{Potential Energy, Conservative Forces, The Law of Conservation of
+Energy} (MISN-0-21).}
+%
+\Eqn{10}{E_p = - \int F dx = \int k x dx = \dfrac{1}{2} k x^2\,.}
+%
+Thus the potential energy has its minimum value, zero, at \m{x}\,=\,0.
+
+The kinetic energy of the SHO is:
+%
+\begin{center}\begin{eqnarray}\setcounter{equation}{11}
+E_k & = & \dfrac{1}{2} m v^2 = \dfrac{1}{2} m \omega^2 A^2 \sin^2 (\omega t)
+= \dfrac{1}{2} m \omega^2 [A^2 -A^2 \cos^2 (\omega t)] \nonumber \\
+  & = & \dfrac{1}{2} k (A^2 - x^2)\,.
+\end{eqnarray}\end{center}
+%
+The kinetic energy is a maximum at \m{x}\,=\,0 and is zero at the extremes of the
+motion (\m{x\,=\,\pm \,A}), as shown in Fig.\,4.
+
+\CaptionedFullFramedFigure{4}{Kinetic, potential, and total energy and
+displacement vs. time for the SHO of Fig.\,2.}{m25gr04}
+
+\pcap{3}{c}{Total Energy for SHM}
+\Index{point of stable equilibrium}\Index{stable equilibrium, point of}The total energy of a simple harmonic oscillator is:
+%
+\Eqn{12}{E = E_k + E_p = \dfrac{1}{2} k A^2\,,}
+%
+which is a constant quantity (independent of time).
+Thus during an oscillation, as the potential energy increases and decreases,
+the kinetic energy decreases and increases so the total energy remains constant.
+
+\CaptionedLeftFramedFigure{5}{Potential and total energy vs.
+displacement for an SHO.}{m25gr05}
+
+The potential energy curve, \m{E_p\,=\,k\,x^2/2} (which is a parabola), and the
+total energy curve \m{E\,=\,k\,A^2/2} (which is a horizontal line), are shown
+as functions of displacement in Fig.\,5.
+The points where the line and the curve intersect (\m{x\,=\,\pm \,A}) are the
+limits of the motion.
+
+\tryit Use Fig.\,5 to describe the major events in the values of the potential,
+kinetic, and total energies, and the displacement, as time advances
+during a complete SHM cycle. \help{4}
+
+\tryit Use words alone (no graph) to describe the major events in the values
+of the potential, kinetic, and total energies, and the displacement,
+as time advances during a complete SHM cycle. \help{11}
+}% /Sect
+%
+\Sect{}{Acknowledgments}{\SectType{Acknowledgments}}{\NsfAcknowledgment}% /Sect
+%
+\Sect{}{Glossary}{\SectType{Glossary}}{
+\GlossaryItem{amplitude} maximum value of displacement.
+
+\GlossaryItem{angular frequency} time rate of change of the phase.
+
+\GlossaryItem{angular velocity in SHM} the angular velocity of the SHO's point in
+scaled phase space.
+Its value is the negative of the SHO's angular frequency \m{\omega}.
+
+\GlossaryItem{displacement} position relative to the center-point of the SHM.
+
+\GlossaryItem{frequency} number of complete cycles per unit time.
+
+\GlossaryItem{harmonic function} a sine or cosine function.
+
+\GlossaryItem{oscillatory motion} motion that exactly repeats itself periodically.
+
+\GlossaryItem{period} the time for one complete cycle.
+
+\GlossaryItem{phase} the argument of the harmonic function describing the SHM.
+Here we have chosen the initial time to be when the displacement is at
+a maximum, so the harmonic function is a cosine and its phase angle
+\m{\delta} is \m{\omega t}.
+
+\GlossaryItem{scaled phase space} a space in which the two axes are the SHO's
+displacement \m{x} and \m{v/\omega}.
+The current state of an SHO is a point in this space.
+The point continually traverses a circle of radius \m{A} with constant angular
+velocity \m{- \omega}.
+
+\GlossaryItem{simple harmonic motion\,\m{\equiv}\,SHM} any motion whose time-dependence
+can be described by a single harmonic function.
+
+\GlossaryItem{simple harmonic oscillator\,\m{\equiv}\,SHO} any object that is undergoing
+simple harmonic motion.
+}% /Sect
+%
+\Sect{}{Equations}{\SectType{AppendixOnePara}}{
+%
+\begin{center}\begin{tabular}{l l}
+\m{x = A \cos (\omega t)   }       & \ \ \ \ \ \ \m{F = - m \omega^2 x = - k x}       \\
+\\
+\m{T = \dfrac{2 \pi}{\omega}}      & \ \ \ \ \ \ \m{E_p = \dfrac{1}{2} k x^2}         \\
+\\
+\m{\nu = \dfrac{1}{T}}             & \ \ \ \ \ \ \m{E_k = \dfrac{1}{2} k (A^2 - x^2)} \\
+\\
+\m{\delta = \omega\,t} \\
+\end{tabular}\end{center}
+}% /Sect
+

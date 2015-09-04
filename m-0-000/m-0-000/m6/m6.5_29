@@ -1,0 +1,382 @@
+% 10/11/91, pss; 9/16/94, pss; 11/12/97, pss; 1/12/2000, pss
+\TxStart
+
+\mTitle{STATIC EQUILIBRIUM: CENTERS OF FORCE, GRAVITY, MASS}
+
+\mAuthor{Charles Lavine}
+
+\scap{1}{Introduction}
+
+\pcap{1}{a}{Conditions for Motionlessness}
+An important question, with widespread application in physics and
+engineering, is:  Under what conditions will a motionless system not tend to
+start moving in any direction or rotating about any axis; that is, what are
+the conditions for \Quote{\Index{equilibrium, static}\Index{static equilibrium}static equilibrium?}
+The answer is:  When the resultants of the forces and the torques acting on
+the system are zero.
+
+\pcap{1}{b}{Dealing With Extended Objects}
+The objects considered in this unit are \Index{object, extendeds}extended objects; that is, they have
+finite size in contrast to mathematically idealized point objects.
+When an arbitrary set of forces is applied to such an extended object, the
+body tends to move in the direction of the resultant of the forces and it
+tends to rotate in the sense of the resultant torque.
+
+\pcap{1}{c}{Finding Centers of Force and Gravity}
+The study of extended objects must also include the motion of centers of
+force and gravity.
+The reasons for this become clear when we try to draw a force diagram for
+an extended object.
+The question that immediately comes to mind is:  Where does the weight of
+the object (which is distributed in space) enter the picture?
+We will answer this question in Sect.\,3.
+
+\pcap{1}{d}{Solving Statics Problems}
+Having gained an understanding of the force of gravity on distributed bodies
+we will then be able to solve static equilibrium problems involving such
+bodies in the presence of given systems of forces, both concurrent (all
+forces act at one point) and non-concurrent.
+
+\CaptionAfterLeftFigure{Fig.\,1. Two equal but opposite forces that are
+non-concurrent tend to rotate an object.}{m6gr01}
+
+\scap{2}{Application to Extended Objects}
+
+\pcap{2}{a}{Non-Concurrent Forces, Zero Torque}
+For static equilibrium to occur it is not enough that the sum of all of the
+forces on an object be zero.
+A zero resultant force is sufficient if the forces are concurrent, but if
+non-concurrent forces are involved, additional conditions must be satisfied.
+This can be seen by referring to the object shown in Fig.\,1.
+The object is not in equilibrium in spite of the net force being zero.
+Two forces act on the object.
+They are equal in magnitude and oppositely directed, so their resultant is
+zero.
+Because the forces are non-concurrent their effect is to tend to rotate the
+object (clockwise for the forces shown in Fig.\,1).
+
+It is clear why the system in Fig.\,1 is not in static equilibrium.
+The forces produce a net \Index{torque, on extended object}torque which can be viewed as the cause of a
+rotation.
+Complete equilibrium will occur when not only the net force is zero but also
+the resultant torque (relative to any point) is zero.
+Hence, with forces \m{\vec{F}_1}, \m{\vec{F}_2}, \m{\ldots}, \m{\vec{F}_n} relative to
+some fixed but arbitrary point, the conditions for equilibrium are:
+%
+\eqn{1}{\sum^n_{i=1} \vec{F}_i \equiv \vec{F}_1 + \vec{F}_2 + \dots +
+         \vec{F}_n = 0 \hs {\rm or} \hs \vec{F}_R = 0\,;}
+%
+\eqn{2}{\sum^n_{i=1} \vec{\tau}_i =
+          \vec{\tau}_1 + \vec{\tau}_2 + \ldots + \vec{\tau}_n = 0
+                                  \hs {\rm or} \hs \vec{\tau}_R = 0\,.}
+%
+Here \m{\vec{F}_R} and \m{\vec{\tau}_R} are the resultant force and torque.
+
+\pcap{2}{b}{Using Vector Components}
+It is helpful to keep in mind that (1) and (2) are vector equations.
+From the properties of vectors it should be clear that similar equations will
+hold for the components of the force or torque vectors along any direction.
+Explicitly, in a Cartesian coordinate system (\m{x},\m{y},\m{z}) the conditions for
+\Index{equilibrium conditions, for a system of \m{N} forces}equilibrium for a system of \m{N} forces are
+%
+\eqn{3}{\sum^N_{i=1}(\vec{F}_i)_x = 0;\; \sum^N_{i=1}(\vec{F}_i)_y = 0;
+                    \; \sum^N_{i=1}(\vec{F}_i)_z = 0\,,}
+%
+\eqn{4}{\sum^N_{i=1}(\vec{\tau}_i)_x = 0;\; \sum^N_{i=1}(\vec{\tau}_i)_y = 0;
+              \; \sum^N_{i=1}(\vec{\tau}_i)_z = 0\,,}
+%
+where \m{(\vec{F}_i)_x} means the \m{x}-component of the force \m{\vec{F}_i}, a
+quantity that may be either positive or negative depending upon the direction
+of the force.
+Typically, in finding solutions to problems, the component equations are
+found to be more useful than the vector equations.
+
+\scap{3}{Centers of Force}
+
+\pcap{3}{a}{Definition}
+It is useful when dealing with forces on \Index{force, on extended object}extended objects to find, if
+possible, the one point associated with (but not necessarily in) the object
+where the resultant of all the forces on the object may be considered to act.
+Such a point is called the \Index{center of force}center of force.
+The idea of center of force is important both in dynamic situations (motion
+produced by net forces and torques)
+%
+\Footnote{See \Quote{Particle Dynamics - The Laws of Motion} (MISN-0-14).}
+%
+and in the static equilibrium problems that will be explored here.
+
+\pcap{3}{b}{For Concurrent Forces}
+For \Index{forces, concurrent}\Index{concurrent forces}concurrent forces the center of force is just the point where all the
+force vectors or their extensions meet, the point of concurrence.
+The resultant force considered as acting at that point will result in the
+same translation and the same rotation as the given system of forces.
+This is because the torque of the resultant is equal to the vector sum of the
+torques of the separate forces.
+You should demonstrate this to yourself.
+
+\TwoFullFigures%
+    {Fig.\,2. Diagram showing set of forces \m{\vec{F}_1}, \m{\vec{F}_2},
+     \m{\vec{F}_3}, \m{\vec{F}_4} acting on an object.}{m6gr02}%
+    {Fig.\,3. The resultant of the forces in Fig.\,2 is shown as
+     \m{\vec{F}_R}.}{m6gr03}
+
+\pcap{3}{c}{For Non-Concurrent Forces}
+For \Index{forces, non-concurrent}\Index{non-concurrent forces}non-concurrent forces the analysis of a general system of forces is a
+straightforward exercise in vector analysis.
+It is always possible to reduce a general system of forces to a force (the
+resultant) and a \Index{couple}couple (a non-colinear pair of forces which has a resultant
+of zero but produces a torque; for an example see Fig.\,1).
+The force is then equal to the vector sum of the applied forces, and the
+couple supplies the torque that is necessary to make an equivalent
+environment for the object.
+
+Consider the general system of forces shown in Fig.\,2.
+The system of forces on the object (\m{\vec{F}_1}, \m{\vec{F}_2},...) tends to translate the object
+in the direction of the resultant force:
+%
+\eqn{}{\vec{F}_R = \vec{F}_1 + \vec{F}_2 + \ldots =  \sum^N_{i=1} \vec{F}_i.}
+%
+They also tend to rotate the object due to the presence of a resultant
+torque:
+%
+\eqn{}{\vec{\tau}_R = \vec{\tau}_1 + \vec{\tau}_2 + \ldots =
+\sum^N_{i=1} \vec{\tau}_i\,.}
+%
+The quantity
+%
+\eqn{}{\vec{\tau}_i = \vec{r}_i \times \vec{F}_i\,,}
+%
+is the torque produced by the force \m{\vec{F}_i} about the point \m{O}.
+
+We seek to replace the system of forces by its resultant \m{\vec{F}_R}, and
+locate the point where \m{\vec{F}_R} acts so that its torque will equal the sum
+of the torques of the separate forces acting on the system.
+In Fig.\,3 we show the equivalent force \m{\vec{F}_R} acting at point \m{P}, the
+center of force, located by the vector \m{\vec{r}_p} from \m{O} to \m{P}.
+This single force will be equivalent to the system of Fig.\,2 if:
+%
+\eqn{}{\vec{\tau}_R = \vec{\tau}_1 + \vec{\tau}_2 + \ldots}
+%
+or
+%
+\eqn{5}{\vec{r}_p \times \vec{F}_R = \vec{r}_1 \times \vec{F}_1 +
+                                \vec{r}_2 \times \vec{F}_2 + \ldots\,,}
+%
+where again
+%
+\eqn{}{\vec{F}_R = \vec{F}_1 + \vec{F}_2 + \ldots\,.}
+%
+
+\pcap{3}{d}{A Center of Force May or May Not Exist}
+For an arbitrary system of forces a center of force may or may not exist.
+
+If not, this means that there is no point where the resultant force may act
+in order to produce a torque equal to the sum of the torques produced by the
+individual forces.
+
+As a simple example, consider the couple (two equal and opposite forces that
+are not co-linear are called a couple) shown in Fig.\,1.
+The vector sum of these two forces is zero.
+However, they produce a torque that will tend to make the object rotate.
+Clearly it is impossible to find a point where the resultant may be applied
+to produce the finite resultant torque since the sum of the forces is zero.
+No center of force exists in this situation.
+
+\pcap{3}{e}{Position of Center of Force}
+For the applications we will be considering, the case of \Index{forces, parallel}\Index{parallel forces}parallel forces will
+be sufficient.
+This will allow us to study the effect of gravity on extended objects,
+continuously loaded beams, etc. without the complication of non-parallel
+forces.
+
+For a general system of parallel forces, Eq.\,(\eqnno{5}) may be solved to
+obtain a value for \m{\vec{r}_p}.
+
+Using the fact that the forces are parallel, we can write each force
+\m{\vec{F}_i} as \m{\vec{F}_i = F_i \uvex{u}}, where \m{\uvex{u}} is a unit vector
+parallel to the forces.
+Equation\,(5) may then be written
+%
+\eqn{6}{\vec{r}_p \times F_R \uvex{u} = (\vec{r}_1 \times F_1 \uvex{u}) +
+               (\vec{r}_2 \times F_2\uvex{u}) + \ldots\,,}
+%
+or
+%
+\eqn{}{F_R \vec{r}_p \times \uvex{u} = F_1 \vec{r}_1 \times \uvex{u} +
+                 F_2 \vec{r}_2 \times \uvex{u} + \ldots\,.}
+%
+Transposing all the terms to one side yields:
+%
+\eqn{7}{[F_R \vec{r}_p - (F_1 \vec{r}_1 + F_2 \vec{r}_2 + \ldots)] \times
+                            \uvex{u} = 0\,.}
+%
+Since \m{\uvex{u}} is a unit vector and therefore not zero, the only ways
+Eq.\,(\eqnno{7}) can be satisfied are if the vector in brackets [] has zero
+length or is parallel to \m{\uvex{u}}.
+%
+The latter condition cannot be true in general for an arbitrarily selected
+point \m{O}.
+Therefore
+%
+\eqn{8}{F_R \vec{r}_p - (F_1 \vec{r}_1 + F_2 \vec{r}_2 + \ldots) = 0\,,}
+%
+or
+%
+\eqn{9}{\vec{r}_p = (F_1 \vec{r}_1 + F_2 \vec{r}_2 + \ldots)/F_R\,.}
+%
+This expression has just the form of any weighted average.
+
+Also, of course, the vector Eq.\,(9) may be separated into its three
+\Index{center of force, component equations for}component equations
+%
+\ThreeEqns{10}{x_p = \left( \sum^N_{i=1} F_i x_i \right) / F_R}
+              {y_p = \left( \sum^N_{i=1} F_i y_i \right) / F_R}
+              {z_p = \left( \sum^N_{i=1} F_i z_i \right) / F_R\,,}
+%
+where (\m{x_p},\m{y_p},\m{z_p}) are the coordinates of the center of force, \m{P}.
+
+\scap[\Index{gravity, center of}\Index{center of gravity}]{4}{Center of Gravity}
+
+\pcap{4}{a}{Gravity as a Force}
+The \Index{weight}weight of an object is a force due to the gravitational attraction
+between the matter in the object and the earth.
+This gravitational pull should not be thought of as a single force between
+the earth and the body as whole.
+Each submicroscopic particle that makes up the body experiences gravitational
+force due to the presence of the large amount of matter comprising the earth.
+It is the sum of all these nearly parallel forces that make up the resultant
+force, equal to the resultant force, must act to have the same effect as all
+of the forces between the constituent particles and the earth is called the
+center of gravity (hereafter \m{CG}).
+
+\pcap{4}{b}{Center of Gravity as a Center of Force}
+We can see from this argument that the center of gravity is just a special
+case of a center of force when no forces other than gravity are present.
+If we wish to find the center of gravity of a system of point-like weights
+near the surface of the earth, the weight of each of the objects is the
+gravitational force that pulls it toward the center of the earth.
+For systems that are small compared with the size of the earth these forces
+are essentially parallel and Eqs.\,(9) and (10) apply with the individual
+weights replacing the forces \m{\vec{F}_i}.
+
+\CaptionAfterLeftFigure{Fig.\,4. Erecting a sign (see text).}{m6gr04}
+
+\pcap{4}{c}{Use of Calculus to Find the \m{CG}}
+Any extended object may be treated as if it is composed of many point-like
+objects, so the center of gravity may be determined by using Eqs.\,(9) or (10)
+with integrals over the infinitesimal weights replacing the sums.
+To illustrate this point consider the following example.
+
+The owner of the Triangle Bar wishes to erect a sign (of triangular shape,
+naturally) from a single point, as shown in Fig.\,4.
+The owner needs to find the distance \m{x_R} at which the sign will balance.
+Here is how to do it:
+\begin{itemize}
+\item [1.] Let the weight of the shaded region, \m{dF}, be given by
+           \m{dF = \sigma y\, dx} where \m{y\, dx} is the area of the region and
+           \m{\sigma} is the weight per unit area.
+           Using \m{y = (b/a)\,x}, we get: \m{dF = \sigma (b/a) x\,dx}.
+
+\item [2.] If we take moments about the origin (0,0) then the moment arm for
+           this force is just \m{x}.
+
+\item [3.] The integral form for \m{x_R} is then
+           %
+           \eqn{}{x_R = \fract{1}{F_R} \int_0^a x dF =
+                  \fract{1}{F_R} \int_0^a \sigma \fract{b}{a} x^2 \,dx\,,}
+           %
+           and since \m{F_R = (1/2) a b \sigma}, the area of the triangle times
+           the weight per unit area, we find:
+           %
+           \eqn{}{x_R = \fract{\ds 2}{\ds 3}a\,.}
+           %
+           Thus the sign will hang straight if the support is placed 2/3 of
+           the way out from the origin.
+\end{itemize}
+
+\scap[\Index{mass, center of}\Index{center of mass}]{5}{Center of Mass}
+
+\pcap{5}{a}{\m{CM} vs. \m{CG}}
+Although the idea of mass is of crucial importance in the study of dynamics,
+it is of little use in the study of static equilibrium.
+We have good reasons for introducing it at this time, however.
+First, the concepts of center of mass (hereafter \m{CM}) and center of gravity
+(hereafter \m{CG}) have a superficial similarity, although conceptually they
+are quite different.
+We would like to emphasize this difference.
+Second, the mathematical formalisms by which the centers are determined are
+nearly identical.
+
+\pcap{5}{b}{Definition of \m{CM}, Point Masses}
+The center of mass of an object is a point on or in the vicinity of the
+object, which point moves in a dynamical situation as if all the mass of the
+object were located at this center.
+That is, the same force applied to a point object with the real object's
+mass, located at the real object's center of mass, would undergo motion
+identical to the motion of the real object's center of mass.
+This statement is much clearer in the context of the full dynamical behavior
+of objects.
+%
+\Footnote{See \Quote{Particle Dynamics - The Laws of Motion} (MISN-0-14) and
+\Quote{Momentum: Conservation and Transfer} (MISN-0-15).}
+%
+The center of mass for a simple two mass system such as the one in Fig.\,5
+is:
+%
+\eqn{11}{x_{CM} = \fract{\ds m_1 x_1 + m_2 x_2}{\ds m_1 + m_2}\,.}
+%
+This point is the mass-weighted average position of these separate masses.
+It has the property that:
+%
+\eqn{}{(m_1 + m_2) x_{CM} = m_1 x_1 + m_2 x_2\,.}
+%
+That is, the total mass times the distance of the center of mass from the
+origin is equal to the sum of the products of the mass of each particle
+times its distance from the origin.
+This statement is true for any given origin point, so that the position of
+the center of mass is invariant under any coordinate transformation (it is
+independent of where you place the origin of coordinates).
+
+\CaptionAfterLeftFigure{Fig.\,5. The geometry used in Eq.\,(\eqnno{11}).}{m6gr05}
+
+
+We may extend this definition to include systems containing N particles,
+still in one dimension.
+\Index{center of mass, component equations for}Then:
+%
+\TwoEqns{12}{x_{CM} & = & \fract{m_1 x_1 + m_2 x_2 + \ldots + m_N x_N}
+                          {m_1 + m_2 + \ldots + m_N}}
+            {       & = & \fract{1}{M} \sum_{i=1}^N m_i x_i\,.}
+
+
+\CaptionAfterLeftFigure{Fig.\,6. The \m{CM} of the entire leg can be determined
+from the \m{CM} and mass values for the various parts of the leg.}{m6gr00}
+
+\pcap{5}{c}{Continuously Distributed Mass}
+This same expression may be used for a system of non-point masses if \m{x_i}
+denotes the position of the center of mass of the i\m{^{th}} element in the
+system.
+For example, it is of interest in biodynamics to know the position of the
+center of mass of a flexed leg (see Fig.\,6).
+For continuously distributed systems the center of mass may be located by a
+procedure similar to that used in locating the center of gravity.
+
+Remember the important distinction between mass (the quantity of matter - 
+except for small but important corrections directly related to the number of
+neutrons and protons that make up the fundamental substructure of that
+object) and center of gravity (the place where the resultant
+force on the mass due to the earth can be located).
+Because the gravitational field of the earth is not perfectly uniform,
+the two points are not usually the same, although their separation is
+usually too small to be measured.
+The necessary equations for locating the center of mass in this situation
+are:
+%
+\ThreeEqns{}{x_{CM} & = & \fract{1}{M} \int x\,dM}
+            {y_{CM} & = & \fract{1}{M} \int y\,dM}
+            {z_{CM} & = & \fract{1}{M} \int z\,dM\,.}
+
+
+\Acknowledgments\NsfAcknowledgment
+
+\TxEnd

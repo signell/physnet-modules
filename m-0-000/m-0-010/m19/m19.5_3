@@ -1,0 +1,18 @@
+% 10/3/94, pss; 1/27/99, pss
+\input nphmods.sty
+
+%\includeonly{m19-id}
+
+\begin{document}
+
+\mNumber{19}
+
+\ChapterStart
+\include{m19-ct}
+\include{m19-id}
+\include{m19-tx}
+\include{m19-ps}
+\include{m19-me}
+\ChapterEnd
+
+\end{document}

@@ -1,0 +1,59 @@
+\revhist{9/13/88, pss; 12/8/89, pss; 4/1/91, pss; 8/5/92,mcr; 3/12/93, pss;
+         6/8/94, pss; 10/12/94, pss; 3/3/95, pss; 3/31/95, pss; 7/10/95, ???;
+         8/27/95, pss; 10/3/95, pss; 5/1/96, pss; 9/18/96, pss; 3/21/97, pss;
+         3/28/97, pss; 11/13/97, pss; 2/22/99, pss; 12/15/99, pss; 3/2/2000, pss;
+         12/18/2000, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{Two-Dimensional Motion}
+
+\IdAuthor{H.\,T.\,Hudson, University of Houston and Ray G.\,Van Ausdal,
+Univ. of Pittsburgh at Johnstown}
+
+\IdVersEval{12/18/2000}{0}
+
+\begin{Hours/Pages} \HR{1} \TX{8} \PS{11} \AS{5} \ME{2} \end{Hours/Pages}
+%\begin{Hours/Pages} \HR{1} \TX{8} \PS{12} \AS{6} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  Vocabulary: displacement, velocity and acceleration vectors
+\prrqone{0-7}.
+\item [2.]  Differentiate an expression which includes unit vectors \m{\uvex{x}}
+and \m{\uvex{y}}.
+\prrqone{0-2}.
+\item [3.]  Find velocity, given the time-dependent position of an object
+\prrqone{0-7}.
+\item [4.]  Find acceleration, given the time-dependent velocity.
+\prrqone{0-7}.
+\item [5.]  Find position given initial conditions and either velocity
+or acceleration in one dimension \prrqone{0-7}.
+\item [6.]  Write the specific equations describing motion in one
+dimension with constant acceleration \prrqone{0-7}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Write the vector equations relating position, velocity and
+acceleration in component form.
+\item [K2.] Explain how the motion of component vectors can be used to
+describe the motion of an object.
+\end{KnowledgeSkills}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] Given (either graphically or analytically) one of the functions
+\m{\vec{r}(t)}, \m{\vec{v}(t)}, or \m{\vec{a}(t)}, plus initial conditions, find the
+two other functions.
+\item [S2.] Given \m{\vec{r}(t)}, derive the equation of the trajectory for an
+object.
+\item [S3.] Given a special case of constant velocity or constant
+acceleration for one component, write the appropriate equations
+of motion by using pre-derived one dimensional relationships.
+\item [S4.] Determine the range, maximum height and equation of the trajectory
+for an object in ballistic motion.
+\end{ProblemSolvingSkills}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

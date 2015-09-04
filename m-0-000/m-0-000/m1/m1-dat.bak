@@ -1,0 +1,38 @@
+\revhist{12/29/87, pss; 9/13/89, pss; 7/17/91, pss; 4/10/92, pss; 7/30/92, pss;
+         3/23/94, pss; 9/26/94, pss; 5/24/95, pss; 9/14/95, pss; 2/4/96, pss;
+         2/27/96, pss; 9/5/96, pss; 3/13/97, pss; 2/11/99, pss; 2/22/99, pss;
+         3/24/99, pss; 9/21/99, pss; 1/29/01, pss; 10/15/01, pss; 4/3/02, pss; 4/23/02, pss;
+         4/26/02, pss; 9/27/02, pss}
+%
+\defModTitle{\ph{Simple Differentiation} \ph{and Integration}}
+\defCtAuthor{\inits{J.}\inits{S.}Kovacs, Michigan State University}
+\defIdAuthor{J.\,S. Kovacs, Michigan State}
+%
+\defIdItems{
+    \IdVersEval{9/27/2002}{1}
+    \IdHours{1}
+    \begin{InputSkills}
+    \item [1.]  Vocabulary: trigonometric identity, sin, cos, tan, inverse
+    trigonometric function, curve tangent, function graph, graphical slope,
+    exp, log, ln \prrqone{0-401}.
+    \item [K2.] Define \Quote{rate,} state two of its general properties
+    and give the rates for \m{x = C}, \m{x = C t}, \m{x = C t^2} \prrqone{0-404}.
+    \item [K3.] Explain what is meant by \Quote{small enough} and how it
+    is used to distinguish a difference from a derivative \prrqone{0-404}.
+    \item [K4.] Define \Quote{velocity,} for motion in a straight line, in these cases:
+    (a) \m{v} is constant;  (b) \m{v} changes uniformly;  (c) \m{v} is any function \prrqone{0-404}.
+    \end{InputSkills}
+    %
+    \begin{KnowledgeSkills}
+    \item [K1.] Vocabulary: limit. 
+    \end{KnowledgeSkills}
+    %
+    \begin{RuleApplicationSkills}
+    \item [R1.] Differentiate polynomial, exponential, logarithmic, and trigonometric
+    functions.
+    \item [R2.] Locate the maxima and minima of any given function.
+    \item [R3.] Solve indefinite integrals of polynomial functions.
+    \item [R4.] Evaluate definite integrals of polynomial functions.
+    \item [R5.] Determine the area under the curve of a given function using the definite integral.
+    \end{RuleApplicationSkills}
+}

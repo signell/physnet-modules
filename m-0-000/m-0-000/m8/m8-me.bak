@@ -1,0 +1,60 @@
+% 12/8/89, pss; 7/31/91, pss; 3/12/93, pss; 6/8/94, pss
+\MeStart
+
+\begin{one-digit-list}
+\item [1.] See Output Skills K1-K2 on this module's {\it ID Sheet}.
+
+\item [2.] The velocity of a particle is given by the expression:
+$$\vec{v} = [2 (t/{\rm s}) \uvex{x} + \uvex{y}]\,{\rm m/s}.$$
+\begin{one-digit-list}
+\item [a.] At $t = 0$ the particle is at $x = 0$, $y = 0$.
+What is the position of the particle at a later time $t$?
+\item [b.] What is the average velocity over the interval $t = 2$\,s to
+$t = 3$\,s?
+\end{one-digit-list}
+
+\item [3.] \ItemFigure{A block is projected up an inclined surface which
+makes an angle $\theta$ with the horizontal.
+The initial speed is $v_0$ and the inclined surface is frictionless.
+Use a coordinate system defined by $x$ positive to the right
+in a horizontal direction, $y$ positive up (as illustrated).}{m8gr09}
+\begin{one-digit-list}
+\item [a.] What is the initial velocity?
+\item [b.] The acceleration of the block is observed to be:
+$$\vec{a} = - (g \sin\theta\,\cos\theta)\,\uvex{x} - (g \sin^2\theta)\,\uvex{y}.$$
+Develop expressions for $x(t)$ and $y(t)$.
+Divide one by the other to check that they (properly) predict that y(x) is a
+straight-line function with slope $\tan\theta$.
+\end{one-digit-list}
+
+\item [4.] A particle moves with acceleration:
+$$\vec{a} = [- 6\,(t/{\rm s})^2 \uvex{x} +
+(t/{\rm s}) \uvex{y}]\unit{m/s}^2.$$
+At $t = 0$ the particle is at rest at the origin.
+What is the equation of the path (i.e., the trajectory)?
+
+\item [5.] A football is thrown by a quarterback at a speed of
+20\,m/s at an angle of 45$\degrees$ with the horizontal.
+A receiver is running such that he will pass under the
+ball downfield from the point where it was released.
+Assuming the quarterback and the receiver are the same
+height, and the receiver can jump or reach one meter higher
+than the point of release by the quarterback, what is the
+minimum distance from the quarterback the ball can be caught?
+\UnframedEpsFigure{m8gr10}
+\end{one-digit-list}
+
+\BriefAns
+
+\begin{one-digit-list}
+\item [1.] See this module's {\it text}.
+
+\item [2.] See this module's {\it Problem Supplement}, problem 11.
+
+\item [3.] See this module's {\it Problem Supplement}, problem 13.
+
+\item [4.] See this module's {\it Problem Supplement}, problem 14.
+
+\item [5.] See this module's {\it Problem Supplement}, problem 15.
+\end{one-digit-list}
+\MeEnd

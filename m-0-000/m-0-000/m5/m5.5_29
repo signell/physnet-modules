@@ -1,0 +1,340 @@
+% 2/18/85 mpm; 7/12/85, pss; 10/6/91, pss; 9/15/94, pss; 11/7/97, lae
+\TxStart
+
+\mTitle{TOOLS FOR STATIC EQUILIBRIUM}
+
+\mAuthor{Leonard M.\,Valley}
+
+\scap[\Index{force diagram}\Index{diagram, force}]{1}{Force Diagrams}
+
+\CaptionAfterFullFramedFigure{Fig.\,1. Typical examples of static equilibrium:
+(a) A weight suspended from cords;
+(b) A ladder resting against a wall;
+(c) A uniform beam held by a cord and a support.}{m5gr01}
+
+\pcap{1}{a}{The Importance of Force Diagrams}
+In simplest terms, a system in \Index{equilibrium, static}\Index{static equilibrium}static equilibrium is one that does not move.
+Figure 1 shows examples of common types of systems studied in this
+subject.
+
+We never begin calculations to determine unknown forces in such
+systems as those shown in Fig.\,1 without first constructing
+a one-body force diagram.
+This gives us added assurance that we understand the system being analyzed
+and that we are using all the forces pertinent to our calculations.
+In addition, such diagrams aid us in determining whether the forces acting
+are concurrent or non-concurrent.
+The forces acting on an object are concurrent if the lines of action of the
+forces all meet at a common point (otherwise they are non-concurrent).
+In Figs.\,2 and 4 dashed lines extended from the arrows indicate the lines of
+action.
+In Fig.\,1a the forces are concurrent while in Fig.\,4 the forces on the
+beam are non-concurrent.
+The importance of this distinction will be considered in a later section.
+
+\pcap{1}{b}{Example: A Hanging Weight}
+Figure 1(a) shows a weight suspended by cords connected to point \m{P} and
+attached at two points \m{A} and \m{B} on the ceiling.
+Our force diagram for the point \m{P} is shown in Fig.\,2.
+The three cords are the only force contacts with point \m{P}.
+If we know the weight being supported we can represent the tension in the
+vertical cord by a force \m{\vec{W}} acting downward on \m{P}.
+For the other two cords we know the directions of the forces but not the
+magnitudes.
+They are drawn as wavy arrows to indicate the known directions but unknown
+lengths.
+Note: The directions are discerned from certain properties of cords.
+A flexible cord can only sustain a tension, that is, it can pull on point \m{P}
+but not push.
+Furthermore, the cord will align itself in the same direction as the force
+which it exerts.
+
+\TwoFullFigures{Fig.\,2. Force diagram for point \m{P} of Fig.\,1a.}{m5gr02}{Fig.\,3. Force diagram of the ladder in Fig.\,1(b).}{m5gr03}
+
+\pcap{1}{c}{Example: A Leaning Ladder}
+Figure 1(b) shows a ladder of given weight \m{W} resting against a wall.
+In this case we choose the ladder as the object of interest.
+We assume the weight of the ladder to act at its center \m{C}.
+% 
+\Footnote{The reasons are examined in \Quote{Static Equilibrium} (MISN-0-6).}
+%
+The other two force contacts are at the floor and the wall.
+Figure 3 shows our force diagram for the ladder.
+\m{\vec{F}_a} is the force exerted on the ladder by the floor and \m{\vec{F}_b} is
+the force exerted on the ladder by the wall.
+The direction and magnitude of forces \m{\vec{F}_a} and \m{\vec{F}_b} may be unknown.
+We use wavy arrows to indicate a lack of knowledge of both direction
+and magnitude.
+
+\CaptionAfterLeftFigure{Fig.\,4. Force Diagram for the beam in
+Fig.\,1(c).}{m5gr04}
+
+\pcap{1}{d}{Example: A Balanced Beam}
+Figure 1(c) shows a uniform beam resting on a support near one end and
+suspended by a cord near the other end.
+We construct a force diagram for the beam.
+Again we assume the weight to act at the center of the beam.
+In this case the cord is assumed to be vertical and therefore the forces
+exerted by the cord and the support are both vertically upward.
+In Fig.\,4 these two forces are shown as \m{\vec{F}_a} and \m{\vec{F}_b}.
+We use wavy arrows to indicate the unknown magnitudes but known direction.
+Figure 4 shows our force diagram.
+
+\pcap{1}{e}{Action/Reaction Forces}
+
+The concept of \Index{forces, action-reaction}\Index{action-reaction forces}action-reaction forces is useful in determining the forces
+that act on different parts of a system.
+Experiment and intuition shows us that when one object exerts a force on a
+second object, the second object always reacts by exerting a force on the
+first.
+The forces in this \Quote{pair} always have the same magnitudes but opposite
+directions.
+For example, looking at Figs.\,1(b) and 3, \m{\vec{F}_a} is the force that the
+floor exerts on the ladder and hence the ladder pushes on the floor with a
+force of \m{- \vec{F}_a} (same magnitude, opposite direction).
+This was summarized by Newton in his \Index{Newton's third law of motion}third law of motion: for every
+action there is always an equal and opposite reaction.
+
+\tryit A lamp hangs from a ceiling, supported by two strings (see Fig.\,5a).
+The tension in string \m{AB} is 4.0\,lb, while the tension in string \m{BC} is
+5.35\,lb.
+Construct the force diagram for point \m{B}.
+
+\tryit A telecommunications tower is erected (see Fig.\,5b.).
+If the tension in the left side cable is 7500\,lb, construct the force
+diagram for the tower.
+(Data from Cook Communications Inc., Lansing, MI)
+
+\tryit For more examples see this module's {\it Special Assistance
+Supplement}, Sect.\,2-3.
+
+\CaptionAfterFullFramedFigure{Fig.\,5. (a) A lamp hanging from a ceiling;
+(b) a telecommunications tower.}{m5gr05}
+
+\scap[\Index{forces, concurrent}\Index{concurrent forces}]{2}{Concurrent Forces}
+
+\pcap{2}{a}{Static Equilibrium for a Point}
+Newton stated his first law as something like this: every body persists in
+its state of rest or constant velocity unless it is compelled to change
+by forces applied to it.
+One interpretation of \Index{Newton's first law of motion}Newton's first law as applied to objects staying at
+rest is: the net \Index{force}force (the vector sum of all forces) acting on the body
+must be zero.
+In Figs.\,1a and 2 we show a point \m{P} which is at rest and hence the net force
+must be zero.
+In other words, the \Index{forces, vector addition of}vector sum of the forces acting must be zero:
+%
+\eqn{1}{\vec{F}_a + \vec{F}_b + \vec{W} = 0}
+%
+Because the forces all act at the same point \m{P}, this is the only condition
+necessary for \m{P} to remain at rest.
+This is the condition for static equilibrium of a point.
+
+\pcap{2}{b}{Concurrent Forces on an Extended Object}
+There is a special case of static equilibrium for extended (non-point)
+objects: if all the lines of force intersect at some point \m{P}, the forces act
+just as if they all originated at \m{P}.
+Even if \m{P} is geometrically not located on the object, as in Fig.\,6, this
+statement is still true (if it makes you feel better, you can consider the
+object to be part of a much larger rigid structure that includes point \m{P}).
+Such forces are said to be \Quote{\Index{forces, concurrent}\Index{concurrent forces}concurrent.}
+
+Based on the above, we now state this equilibrium condition: If the
+forces acting on a \Index{rigid body, equilibrium condition for}\Index{equilibrium condition, for rigid body}rigid object are concurrent, then the only condition
+necessary for equilibrium is that the vector sum of the forces is zero.
+In the case of the object in Fig.\,6,
+%
+\eqn{2}{\vec{F}_a + \vec{F}_b + \vec{W} = 0\,.}
+%
+is the equation for equilibrium.
+
+In general, if a rigid object is acted upon by N concurrent forces the
+equilibrium condition gives us:
+%
+\eqn{3}{\vec{F}_1 + \vec{F}_2 + \ldots +
+                   \vec{F}_N \equiv \sum_{i = 1}^N \vec{F}_i = 0\,.}
+
+\CaptionAfterLeftFigure{Fig.\,6. Forces can intersect outside the object.}{m5gr06}
+
+\pcap{2}{c}{Cartesian Component Equations}
+If \m{\vec{F}_R = 0}, \m{F_{Rx}} and \m{F_{Ry}} must also be zero.
+Thus, taking components of Eq.\,(\eqnno{3}) gives:
+%
+\eqn{}{F_{Rx} = F_{1x} + F_{2x} + \ldots + F_{Nx} =
+                                     \sum_{i = 1}^N F_{ix} = 0\,,}
+%
+\eqn{4}{F_{Ry} = F_{1y} + F_{2y} + \ldots F_{Ny} =
+                              \sum_{i = 1}^N F_{iy} = 0\,.}
+%
+The equilibrium condition, Eq.\,(\eqnno{1}), in \Index{equilibrium condition, in component form}component form is:
+%
+\eqn{}{F_{ax} + F_{bx} + W_x = 0\,,}
+%
+\eqn{5}{F_{ay} + F_{by} + W_y = 0\,.}
+%
+These equations involve components of vectors and hence
+there may be positive or negative values.
+In this case the values for \m{F_{ax}} and \m{W_y} will be negative while the
+others will be positive.
+(\m{W_x = 0}, as there is no component of weight in the \m{x}-direction).
+Equations (\eqnno{5}) become:
+%
+\eqn{}{- F_a \cos 60^\circ + F_b \cos 30^\circ = 0\,,}
+%
+\eqn{6}{ F_a \sin 60^\circ + F_b \sin 30^\circ - W = 0\,.}
+%
+We thus have two equations and two unknowns, allowing us to solve for \m{F_a}
+and \m{F_b} if given \m{W}.
+
+\CaptionAfterLeftFigure{Fig.\,7. A traction device for setting broken
+bones.}{m5gr07}
+
+\pcap{2}{d}{Example: A Broken Leg}
+
+\tryit A Patient with a broken leg is in the Health Center.
+To allow his leg to set, a \Quote{Bucks} traction device (nothing to do with the
+cost involved) is used, as shown in Fig.\,7.
+If the traction required for the bone to set is 22\,lb, find the weight
+needed to produce this traction.
+(Data from the Michigan State University College of Osteopathic Medicine.)
+(Ans. 14\,lb; \help{1} near the end of the {\it Special Assistance
+Supplement}).
+
+\tryit For more examples see this module's {\it Special Assistance
+Supplement}, Sect.\,4.
+
+\CaptionAfterFullFramedFigure{Fig.\,8. Illustration of force amplification.}{m5gr08}
+
+\pcap{2}{e}{Example: A Ditched Car}
+
+\tryit A driver runs off the road in a snowstorm (the kind we have
+in April) and becomes stranded in a ditch.
+She knows she can't use brute strength to pull the car out, so she tries an
+alternate method.
+First, she ties a length of rope to a huge boulder, and then connects it to
+her car.
+When a 40~lb force is exerted perpendicular to the rope, the rope is
+displaced to an angle of \m{6\degrees} (see Fig.\,8).
+What force is then being exerted on the car?
+(Data from Southend Total, Lansing, MI)
+(Ans.: 192\,lb.)
+
+\scap[\Index{non-concurrent forces}]{3}{Non-Concurrent Forces}
+
+\CaptionAfterLeftFigure{Fig.\,9. Force, \m{\vec{F}}, with given line of
+action and position vector \m{\vec{r}}.}{m5gr09}
+
+\pcap{3}{a}{Torque for Non-Concurrent Forces}
+If the forces acting on a \Index{rigid body}body are not concurrent, there is a possibility
+that the object is not in rotational equilibrium.
+Consider a door you are pushing open.
+The forces exerted by the hinges and your hand are not concurrent and the
+door is rotating.
+In contrast, the beam shown in Figs.\,1 and 4 is acted upon by forces which
+are not concurrent and it is not rotating.
+Thus a rigid body which is acted upon by a set of non-concurrent forces
+may or may not rotate.
+The statement of the conditions necessary to extend static equilibrium to
+include non-rotation uses the concept of torque.
+In anticipation of the discussion of rotational equilibrium in another
+module,
+%
+\Footnote{\Quote{Static Equilibrium, Center of Mass} (MISN-0-6).}
+%
+we here define torque and calculate its value for simple cases.
+
+\pcap{3}{b}{Definition of Torque}
+The \Index{torque}torque, sometimes called the \Quote{\Index{moment, of a force}\Index{force, moment of a}moment} of a force, is defined to be
+(see Fig.\,9):
+%
+\eqn{7}{\vec{\tau} = \vec{r} \times \vec{F}\,,}
+%
+where \m{\vec{\tau}} is the torque, \m{\vec{r}} is the position vector from the
+\Quote{center of torque} to any point on the \Index{line of action, of force}line of action of the force, and
+\m{\vec{F}} is the force.
+Torque is a vector because it is the vector product (\Quote{cross product}) of
+\m{\vec{r}} and \m{\vec{F}}.
+%
+\Footnote{See \Quote{Vectors: Sums, Differences, and Products} (MISN-0-2).
+Actually, torque is a psuedovector, which means that it behaves like a
+vector except under a mirror-like inversion.}
+%
+From the definition of the vector product, the magnitude of
+\m{\vec{r} \times \vec{F}} is \m{r F \sin\theta} and its direction is determined
+by the right-hand rule (into the page in this case).
+\m{F\,\sin\theta} is just the component of the force \m{\vec{F}} perpendicular
+to the position vector \m{\vec{r}}.
+Letting \m{F\,\sin\theta \equiv F_{\perp}}, the magnitude of the torque is
+just \m{r\,F_{\perp}}.
+
+\CaptionAfterFullFramedFigure{Fig.\,10. A force, \m{\vec{F}}, shown with three
+possible position vectors.}{m5gr10}
+
+\pcap{3}{c}{Torque is Independent of Choice for \m{\vec{r}}}
+The vector \m{\vec{r}} that is used to find a torque is not unique.
+Figure 10 shows only three of an infinite number of \m{\vec{r}} vectors which
+could be drawn from point \m{O} to the line of action of the force \m{\vec{F}}.
+Based on this diagram and the definition of torque, Eq.\,(\eqnno{7}), we
+get:
+%
+\eqn{8}{\vec{\tau} = \vec{r}_1 \times \vec{F} = \vec{r}_2 \times \vec{F} =
+\vec{r}_3 \times \vec{F}\,.}
+%
+This \m{\vec{\tau}} is directed into the page and has magnitude:
+%
+\eqn{9}{\tau = r_1\,F \sin\theta_1 = r_2\,F \sin\theta_2 =
+r_3\,F \sin\theta_3\,.}
+%
+Using Fig.\,10, we see that:
+%
+\eqn{10}{r_1\,\sin\theta_1 = r_2\,\sin\theta_2 = r_3\,\sin\theta_3 =
+\ell\,,}
+%
+and hence from Eq.\,(\eqnno{9}), any one of the three could be used.
+Simpler still is the equivalent expression:
+%
+\eqn{11}{\tau = \ell\,F\,.}
+%
+Here \m{\ell}, the perpendicular distance from point \m{O} to the line of action
+of the force, is called the force's \Quote{\Index{lever arm}lever arm} or \Quote{\Index{moment arm}\Index{arm, moment}moment arm.}
+As a result, the magnitude of the torque is always equal to the product of
+the lever arm and the magnitude of the force.
+
+\CaptionAfterLeftFigure{Fig.\,11. Two forces producing a resultant
+torque.}{m5gr11}
+
+\pcap{3}{d}{Torque from Two or More Forces}
+Since torque is a vector, if there are two or more torques relative to point
+\m{O}, the \Index{resultant torque}\Index{torque, resultant}resultant torque about
+point \m{O} is just the vector sum of the individual torques.
+From Fig.\,11,
+%
+\TwoEqns{}{\vec{\tau}_1 & = & \vec{r}_1 \times \vec{F}_1}
+          {\vec{\tau}_2 & = & \vec{r}_2 \times \vec{F}_2}
+%
+yielding a resultant torque:
+\m{\vec{\tau} = \vec{\tau}_1 + \vec{\tau}_2}.\newline
+
+\pcap{3}{e}{Example: A Gearbox}
+
+\tryit A reduction gearbox is shown in Fig.\,12.
+The torques on it, about the point of intersection of the shafts, a point in
+the \m{xz}-plane, are 20\,\m{\uvex{z}}\,ft\,lb and 4\,\m{\uvex{x}}\,ft\,lb.
+Find the total resultant torque on the gearbox.
+(Ans. The vector sum.)
+
+\pcap{3}{f}{Example: A Test of Strength}
+
+\tryit At a local count fair, a barker challenges you to the \Quote{game} shown
+in Fig.\,13.
+You place your wrist in the strap, flex your arm, and try to exert a force
+of 200\,lb on the spring scale.
+If the distance from your wrist to your elbow is 9 inches, find the torque
+exerted by the strap about your elbow and the force on your muscle.
+(Ans. 1800\,in\,lb and 1800\,lb.)
+
+\TwoFullFigures{Fig.\,12. A gearbox.}{m5gr12}{Fig.\,13. A test of strength.}{m5gr13}
+
+\Acknowledgments\NsfAcknowledgment
+
+\TxEnd

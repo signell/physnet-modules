@@ -1,0 +1,21 @@
+% 9/29/94, pss; 8/30/95, pss
+\input nphmods.sty
+
+%\includeonly{m14-ct}
+
+%\psdraft  %(activate only for hp mode; percent-out for ps mode)
+
+\begin{document}
+
+\mNumber{14}
+
+\ChapterStart
+\include{m14-ct}
+\include{m14-id}
+\include{m14-tx}
+\include{m14-ps}
+\include{m14-as}
+\include{m14-me}
+\ChapterEnd
+
+\end{document}

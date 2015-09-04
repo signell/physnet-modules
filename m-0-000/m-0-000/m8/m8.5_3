@@ -1,0 +1,21 @@
+% 3/12/93, pss; 6/8/94, pss
+\input nphmods.sty
+
+%\includeonly{m8-id}
+
+%\psdraft
+
+\begin{document}
+
+\mNumber{8}
+
+\ChapterStart
+\include{m8-ct}
+\include{m8-id}
+\include{m8-tx}
+\include{m8-ps}
+\include{m8-as}
+\include{m8-me}
+\ChapterEnd
+
+\end{document}

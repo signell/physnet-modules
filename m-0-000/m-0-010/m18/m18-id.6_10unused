@@ -1,0 +1,48 @@
+\revhist{9/3/86 mpm; 4/1/91, pss; 2/3/94, pss; 10/3/94, pss; 9/27/95, pss;
+         8/25/96, pss; 11/13/97, pss; 2/22/99, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{Classical Mechanics in Rotating Frames of Reference: Effects On the Surface of the Earth}
+
+\IdAuthor{Peter Signell, Dept.\,of Physics, Mich.\,State Univ., East Lansing,
+MI}
+
+\IdVersEval{2/1/2000}{0}
+
+%\begin{Hours/Pages} \HR{1} \TX{7} \LG{3} \ME{1} \end{Hours/Pages}
+\begin{Hours/Pages} \HR{1} \TX{8} \LG{4} \ME{2} \end{Hours/Pages}
+
+\begin{InputSkills}
+\item [1.]  Determine the direction and magnitude of the vector (cross) product of
+two given vectors \prrqone{0-2}.
+\item [2.]  State the vector relationships between velocity, angular velocity,
+position, and force for an object in uniform circular motion \prrqone{0-17}.
+\item [3.]  Transform velocities between different Galilean frames of reference and
+use double-subscript object-observer notation \prrqone{0-11}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Derive the Coriolis and centrifugal accelerations, starting with the
+expression which relates a vector's time derivative in a rotating reference
+frame to the time derivative in a non-rotating reference frame.
+\item [K2.] Derive the rotational directions of winds near high and low pressure
+centers in the northern and southern hemispheres.
+\item [K3.] Explain the alternating prevailing east-west wind directions found as one
+moves in a north-south direction on the face of the earth.
+\item [K4.] Explain (qualitatively) the reason for the apparent rotation of the plane
+of a Foucault pendulum, and explain how observations of it prove that the
+earth rotates.
+\item [K5.] Demonstrate the Coriolis force using a rotating stool and show that, in
+all cases, the direction of the force is as given by the algebraic formula.
+\end{KnowledgeSkills}
+
+\begin{PostOptions}
+\item [1.]  \Quote{Relativistic Gravitation I; The Equivalence Principle} (MISN-0-110).
+\end{PostOptions}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

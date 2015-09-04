@@ -1,0 +1,153 @@
+\revhist{12/23/87, pss; 12/16/90, pss; 3/11/93, pss; 9/15/94, pss; 9/15/95, pss;
+         8/25/96, pss; 10/15/96, pss; 4/22/98, pss}
+
+\Sect{}{}{\SectType{SpecialAssistance}}{
+
+\AsItem{1}{TX-Appendix Exercise 1}%
+{\begin{one-digit-list}
+ \item [a.]  \m{\uvec{r} \cdot \uvec{r} = \left| \dfrac{\vect{r}}{r}\right|
+ \left| \dfrac{\vect{r}}{r}\right|
+ (\cos{\theta}) = \dfrac{\left| \vect{r} \right|^2}{r^2}\,(1) = 1}, so
+ \m{\uvec{r}} is a unit vector.
+ \item [b.]  \m{\uvec{r}} and \vect{r} are in the same direction so
+ \m{\theta} = 0 so \m{\uvec{r} \cdot \vect{r} = r}.
+ \end{one-digit-list}
+}
+
+\AsItem{2}{TX-Appendix Exercise 2}%
+{\begin{one-digit-list}
+ \item [a.] See if \m{\uvec{\theta} \cdot \uvec{\theta} = 1}
+ as for \m{\uvec{r}} in [S-1].
+ \item [b.] \m{\uvec{\theta} \cdot \uvec{r} = 0}, so either:
+ (1) \m{ | \uvec{\theta} | = 0}; or (2) \m{ | \uvec{r} | = 0};
+ or (3) they are perpendicular.
+ Choices (1) and (2) are obviously false so (3) must be true.
+ \end{one-digit-list}
+}
+
+\AsItem{3}{PS-Exercise 3}%
+{\begin{one-digit-list}
+ \item [a.] \m{ | ds/dt |} and ds/dt could differ in sign.
+ What is the sign of the magnitude of a vector?
+ \item [b.] The derivative is the slope of the graph.
+ \end{one-digit-list}
+}
+
+\AsItem{4}{TX-Appendix, Sect.~1}%
+{Use the chain rule:
+ %
+ \Eqn{}{\dfrac{d\uvec{r}}{dt}=\dfrac{d\uvec{r}}{ds}\dfrac{ds}{dt} \qquad \text{and} \qquad
+ \dfrac{d\uvec{\theta}}{dt}=\dfrac{d\uvec{\theta}}{ds}\dfrac{ds}{dt}}
+}
+
+\AsItem{5}{TX-Appendix Exercise 3}%
+{You are given \vect{v} and are asked about \m{\vect{v} + \Delta \vect{v}}
+ a short time \m{\Delta t} later.  \m{\Delta \vect{v}} is \m{\vect{a}_t \Delta t}.
+ Draw vector addition diagrams to decide if \m{\vect{v} + \Delta \vect{v}}
+ is longer than, shorter than, or the same length as \vect{v}.
+}
+
+\AsItem{6}{PS-Exercise 1}%
+{Use \m{a_r = v^2/r}\, and \m{v = 2 \pi r / T}.}
+
+\AsItem{7}{PS-Exercise 2}%
+{\begin{one-digit-list}
+ \item [a.] Use \m{v = \omega\,r} and \m{\nu = v/2 \pi r}.
+ \item [b.] Use \m{a = v^2/r} and \m{v = \omega \,r}.
+ \end{one-digit-list}
+}
+
+\AsItem{8}{TX-4f}%
+{The direction of \m{\vect{\omega} \times \vect{r}}, by definition of the
+ vector product, must be perpendicular to \vect{\omega}.
+ Therefore this vector product lies in the plane of motion.
+ It must also be perpendicular to \vect{r}; therefore it lies along the
+ tangent.
+ Using the right hand rule, the product points in the direction of the
+ tangential velocity.
+ Since \vect{\omega} and \vect{r} are perpendicular, the magnitude of
+ \m{\vect{\omega} \times \vect{r}} is just \m{\omega\,r}.
+ This, in turn, is just the magnitude of the tangential velocity, \m{v}.
+}
+
+\AsItem{9}{TX-2b}%
+{Here is one answer: \m{\theta/180\degrees = s/(\pi r)}.
+ Here is another equivalent one: \m{\theta/360\degrees = s/(2 \pi r)}.}
+
+\AsItem{10}{PS-Problem~2}%
+{The Earth makes one complete rotation per day: that's what a day is!
+ Therefore the Earth's period of rotation \m{T} is \ldots (you finish it).
+ Draw a diagram and put the vectors on it.
+}
+
+\AsItem{11}{PS-Problem~3}%
+{The car's speed is 50\unit{mph} only at the quoted instant of time.
+ Slightly earlier in time its speed was less than that, and slightly later
+ its speed will be greater.
+ Therefore it has tangential acceleration.
+ Because it is in circular motion, it also has radial acceleration.
+ \help{13}
+}
+
+\AsItem{12}{TX-2a}%
+{For help on whether you should use radians or degrees, read the text of
+ this module.
+}
+
+\AsItem{13}{[S-11]}%
+{The tangential acceleration is 5.0\unit{miles per hour per second}, which is
+ 7.33\unit{ft/s\up{2}} (you must check that conversion from miles to feet and from
+ hour to seconds to make sure you understand what is going on).
+ \help{14}
+}
+
+\AsItem{14}{[S-13]}%
+{You must compute \m{\vect{a}_r} and \m{\vect{a}_t} and add them as vectors.
+ Note that they are mutually perpendicular vectors.
+}
+
+\AsItem{16}{TX-4e}%
+{Note that \m{r} is constant for circular motion and use the chain rule for
+ differentiation of products (see MISN-0-1).
+}
+
+\AsItem{17}{TX-4d}%
+{The \Quote{second} hand makes one complete circuit of the dial in one minute,
+ which is 60\unit{seconds}, so its period is: \m{T = 60\unit{sec}}.
+ Now convert this to frequency.
+
+ The \Quote{hour} hand makes one complete circuit of the dial in 12\unit{hours}, which
+ is \m{12 \times 3600\unit{sec}}, so its period is: \m{T = 43,200\unit{sec}}.
+ Now convert this to frequency.
+}
+
+\AsItem{18}{TX-4e}%
+{See Table of Contents, \Quote{Angular Speed.}}
+
+\AsItem{19}{PS-Problem~7b}%
+{\m{\vec{v} = \dfrac{d\vec{r}}{dt}}; \m{\dfrac{d\uvec{r}(\theta)}{dt} = \dfrac{d\theta}{dt}\;\uvec{\theta}(\theta)}; \m{\dfrac{dr}{dt} = 0}
+}
+
+\AsItem{20}{PS-Problem~7c}%
+{\m{\vec{a} = \dfrac{d\vec{v}}{dt}}; \m{\dfrac{d\uvec{\theta}(\theta)}{dt} = -\dfrac{d\theta}{dt}\;\uvec{r}(\theta)}
+}
+
+\AsItem{22}{PS-Problem~7e}%
+{To get the direction of motion (CW or CCW), use the values of the components of the radius and velocity
+vectors to either draw the velocity vector in your head or to sketch it on a piece of paper (see the
+velocity vectors sketched throughout the text of this module).  To get the direction of the acceleration,
+do the same with the radius and acceleration vectors.  In each case the radius vector is said to be needed
+only in order to get the correct angle for the unit vectors.
+}
+
+\AsItem{24}{PS-Problem~7g}%
+{See the \textit{Table of Contents}, \Quote{Velocity and Speed,} and
+ \Quote{Acceleration: Tangential and Radial.}
+}
+
+\AsItem{25}{PS-Problem~1}%
+{Do all the Exercises (above the Problems) successfully before tackling this
+ problem.
+}
+
+}% /Sect

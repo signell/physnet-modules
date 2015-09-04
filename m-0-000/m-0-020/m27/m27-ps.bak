@@ -1,0 +1,48 @@
+\revhist{2/28/85 mpm; 10/11/94, pss}
+\PsStart
+
+\begin{one-digit-list}
+\item [1.] A harmonic oscillator of mass 0.64\,kg has a
+displacement from equilibrium given by:
+%
+\eqn{}{x = (2.1\unit{m})\,\cos{[(1.25/\unit{s})t + (\pi/4)]}\,.}
+%
+\begin{one-digit-list}
+\item [a.] Draw a phasor diagram showing the displacement, velocity, and
+acceleration phasors of the oscillator, and the phasor representing the
+restoring force acting on it, at time $t = 0$.
+\item [b.] Draw another phasor diagram of the four phasors at time
+$t = 1.0$\,s.
+Describe how the phasor diagram changes during the time interval between
+$t =0$ and $t = 1.0$\,s.
+\end{one-digit-list}
+
+\item [2.] Draw a phasor diagram showing the displacement, velocity,
+acceleration and restoring force phasors at $t = P/2$ where $P$ is period for
+the case:
+%
+\eqn{}{x(t) = A\,\cos{[(\pi/s)t + \pi/2)]}\,.}
+%
+Also, show the total phase and mark its value.
+\end{one-digit-list}
+
+\BriefAns
+
+\begin{one-digit-list}
+\item [1.] \NullItem
+\begin{one-digit-list}
+\item [a.] $|\vec{x}*|$\,=\,1.5\,m,
+\item [  ] $|\vec{v}*|$\,=\,1.9\,m/s,
+\item [  ] $|\vec{a}*|$\,=\,2.3\,m/s$^2$,
+\item [  ] $|\vec{F}*|$\,=\,1.5\,N.
+\item [b.] The four phasors maintain their directions relative to one another,
+and all rotate counter-clockwise with an angular speed of 72 degrees per
+second.
+\PsFig{.5in}
+\end{one-digit-list}
+
+\item [2.] The total phase is: $\omega t + \alpha = 270\degrees$ at
+$t = P/2$.
+\end{one-digit-list}
+
+%\PsEnd

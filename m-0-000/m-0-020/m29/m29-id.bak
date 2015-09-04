@@ -1,0 +1,46 @@
+\revhist{3/30/78, pss; 4/1/91, pss; 12/16/91, pss; 10/11/94, pss; 9/12/95, pss; 2/5/99 bds; 2/22/99, pss}
+\IdStart
+
+\vspace*{\fill}
+
+\begin{IdItems}
+\IdTitle{Damped Mechanical Oscillations}
+
+\IdAuthor{Peter Signell, Michigan State University}
+
+\IdVersEval{2/22/99}{0}
+
+\begin{Hours/Pages} \HR{1} \TX{7} \PS{1} \AS{2} \ME{1} \end{Hours/Pages}
+
+\begin{Descr} \Analytical \end{Descr}
+
+\begin{InputSkills}
+\item [1.] Work with Simple Harmonic Motion equations, especially the differential
+equation of motion \prrqone{0-26}.
+\item [2.] Use and understand complex algebra and complex functions,
+especially $\exp(x+iy)$ type functions \prrqone{0-59}.
+\end{InputSkills}
+
+\begin{KnowledgeSkills}
+\item [K1.] Vocabulary: underdamped oscillator, critically damped oscillator,
+overdamped oscillator, oscillation envelope.
+\item [K2.] Write down the displacement equation solutions for underdamped,
+critically damped, and overdamped oscillators.
+Show that each is, in fact, a solution to Newton's Second Law for the force
+$F\,=\,-\,kx\,-\,\lambda v$, for the proper relationships of $\gamma$ and
+$\omega$ to $m$, $k$, and $\lambda$.
+\item [K3.] Sketch a graph of the displacement, $x(t)$ for the
+underdamped oscillator, labeling the envelope of the oscillations
+and indicating the initial phase used (not zero).
+\item [K4.] Sketch graphs of displacement vs. time showing the transition from
+small to large damping, including the critically damped case.
+\end{KnowledgeSkills}
+
+\begin{ProblemSolvingSkills}
+\item [S1.] Given the decrease of an amplitude with time, find the damping
+constant and vice versa.
+\end{ProblemSolvingSkills}
+\end{IdItems}
+\vspace*{\fill}
+
+\IdEnd

@@ -1,0 +1,21 @@
+% 2/24/93, pss; 8/30/95, pss
+\input nphmods.sty
+
+%\includeonly{m21-tx}
+
+%\psdraft  %(activate only for hp mode; percent-out for ps mode)
+
+\begin{document}
+
+\mNumber{21}
+
+\ChapterStart
+\include{m21-ct}
+\include{m21-id}
+\include{m21-tx}
+\include{m21-ps}
+\include{m21-as}
+\include{m21-me}
+\ChapterEnd
+
+\end{document}

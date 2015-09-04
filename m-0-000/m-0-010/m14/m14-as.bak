@@ -1,0 +1,295 @@
+\revhist{7/16/85, mpm; 8/8/91, pss; 10/3/94, pss; 8/20/97, abs; 11/13/97, pss; 3/3/2000, pss}
+
+\Sect{}{}{\SectType{SpecialAssistance}}{
+
+\xpcap{}{}{PURPOSE}
+This part of the module provides you with additional assistance in mastering
+the concepts presented in the text and in applying them to the problems.
+You need not study this material if you feel you have mastered the material
+in the text and if you can do the problems.\smallskip
+
+\xpcap{}{}{CONTENTS}\vspace*{-7pt}
+\begin{itemize}
+\item [1.] Short-answer drill on the second law of motion and
+some additional comments on the application of the third law of motion.
+\item [2.] Detailed solutions to the exercises.
+\item [3.] Detailed solutions to selected practice problems.
+\end{itemize}
+
+\xpcap{}{}{PART~1: The Second Law of Motion (Text, Section 3)}
+The following drill is intended to help sharpen your understanding of the
+second law of motion.
+To get the most benefit from it, first write your answers to a question and
+then check against the answers that follow all questions.
+Go back to the text and review it until you feel you understand any questions
+you got wrong.
+If you write your answers on scrap paper, you can use the drill several
+times until you get it perfect.
+\begin{two-digit-list}
+\item [1.] Write the Second Law of Motion.
+\item [2.] In the second law, the \vect{F} stands for \linefill{1in}.
+This is a (vector/scalar) quantity.
+\item [3.] The \m{m} stands for \linefill{1in}.
+It is a (vector/scalar) quantity.
+It may take on both positive and negative values.
+(T/F)
+\item [4.] The \vect{a} stands for \linefill{1in}.
+It is a (vector/scalar).
+\item [5.] The second law is a (vector/scalar) equation.
+\item [6.] Vector equations involve both \linefill{1in} and \linefill{1in}.
+\item [7.] The second law says nothing about the direction of the acceleration.
+(T/F)
+\item [8.] The second law says that the acceleration of an object is
+proportional to any force you find is being applied to it. (T/F)
+\item [9.] The magnitude of the acceleration of an object can never be greater
+than the magnitude of the total force applied to the object.
+(T/F or inappropriate?)
+\item [10.] The mass times the acceleration is equal to the \linefill{1in}
+force applied to the object.
+\item [11.] In adding all the forces together, you must use \linefill{1in}
+addition.
+This means that you do not need to worry about the directions of the
+individual forces. (T/F)
+\item [12.] What is the relation between the \m{x}-component of the acceleration
+and the \m{y}-component of the force on the object?
+\end{two-digit-list}
+
+\xpcap{}{}{Answers}
+\begin{two-digit-list}
+\item [1.] \m{\sum \vect{F} = m \vect{a}}.
+
+\item [2.] \vect{F} is a force applied to the object.
+Force is a vector.
+
+\item [3.] \m{m} is the mass of the object whose motion is being considered.
+Mass is a scalar quantity and is always positive.
+
+\item [4.] \vect{a} is the acceleration of the object.
+Acceleration is a vector.
+
+\item [5.] It is a vector equation.
+
+\item [6.] Vectors involve both magnitude and direction.
+
+\item [7.] False; vectors involve direction.
+
+\item [8.] False; the acceleration is proportional to the total vector sum of
+all the forces acting on the object.
+
+\item [9.] Inappropriate.
+The magnitudes of these quantities include units, so the quantities are not
+comparable.
+Their units are different.
+
+\item [10.] Mass times acceleration equals total or net force applied to the
+object.
+
+\item [11.] Use vector addition.
+False; vector addition involves direction.
+
+\item [12.] None, as far as the laws of motion are concerned.
+\end{two-digit-list}
+
+\xpcap{}{}{PART~2: Solutions to Exercises}
+
+\AsItem{1}{TX-3a}
+{For the case of the single force applied to an object, the acceleration can
+ be found by using \Eqnref{1}.
+ Thus we have: \m{\vect{a} = \vect{F}/m}.
+
+ The acceleration will be in the direction of the force, which in this case is
+ northward.
+ The magnitude of the acceleration can be found from the equation above:
+ \m{|\vect{a}| = 100\unit{N}/250\unit{kg} = 0.40\unit{m/s\up{2}}}.
+}
+
+\AsItem{2}{TX-3e}
+{When several forces are applied to an object, you must add the forces using
+ vector addition and then divide by the mass to find the acceleration.
+ The sketch below shows the situation and a suitable coordinate system.
+ 
+ \CenteredUnframedFixedFigure{m14gr11}\newline
+ Since the forces are at right angles, by picking the coordinate axes to be
+ north and east you eliminate the problem of finding the components of the
+ forces.
+ The second law is: \m{\vect{R} = \Sigma\,\vect{F} = m\,\vect{a}}.
+ The northward component of \vect{R} is then \m{R_n = (25 - 40)\unit{N} = - 15\unit{N}},
+ and the northward component of \vect{a} is
+ \m{a_n = R_n/m = - 15/5\unit{m/s\up{2}} = - 3\unit{m/s\up{2}}}.
+
+ \CenteredUnframedFixedFigure{m14gr12}{The eastward component of \m{R} is \m{R_e = 15\unit{N}},
+ and the eastward component of \vect{a} is \m{a_e = R_e/m = 15/5 = 3\unit{m/s\up{2}}}.
+ The magnitude of \vect{a} is then:
+ \m{|\vect{a}| = \left(a_n^2 + a_e^2\right)^{1/2} = 4.243\unit{m/s\up{2}}},
+ and the direction of \vect{a} is given by the angle \m{\theta} defined in the
+ sketch with: \m{\tan\theta = a_n/a_e = -1}; \m{\theta = 45\degrees} south of east.}
+}
+
+\newpage
+
+\xpcap{}{}{PART~3: Solutions to Selected Problems}
+
+To get maximum benefit from the practice problems and from this section, you
+should have made a determined effort to solve the problems yourself before
+you turn to this section for \Quote{special assistance.}
+
+\AsItem{3}{PS-problem~2}
+{\CenteredUnframedFixedFigure{m14gr13}{This problem is very similar to the elevator problem.
+ Begin by drawing a sketch showing all the forces and other relevant data.
+ Pick the \m{y} axis as being downward.
+ Since all the forces and accelerations are in the \m{y} direction, you can treat
+ the second law as a scalar equation.
+ Watching the signs, you have:
+ \begin{eqnarray*}
+    \Sigma\,F & = & m\,a \\
+    F_w - F_p & = & m\,a
+ \end{eqnarray*}
+ Since the weight of the man is given by \m{F_w = mg}, this becomes:
+ \m{F_p = F_w - m a = m g - m a = m (g - a) =
+ (80\unit{kg})(9.8 - 1.5)\unit{m/s\up{2}} = F_p = 664\unit{N}}.
+ }
+}
+
+\AsItem{4}{PS-problem~3}
+{The only problem here is to remember that you have been given the weight of
+ the object and you need the mass when you use Newton's second law.
+ The mass and weight are related by \m{w = m g}, and using the constant given in
+ the table in Sect.\,3b, this gives: \m{m = 93.17\unit{slug}} (NOT 93.75) for the car.
+}
+
+\AsItem{5}{PS-problem~4}
+{To find the force, you need to know the acceleration.
+ You find the acceleration from the kinematic equations for \Quote{motion with
+ constant acceleration starting (or ending) at rest}:%
+ \Footnote[AS1]{See \Quote{Kinematics in One Dimension} (MISN-0-7).}
+ \begin{eqnarray*}
+ v_0 & = & \sqrt{2 a s} \\
+  a  & = & \dfrac{v_0^2}{2s} = \dfrac{400^2}{2(16)}\unit{m/s\up{2}}
+   = 5000\unit{m/s\up{2}}
+ \end{eqnarray*}
+
+ The second law then gives
+ %
+ \Eqn{}{F = m a = (8000)(5000)\unit{kg}\unit{m/s\up{2}} = 4.0\times10^7\unit{N}.}
+ %
+}
+
+\AsItem{6}{PS-problem~5}
+{Again, to find the force, you must first find the acceleration.
+For constant acceleration you know: \m{v = v_0 + a\,t}.
+For \m{v = 0} this gives:
+%
+\Eqn{}{a = - \dfrac{v_0}{t} = -\dfrac{8.8}{1.5}\unit{m/s\up{2}} = - 5.9\unit{m/s\up{2}}\,.}
+%
+The magnitude of the force is then given by
+%
+\Eqn{}{F = |m a| = 3.2\times10^2\unit{N}\,.}
+%
+While stopping, the bicycler goes a distance \m{s} given by:
+%
+\Eqn{}{s = v_0 t + \dfrac{1}{2} a t^2 = (8.8)(1.5) - (0.5)(5.8667)(1.5)^2
+  = 6.6\unit{m}.}
+%
+The poor pedestrian has had it.
+}
+
+\AsItem{7}{PS-problem~8}
+{This is a simple exercise in adding vectors through the use of unit vectors.
+ If you have difficulty with this, review the unit on vector addition.%
+ %
+ \Footnote[AS2]{\Quote{Sums, Differences and Products of Vectors} (MISN-0-2).}
+ With no further comment, here are several intermediate steps in a solution
+ to  this problem:
+ %
+ \FiveEqns{}%
+ {m\,\vect{a}   & = \Sigma\,\vect{F}}
+ {             & = (3 \uvec{x} + 4 \uvec{y} - 5 \uvec{z} + 6 \uvec{x} + 6 \uvec{y} +
+                    6 \uvec{z} + 21 \uvec{x} - 16 \uvec{y} + 17 \uvec{z})\unit{N}}
+ {m \vect{a}    & = (30 \uvec{x} - 6 \uvec{y} + 18 \uvec{z})\unit{N}.}
+ {\vect{a}      & = (5 \uvec{x} - 1 \uvec{y} + 3 \uvec{z})\unit{m/s\up{2}}}
+ {|\vect{a}|    & = 5.9\unit{m/s\up{2}}.}
+ %
+ \furtherhelp{13}
+}
+
+\AsItem{8}{PS-problem~11}
+{To solve this you need to use \m{\vect{F} = m \vect{a}} and
+ \m{\vect{v}_f - \vect{v}_i = \vect{a} \Delta t}, (valid for constant \vect{a}).
+
+ Combining these we get:
+ %
+ \Eqn{}{\vect{F} = \dfrac{m}{\Delta t}(v_f - v_i)}
+ %
+ The unit vectors simply aid in the vector addition.
+ You can work out the rest of the details.
+}
+
+\AsItem{9}{PS-problem~13}
+{The only trick here is to recognize that the spring scale \Quote{reads} the force
+ being applied to the bag.
+ In each case draw a sketch, pick a coordinate system in which to determine
+ the signs of the various terms, and proceed as in the example in the text.
+}
+
+\AsItem{10}{TX-6e}
+{\noindent\CenteredUnframedFixedFigure{m14gr14}
+
+ The sketch shows all the forces on the horse and on the wagon.
+
+ It certainly is true that the third law says the pull of the horse on the
+ wagon is equal and opposite to the pull of the wagon on the horse.
+ Further, the second law says the vector sum of all the forces on the wagon
+ equals the mass of the wagon times its acceleration.
+
+ However, the real question is: can the horse exert an unbalanced force on
+ the wagon?
+ The pull of the wagon on the horse is irrelevant because it is a force on the
+ horse, not a force on the wagon.
+
+ For further analysis, see [S-11].
+}
+
+\AsItem{11}{[S-10]}
+{ The only forces acting on the wagon are:
+ \begin{itemize}
+ \item [1.] The pull of the horse.
+ \item [2.] The friction in the wagon axles and between wagon wheels and the
+ ground.
+ \item [3.] The weight of the wagon (the gravitational force on it).
+ \item [4.] The upward force of the ground on the wheels.
+ \end{itemize}
+ The horse need only pull harder than the frictional force in order to
+ accelerate the wagon horizontally, to give it a non-zero horizontal velocity.
+}
+
+\AsItem{12}{PS-problem~1}
+{Here are the reminders consultants say they have given students who
+ were unable to work this problem correctly or who were troubled by the problem's
+ wording:
+ 
+ \begin{one-digit-list}
+ \item [\m{\bullet}] kg is a metric unit of mass, not weight.
+
+ \item [\m{\bullet}] weight = mass \m{\times} \m{g}, whether in the English system or the metric.
+
+ \item [\m{\bullet}] An object can be described in terms of its mass, weight, color, etc.
+ Thus it is just fine to speak of a \Quote{six pound baby} or a \Quote{three kilogram
+ cannister} or a \Quote{red car} or, as in this problem, a \Quote{2.0\unit{kg} can of soup.}
+ \end{one-digit-list}
+}
+
+\AsItem{13}{PS-problem~9}
+{For how to obtain the magnitude of a vector, see module 2.
+}
+
+\AsItem{14}{PS-problem~7}
+{\m{F_\text{ave} = m\,a_\text{ave}} (always)
+
+ \m{a_\text{ave} = \dfrac{\Delta v}{\Delta t}} (always)
+
+ Make sure you successfully work problem~4 before attempting this problem.
+
+ Also, see [S-12].
+}
+
+}% /Sect

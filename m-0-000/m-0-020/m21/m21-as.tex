@@ -1,0 +1,205 @@
+\revhist{12/20/88 ejdk; 8/29/91, pss; 3/11/93, pss; 4/20/94, pss; 11/22/96, pss; 3/3/2000, pss;
+         12/18/2000, pss; 10/15/01, pss; 10/21/02, pss}
+
+\Sect{}{}{\SectType{SpecialAssistance}}{
+
+\AsItem{1}{TX-2f}
+{Write the general definition for the work \m{W} done by force \m{F} in moving
+from \m{A} to \m{B}.
+\newline
+*\,STOP\,* \& WRITE THE ANSWER BEFORE PROCEEDING!
+\newline
+\help{7}
+}
+
+\AsItem{2}{TX-2b}
+{Let \m{W_{nc} \equiv \int_A^B \vect{F}_{nc} \cdot \,d\vect{s} \equiv} the work
+done by a non-conservative force.
+You will then have different values for \m{W_{nc}} depending on the actual
+path taken between points \m{A} and \m{B}.
+For example, consider moving a 50\,kg box from point \m{A} to point \m{B} on a
+level floor, if \m{B} is 4\,m north and 3\,m east of \m{A}.
+Assume the coefficient of friction between the box and the floor is \m{\mu = 0.40}.
+If you apply a horizontal force \vect{F}, find the work which you do in
+moving the box from \m{A} to \m{B}.
+
+This problem has as many different answers as there are paths between \m{A}
+and \m{B}.
+The shortest path is the straight line from \m{A} and \m{B} of length 5\,m.
+The only horizontal forces are \m{F} and \m{f}, i.e., the applied force and
+friction.
+If we assume the initial and final velocities are zero, the average
+acceleration must be zero.
+It follows from Newton's second law that the average resultant force must be
+zero, so \m{\vect{F} = - \vect{f} = \mu\unit{N}\,\uvec{s}}.
+The only vertical forces are \m{N} up and mg down, so again from Newton's
+second law, \m{N = m g}.
+Thus \m{\vect{F} = \mu m g \uvec{s}}.
+Then we have
+\begin{displaymath}
+W = \int_A^B \mu m g\,\uvec{s} \cdot d\vect{s} = \mu m g \int_A^B ds =
+\mu m g S,
+\end{displaymath}
+where \m{S} is the total distance traveled between \m{A} and \m{B}.
+Clearly \m{S} could be any number \m{\geq 5}\,m depending on the path; e.g., for
+the shortest path, \m{W = (0.4)(50)(9.8)5 = 980\unit{J}}.
+But if you traveled 4\unit{m} north and then 3\unit{m} east, \m{S = 7\unit{m}}, and
+\m{W = 1372\unit{J}}.
+}
+
+
+\AsItem{5}{\help{15}}
+{\m{f = F = 200\unit{N}} when \m{F = \mu m g \cos\theta}.
+ Here \m{\theta} is the angle the normal to the incline makes with the
+ vertical.
+ It is also the angle the incline makes with the horizontal.
+ Now \m{\cos\theta = (L^2 - h^2/L)^{1/2}}.
+ So \m{\mu = F L/\left(m g(L^2 h^2)^{1/2}\right) = 1/(8)^{1/2} = 0.35}.
+}
+
+\AsItem{7}{\help{1}}
+{\begin{displaymath}
+W \equiv \int_A^B  \vect{F} \cdot \,d\vect{s}
+\end{displaymath}
+
+If you did not put down exactly this result, review MISN-0-20.
+}
+
+\AsItem{14}{TX-4}
+{\m{m = 60.0\unit{kg}}, \m{v_0 = 0}, \m{g = 9.8\unit{m/s\up{2}}}, \m{h = 1.0\unit{m}}, \m{v = }?
+
+From kinematics (See \Quote{Kinematics in One Dimension,} MISN-0-7):
+\m{v^2 - v_0^2 = 2as}, so in the \m{y}-direction, for this problem,
+\m{v^2 = 2 g h}.
+So \m{v = (2 g h)^{1/2} = 4.4\unit{m/s}}.
+}
+
+\AsItem{15}{TX-4}
+{\TextAndFigure
+ {\begin{tabular}[t]{r c l}
+  \m{h} & = & 1.0\unit{m}; \m{m = 60.0\unit{kg}}\\
+  \m{L} & = & 3.0\unit{m};\\
+  \m{v} & = & 0\\
+  \m{F} & = & ?\\
+  \m{\Delta E_k} & = & 0.\ \ \m{\Delta E_p = 0 - m g h}.\\
+  \end{tabular}
+  }{m21gr05}
+
+\m{W_{nc} = - F L}, where the negative sign comes from the fact that the force
+\m{F} is in the opposite direction to the displacement.
+Alternatively, one could say that the negative sign comes from the fact that the work done by the non-conservative force is work done on the environment (including the block) by the block's surface.
+
+Thus from \Eqnref{5} we have:
+\m{- F L = 0 - m g h}, from which \m{F = m g h/L = 2.0 \times 10^{2}\unit{N}}.
+
+Most of this force will probably be supplied by friction.
+Indeed, if the coefficient of friction is greater than 0.35 you will need to
+push the box if you want it to go down the incline! \help{5}
+
+Note that the work done by \m{F} is \m{- 600\unit{J}} and the work done by gravity is
+\m{+ 600\unit{J}}, so the total work done on the box is zero, which equals
+\m{\Delta E_k}.
+}
+
+\AsItem{16}{TX-4}
+{Here are various correct equations:
+ %
+ \Eqn{}{E_k(t) + \Delta E_k = E_k(t + \Delta t),}
+ %
+ \Eqn{}{E_p(t) + \Delta E_p = E_p(t + \Delta t),}
+ %
+ \Eqn{}{E_k(t) + E_p(t) + \Delta E_k + \Delta E_p = E_k(t + \Delta t) + E_p(t + \Delta t),}
+ %
+ \Eqn{}{\Delta E_k + \Delta E_p = W_{nc,on}.}
+ %
+ Here \m{\Delta E_k} is the \textit{net} change in the system's kinetic energy over the time interval \m{\Delta t}, \m{\Delta E_p} is the \textit{net} change in the system's potential energy over that same time interval, and \m{W_{nc,on}} is the work done \textit{on} the system by non-conservative forces during that same interval.
+}
+
+
+\AsItem{22}{TX-3b}
+{Consider the particles \m{A} and \m{B}.
+Here are some of their properties (the \m{F}'s are different forces):
+%
+\begin{center}\begin{tabular}{l c c r}\hline
+Property                           & Time    & \m{A}    & \m{B}               \\ \hline
+kinetic energy                     & 0       & 7.0\unit{J} & 0.0\unit{J}      \\
+kinetic energy                     & \m{t}     & 2.0\unit{J} & 4.0\unit{J}    \\
+potential energy due to \m{F_1}      & 0       & 3.0\unit{J} & 0.0\unit{J}    \\
+potential energy due to \m{F_1}      & \m{t}     & 1.0\unit{J} & 11.0\unit{J} \\
+potential energy due to \m{F_2}      & 0       & 0.0\unit{J} & 5.0\unit{J}    \\
+potential energy due to \m{F_2}      & \m{t}     & 0.0\unit{J} & 8.0\unit{J}  \\ \hline
+\end{tabular}\end{center}
+%
+Problem: find the work \m{W} done on the system.
+
+We find: \m{(7 + 0 + 3 + 0 + 0 + 5)\unit{J} + W =
+                                (2 + 4 + 1 + 11 + 0 + 8)\unit{J}}.
+
+\m{W = 11\unit{J}}.
+}
+
+\AsItem{23}{TX-4}
+{Let us further develop the analogy following \Eqnref{11}.
+Kinetic energy is like cash.
+Potential energy is like a checking account --- one for each conservative
+force acting in the problem.
+Moving money from one checking account to another or to cash does not change
+your total assets.
+But you must not include money taken from a checking account as \Quote{money
+acquired} during time \m{\Delta t}.
+Similarly, the total energy in a free falling ball is constant; energy is
+being taken out of the gravitational potential energy checking account and
+turned into kinetic energy (cash) but the total assets are constant.
+Looked at from this point of view, the work done by gravity while the ball
+falls is not energy entering the system (not money acquired) since it was
+already there as potential energy (i.e., in the checking account) at the
+beginning of the time interval.
+}
+
+\AsItem{24}{PS-prob. 2}
+{Write conservation of energy between points \m{A} and \m{B}: at point \m{A},
+water is at rest at the bottom of the well; at point \m{B}, it is at height
+\m{h} and moving with speed \m{v}.
+Recall that power is energy (here, work) per unit time.
+}
+
+\AsItem{25}{PS-prob. 3}
+{At \m{t = 0}, the diver has potential and kinetic energy.
+Note that the result is independent of \m{\theta}.
+}
+
+\AsItem{26}{PS-prob. 8}
+{The unknown is \m{W_m/E_{kf}} where \m{W_m} is the work done by the man and
+\m{E_{kf}} is the final kinetic energy.
+}
+
+\AsItem{27}{PS-prob. 14}
+{Recall that the frictional force is the coefficient of friction times
+the normal force.
+}
+
+\AsItem{28}{PS-prob. 17}
+{Use conservation of energy to show that \m{x = v_0 (m/k)^{1/2}}.
+}
+
+\AsItem{29}{PS-prob. 18}
+{See [S-22] for a similar problem.
+}
+
+\AsItem{30}{TX-3b}
+{We changed to primed symbols for the variables of integration because we
+ wanted to use unprimed symbols for the upper limit of integration and
+ hence for the function on the left side of the equation (our real goal).
+
+ The term \Quote{dummy variable of integration} is standard usage.
+ It indicates that the symbol used for the variable of integration is
+ immaterial in a definite integral because it does not appear in the final
+ answer.
+ Thus
+ %
+ \Eqn{}{\int_0^1 x\,dx \qquad \text{and} \qquad \int_0^1 y\,dy}
+ %
+ give exactly the same answer.
+}
+
+}% /Sect
